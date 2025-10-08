@@ -185,6 +185,30 @@ def compute_class_weights(examples: List[CognitiveActionExample]) -> Dict[str, f
     return weights
 
 
+def create_binary_labels(labels, target_action_idx: int):
+    """
+    Convert multi-class labels to binary for one-vs-rest training
+
+    Args:
+        labels: Original class indices (0-44) - can be numpy array, torch tensor, or list
+        target_action_idx: The action we're training probe for
+
+    Returns:
+        Binary labels: 1.0 if label == target_action_idx, else 0.0
+        Returns same type as input
+    """
+    import torch
+    import numpy as np
+
+    if isinstance(labels, torch.Tensor):
+        return (labels == target_action_idx).float()
+    elif isinstance(labels, np.ndarray):
+        return (labels == target_action_idx).astype(np.float32)
+    else:
+        # Assume list or iterable
+        return [1.0 if label == target_action_idx else 0.0 for label in labels]
+
+
 def print_dataset_statistics(examples: List[CognitiveActionExample]):
     """Print statistics about the dataset"""
     from collections import Counter

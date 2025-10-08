@@ -8,20 +8,27 @@ from pathlib import Path
 # Add probe modules to path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src" / "probes"))
 
-from probe_inference import ProbeInferenceEngine, CognitiveActionPrediction
-from config import PROBE_PATH, PROBE_LAYER, PROBE_TOP_K, PROBE_THRESHOLD
+from probe_inference import ProbeInferenceEngine
+from multi_probe_inference import MultiProbeInferenceEngine, CognitiveActionPrediction
+from config import (
+    PROBE_MODE, PROBE_PATH, PROBES_DIR, PROBE_LAYER,
+    PROBE_TOP_K, PROBE_THRESHOLD
+)
 from typing import List, Optional
 
 
 class GemmaWithProbes:
     """
     Wrapper for Gemma 3 4B with integrated cognitive action probes
+    Supports both binary (one-vs-rest) and multiclass probe modes
     """
 
     def __init__(
         self,
         model_name: str = "google/gemma-3-4b-it",
+        probe_mode: Optional[str] = None,
         probe_path: Optional[str] = None,
+        probes_dir: Optional[str] = None,
         layer_idx: Optional[int] = None,
         top_k: Optional[int] = None,
         threshold: Optional[float] = None
@@ -31,34 +38,62 @@ class GemmaWithProbes:
 
         Args:
             model_name: HuggingFace model ID
-            probe_path: Path to trained probe (uses config default if None)
+            probe_mode: "binary" or "multiclass" (uses config default if None)
+            probe_path: Path to trained probe for multiclass mode
+            probes_dir: Directory with all probes for binary mode
             layer_idx: Layer to extract from (uses config default if None)
             top_k: Number of predictions (uses config default if None)
             threshold: Confidence threshold (uses config default if None)
         """
         # Use config defaults if not provided
-        probe_path = probe_path or PROBE_PATH
+        probe_mode = probe_mode or PROBE_MODE
         layer_idx = layer_idx if layer_idx is not None else PROBE_LAYER
         top_k = top_k if top_k is not None else PROBE_TOP_K
         threshold = threshold if threshold is not None else PROBE_THRESHOLD
 
-        # Resolve probe path relative to this file
-        if not Path(probe_path).is_absolute():
-            probe_path = Path(__file__).parent / probe_path
+        self.probe_mode = probe_mode
+        self.top_k = top_k
+        self.threshold = threshold
 
         print(f"Initializing Gemma with Probes...")
-        print(f"  Probe: {probe_path}")
+        print(f"  Mode: {probe_mode}")
 
-        # Initialize inference engine
-        self.engine = ProbeInferenceEngine(
-            model_name=model_name,
-            probe_path=Path(probe_path),
-            layer_idx=layer_idx,
-            top_k=top_k,
-            confidence_threshold=threshold
-        )
+        if probe_mode == "binary":
+            # Use MultiProbeInferenceEngine (45 binary probes)
+            probes_dir = probes_dir or PROBES_DIR
 
-        self.model = self.engine.model
+            # Resolve probes dir relative to this file
+            if not Path(probes_dir).is_absolute():
+                probes_dir = Path(__file__).parent / probes_dir
+
+            print(f"  Probes dir: {probes_dir}")
+
+            self.engine = MultiProbeInferenceEngine(
+                probes_dir=Path(probes_dir),
+                model_name=model_name,
+                layer_idx=layer_idx
+            )
+            self.model = self.engine.model
+
+        else:
+            # Use ProbeInferenceEngine (single multiclass probe)
+            probe_path = probe_path or PROBE_PATH
+
+            # Resolve probe path relative to this file
+            if not Path(probe_path).is_absolute():
+                probe_path = Path(__file__).parent / probe_path
+
+            print(f"  Probe: {probe_path}")
+
+            self.engine = ProbeInferenceEngine(
+                model_name=model_name,
+                probe_path=Path(probe_path),
+                layer_idx=layer_idx,
+                top_k=top_k,
+                confidence_threshold=threshold
+            )
+            self.model = self.engine.model
+
         self.last_predictions: List[CognitiveActionPrediction] = []
 
     def generate(
@@ -99,7 +134,16 @@ class GemmaWithProbes:
             generated_text = generated_text.split("Assistant:")[-1].strip()
 
         # Analyze cognitive actions in the generated text
-        self.last_predictions = self.engine.predict(generated_text)
+        if self.probe_mode == "binary":
+            # Binary mode: run all probes
+            self.last_predictions = self.engine.predict(
+                generated_text,
+                top_k=self.top_k,
+                threshold=self.threshold
+            )
+        else:
+            # Multiclass mode: single probe
+            self.last_predictions = self.engine.predict(generated_text)
 
         return generated_text
 
@@ -109,14 +153,26 @@ class GemmaWithProbes:
 
     def get_predictions_dict(self) -> List[dict]:
         """Get last predictions as list of dicts for easy serialization"""
-        return [
-            {
-                'action': pred.action_name,
-                'confidence': pred.confidence,
-                'category': self.engine.get_action_category(pred.action_name)
-            }
-            for pred in self.last_predictions
-        ]
+        if self.probe_mode == "binary":
+            # Binary mode: predictions are already CognitiveActionPrediction objects
+            return [
+                {
+                    'action': pred.action_name,
+                    'confidence': pred.confidence,
+                    'is_active': pred.is_active
+                }
+                for pred in self.last_predictions
+            ]
+        else:
+            # Multiclass mode: has get_action_category method
+            return [
+                {
+                    'action': pred.action_name,
+                    'confidence': pred.confidence,
+                    'category': self.engine.get_action_category(pred.action_name)
+                }
+                for pred in self.last_predictions
+            ]
 
 
 # Global instance (will be initialized when needed)

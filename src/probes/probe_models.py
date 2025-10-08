@@ -171,6 +171,156 @@ class MultiHeadProbe(nn.Module):
         return torch.argmax(probs, dim=-1)
 
 
+class BinaryLinearProbe(nn.Module):
+    """Binary linear probe for one-vs-rest classification"""
+
+    def __init__(
+        self,
+        input_dim: int,
+        dropout: float = 0.1
+    ):
+        """
+        Initialize binary linear probe
+
+        Args:
+            input_dim: Dimension of input activations
+            dropout: Dropout rate
+        """
+        super().__init__()
+        self.input_dim = input_dim
+
+        self.dropout = nn.Dropout(dropout)
+        self.linear = nn.Linear(input_dim, 1)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        """
+        Forward pass
+
+        Args:
+            x: Input activations (batch_size, input_dim)
+
+        Returns:
+            Logits (batch_size, 1) - raw logits for BCEWithLogitsLoss
+        """
+        x = self.dropout(x)
+        logits = self.linear(x)
+        return logits
+
+    def predict_proba(self, x: torch.Tensor) -> torch.Tensor:
+        """
+        Get probability predictions
+
+        Args:
+            x: Input activations (batch_size, input_dim)
+
+        Returns:
+            Probabilities (batch_size, 1)
+        """
+        logits = self.forward(x)
+        probs = torch.sigmoid(logits)
+        return probs
+
+    def predict(self, x: torch.Tensor, threshold: float = 0.5) -> torch.Tensor:
+        """
+        Get binary predictions
+
+        Args:
+            x: Input activations (batch_size, input_dim)
+            threshold: Decision threshold
+
+        Returns:
+            Binary predictions (batch_size, 1)
+        """
+        probs = self.predict_proba(x)
+        return (probs >= threshold).float()
+
+
+class BinaryMultiHeadProbe(nn.Module):
+    """
+    Binary multi-head probe for one-vs-rest classification
+    More powerful than BinaryLinearProbe
+    """
+
+    def __init__(
+        self,
+        input_dim: int,
+        hidden_dim: int = 512,
+        num_heads: int = 8,
+        dropout: float = 0.1
+    ):
+        """
+        Initialize binary multi-head probe
+
+        Args:
+            input_dim: Dimension of input activations
+            hidden_dim: Dimension of hidden layer
+            num_heads: Number of attention heads
+            dropout: Dropout rate
+        """
+        super().__init__()
+        self.input_dim = input_dim
+        self.hidden_dim = hidden_dim
+
+        # Shared encoder
+        self.encoder = nn.Sequential(
+            nn.Linear(input_dim, hidden_dim),
+            nn.ReLU(),
+            nn.Dropout(dropout),
+            nn.Linear(hidden_dim, hidden_dim),
+            nn.ReLU(),
+            nn.Dropout(dropout)
+        )
+
+        # Multi-head attention for feature refinement
+        self.attention = nn.MultiheadAttention(
+            embed_dim=hidden_dim,
+            num_heads=num_heads,
+            dropout=dropout,
+            batch_first=True
+        )
+
+        # Binary classification head
+        self.classifier = nn.Linear(hidden_dim, 1)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        """
+        Forward pass
+
+        Args:
+            x: Input activations (batch_size, input_dim)
+
+        Returns:
+            Logits (batch_size, 1)
+        """
+        # Encode
+        h = self.encoder(x)  # (batch_size, hidden_dim)
+
+        # Add sequence dimension for attention
+        h = h.unsqueeze(1)  # (batch_size, 1, hidden_dim)
+
+        # Self-attention
+        h_attn, _ = self.attention(h, h, h)  # (batch_size, 1, hidden_dim)
+
+        # Remove sequence dimension
+        h_attn = h_attn.squeeze(1)  # (batch_size, hidden_dim)
+
+        # Binary classify
+        logits = self.classifier(h_attn)  # (batch_size, 1)
+
+        return logits
+
+    def predict_proba(self, x: torch.Tensor) -> torch.Tensor:
+        """Get probability predictions"""
+        logits = self.forward(x)
+        probs = torch.sigmoid(logits)
+        return probs
+
+    def predict(self, x: torch.Tensor, threshold: float = 0.5) -> torch.Tensor:
+        """Get binary predictions"""
+        probs = self.predict_proba(x)
+        return (probs >= threshold).float()
+
+
 class CalibratedProbe(nn.Module):
     """
     Wrapper that adds temperature scaling for probability calibration
@@ -229,11 +379,15 @@ def save_probe(
         'model_state_dict': probe.state_dict(),
         'model_class': probe.__class__.__name__,
         'model_config': {
-            'input_dim': probe.input_dim,
-            'num_classes': probe.num_classes
+            'input_dim': probe.input_dim
         }
     }
 
+    # Add num_classes for multi-class probes
+    if hasattr(probe, 'num_classes'):
+        state['model_config']['num_classes'] = probe.num_classes
+
+    # Add hidden_dim for multi-head probes
     if hasattr(probe, 'hidden_dim'):
         state['model_config']['hidden_dim'] = probe.hidden_dim
 
@@ -268,6 +422,10 @@ def load_probe(
         probe = LinearProbe(**model_config)
     elif model_class == 'MultiHeadProbe':
         probe = MultiHeadProbe(**model_config)
+    elif model_class == 'BinaryLinearProbe':
+        probe = BinaryLinearProbe(**model_config)
+    elif model_class == 'BinaryMultiHeadProbe':
+        probe = BinaryMultiHeadProbe(**model_config)
     elif model_class == 'CalibratedProbe':
         # Need to load base probe first
         base_config = model_config.copy()

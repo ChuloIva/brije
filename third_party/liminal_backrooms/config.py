@@ -12,7 +12,9 @@ SHARE_CHAIN_OF_THOUGHT = False  # Set to True to allow AIs to see each other's C
 
 # Probe configuration
 ENABLE_PROBES = True  # Enable cognitive action probe visualization
-PROBE_PATH = "../../data/probes/best_probe.pth"  # Path to trained probe model
+PROBE_MODE = "binary"  # "binary" for one-vs-rest probes, "multiclass" for single probe
+PROBE_PATH = "../../data/probes/best_probe.pth"  # Path to trained probe model (multiclass mode)
+PROBES_DIR = "../../data/probes_binary"  # Directory with all 45 binary probes (binary mode)
 PROBE_LAYER = 27  # Which layer to extract activations from
 PROBE_TOP_K = 5  # Number of top predictions to show
 PROBE_THRESHOLD = 0.1  # Minimum confidence threshold

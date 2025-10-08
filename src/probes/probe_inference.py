@@ -126,12 +126,17 @@ class ProbeInferenceEngine:
         Returns:
             Activations tensor (hidden_size,)
         """
-        with self.model.trace(text) as tracer:
+        # Append special message to create consistent extraction point
+        # This primes the model to "think about" cognitive actions
+        augmented_text = f"{text}\n\nThe cognitive action being demonstrated here is"
+
+        with self.model.trace(augmented_text) as tracer:
             # Extract activations from the specified layer
             hidden_states = self.model.model.layers[self.layer_idx].output[0].save()
 
-        # Mean pool over sequence length
-        activations = hidden_states.mean(dim=1).squeeze(0)
+        # Use last token representation (similar to paper's approach)
+        # This is the representation after the model has "thought about" what cognitive action it is
+        activations = hidden_states[:, -1, :].squeeze(0)
 
         return activations
 

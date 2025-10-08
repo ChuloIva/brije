@@ -113,17 +113,22 @@ class ActivationCapture:
             layer_idx: Which layer to capture from
 
         Returns:
-            Tensor of activations (hidden_size,) - mean pooled over sequence length
+            Tensor of activations (hidden_size,) - last token representation
         """
-        with self.model.trace(text) as tracer:
+        # Append special message to create consistent extraction point
+        # This primes the model to "think about" cognitive actions
+        augmented_text = f"{text}\n\nThe cognitive action being demonstrated here is"
+
+        with self.model.trace(augmented_text) as tracer:
             # Access the layer's output
             # Use self.layers to handle both text-only and VLM architectures
             hidden_states = self.layers[layer_idx].output[0].save()
 
         # hidden_states shape: (batch_size, seq_len, hidden_size)
-        # Mean pool over sequence length to get (batch_size, hidden_size)
+        # Use last token representation (similar to paper's approach)
+        # This is the representation after the model has "thought about" what cognitive action it is
         # Then squeeze batch dimension
-        activations = hidden_states.mean(dim=1).squeeze(0)
+        activations = hidden_states[:, -1, :].squeeze(0)
 
         return activations
 
