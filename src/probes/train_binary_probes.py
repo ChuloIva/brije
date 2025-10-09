@@ -206,8 +206,8 @@ class BinaryProbeTrainer:
                 total_loss += loss.item()
                 num_batches += 1
 
-                all_probs.append(probs.cpu().numpy())
-                all_labels.append(batch_labels.cpu().numpy())
+                all_probs.append(probs.float().cpu().numpy())
+                all_labels.append(batch_labels.float().cpu().numpy())
 
         avg_loss = total_loss / num_batches
         all_probs = np.concatenate(all_probs).flatten()

@@ -191,8 +191,8 @@ class ProbeTrainer:
                 total_loss += loss.item()
                 num_batches += 1
 
-                all_preds.append(preds.cpu().numpy())
-                all_labels.append(batch_labels.cpu().numpy())
+                all_preds.append(preds.long().cpu().numpy())
+                all_labels.append(batch_labels.long().cpu().numpy())
 
         avg_loss = total_loss / num_batches
         all_preds = np.concatenate(all_preds)
