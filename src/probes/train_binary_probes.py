@@ -83,8 +83,10 @@ class BinaryProbeTrainer:
         self,
         probe: nn.Module,
         device: str = 'cuda' if torch.cuda.is_available() else 'cpu',
-        learning_rate: float = 1e-3,
-        weight_decay: float = 1e-4
+        learning_rate: float = 5e-4,
+        weight_decay: float = 1e-3,
+        use_scheduler: bool = True,
+        num_epochs: int = 50
     ):
         """
         Initialize trainer
@@ -94,6 +96,8 @@ class BinaryProbeTrainer:
             device: Device to train on
             learning_rate: Learning rate for optimizer
             weight_decay: L2 regularization strength
+            use_scheduler: Whether to use learning rate scheduler
+            num_epochs: Total number of epochs (for scheduler)
         """
         self.probe = probe.to(device)
         self.device = device
@@ -106,6 +110,15 @@ class BinaryProbeTrainer:
 
         # Binary cross-entropy with logits (more numerically stable)
         self.criterion = nn.BCEWithLogitsLoss()
+
+        # Learning rate scheduler (cosine annealing)
+        self.scheduler = None
+        if use_scheduler:
+            self.scheduler = optim.lr_scheduler.CosineAnnealingLR(
+                self.optimizer,
+                T_max=num_epochs,
+                eta_min=1e-5
+            )
 
         self.train_losses = []
         self.val_losses = []
@@ -211,10 +224,11 @@ class BinaryProbeTrainer:
         num_epochs: int,
         save_dir: Optional[Path] = None,
         action_name: str = "",
-        save_best: bool = True
+        save_best: bool = True,
+        early_stopping_patience: int = 10
     ) -> Dict:
         """
-        Full training loop
+        Full training loop with early stopping
 
         Args:
             train_loader: Training data loader
@@ -223,16 +237,21 @@ class BinaryProbeTrainer:
             save_dir: Directory to save checkpoints
             action_name: Name of the action being trained
             save_best: Whether to save best model based on validation AUC
+            early_stopping_patience: Stop if no improvement for N epochs
 
         Returns:
             Training history dictionary
         """
         best_val_auc = 0.0
+        best_epoch = 0
+        epochs_without_improvement = 0
+
         history = {
             'train_loss': [],
             'val_loss': [],
             'val_auc': [],
-            'val_accuracy': []
+            'val_accuracy': [],
+            'learning_rates': []
         }
 
         for epoch in range(num_epochs):
@@ -246,15 +265,27 @@ class BinaryProbeTrainer:
             history['val_auc'].append(val_auc)
             history['val_accuracy'].append(val_acc)
 
+            # Track learning rate
+            current_lr = self.optimizer.param_groups[0]['lr']
+            history['learning_rates'].append(current_lr)
+
+            # Step scheduler
+            if self.scheduler is not None:
+                self.scheduler.step()
+
             # Print progress every 5 epochs
             if (epoch + 1) % 5 == 0 or epoch == 0:
                 print(f"  Epoch {epoch + 1:2d}/{num_epochs}: "
-                      f"Loss={train_loss:.4f}, Val AUC={val_auc:.4f}, Val Acc={val_acc:.4f}")
+                      f"Loss={train_loss:.4f}, Val AUC={val_auc:.4f}, Val Acc={val_acc:.4f}, "
+                      f"LR={current_lr:.6f}")
 
-            # Save best model
-            if save_best and val_auc > best_val_auc:
+            # Save best model and check for improvement
+            if val_auc > best_val_auc:
                 best_val_auc = val_auc
-                if save_dir and action_name:
+                best_epoch = epoch
+                epochs_without_improvement = 0
+
+                if save_best and save_dir and action_name:
                     save_path = save_dir / f"probe_{action_name}.pth"
                     save_probe(
                         self.probe,
@@ -267,6 +298,18 @@ class BinaryProbeTrainer:
                             'val_loss': val_loss
                         }
                     )
+            else:
+                epochs_without_improvement += 1
+
+            # Early stopping
+            if epochs_without_improvement >= early_stopping_patience:
+                print(f"  Early stopping at epoch {epoch + 1} (best: epoch {best_epoch + 1}, AUC={best_val_auc:.4f})")
+                break
+
+        # Add final summary to history
+        history['best_epoch'] = best_epoch + 1
+        history['best_val_auc'] = best_val_auc
+        history['stopped_early'] = epochs_without_improvement >= early_stopping_patience
 
         return history
 
@@ -394,7 +437,9 @@ def train_all_binary_probes(
             probe,
             device=args.device,
             learning_rate=args.lr,
-            weight_decay=args.weight_decay
+            weight_decay=args.weight_decay,
+            use_scheduler=args.use_scheduler,
+            num_epochs=args.epochs
         )
 
         history = trainer.train(
@@ -403,7 +448,8 @@ def train_all_binary_probes(
             num_epochs=args.epochs,
             save_dir=output_dir,
             action_name=action_name,
-            save_best=True
+            save_best=True,
+            early_stopping_patience=args.early_stopping_patience
         )
 
         # Evaluate on test set
@@ -489,26 +535,44 @@ def main():
     parser.add_argument(
         "--batch-size",
         type=int,
-        default=32,
-        help="Batch size for training"
+        default=16,
+        help="Batch size for training (default: 16 for small datasets)"
     )
     parser.add_argument(
         "--epochs",
         type=int,
-        default=20,
-        help="Number of training epochs"
+        default=50,
+        help="Maximum number of training epochs (default: 50 with early stopping)"
     )
     parser.add_argument(
         "--lr",
         type=float,
-        default=1e-3,
-        help="Learning rate"
+        default=5e-4,
+        help="Learning rate (default: 5e-4, optimized for small datasets)"
     )
     parser.add_argument(
         "--weight-decay",
         type=float,
-        default=1e-4,
-        help="Weight decay"
+        default=1e-3,
+        help="Weight decay / L2 regularization (default: 1e-3 for small datasets)"
+    )
+    parser.add_argument(
+        "--early-stopping-patience",
+        type=int,
+        default=10,
+        help="Early stopping patience (stop if no improvement for N epochs)"
+    )
+    parser.add_argument(
+        "--use-scheduler",
+        action="store_true",
+        default=True,
+        help="Use cosine annealing LR scheduler"
+    )
+    parser.add_argument(
+        "--no-scheduler",
+        dest="use_scheduler",
+        action="store_false",
+        help="Disable LR scheduler"
     )
     parser.add_argument(
         "--device",
