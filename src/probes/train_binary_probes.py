@@ -2,12 +2,10 @@
 Training pipeline for binary cognitive action probes using one-vs-rest strategy
 """
 
-# FOR AMD GPU
-import os
-os.environ["HSA_OVERRIDE_GFX_VERSION"] = "11.0.0"
-os.environ["HIP_VISIBLE_DEVICES"] = "0"
-os.environ["AMD_SERIALIZE_KERNEL"] = "3"
-os.environ["TORCH_USE_HIP_DSA"] = "1"
+from gpu_utils import configure_amd_gpu
+
+# Configure AMD GPU environment if detected (must be before torch import)
+configure_amd_gpu()
 
 import torch
 import torch.nn as nn
