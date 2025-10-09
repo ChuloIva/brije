@@ -96,7 +96,8 @@ class ProbeTrainer:
             learning_rate: Learning rate for optimizer
             weight_decay: L2 regularization strength
         """
-        self.probe = probe.to(device)
+        # Convert probe to bfloat16 to match activation dtype, then move to device
+        self.probe = probe.to(torch.bfloat16).to(device)
         self.device = device
 
         self.optimizer = optim.AdamW(

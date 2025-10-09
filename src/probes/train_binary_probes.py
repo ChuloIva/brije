@@ -101,7 +101,8 @@ class BinaryProbeTrainer:
             use_scheduler: Whether to use learning rate scheduler
             num_epochs: Total number of epochs (for scheduler)
         """
-        self.probe = probe.to(device)
+        # Convert probe to bfloat16 to match activation dtype, then move to device
+        self.probe = probe.to(torch.bfloat16).to(device)
         self.device = device
 
         self.optimizer = optim.AdamW(
