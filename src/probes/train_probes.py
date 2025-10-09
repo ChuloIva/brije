@@ -383,6 +383,11 @@ def main():
 
     args = parser.parse_args()
 
+    # Handle "auto" device by converting to cuda or cpu
+    if args.device == "auto":
+        args.device = "cuda" if torch.cuda.is_available() else "cpu"
+        print(f"Auto-detected device: {args.device}")
+
     # Load activations
     print("Loading activations...")
     train_acts, train_labels, val_acts, val_labels, test_acts, test_labels = \

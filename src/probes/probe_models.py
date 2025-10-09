@@ -412,6 +412,10 @@ def load_probe(
     Returns:
         Tuple of (probe_model, metadata)
     """
+    # Handle "auto" device
+    if device == "auto":
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+    
     state = torch.load(load_path, map_location=device)
 
     model_class = state['model_class']
