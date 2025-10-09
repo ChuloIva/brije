@@ -163,7 +163,7 @@ class ActivationCapture:
             try:
                 # Capture activations
                 act = self.capture_single_example(example.text, layer_idx)
-                activations_list.append(act.cpu())
+                activations_list.append(act.detach().cpu())
 
                 # Get label
                 label = self.action_to_idx[example.primary_action]
@@ -215,7 +215,7 @@ class ActivationCapture:
             try:
                 # Capture activations
                 act = self.capture_single_example(example.text, layer_idx)
-                activations_list.append(act.cpu())
+                activations_list.append(act.detach().cpu())
 
                 # Get label
                 label = self.action_to_idx[example.primary_action]
@@ -292,8 +292,8 @@ class ActivationCapture:
             # Save each split
             for split_name, (acts, labs) in activations.items():
                 grp = f.create_group(split_name)
-                grp.create_dataset('activations', data=acts.numpy())
-                grp.create_dataset('labels', data=labs.numpy())
+                grp.create_dataset('activations', data=acts.detach().cpu().numpy())
+                grp.create_dataset('labels', data=labs.cpu().numpy())
 
         print(f"\nSaved activations to {output_path}")
 
@@ -351,8 +351,8 @@ class ActivationCapture:
                 batch_size = len(batch_acts)
 
                 # Write batch to datasets
-                grp['activations'][offset:offset + batch_size] = batch_acts.numpy()
-                grp['labels'][offset:offset + batch_size] = batch_labels.numpy()
+                grp['activations'][offset:offset + batch_size] = batch_acts.detach().cpu().numpy()
+                grp['labels'][offset:offset + batch_size] = batch_labels.cpu().numpy()
 
                 offset += batch_size
 
