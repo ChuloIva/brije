@@ -63,13 +63,15 @@ def load_activations_from_hdf5(
         Tuple of (train_acts, train_labels, val_acts, val_labels, test_acts, test_labels)
     """
     with h5py.File(file_path, 'r') as f:
-        train_acts = torch.from_numpy(f['train']['activations'][:])
+        # Load activations (saved as float32 for HDF5 compatibility)
+        # Convert back to bfloat16 to match original model dtype
+        train_acts = torch.from_numpy(f['train']['activations'][:]).bfloat16()
         train_labels = torch.from_numpy(f['train']['labels'][:])
 
-        val_acts = torch.from_numpy(f['val']['activations'][:])
+        val_acts = torch.from_numpy(f['val']['activations'][:]).bfloat16()
         val_labels = torch.from_numpy(f['val']['labels'][:])
 
-        test_acts = torch.from_numpy(f['test']['activations'][:])
+        test_acts = torch.from_numpy(f['test']['activations'][:]).bfloat16()
         test_labels = torch.from_numpy(f['test']['labels'][:])
 
     return train_acts, train_labels, val_acts, val_labels, test_acts, test_labels

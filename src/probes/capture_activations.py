@@ -292,7 +292,8 @@ class ActivationCapture:
             # Save each split
             for split_name, (acts, labs) in activations.items():
                 grp = f.create_group(split_name)
-                grp.create_dataset('activations', data=acts.detach().cpu().numpy())
+                # Convert to float32 for HDF5 compatibility (BFloat16 not supported)
+                grp.create_dataset('activations', data=acts.detach().cpu().float().numpy())
                 grp.create_dataset('labels', data=labs.cpu().numpy())
 
         print(f"\nSaved activations to {output_path}")
@@ -351,7 +352,8 @@ class ActivationCapture:
                 batch_size = len(batch_acts)
 
                 # Write batch to datasets
-                grp['activations'][offset:offset + batch_size] = batch_acts.detach().cpu().numpy()
+                # Convert to float32 for HDF5 compatibility (BFloat16 not supported)
+                grp['activations'][offset:offset + batch_size] = batch_acts.detach().cpu().float().numpy()
                 grp['labels'][offset:offset + batch_size] = batch_labels.cpu().numpy()
 
                 offset += batch_size
