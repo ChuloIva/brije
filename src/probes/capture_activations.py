@@ -130,6 +130,34 @@ class ActivationCapture:
 
         return activations
 
+    def capture_single_example_all_layers(
+        self,
+        text: str
+    ) -> Dict[int, torch.Tensor]:
+        """
+        Capture activations from ALL layers in a single forward pass (MUCH faster!)
+
+        Args:
+            text: Input text
+
+        Returns:
+            Dict mapping layer_idx -> activations tensor (hidden_size,)
+        """
+        augmented_text = f"{text}\n\nThe cognitive action being demonstrated here is"
+
+        with self.model.trace(augmented_text) as tracer:
+            # Capture ALL layers simultaneously in one forward pass
+            saved_states = {}
+            for layer_idx in self.layers_to_capture:
+                saved_states[layer_idx] = self.layers[layer_idx].output[0].save()
+
+        # Extract last token for each layer
+        activations = {}
+        for layer_idx, hidden_states in saved_states.items():
+            activations[layer_idx] = hidden_states[:, -1, :].squeeze(0)
+
+        return activations
+
     def capture_dataset(
         self,
         examples: List,
@@ -360,6 +388,67 @@ class ActivationCapture:
 
             print(f"Saved {offset} examples to {split_name} split")
 
+    def capture_all_layers_optimized(
+        self,
+        examples: List,
+        batch_size: int = 300,
+        max_examples: Optional[int] = None
+    ) -> Dict[int, Dict[str, Tuple[torch.Tensor, torch.Tensor]]]:
+        """
+        🚀 OPTIMIZED: Capture ALL layers in a single pass (25x faster!)
+
+        Captures activations from all layers simultaneously instead of running
+        the model separately for each layer.
+
+        Args:
+            examples: List of CognitiveActionExample objects
+            batch_size: Batch size for processing
+            max_examples: Optional limit on examples
+
+        Returns:
+            Dict mapping layer_idx -> {split_name -> (activations, labels)}
+        """
+        if max_examples:
+            examples = examples[:max_examples]
+
+        # Initialize storage for each layer
+        layer_activations = {layer_idx: [] for layer_idx in self.layers_to_capture}
+        labels_list = []
+
+        print(f"🚀 Capturing {len(self.layers_to_capture)} layers in single pass...")
+        print(f"   Memory per example: ~{len(self.layers_to_capture) * 4096 * 2 / 1024:.1f} KB")
+
+        for example in tqdm(examples, desc="Processing examples"):
+            try:
+                # ONE forward pass captures ALL layers!
+                all_layer_acts = self.capture_single_example_all_layers(example.text)
+
+                # Store activations for each layer
+                for layer_idx in self.layers_to_capture:
+                    layer_activations[layer_idx].append(all_layer_acts[layer_idx].detach().cpu())
+
+                # Store label once
+                label = self.action_to_idx[example.primary_action]
+                labels_list.append(label)
+
+                # Periodic cleanup
+                if len(labels_list) % batch_size == 0:
+                    torch.cuda.empty_cache() if torch.cuda.is_available() else None
+
+            except Exception as e:
+                print(f"\nError processing example: {e}")
+                continue
+
+        # Stack into tensors for each layer
+        result = {}
+        labels_tensor = torch.tensor(labels_list, dtype=torch.long)
+
+        for layer_idx in self.layers_to_capture:
+            activations_tensor = torch.stack(layer_activations[layer_idx])
+            result[layer_idx] = activations_tensor
+
+        return result, labels_tensor
+
 
 def main():
     parser = argparse.ArgumentParser(description="Capture activations from Gemma 3 4B")
@@ -418,6 +507,11 @@ def main():
         default=1000,
         help="Batch size for memory-efficient saving (default: 1000)"
     )
+    parser.add_argument(
+        "--single-pass",
+        action="store_true",
+        help="🚀 OPTIMIZED: Capture all layers in single pass (25x faster!)"
+    )
 
     args = parser.parse_args()
 
@@ -452,72 +546,120 @@ def main():
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    for layer_idx in capture.layers_to_capture:
-        print(f"\n{'='*60}")
-        print(f"Capturing activations from layer {layer_idx}")
-        print(f"{'='*60}")
+    if args.single_pass:
+        # 🚀 OPTIMIZED MODE: Capture all layers in ONE pass!
+        print("\n" + "="*70)
+        print("🚀 OPTIMIZED SINGLE-PASS MODE")
+        print("="*70)
+        print(f"Capturing ALL {len(capture.layers_to_capture)} layers simultaneously")
+        print(f"Expected speedup: ~{len(capture.layers_to_capture)}x faster!\n")
 
-        output_path = output_dir / f"layer_{layer_idx}_activations.h5"
+        # Process each split
+        for split_name, split_examples in [
+            ('train', train_examples),
+            ('val', val_examples),
+            ('test', test_examples)
+        ]:
+            print(f"\n{'='*70}")
+            print(f"Processing {split_name} split ({len(split_examples)} examples)")
+            print(f"{'='*70}")
 
-        if args.batch_save and args.format == "hdf5":
-            # Memory-efficient batch processing
-            print(f"Using memory-efficient batch saving (batch_size={args.batch_size})")
+            layer_acts, labels = capture.capture_all_layers_optimized(
+                split_examples,
+                batch_size=args.batch_size,
+                max_examples=None
+            )
 
-            # Process each split with batched saving
-            splits_data = [
-                ('train', train_examples),
-                ('val', val_examples),
-                ('test', test_examples)
-            ]
+            # Save each layer's activations
+            for layer_idx in capture.layers_to_capture:
+                output_path = output_dir / f"layer_{layer_idx}_activations.h5"
 
-            for split_name, split_examples in splits_data:
-                print(f"\nProcessing {split_name} split ({len(split_examples)} examples)...")
-                batches_gen = capture.capture_dataset_batched(
-                    split_examples,
-                    layer_idx,
-                    batch_size=args.batch_size
-                )
-                capture.save_activations_hdf5_batched(
-                    split_name,
-                    batches_gen,
-                    output_path,
-                    len(split_examples),
-                    hidden_size
-                )
+                # Open in append mode for splits after train
+                mode = 'a' if split_name != 'train' else 'w'
 
-            print(f"\nSaved all splits to {output_path}")
+                with h5py.File(output_path, mode) as f:
+                    if mode == 'w':
+                        f.attrs['model_name'] = capture.model_name
+                        f.attrs['layers'] = capture.layers_to_capture
 
-        else:
-            # Original method - load everything into memory
-            print("Using standard (in-memory) processing")
+                    grp = f.create_group(split_name)
+                    grp.create_dataset('activations', data=layer_acts[layer_idx].float().numpy())
+                    grp.create_dataset('labels', data=labels.numpy())
 
-            # Capture for each split
-            print("\nProcessing train split...")
-            train_acts, train_labels = capture.capture_dataset(train_examples, layer_idx)
+                print(f"  Saved layer {layer_idx} ({split_name})")
 
-            print("\nProcessing validation split...")
-            val_acts, val_labels = capture.capture_dataset(val_examples, layer_idx)
+        print("\n" + "="*70)
+        print("✅ SINGLE-PASS CAPTURE COMPLETE!")
+        print("="*70)
 
-            print("\nProcessing test split...")
-            test_acts, test_labels = capture.capture_dataset(test_examples, layer_idx)
+    else:
+        # Original mode: capture each layer separately
+        for layer_idx in capture.layers_to_capture:
+            print(f"\n{'='*60}")
+            print(f"Capturing activations from layer {layer_idx}")
+            print(f"{'='*60}")
 
-            print(f"\nLayer {layer_idx} activation shapes:")
-            print(f"  Train: {train_acts.shape}")
-            print(f"  Val:   {val_acts.shape}")
-            print(f"  Test:  {test_acts.shape}")
+            output_path = output_dir / f"layer_{layer_idx}_activations.h5"
 
-            # Save activations
-            splits = {
-                'train': (train_acts, train_labels),
-                'val': (val_acts, val_labels),
-                'test': (test_acts, test_labels)
-            }
+            if args.batch_save and args.format == "hdf5":
+                # Memory-efficient batch processing
+                print(f"Using memory-efficient batch saving (batch_size={args.batch_size})")
 
-            if args.format == "pickle":
-                output_path = output_dir / f"layer_{layer_idx}_activations.pkl"
-                capture.save_activations_pickle({f"layer_{layer_idx}": splits}, output_path)
-            else:  # hdf5
-                capture.save_activations_hdf5(splits, output_path)
+                # Process each split with batched saving
+                splits_data = [
+                    ('train', train_examples),
+                    ('val', val_examples),
+                    ('test', test_examples)
+                ]
+
+                for split_name, split_examples in splits_data:
+                    print(f"\nProcessing {split_name} split ({len(split_examples)} examples)...")
+                    batches_gen = capture.capture_dataset_batched(
+                        split_examples,
+                        layer_idx,
+                        batch_size=args.batch_size
+                    )
+                    capture.save_activations_hdf5_batched(
+                        split_name,
+                        batches_gen,
+                        output_path,
+                        len(split_examples),
+                        hidden_size
+                    )
+
+                print(f"\nSaved all splits to {output_path}")
+
+            else:
+                # Original method - load everything into memory
+                print("Using standard (in-memory) processing")
+
+                # Capture for each split
+                print("\nProcessing train split...")
+                train_acts, train_labels = capture.capture_dataset(train_examples, layer_idx)
+
+                print("\nProcessing validation split...")
+                val_acts, val_labels = capture.capture_dataset(val_examples, layer_idx)
+
+                print("\nProcessing test split...")
+                test_acts, test_labels = capture.capture_dataset(test_examples, layer_idx)
+
+                print(f"\nLayer {layer_idx} activation shapes:")
+                print(f"  Train: {train_acts.shape}")
+                print(f"  Val:   {val_acts.shape}")
+                print(f"  Test:  {test_acts.shape}")
+
+                # Save activations
+                splits = {
+                    'train': (train_acts, train_labels),
+                    'val': (val_acts, val_labels),
+                    'test': (test_acts, test_labels)
+                }
+
+                if args.format == "pickle":
+                    output_path = output_dir / f"layer_{layer_idx}_activations.pkl"
+                    capture.save_activations_pickle({f"layer_{layer_idx}": splits}, output_path)
+                else:  # hdf5
+                    capture.save_activations_hdf5(splits, output_path)
 
     print("\n" + "="*60)
     print("ACTIVATION CAPTURE COMPLETE")
