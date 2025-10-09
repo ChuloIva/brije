@@ -145,9 +145,11 @@ class ActivationCapture:
         """
         augmented_text = f"{text}\n\nThe cognitive action being demonstrated here is"
 
+        # Initialize saved_states before the with block to avoid UnboundLocalError
+        saved_states = {}
+        
         with self.model.trace(augmented_text) as tracer:
             # Capture ALL layers simultaneously in one forward pass
-            saved_states = {}
             for layer_idx in self.layers_to_capture:
                 saved_states[layer_idx] = self.layers[layer_idx].output[0].save()
 
