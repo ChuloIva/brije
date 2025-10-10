@@ -83,7 +83,7 @@ class ProbeTrainer:
     def __init__(
         self,
         probe: nn.Module,
-        device: str = 'cuda' if torch.cuda.is_available() else 'cpu',
+        device: str = None,
         learning_rate: float = 1e-3,
         weight_decay: float = 1e-4
     ):
@@ -92,13 +92,23 @@ class ProbeTrainer:
 
         Args:
             probe: Probe model to train
-            device: Device to train on
+            device: Device to train on (auto-detects if None)
             learning_rate: Learning rate for optimizer
             weight_decay: L2 regularization strength
         """
-        # Convert probe to bfloat16 to match activation dtype, then move to device
-        self.probe = probe.to(torch.bfloat16).to(device)
+        # Auto-detect device if not provided
+        if device is None:
+            from gpu_utils import get_optimal_device
+            device = get_optimal_device()
+
         self.device = device
+
+        # Convert probe to bfloat16 to match activation dtype, then move to device
+        # Note: MPS doesn't support bfloat16, so keep as float32 for MPS
+        if device == "mps":
+            self.probe = probe.to(device)
+        else:
+            self.probe = probe.to(torch.bfloat16).to(device)
 
         self.optimizer = optim.AdamW(
             self.probe.parameters(),

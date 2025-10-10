@@ -18,7 +18,18 @@ from shared_utils import (
     call_deepseek_api,
     call_gemma_api
 )
-from gui import AIGUI, create_gui, run_gui
+
+# Only import GUI when needed (requires tkinter which may not be available)
+# This allows notebooks to import ai_turn without needing tkinter
+try:
+    from gui import AIGUI, create_gui, run_gui
+    GUI_AVAILABLE = True
+except ImportError as e:
+    print(f"Note: GUI not available ({e}). Running in headless mode.")
+    GUI_AVAILABLE = False
+    AIGUI = None
+    create_gui = None
+    run_gui = None
 
 def is_image_message(message: dict) -> bool:
     """Returns True if 'message' contains a base64 image in its 'content' list."""

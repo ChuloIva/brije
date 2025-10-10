@@ -132,31 +132,39 @@ No local GPU needed. Free with Colab.
 
 ### The Local Way
 
-If you've got a GPU with 16GB+ VRAM:
+If you've got a GPU with 16GB+ VRAM (NVIDIA, AMD, or Apple Silicon):
 
 ```bash
 # Install dependencies
 pip install torch transformers nnsight h5py scikit-learn tqdm
 
 # Step 1: Capture what Gemma's brain looks like (2-3 hours)
+# Device auto-detection works automatically - uses CUDA/MPS/ROCm/CPU
 cd src/probes
 python capture_activations.py \
     --dataset ../../third_party/datagen/generated_data/stratified_combined_31500.jsonl \
     --output-dir ../../data/activations \
     --model google/gemma-2-3b-it \
-    --layers 27
+    --layers 27 \
+    --device auto  # Automatically detects best device (CUDA/MPS/ROCm/CPU)
 
 # Step 2: Train probes to recognize cognitive actions (15 hours)
 python train_binary_probes.py \
     --activations ../../data/activations/layer_27_activations.h5 \
     --output-dir ../../data/probes_binary \
-    --epochs 20
+    --epochs 20 \
+    --device auto  # Automatically detects and uses MPS on Apple Silicon
 
 # Step 3: Test it
 python multi_probe_inference.py \
     --probes-dir ../../data/probes_binary \
     --text "After reconsidering my approach, I began analyzing the problem differently."
 ```
+
+**Apple Silicon (M1/M2/M3/M4) Users:**
+- All scripts automatically detect and use MPS acceleration
+- No additional configuration needed
+- Works out of the box on macOS with PyTorch 2.0+
 
 ## Using It
 
@@ -309,13 +317,25 @@ Once you've got the system running, here are some experiments to try:
 **Requirements:**
 - Python 3.8+
 - PyTorch 2.0+
-- 16GB+ GPU VRAM (or use Colab)
+- GPU with 16GB+ VRAM (CUDA, AMD ROCm, or Apple MPS) or use Colab
 - ~50GB disk space
+
+**Supported Devices:**
+- ✅ NVIDIA GPUs (CUDA)
+- ✅ Apple Silicon (M1/M2/M3/M4) via MPS
+- ✅ AMD GPUs (ROCm)
+- ✅ CPU (slower, but works)
 
 **Performance:**
 - Probe accuracy: 75-90% per action (AUC-ROC: 0.85-0.95)
 - Inference speed: ~100-200ms for all 45 probes
 - Training time: ~3-4 hours (activations) + ~15 hours (probes)
+
+**Apple Silicon Notes:**
+- Automatic MPS detection and configuration
+- All scripts auto-detect and use MPS acceleration
+- Memory is shared with system (unified memory architecture)
+- Recommended: 16GB+ unified memory for best performance
 
 **Dataset:**
 - 31,500 synthetic examples across 45 cognitive actions

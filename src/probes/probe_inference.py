@@ -111,7 +111,9 @@ class ProbeInferenceEngine:
     def load_probe(self, probe_path: Path):
         """Load trained probe model"""
         print(f"Loading probe from {probe_path}...")
-        self.probe, metadata = load_probe(probe_path, device='cuda' if torch.cuda.is_available() else 'cpu')
+        from gpu_utils import get_optimal_device
+        device = get_optimal_device()
+        self.probe, metadata = load_probe(probe_path, device=device)
         print(f"✓ Probe loaded (metadata: {metadata})")
 
     def extract_activations(self, text: str) -> torch.Tensor:

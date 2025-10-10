@@ -43,7 +43,7 @@ class BestMultiProbeInferenceEngine:
         self,
         probes_base_dir: Path,
         model_name: str = "google/gemma-2-3b-it",
-        device: str = 'cuda' if torch.cuda.is_available() else 'cpu'
+        device: str = None
     ):
         """
         Initialize multi-probe inference engine with best layers
@@ -51,8 +51,13 @@ class BestMultiProbeInferenceEngine:
         Args:
             probes_base_dir: Base directory containing probes_binary/ subdirectory
             model_name: Name of the language model
-            device: Device to run on
+            device: Device to run on (auto-detects if None)
         """
+        # Auto-detect device if not provided
+        if device is None:
+            from gpu_utils import get_optimal_device
+            device = get_optimal_device()
+
         self.probes_base_dir = Path(probes_base_dir)
         self.model_name = model_name
         self.device = device

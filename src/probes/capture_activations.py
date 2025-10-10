@@ -260,7 +260,10 @@ class ActivationCapture:
                     # Clear lists and GPU cache
                     activations_list = []
                     labels_list = []
-                    torch.cuda.empty_cache() if torch.cuda.is_available() else None
+                    if torch.cuda.is_available():
+                        torch.cuda.empty_cache()
+                    elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+                        torch.mps.empty_cache()
 
             except Exception as e:
                 print(f"\nError processing example: {e}")
@@ -272,7 +275,10 @@ class ActivationCapture:
             activations = torch.stack(activations_list)
             labels = torch.tensor(labels_list, dtype=torch.long)
             yield activations, labels
-            torch.cuda.empty_cache() if torch.cuda.is_available() else None
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+                torch.mps.empty_cache()
 
     def save_activations_pickle(
         self,
@@ -435,7 +441,10 @@ class ActivationCapture:
 
                 # Periodic cleanup
                 if len(labels_list) % batch_size == 0:
-                    torch.cuda.empty_cache() if torch.cuda.is_available() else None
+                    if torch.cuda.is_available():
+                        torch.cuda.empty_cache()
+                    elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+                        torch.mps.empty_cache()
 
             except Exception as e:
                 print(f"\nError processing example: {e}")

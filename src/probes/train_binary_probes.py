@@ -52,27 +52,34 @@ class BinaryActivationDataset(Dataset):
 
 
 def load_activations_from_hdf5(
-    file_path: Path
+    file_path: Path,
+    use_bfloat16: bool = True
 ) -> Tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
     """
     Load activations from HDF5 file
 
     Args:
         file_path: Path to HDF5 file
+        use_bfloat16: Whether to convert to bfloat16 (False for MPS compatibility)
 
     Returns:
         Tuple of (train_acts, train_labels, val_acts, val_labels, test_acts, test_labels)
     """
     with h5py.File(file_path, 'r') as f:
         # Load activations (saved as float32 for HDF5 compatibility)
-        # Convert back to bfloat16 to match original model dtype
-        train_acts = torch.from_numpy(f['train']['activations'][:]).bfloat16()
+        # Convert back to bfloat16 to match original model dtype (if not MPS)
+        if use_bfloat16:
+            train_acts = torch.from_numpy(f['train']['activations'][:]).bfloat16()
+            val_acts = torch.from_numpy(f['val']['activations'][:]).bfloat16()
+            test_acts = torch.from_numpy(f['test']['activations'][:]).bfloat16()
+        else:
+            # Keep as float32 for MPS
+            train_acts = torch.from_numpy(f['train']['activations'][:])
+            val_acts = torch.from_numpy(f['val']['activations'][:])
+            test_acts = torch.from_numpy(f['test']['activations'][:])
+
         train_labels = torch.from_numpy(f['train']['labels'][:])
-
-        val_acts = torch.from_numpy(f['val']['activations'][:]).bfloat16()
         val_labels = torch.from_numpy(f['val']['labels'][:])
-
-        test_acts = torch.from_numpy(f['test']['activations'][:]).bfloat16()
         test_labels = torch.from_numpy(f['test']['labels'][:])
 
     return train_acts, train_labels, val_acts, val_labels, test_acts, test_labels
@@ -84,7 +91,7 @@ class BinaryProbeTrainer:
     def __init__(
         self,
         probe: nn.Module,
-        device: str = 'cuda' if torch.cuda.is_available() else 'cpu',
+        device: str = None,
         learning_rate: float = 5e-4,
         weight_decay: float = 1e-3,
         use_scheduler: bool = True,
@@ -95,15 +102,25 @@ class BinaryProbeTrainer:
 
         Args:
             probe: Binary probe model to train
-            device: Device to train on
+            device: Device to train on (auto-detects if None)
             learning_rate: Learning rate for optimizer
             weight_decay: L2 regularization strength
             use_scheduler: Whether to use learning rate scheduler
             num_epochs: Total number of epochs (for scheduler)
         """
-        # Convert probe to bfloat16 to match activation dtype, then move to device
-        self.probe = probe.to(torch.bfloat16).to(device)
+        # Auto-detect device if not provided
+        if device is None:
+            from gpu_utils import get_optimal_device
+            device = get_optimal_device()
+
         self.device = device
+
+        # Convert probe to bfloat16 to match activation dtype, then move to device
+        # Note: MPS doesn't support bfloat16, so keep as float32 for MPS
+        if device == "mps":
+            self.probe = probe.to(device)
+        else:
+            self.probe = probe.to(torch.bfloat16).to(device)
 
         self.optimizer = optim.AdamW(
             self.probe.parameters(),
@@ -580,21 +597,24 @@ def main():
     parser.add_argument(
         "--device",
         type=str,
-        default="cuda" if torch.cuda.is_available() else "cpu",
-        help="Device to train on"
+        default="auto",
+        help="Device to train on (auto/cuda/mps/cpu)"
     )
 
     args = parser.parse_args()
 
-    # Handle "auto" device by converting to cuda or cpu
+    # Handle "auto" device by auto-detecting best device
     if args.device == "auto":
-        args.device = "cuda" if torch.cuda.is_available() else "cpu"
+        from gpu_utils import get_optimal_device
+        args.device = get_optimal_device()
         print(f"Auto-detected device: {args.device}")
 
     # Load activations
     print("Loading activations...")
+    # Don't use bfloat16 for MPS (not supported)
+    use_bfloat16 = args.device != "mps"
     train_acts, train_labels, val_acts, val_labels, test_acts, test_labels = \
-        load_activations_from_hdf5(Path(args.activations))
+        load_activations_from_hdf5(Path(args.activations), use_bfloat16=use_bfloat16)
 
     print(f"Train: {train_acts.shape}, Val: {val_acts.shape}, Test: {test_acts.shape}")
 
