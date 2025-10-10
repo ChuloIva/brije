@@ -45,12 +45,16 @@ def ai_turn(ai_name, conversation, model, system_prompt, gui=None, is_branch=Fal
     
     # Load relevant memory file based on AI name
     memory_file = f"memory/{ai_name.lower()}/conversations.json"
+    memories = []
     try:
         with open(memory_file, 'r') as f:
             memories = json.load(f)['memories']
             print(f"\nLoaded {len(memories)} memories for {ai_name}")
+    except FileNotFoundError:
+        # Memory file doesn't exist yet - that's okay, use empty memories
+        pass
     except Exception as e:
-        print(f"Error loading memories for {ai_name}: {e}")
+        print(f"Warning: Could not load memories for {ai_name}: {e}")
         memories = []
 
     # Handle prompt selection based on conversation type and turn
@@ -89,27 +93,42 @@ def ai_turn(ai_name, conversation, model, system_prompt, gui=None, is_branch=Fal
                 "content": str(msg)
             })
             continue
-            
+
+        # Messages with role "user" are always user messages (initial user input)
+        if msg.get("role") == "user":
+            print(f"\nProcessing user message: {msg.get('content', '')[:100]}...")
+            full_context.append({
+                "role": "user",
+                "content": msg.get("content", "")
+            })
+            continue
+
         # For both AIs: their own messages are assistant, other AI's messages are user
-        if msg.get("model") == model:
-            print(f"\nProcessing {model} message: {msg.get('content', '')[:100]}...")
+        # First try to match by ai_name (for multi-agent conversations with same model)
+        # Fall back to model matching if ai_name not available
+        msg_ai_name = msg.get("ai_name")
+        is_own_message = (msg_ai_name == ai_name) if msg_ai_name else (msg.get("model") == model)
+
+        if is_own_message:
+            msg_label = msg_ai_name or model
+            print(f"\nProcessing {msg_label} message: {msg.get('content', '')[:100]}...")
             # Only show Chain of Thought in context if flag is enabled
             message_content = msg.get("content", "")
             if SHOW_CHAIN_OF_THOUGHT_IN_CONTEXT and "display" in msg:
                 message_content = msg["display"]
-                
+
             full_context.append({
                 "role": "assistant",
                 "content": message_content
             })
         else:
-            other_model = msg.get("model", "unknown model")
-            print(f"\nProcessing {other_model} message: {msg.get('content', '')[:100]}...")
+            other_label = msg_ai_name or msg.get("model", "unknown model")
+            print(f"\nProcessing {other_label} message: {msg.get('content', '')[:100]}...")
             # Only share Chain of Thought if flag is enabled
             message_content = msg.get("content", "")
             if SHARE_CHAIN_OF_THOUGHT and "display" in msg:
                 message_content = msg["display"]
-                
+
             full_context.append({
                 "role": "user",
                 "content": message_content
@@ -200,6 +219,7 @@ def ai_turn(ai_name, conversation, model, system_prompt, gui=None, is_branch=Fal
                 conversation.append({
                     "role": "assistant",
                     "model": model,
+                    "ai_name": ai_name,  # Add ai_name to distinguish speakers in multi-agent conversations
                     "content": response["content"],
                     "predictions": response["predictions"],
                     "raw_content": json.dumps({
@@ -221,6 +241,7 @@ def ai_turn(ai_name, conversation, model, system_prompt, gui=None, is_branch=Fal
                 conversation.append({
                     "role": "assistant",
                     "model": model,
+                    "ai_name": ai_name,  # Add ai_name to distinguish speakers in multi-agent conversations
                     "content": response["content"],
                     "display": response["display"],
                     "raw_content": json.dumps({
@@ -243,6 +264,7 @@ def ai_turn(ai_name, conversation, model, system_prompt, gui=None, is_branch=Fal
                 response.update({
                     "role": "assistant",
                     "model": model,
+                    "ai_name": ai_name,  # Add ai_name to distinguish speakers in multi-agent conversations
                     "content": response.get("content", "Flux model generated an image.")
                 })
                 conversation.append(response)
@@ -265,6 +287,7 @@ def ai_turn(ai_name, conversation, model, system_prompt, gui=None, is_branch=Fal
             conversation.append({
                 "role": "assistant",
                 "model": model,
+                "ai_name": ai_name,  # Add ai_name to distinguish speakers in multi-agent conversations
                 "content": response,
                 "raw_content": json.dumps({
                     "role": "assistant",

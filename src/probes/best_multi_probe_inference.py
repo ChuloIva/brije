@@ -357,7 +357,7 @@ def main():
         print(f"\nDetected Cognitive Actions (top {args.top_k}):\n")
         for i, pred in enumerate(predictions, 1):
             marker = "✓" if pred.is_active else " "
-            print(f"  {marker} {i}. {pred.action_name:30s} {pred.confidence:.1%}  "
+            print(f"  {marker} {i}. {pred.action_name:30s} {pred.confidence:.10f}  "
                   f"(Layer {pred.layer}, AUC: {pred.auc:.3f})")
 
         print()
@@ -384,7 +384,7 @@ def main():
             print(f"\nTop {args.top_k} predictions:")
             for i, pred in enumerate(predictions, 1):
                 marker = "✓" if pred.is_active else " "
-                print(f"  {marker} {i}. {pred.action_name:30s} {pred.confidence:.1%}  "
+                print(f"  {marker} {i}. {pred.action_name:30s} {pred.confidence:.10f}  "
                       f"(L{pred.layer})")
             print()
 
