@@ -429,27 +429,29 @@ def train_single_probe_worker(
         val_dataset = BinaryActivationDataset(val_acts, val_binary_labels)
         test_dataset = BinaryActivationDataset(test_acts, test_binary_labels)
         
-        # Use pin_memory for faster GPU transfer
+        # Only use pin_memory if tensors are on CPU (pin_memory doesn't work with CUDA tensors)
+        use_pin_memory = not train_acts.is_cuda
+        
         train_loader = DataLoader(
             train_dataset, 
             batch_size=args.batch_size, 
             shuffle=True,
             num_workers=0,  # 0 for GPU training with threads
-            pin_memory=True
+            pin_memory=use_pin_memory
         )
         val_loader = DataLoader(
             val_dataset, 
             batch_size=args.batch_size, 
             shuffle=False,
             num_workers=0,
-            pin_memory=True
+            pin_memory=use_pin_memory
         )
         test_loader = DataLoader(
             test_dataset, 
             batch_size=args.batch_size, 
             shuffle=False,
             num_workers=0,
-            pin_memory=True
+            pin_memory=use_pin_memory
         )
         
         # Create probe
