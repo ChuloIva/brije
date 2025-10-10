@@ -676,8 +676,8 @@ def main():
     parser.add_argument(
         "--batch-size",
         type=int,
-        default=512,
-        help="Batch size for training (default: 512 for parallel training)"
+        default=18,
+        help="Batch size for training (default: 128, balanced for small datasets)"
     )
     parser.add_argument(
         "--epochs",

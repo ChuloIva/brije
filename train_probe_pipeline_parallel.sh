@@ -18,7 +18,7 @@ PROBES_DIR="./data/probes_binary"
 MODEL="google/gemma-3-4b-it"
 LAYER=27
 PROBE_TYPE="linear"
-BATCH_SIZE=512        # Large batch size for better GPU utilization
+BATCH_SIZE=128        # Balanced batch size (good gradient updates + GPU utilization)
 EPOCHS=50
 DEVICE="auto"
 NUM_WORKERS=8         # Train 8 probes simultaneously
@@ -208,7 +208,7 @@ echo "  Input: $ACTIVATION_FILE"
 echo "  Strategy: Parallel One-vs-Rest (${NUM_WORKERS} workers)"
 echo "  Epochs per probe: $EPOCHS"
 echo "  Batch Size: $BATCH_SIZE"
-echo "  Estimated time: 10-20 minutes (${NUM_WORKERS}x speedup)"
+echo "  Estimated time: 10-20 minutes per layer (${NUM_WORKERS}x speedup)"
 echo ""
 
 # Build training command for parallel binary probes
