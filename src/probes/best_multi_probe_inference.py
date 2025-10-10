@@ -80,8 +80,31 @@ class BestMultiProbeInferenceEngine:
 
         # Load model and tokenizer
         print(f"\nLoading language model: {model_name}...")
-        self.model = LanguageModel(model_name, device_map=device, dispatch=True)
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+        # Load model with bf16/fp16 to save memory
+        from transformers import AutoModelForCausalLM, AutoConfig
+        config = AutoConfig.from_pretrained(model_name)
+
+        # Check if this is a VLM (has vision_config)
+        if hasattr(config, 'vision_config'):
+            print("Detected vision-language model. Loading text-only (skipping vision tower)...")
+            from transformers import Gemma3ForCausalLM
+            base_model = Gemma3ForCausalLM.from_pretrained(
+                model_name,
+                device_map=device,
+                torch_dtype="auto"
+            )
+            self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+            self.model = LanguageModel(base_model, tokenizer=self.tokenizer)
+        else:
+            # Regular causal LM
+            base_model = AutoModelForCausalLM.from_pretrained(
+                model_name,
+                device_map=device,
+                torch_dtype="auto"
+            )
+            self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+            self.model = LanguageModel(base_model, tokenizer=self.tokenizer)
 
         print(f"\n✓ Initialized with {len(self.probes)} probes across {len(self.layers_needed)} layers\n")
 
@@ -93,29 +116,25 @@ class BestMultiProbeInferenceEngine:
             text: Input text
 
         Returns:
-            Dictionary mapping layer_idx -> activations tensor (1, hidden_dim)
+            Dictionary mapping layer_idx -> activations tensor (hidden_dim,)
         """
         # Append special message to create consistent extraction point
         augmented_text = f"{text}\n\nThe cognitive action being demonstrated here is"
 
-        # Tokenize
-        inputs = self.tokenizer(augmented_text, return_tensors="pt")
-        input_ids = inputs['input_ids'].to(self.device)
-
         # Extract activations from all needed layers using nnsight
-        layer_activations = {}
+        # Pass text directly to trace() - nnsight handles tokenization
+        saved_activations = {}
 
-        with self.model.trace(input_ids) as tracer:
+        with self.model.trace(augmented_text) as tracer:
             for layer_idx in self.layers_needed:
                 # Get hidden states from this layer
                 hidden_states = self.model.model.layers[layer_idx].output[0]
 
-                # Use last token representation
-                activations = hidden_states[:, -1, :].save()
-                layer_activations[layer_idx] = activations
+                # Use last token representation and save
+                saved_activations[layer_idx] = hidden_states[:, -1, :].save()
 
-        # Retrieve saved values
-        return {layer_idx: act.value for layer_idx, act in layer_activations.items()}
+        # After trace exits, saved proxies become tensors - squeeze batch dimension
+        return {layer_idx: act.squeeze(0) for layer_idx, act in saved_activations.items()}
 
     def predict(
         self,

@@ -442,8 +442,20 @@ def load_probe(
     else:
         raise ValueError(f"Unknown model class: {model_class}")
 
+    # Detect dtype from saved weights (probes are trained in bfloat16)
+    # Get dtype from the first weight tensor in state_dict
+    first_weight_key = next(iter(state['model_state_dict'].keys()))
+    saved_dtype = state['model_state_dict'][first_weight_key].dtype
+
+    # Convert model to same dtype as saved weights BEFORE loading state_dict
+    # This prevents automatic dtype conversion during load_state_dict
+    probe = probe.to(dtype=saved_dtype)
+
+    # Load state dict (now dtypes match, no conversion happens)
     probe.load_state_dict(state['model_state_dict'])
-    probe.to(device)
+
+    # Move to device while preserving dtype
+    probe.to(device=device)
     probe.eval()
 
     metadata = state.get('metadata', {})

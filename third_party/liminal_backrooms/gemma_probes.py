@@ -9,7 +9,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src" / "probes"))
 
 from probe_inference import ProbeInferenceEngine
-from multi_probe_inference import MultiProbeInferenceEngine, CognitiveActionPrediction
+from best_multi_probe_inference import BestMultiProbeInferenceEngine, CognitiveActionPrediction
 from config import (
     PROBE_MODE, PROBE_PATH, PROBES_DIR, PROBE_LAYER,
     PROBE_TOP_K, PROBE_THRESHOLD
@@ -59,19 +59,19 @@ class GemmaWithProbes:
         print(f"  Mode: {probe_mode}")
 
         if probe_mode == "binary":
-            # Use MultiProbeInferenceEngine (45 binary probes)
-            probes_dir = probes_dir or PROBES_DIR
+            # Use BestMultiProbeInferenceEngine (45 binary probes, each from optimal layer)
+            probes_base_dir = probes_dir or PROBES_DIR
 
-            # Resolve probes dir relative to this file
-            if not Path(probes_dir).is_absolute():
-                probes_dir = Path(__file__).parent / probes_dir
+            # Resolve probes base dir relative to this file
+            # This should point to data/probes_binary (parent of layer_XX dirs)
+            if not Path(probes_base_dir).is_absolute():
+                probes_base_dir = Path(__file__).parent / probes_base_dir
 
-            print(f"  Probes dir: {probes_dir}")
+            print(f"  Probes base dir: {probes_base_dir}")
 
-            self.engine = MultiProbeInferenceEngine(
-                probes_dir=Path(probes_dir),
-                model_name=model_name,
-                layer_idx=layer_idx
+            self.engine = BestMultiProbeInferenceEngine(
+                probes_base_dir=Path(probes_base_dir),
+                model_name=model_name
             )
             self.model = self.engine.model
 
@@ -154,12 +154,14 @@ class GemmaWithProbes:
     def get_predictions_dict(self) -> List[dict]:
         """Get last predictions as list of dicts for easy serialization"""
         if self.probe_mode == "binary":
-            # Binary mode: predictions are already CognitiveActionPrediction objects
+            # Binary mode: predictions are CognitiveActionPrediction objects with layer info
             return [
                 {
                     'action': pred.action_name,
                     'confidence': pred.confidence,
-                    'is_active': pred.is_active
+                    'is_active': pred.is_active,
+                    'layer': pred.layer,  # Include which layer this probe is from
+                    'auc': pred.auc  # Include the AUC performance metric
                 }
                 for pred in self.last_predictions
             ]
