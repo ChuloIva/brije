@@ -1,5 +1,6 @@
 .venv/
 data/activations
+output/analysis_AnnoMI/all_predictions.json
 
 # Python cache files
 __pycache__/

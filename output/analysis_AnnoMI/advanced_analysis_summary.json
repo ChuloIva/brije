@@ -1,0 +1,144 @@
+{
+  "synchrony_analysis": {
+    "mean_high_quality": 0.47921098450212213,
+    "mean_low_quality": 0.5007474571595735,
+    "significance": "not significant"
+  },
+  "change_talk": {
+    "top_change_actions": [
+      "noticing",
+      "response_modulation",
+      "self_questioning",
+      "reframing",
+      "evaluating",
+      "understanding",
+      "analogical_thinking",
+      "convergent_thinking",
+      "reconsidering",
+      "hypothesis_generation"
+    ],
+    "top_sustain_actions": [
+      "noticing",
+      "self_questioning",
+      "hypothesis_generation",
+      "analogical_thinking",
+      "response_modulation",
+      "evaluating",
+      "reframing",
+      "questioning",
+      "reconsidering",
+      "understanding"
+    ],
+    "most_predictive_of_change": [
+      "metacognitive_regulation",
+      "applying",
+      "emotion_understanding",
+      "attentional_deployment",
+      "understanding"
+    ]
+  },
+  "critical_moments": {
+    "breakthrough_count": 682,
+    "breakthrough_percentage": 9.25122083559414,
+    "stuck_points_detected": 0
+  },
+  "therapist_styles": {
+    "num_clusters": 4,
+    "cluster_sizes": [
+      75,
+      27,
+      1,
+      25
+    ],
+    "cluster_quality_percentages": [
+      89.33333333333333,
+      74.07407407407408,
+      100.0,
+      76.0
+    ]
+  },
+  "markov_chain": {
+    "top_transitions": [
+      [
+        "noticing",
+        "noticing",
+        0.1231880884606963
+      ],
+      [
+        "self_questioning",
+        "noticing",
+        0.11659426585577759
+      ],
+      [
+        "noticing",
+        "self_questioning",
+        0.08784760236479089
+      ],
+      [
+        "response_modulation",
+        "noticing",
+        0.11556130702038175
+      ],
+      [
+        "noticing",
+        "response_modulation",
+        0.07545434639807314
+      ],
+      [
+        "reframing",
+        "noticing",
+        0.11644128113879003
+      ],
+      [
+        "noticing",
+        "reframing",
+        0.07006787825706152
+      ],
+      [
+        "self_questioning",
+        "self_questioning",
+        0.09244135534317985
+      ],
+      [
+        "noticing",
+        "evaluating",
+        0.06472520253996059
+      ],
+      [
+        "evaluating",
+        "noticing",
+        0.109812552174243
+      ]
+    ],
+    "stationary_distribution": {
+      "noticing": 0.11578063981159284,
+      "self_questioning": 0.08804944542142408,
+      "response_modulation": 0.0772047232816255,
+      "reframing": 0.07156539252811674,
+      "evaluating": 0.0670448365083408,
+      "understanding": 0.05740163451349205,
+      "questioning": 0.05661502653408502,
+      "emotion_understanding": 0.05329443704563822,
+      "emotion_responding": 0.052855266212332774,
+      "analogical_thinking": 0.046335764388724894
+    }
+  },
+  "network_analysis": {
+    "num_nodes": 20,
+    "num_edges": 121,
+    "density": 0.31842105263157894,
+    "num_communities": 6,
+    "top_pagerank": {
+      "noticing": 0.20509838740965233,
+      "self_questioning": 0.1242026751408356,
+      "response_modulation": 0.09415766311487218,
+      "reframing": 0.08386823330896574,
+      "evaluating": 0.07405314541614762,
+      "understanding": 0.06517243861246587,
+      "questioning": 0.055352379858494505,
+      "emotion_understanding": 0.054273780347854364,
+      "emotion_responding": 0.0530159028420195,
+      "analogical_thinking": 0.035329689243307295
+    }
+  }
+}
