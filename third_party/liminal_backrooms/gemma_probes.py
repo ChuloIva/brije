@@ -10,11 +10,13 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src" / "probes"))
 
 from probe_inference import ProbeInferenceEngine
 from best_multi_probe_inference import BestMultiProbeInferenceEngine, CognitiveActionPrediction
+from universal_multi_layer_inference import UniversalMultiLayerInferenceEngine, UniversalPrediction
 from config import (
-    PROBE_MODE, PROBE_PATH, PROBES_DIR, PROBE_LAYER,
+    PROBE_MODE, PROBE_PATH, PROBES_DIR, PROBE_LAYER, PROBE_LAYER_RANGE,
     PROBE_TOP_K, PROBE_THRESHOLD
 )
-from typing import List, Optional
+from typing import List, Optional, Union
+from collections import defaultdict
 
 
 class GemmaWithProbes:
@@ -58,7 +60,25 @@ class GemmaWithProbes:
         print(f"Initializing Gemma with Probes...")
         print(f"  Mode: {probe_mode}")
 
-        if probe_mode == "binary":
+        if probe_mode == "universal":
+            # Use UniversalMultiLayerInferenceEngine (all probes across all layers)
+            probes_base_dir = probes_dir or PROBES_DIR
+
+            # Resolve probes base dir relative to this file
+            if not Path(probes_base_dir).is_absolute():
+                probes_base_dir = Path(__file__).parent / probes_base_dir
+
+            print(f"  Probes base dir: {probes_base_dir}")
+            print(f"  Layer range: {PROBE_LAYER_RANGE}")
+
+            self.engine = UniversalMultiLayerInferenceEngine(
+                probes_base_dir=Path(probes_base_dir),
+                model_name=model_name,
+                layer_range=PROBE_LAYER_RANGE
+            )
+            self.model = self.engine.model
+
+        elif probe_mode == "binary":
             # Use BestMultiProbeInferenceEngine (45 binary probes, each from optimal layer)
             probes_base_dir = probes_dir or PROBES_DIR
 
@@ -94,7 +114,7 @@ class GemmaWithProbes:
             )
             self.model = self.engine.model
 
-        self.last_predictions: List[CognitiveActionPrediction] = []
+        self.last_predictions: Union[List[CognitiveActionPrediction], List[UniversalPrediction]] = []
 
     def generate(
         self,
@@ -134,7 +154,13 @@ class GemmaWithProbes:
             generated_text = generated_text.split("Assistant:")[-1].strip()
 
         # Analyze cognitive actions in the generated text
-        if self.probe_mode == "binary":
+        if self.probe_mode == "universal":
+            # Universal mode: run all probes across all layers
+            self.last_predictions = self.engine.predict_all(
+                generated_text,
+                threshold=self.threshold
+            )
+        elif self.probe_mode == "binary":
             # Binary mode: run all probes
             self.last_predictions = self.engine.predict(
                 generated_text,
@@ -153,7 +179,38 @@ class GemmaWithProbes:
 
     def get_predictions_dict(self) -> List[dict]:
         """Get last predictions as list of dicts for easy serialization"""
-        if self.probe_mode == "binary":
+        if self.probe_mode == "universal":
+            # Universal mode: group predictions by action
+            # Collect all predictions for each action across layers
+            action_groups = defaultdict(lambda: {'layers': [], 'confidences': [], 'is_active_layers': []})
+
+            for pred in self.last_predictions:
+                action_groups[pred.action_name]['layers'].append(pred.layer)
+                action_groups[pred.action_name]['confidences'].append(pred.confidence)
+                if pred.is_active:
+                    action_groups[pred.action_name]['is_active_layers'].append(pred.layer)
+
+            # Sort actions by number of active layers (count), then by max confidence
+            sorted_actions = sorted(
+                action_groups.items(),
+                key=lambda x: (len(x[1]['is_active_layers']), max(x[1]['confidences'])),
+                reverse=True
+            )
+
+            # Format as list of dicts in the style of output_example_3.md
+            result = []
+            for action_name, data in sorted_actions:
+                result.append({
+                    'action': action_name,
+                    'layers': data['is_active_layers'],  # Only layers where it's active
+                    'count': len(data['is_active_layers']),
+                    'max_confidence': max(data['confidences']),
+                    'is_active': len(data['is_active_layers']) > 0
+                })
+
+            return result
+
+        elif self.probe_mode == "binary":
             # Binary mode: predictions are CognitiveActionPrediction objects with layer info
             return [
                 {

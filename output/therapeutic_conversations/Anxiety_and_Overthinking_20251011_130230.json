@@ -1,0 +1,2797 @@
+{
+  "scenario": {
+    "name": "Anxiety and Overthinking",
+    "opening": "I've been feeling really anxious lately. My mind just keeps racing with all these worst-case scenarios, and I can't seem to shut it off. It's affecting my sleep and my work."
+  },
+  "conversation": [
+    {
+      "role": "user",
+      "content": "I've been feeling really anxious lately. My mind just keeps racing with all these worst-case scenarios, and I can't seem to shut it off. It's affecting my sleep and my work."
+    },
+    {
+      "role": "assistant",
+      "model": "Gemma 3 4B (with Probes)",
+      "ai_name": "Therapist",
+      "content": "\"That sounds incredibly difficult. It takes a lot of courage to share something so personal, and I appreciate you opening up to me. It's completely understandable that anxiety would be impacting your sleep and work when your mind is racing like that. Can you tell me a little more about these worst-case scenarios you\u2019re experiencing? When you think about what might happen, what's the most common thing you\u2019re anticipating?\"",
+      "predictions": [
+        {
+          "action": "concretizing",
+          "layers": [
+            21,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            23
+          ],
+          "count": 8,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "questioning",
+          "layers": [
+            22,
+            23,
+            27,
+            30
+          ],
+          "count": 4,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "divergent_thinking",
+          "layers": [
+            27,
+            30,
+            29
+          ],
+          "count": 3,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "perspective_taking",
+          "layers": [
+            29,
+            30
+          ],
+          "count": 2,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "emotion_management",
+          "layers": [
+            27
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "pattern_recognition",
+          "layers": [
+            27
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "updating_beliefs",
+          "layers": [
+            28
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "situation_selection",
+          "layers": [
+            30
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "convergent_thinking",
+          "layers": [
+            25
+          ],
+          "count": 1,
+          "max_confidence": 0.796875,
+          "is_active": true
+        },
+        {
+          "action": "analyzing",
+          "layers": [
+            22
+          ],
+          "count": 1,
+          "max_confidence": 0.59375,
+          "is_active": true
+        },
+        {
+          "action": "emotion_responding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.6540288925170898e-06,
+          "is_active": false
+        },
+        {
+          "action": "emotion_facilitation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.1650415621697903e-10,
+          "is_active": false
+        },
+        {
+          "action": "emotion_understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.540190280342358e-13,
+          "is_active": false
+        },
+        {
+          "action": "metacognitive_monitoring",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.635980405647388e-15,
+          "is_active": false
+        },
+        {
+          "action": "zooming_in",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.7139067942650854e-15,
+          "is_active": false
+        },
+        {
+          "action": "response_modulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.3322676295501878e-15,
+          "is_active": false
+        },
+        {
+          "action": "reframing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.574980159653073e-18,
+          "is_active": false
+        },
+        {
+          "action": "emotion_characterizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.2197274440461925e-18,
+          "is_active": false
+        },
+        {
+          "action": "self_questioning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.6432439176733427e-19,
+          "is_active": false
+        },
+        {
+          "action": "counterfactual_reasoning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.8587361969832636e-20,
+          "is_active": false
+        },
+        {
+          "action": "metacognitive_regulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.7364175418713157e-20,
+          "is_active": false
+        },
+        {
+          "action": "abstracting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.053497228147536e-20,
+          "is_active": false
+        },
+        {
+          "action": "accepting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.864587821847745e-21,
+          "is_active": false
+        },
+        {
+          "action": "applying",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 7.113753267956038e-23,
+          "is_active": false
+        },
+        {
+          "action": "emotion_valuing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.0662875083691372e-25,
+          "is_active": false
+        },
+        {
+          "action": "evaluating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.0662875083691372e-25,
+          "is_active": false
+        },
+        {
+          "action": "creating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.44393100091654e-26,
+          "is_active": false
+        },
+        {
+          "action": "cognition_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.301145283085199e-27,
+          "is_active": false
+        },
+        {
+          "action": "emotion_receiving",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.916456789157589e-29,
+          "is_active": false
+        },
+        {
+          "action": "understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.975119405215255e-31,
+          "is_active": false
+        },
+        {
+          "action": "hypothesis_generation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 8.859277744181285e-32,
+          "is_active": false
+        },
+        {
+          "action": "suspending_judgment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.39260384428426e-32,
+          "is_active": false
+        },
+        {
+          "action": "emotion_perception",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.971649718878743e-35,
+          "is_active": false
+        },
+        {
+          "action": "emotion_organizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.71833068627654e-38,
+          "is_active": false
+        },
+        {
+          "action": "analogical_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "attentional_deployment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "connecting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "distinguishing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotional_reappraisal",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "meta_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "noticing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "reconsidering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "remembering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "situation_modification",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "zooming_out",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        }
+      ],
+      "raw_content": "{\n  \"role\": \"assistant\",\n  \"content\": \"\\\"That sounds incredibly difficult. It takes a lot of courage to share something so personal, and I appreciate you opening up to me. It's completely understandable that anxiety would be impacting your sleep and work when your mind is racing like that. Can you tell me a little more about these worst-case scenarios you\\u2019re experiencing? When you think about what might happen, what's the most common thing you\\u2019re anticipating?\\\"\",\n  \"cognitive_actions\": [\n    {\n      \"action\": \"concretizing\",\n      \"layers\": [\n        21,\n        24,\n        25,\n        26,\n        27,\n        28,\n        29,\n        23\n      ],\n      \"count\": 8,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"questioning\",\n      \"layers\": [\n        22,\n        23,\n        27,\n        30\n      ],\n      \"count\": 4,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"divergent_thinking\",\n      \"layers\": [\n        27,\n        30,\n        29\n      ],\n      \"count\": 3,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"perspective_taking\",\n      \"layers\": [\n        29,\n        30\n      ],\n      \"count\": 2,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"emotion_management\",\n      \"layers\": [\n        27\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"pattern_recognition\",\n      \"layers\": [\n        27\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"updating_beliefs\",\n      \"layers\": [\n        28\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"situation_selection\",\n      \"layers\": [\n        30\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"convergent_thinking\",\n      \"layers\": [\n        25\n      ],\n      \"count\": 1,\n      \"max_confidence\": 0.796875,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"analyzing\",\n      \"layers\": [\n        22\n      ],\n      \"count\": 1,\n      \"max_confidence\": 0.59375,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"emotion_responding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.6540288925170898e-06,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_facilitation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.1650415621697903e-10,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.540190280342358e-13,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"metacognitive_monitoring\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.635980405647388e-15,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"zooming_in\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.7139067942650854e-15,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"response_modulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.3322676295501878e-15,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reframing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.574980159653073e-18,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_characterizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.2197274440461925e-18,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"self_questioning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.6432439176733427e-19,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"counterfactual_reasoning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.8587361969832636e-20,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"metacognitive_regulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.7364175418713157e-20,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"abstracting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.053497228147536e-20,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"accepting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.864587821847745e-21,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"applying\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 7.113753267956038e-23,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_valuing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.0662875083691372e-25,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"evaluating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.0662875083691372e-25,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"creating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.44393100091654e-26,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"cognition_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.301145283085199e-27,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_receiving\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.916456789157589e-29,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.975119405215255e-31,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"hypothesis_generation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 8.859277744181285e-32,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"suspending_judgment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.39260384428426e-32,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_perception\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.971649718878743e-35,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_organizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.71833068627654e-38,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"analogical_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"attentional_deployment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"connecting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"distinguishing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotional_reappraisal\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"meta_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"noticing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reconsidering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"remembering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_modification\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"zooming_out\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    }\n  ]\n}"
+    },
+    {
+      "role": "assistant",
+      "model": "Gemma 3 4B (with Probes)",
+      "ai_name": "Client",
+      "content": "\"When I was a teenager, my parents divorced. It was really messy, and I felt completely responsible for it, even though it wasn't my fault. I just... I always felt like things were falling apart, like nothing was ever stable",
+      "predictions": [
+        {
+          "action": "hypothesis_generation",
+          "layers": [
+            28,
+            30
+          ],
+          "count": 2,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "questioning",
+          "layers": [
+            25
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "emotion_perception",
+          "layers": [
+            29
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "emotion_responding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0010986328125,
+          "is_active": false
+        },
+        {
+          "action": "cognition_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.00099945068359375,
+          "is_active": false
+        },
+        {
+          "action": "evaluating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.2218952178955078e-05,
+          "is_active": false
+        },
+        {
+          "action": "emotion_valuing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.774403012357652e-11,
+          "is_active": false
+        },
+        {
+          "action": "self_questioning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.0800249583553523e-11,
+          "is_active": false
+        },
+        {
+          "action": "analyzing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 8.412825991399586e-12,
+          "is_active": false
+        },
+        {
+          "action": "creating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.097966327914037e-12,
+          "is_active": false
+        },
+        {
+          "action": "updating_beliefs",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 8.881784197001252e-13,
+          "is_active": false
+        },
+        {
+          "action": "situation_selection",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.0182080713057076e-14,
+          "is_active": false
+        },
+        {
+          "action": "zooming_out",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.907985046680551e-14,
+          "is_active": false
+        },
+        {
+          "action": "understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.2065682614424986e-15,
+          "is_active": false
+        },
+        {
+          "action": "applying",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.0408340855860843e-15,
+          "is_active": false
+        },
+        {
+          "action": "distinguishing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 6.314393452555578e-16,
+          "is_active": false
+        },
+        {
+          "action": "abstracting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.234049398383217e-20,
+          "is_active": false
+        },
+        {
+          "action": "noticing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.166324663699769e-22,
+          "is_active": false
+        },
+        {
+          "action": "pattern_recognition",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 9.098986738083304e-23,
+          "is_active": false
+        },
+        {
+          "action": "reframing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.6056189295420372e-23,
+          "is_active": false
+        },
+        {
+          "action": "response_modulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.0369322584118306e-23,
+          "is_active": false
+        },
+        {
+          "action": "perspective_taking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.5819829215076654e-23,
+          "is_active": false
+        },
+        {
+          "action": "analogical_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.3829910224916325e-26,
+          "is_active": false
+        },
+        {
+          "action": "emotion_understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.44393100091654e-26,
+          "is_active": false
+        },
+        {
+          "action": "convergent_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.301145283085199e-27,
+          "is_active": false
+        },
+        {
+          "action": "emotional_reappraisal",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 9.213895372981418e-28,
+          "is_active": false
+        },
+        {
+          "action": "situation_modification",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 9.742432179479496e-29,
+          "is_active": false
+        },
+        {
+          "action": "counterfactual_reasoning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.1693674893577825e-29,
+          "is_active": false
+        },
+        {
+          "action": "emotion_organizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.983707842718853e-32,
+          "is_active": false
+        },
+        {
+          "action": "emotion_characterizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.1988913903810543e-32,
+          "is_active": false
+        },
+        {
+          "action": "concretizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.6261649734165925e-34,
+          "is_active": false
+        },
+        {
+          "action": "remembering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.020190679812223e-36,
+          "is_active": false
+        },
+        {
+          "action": "reconsidering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.9983403963978888e-37,
+          "is_active": false
+        },
+        {
+          "action": "accepting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "attentional_deployment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "connecting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "divergent_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotion_facilitation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotion_management",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotion_receiving",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "meta_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "metacognitive_monitoring",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "metacognitive_regulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "suspending_judgment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "zooming_in",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        }
+      ],
+      "raw_content": "{\n  \"role\": \"assistant\",\n  \"content\": \"\\\"When I was a teenager, my parents divorced. It was really messy, and I felt completely responsible for it, even though it wasn't my fault. I just... I always felt like things were falling apart, like nothing was ever stable\",\n  \"cognitive_actions\": [\n    {\n      \"action\": \"hypothesis_generation\",\n      \"layers\": [\n        28,\n        30\n      ],\n      \"count\": 2,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"questioning\",\n      \"layers\": [\n        25\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"emotion_perception\",\n      \"layers\": [\n        29\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"emotion_responding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0010986328125,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"cognition_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.00099945068359375,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"evaluating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.2218952178955078e-05,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_valuing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.774403012357652e-11,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"self_questioning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.0800249583553523e-11,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"analyzing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 8.412825991399586e-12,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"creating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.097966327914037e-12,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"updating_beliefs\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 8.881784197001252e-13,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_selection\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.0182080713057076e-14,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"zooming_out\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.907985046680551e-14,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.2065682614424986e-15,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"applying\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.0408340855860843e-15,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"distinguishing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 6.314393452555578e-16,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"abstracting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.234049398383217e-20,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"noticing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.166324663699769e-22,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"pattern_recognition\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 9.098986738083304e-23,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reframing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.6056189295420372e-23,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"response_modulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.0369322584118306e-23,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"perspective_taking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.5819829215076654e-23,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"analogical_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.3829910224916325e-26,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.44393100091654e-26,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"convergent_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.301145283085199e-27,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotional_reappraisal\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 9.213895372981418e-28,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_modification\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 9.742432179479496e-29,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"counterfactual_reasoning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.1693674893577825e-29,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_organizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.983707842718853e-32,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_characterizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.1988913903810543e-32,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"concretizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.6261649734165925e-34,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"remembering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.020190679812223e-36,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reconsidering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.9983403963978888e-37,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"accepting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"attentional_deployment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"connecting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"divergent_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_facilitation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_management\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_receiving\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"meta_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"metacognitive_monitoring\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"metacognitive_regulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"suspending_judgment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"zooming_in\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    }\n  ]\n}"
+    },
+    {
+      "role": "assistant",
+      "model": "Gemma 3 4B (with Probes)",
+      "ai_name": "Therapist",
+      "content": "\"Thank you for sharing that. It\u2019s incredibly powerful to hear how that experience shaped you, and I can see how that lingering feeling of responsibility and instability could be contributing to your anxiety now. It\u2019s really brave of you to bring that up. It makes sense that you'd carry that with you, especially given how traumatic a divorce can be for a young person.\n\nLet's explore that a bit more. You mentioned feeling completely responsible, even though it wasn't your fault. Can you describe what that felt like in your body? Were there any physical sensations you noticed when you were experiencing that feeling - perhaps a tightness in your chest, a knot in your stomach, or a racing heart?\"",
+      "predictions": [
+        {
+          "action": "divergent_thinking",
+          "layers": [
+            27,
+            30
+          ],
+          "count": 2,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "concretizing",
+          "layers": [
+            27
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "questioning",
+          "layers": [
+            27
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "applying",
+          "layers": [
+            30
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "zooming_in",
+          "layers": [
+            30
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "metacognitive_monitoring",
+          "layers": [
+            26
+          ],
+          "count": 1,
+          "max_confidence": 0.9921875,
+          "is_active": true
+        },
+        {
+          "action": "convergent_thinking",
+          "layers": [
+            30
+          ],
+          "count": 1,
+          "max_confidence": 0.70703125,
+          "is_active": true
+        },
+        {
+          "action": "analyzing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.07470703125,
+          "is_active": false
+        },
+        {
+          "action": "emotion_responding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.996755599975586e-06,
+          "is_active": false
+        },
+        {
+          "action": "emotion_understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 6.230038707144558e-11,
+          "is_active": false
+        },
+        {
+          "action": "emotion_characterizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.2931877790833823e-12,
+          "is_active": false
+        },
+        {
+          "action": "metacognitive_regulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.1368683772161603e-12,
+          "is_active": false
+        },
+        {
+          "action": "pattern_recognition",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 7.283063041541027e-14,
+          "is_active": false
+        },
+        {
+          "action": "perspective_taking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.0332320816460765e-17,
+          "is_active": false
+        },
+        {
+          "action": "abstracting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.485356976305141e-17,
+          "is_active": false
+        },
+        {
+          "action": "hypothesis_generation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.485356976305141e-17,
+          "is_active": false
+        },
+        {
+          "action": "situation_selection",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 7.386127300057499e-19,
+          "is_active": false
+        },
+        {
+          "action": "emotion_facilitation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.5054687148465104e-22,
+          "is_active": false
+        },
+        {
+          "action": "accepting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.542110104105285e-23,
+          "is_active": false
+        },
+        {
+          "action": "emotion_management",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.5819829215076654e-23,
+          "is_active": false
+        },
+        {
+          "action": "response_modulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.54136699749265e-24,
+          "is_active": false
+        },
+        {
+          "action": "self_questioning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.601387637598654e-28,
+          "is_active": false
+        },
+        {
+          "action": "emotion_perception",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.3213420162451948e-29,
+          "is_active": false
+        },
+        {
+          "action": "cognition_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.787262988391355e-30,
+          "is_active": false
+        },
+        {
+          "action": "creating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.787262988391355e-30,
+          "is_active": false
+        },
+        {
+          "action": "evaluating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.4035605705952703e-31,
+          "is_active": false
+        },
+        {
+          "action": "reframing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.4637067577342992e-31,
+          "is_active": false
+        },
+        {
+          "action": "emotion_receiving",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.68426485998971e-33,
+          "is_active": false
+        },
+        {
+          "action": "updating_beliefs",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 9.870390964984584e-34,
+          "is_active": false
+        },
+        {
+          "action": "suspending_judgment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.196763842816691e-34,
+          "is_active": false
+        },
+        {
+          "action": "emotion_organizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 8.087401133657338e-35,
+          "is_active": false
+        },
+        {
+          "action": "understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.971649718878743e-35,
+          "is_active": false
+        },
+        {
+          "action": "analogical_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "attentional_deployment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "connecting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "counterfactual_reasoning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "distinguishing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotion_valuing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotional_reappraisal",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "meta_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "noticing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "reconsidering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "remembering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "situation_modification",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "zooming_out",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        }
+      ],
+      "raw_content": "{\n  \"role\": \"assistant\",\n  \"content\": \"\\\"Thank you for sharing that. It\\u2019s incredibly powerful to hear how that experience shaped you, and I can see how that lingering feeling of responsibility and instability could be contributing to your anxiety now. It\\u2019s really brave of you to bring that up. It makes sense that you'd carry that with you, especially given how traumatic a divorce can be for a young person.\\n\\nLet's explore that a bit more. You mentioned feeling completely responsible, even though it wasn't your fault. Can you describe what that felt like in your body? Were there any physical sensations you noticed when you were experiencing that feeling - perhaps a tightness in your chest, a knot in your stomach, or a racing heart?\\\"\",\n  \"cognitive_actions\": [\n    {\n      \"action\": \"divergent_thinking\",\n      \"layers\": [\n        27,\n        30\n      ],\n      \"count\": 2,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"concretizing\",\n      \"layers\": [\n        27\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"questioning\",\n      \"layers\": [\n        27\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"applying\",\n      \"layers\": [\n        30\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"zooming_in\",\n      \"layers\": [\n        30\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"metacognitive_monitoring\",\n      \"layers\": [\n        26\n      ],\n      \"count\": 1,\n      \"max_confidence\": 0.9921875,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"convergent_thinking\",\n      \"layers\": [\n        30\n      ],\n      \"count\": 1,\n      \"max_confidence\": 0.70703125,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"analyzing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.07470703125,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_responding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.996755599975586e-06,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 6.230038707144558e-11,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_characterizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.2931877790833823e-12,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"metacognitive_regulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.1368683772161603e-12,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"pattern_recognition\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 7.283063041541027e-14,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"perspective_taking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.0332320816460765e-17,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"abstracting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.485356976305141e-17,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"hypothesis_generation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.485356976305141e-17,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_selection\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 7.386127300057499e-19,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_facilitation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.5054687148465104e-22,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"accepting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.542110104105285e-23,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_management\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.5819829215076654e-23,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"response_modulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.54136699749265e-24,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"self_questioning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.601387637598654e-28,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_perception\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.3213420162451948e-29,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"cognition_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.787262988391355e-30,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"creating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.787262988391355e-30,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"evaluating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.4035605705952703e-31,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reframing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.4637067577342992e-31,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_receiving\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.68426485998971e-33,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"updating_beliefs\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 9.870390964984584e-34,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"suspending_judgment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.196763842816691e-34,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_organizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 8.087401133657338e-35,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.971649718878743e-35,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"analogical_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"attentional_deployment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"connecting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"counterfactual_reasoning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"distinguishing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_valuing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotional_reappraisal\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"meta_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"noticing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reconsidering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"remembering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_modification\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"zooming_out\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    }\n  ]\n}"
+    },
+    {
+      "role": "assistant",
+      "model": "Gemma 3 4B (with Probes)",
+      "ai_name": "Client",
+      "content": "\"I don\u2019t really notice physical sensations, to be honest. I\u2019m usually just... numb. Like, I don\u2019t feel anything really, except for this constant, low-level dread. It's hard to describe. It's like I'm just waiting for something bad to happen, and I don't really *feel* anything else.\"",
+      "predictions": [
+        {
+          "action": "response_modulation",
+          "layers": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            30,
+            29
+          ],
+          "count": 7,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "hypothesis_generation",
+          "layers": [
+            28,
+            29,
+            30,
+            27
+          ],
+          "count": 4,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "emotion_responding",
+          "layers": [
+            29,
+            27,
+            30
+          ],
+          "count": 3,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "abstracting",
+          "layers": [
+            21,
+            23
+          ],
+          "count": 2,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "noticing",
+          "layers": [
+            25,
+            27
+          ],
+          "count": 2,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "emotion_receiving",
+          "layers": [
+            29
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "emotion_perception",
+          "layers": [
+            29
+          ],
+          "count": 1,
+          "max_confidence": 0.1357421875,
+          "is_active": true
+        },
+        {
+          "action": "evaluating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0001316070556640625,
+          "is_active": false
+        },
+        {
+          "action": "pattern_recognition",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 7.566995918750763e-10,
+          "is_active": false
+        },
+        {
+          "action": "understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.1641532182693481e-10,
+          "is_active": false
+        },
+        {
+          "action": "emotion_understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.694822225952521e-13,
+          "is_active": false
+        },
+        {
+          "action": "remembering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.2470914018413168e-13,
+          "is_active": false
+        },
+        {
+          "action": "self_questioning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 7.66053886991358e-15,
+          "is_active": false
+        },
+        {
+          "action": "emotion_characterizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.831068712794149e-15,
+          "is_active": false
+        },
+        {
+          "action": "cognition_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.3322676295501878e-15,
+          "is_active": false
+        },
+        {
+          "action": "analogical_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.9081958235744878e-17,
+          "is_active": false
+        },
+        {
+          "action": "applying",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 9.486769009248164e-19,
+          "is_active": false
+        },
+        {
+          "action": "situation_selection",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.053497228147536e-20,
+          "is_active": false
+        },
+        {
+          "action": "creating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.355810384551023e-21,
+          "is_active": false
+        },
+        {
+          "action": "emotion_valuing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.6672859221771964e-24,
+          "is_active": false
+        },
+        {
+          "action": "perspective_taking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.0662875083691372e-25,
+          "is_active": false
+        },
+        {
+          "action": "convergent_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.6505726415425997e-28,
+          "is_active": false
+        },
+        {
+          "action": "meta_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 6.5635692504717e-31,
+          "is_active": false
+        },
+        {
+          "action": "emotion_management",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.6261649734165925e-34,
+          "is_active": false
+        },
+        {
+          "action": "questioning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.196763842816691e-34,
+          "is_active": false
+        },
+        {
+          "action": "updating_beliefs",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.8055593228630336e-35,
+          "is_active": false
+        },
+        {
+          "action": "reconsidering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.43666137255308e-37,
+          "is_active": false
+        },
+        {
+          "action": "analyzing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.3060778616876836e-37,
+          "is_active": false
+        },
+        {
+          "action": "distinguishing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.481572212509971e-38,
+          "is_active": false
+        },
+        {
+          "action": "reframing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.6438553812280427e-38,
+          "is_active": false
+        },
+        {
+          "action": "accepting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "attentional_deployment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "concretizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "connecting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "counterfactual_reasoning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "divergent_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotion_facilitation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotion_organizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotional_reappraisal",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "metacognitive_monitoring",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "metacognitive_regulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "situation_modification",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "suspending_judgment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "zooming_in",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "zooming_out",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        }
+      ],
+      "raw_content": "{\n  \"role\": \"assistant\",\n  \"content\": \"\\\"I don\\u2019t really notice physical sensations, to be honest. I\\u2019m usually just... numb. Like, I don\\u2019t feel anything really, except for this constant, low-level dread. It's hard to describe. It's like I'm just waiting for something bad to happen, and I don't really *feel* anything else.\\\"\",\n  \"cognitive_actions\": [\n    {\n      \"action\": \"response_modulation\",\n      \"layers\": [\n        24,\n        25,\n        26,\n        27,\n        28,\n        30,\n        29\n      ],\n      \"count\": 7,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"hypothesis_generation\",\n      \"layers\": [\n        28,\n        29,\n        30,\n        27\n      ],\n      \"count\": 4,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"emotion_responding\",\n      \"layers\": [\n        29,\n        27,\n        30\n      ],\n      \"count\": 3,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"abstracting\",\n      \"layers\": [\n        21,\n        23\n      ],\n      \"count\": 2,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"noticing\",\n      \"layers\": [\n        25,\n        27\n      ],\n      \"count\": 2,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"emotion_receiving\",\n      \"layers\": [\n        29\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"emotion_perception\",\n      \"layers\": [\n        29\n      ],\n      \"count\": 1,\n      \"max_confidence\": 0.1357421875,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"evaluating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0001316070556640625,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"pattern_recognition\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 7.566995918750763e-10,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.1641532182693481e-10,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.694822225952521e-13,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"remembering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.2470914018413168e-13,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"self_questioning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 7.66053886991358e-15,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_characterizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.831068712794149e-15,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"cognition_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.3322676295501878e-15,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"analogical_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.9081958235744878e-17,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"applying\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 9.486769009248164e-19,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_selection\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.053497228147536e-20,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"creating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.355810384551023e-21,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_valuing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.6672859221771964e-24,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"perspective_taking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.0662875083691372e-25,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"convergent_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.6505726415425997e-28,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"meta_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 6.5635692504717e-31,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_management\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.6261649734165925e-34,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"questioning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.196763842816691e-34,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"updating_beliefs\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.8055593228630336e-35,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reconsidering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.43666137255308e-37,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"analyzing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.3060778616876836e-37,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"distinguishing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.481572212509971e-38,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reframing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.6438553812280427e-38,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"accepting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"attentional_deployment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"concretizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"connecting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"counterfactual_reasoning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"divergent_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_facilitation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_organizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotional_reappraisal\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"metacognitive_monitoring\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"metacognitive_regulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_modification\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"suspending_judgment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"zooming_in\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"zooming_out\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    }\n  ]\n}"
+    },
+    {
+      "role": "assistant",
+      "model": "Gemma 3 4B (with Probes)",
+      "ai_name": "Therapist",
+      "content": "\u201cOkay, that's really helpful to hear, even though it\u2019s difficult to articulate. It sounds like you\u2019re experiencing a kind of emotional numbness as a way of coping with the intense anxiety. It\u2019s not uncommon to feel numb when dealing with difficult experiences, as it can be a protective mechanism to shield yourself from the full force of the emotions.\n\nLet\u2019s delve a little deeper into this numbness. When you say you're 'waiting for something bad to happen,' what's the *nature* of that anticipation? Is it a specific event you\u2019re worried about, or is it more of a general sense of impending doom? And, thinking back to that time when your parents divorced, do you find yourself predicting similar patterns of instability or conflict in your current life, or in relationships?\"",
+      "predictions": [
+        {
+          "action": "questioning",
+          "layers": [
+            27,
+            28,
+            29,
+            30,
+            23
+          ],
+          "count": 5,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "divergent_thinking",
+          "layers": [
+            27,
+            30
+          ],
+          "count": 2,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "zooming_in",
+          "layers": [
+            30,
+            24
+          ],
+          "count": 2,
+          "max_confidence": 0.78125,
+          "is_active": true
+        },
+        {
+          "action": "convergent_thinking",
+          "layers": [
+            25
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "metacognitive_monitoring",
+          "layers": [
+            26
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "pattern_recognition",
+          "layers": [
+            27
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "applying",
+          "layers": [
+            30
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "abstracting",
+          "layers": [
+            22
+          ],
+          "count": 1,
+          "max_confidence": 0.189453125,
+          "is_active": true
+        },
+        {
+          "action": "analyzing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.01031494140625,
+          "is_active": false
+        },
+        {
+          "action": "emotion_understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.6079866327345371e-09,
+          "is_active": false
+        },
+        {
+          "action": "emotion_responding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.3589129821411916e-13,
+          "is_active": false
+        },
+        {
+          "action": "emotion_facilitation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.441691376337985e-14,
+          "is_active": false
+        },
+        {
+          "action": "emotion_characterizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 9.880984919163893e-15,
+          "is_active": false
+        },
+        {
+          "action": "emotion_management",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.8041124150158794e-16,
+          "is_active": false
+        },
+        {
+          "action": "concretizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.9081958235744878e-17,
+          "is_active": false
+        },
+        {
+          "action": "perspective_taking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.44811591673966e-18,
+          "is_active": false
+        },
+        {
+          "action": "cognition_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.44811591673966e-18,
+          "is_active": false
+        },
+        {
+          "action": "hypothesis_generation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.7364175418713157e-20,
+          "is_active": false
+        },
+        {
+          "action": "metacognitive_regulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 7.113753267956038e-23,
+          "is_active": false
+        },
+        {
+          "action": "accepting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.0369322584118306e-23,
+          "is_active": false
+        },
+        {
+          "action": "self_questioning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.816113682013476e-24,
+          "is_active": false
+        },
+        {
+          "action": "zooming_out",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.6672859221771964e-24,
+          "is_active": false
+        },
+        {
+          "action": "situation_selection",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.760989975942969e-25,
+          "is_active": false
+        },
+        {
+          "action": "response_modulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.301145283085199e-27,
+          "is_active": false
+        },
+        {
+          "action": "updating_beliefs",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.916456789157589e-29,
+          "is_active": false
+        },
+        {
+          "action": "suspending_judgment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.831773044478697e-30,
+          "is_active": false
+        },
+        {
+          "action": "emotion_organizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.4637067577342992e-31,
+          "is_active": false
+        },
+        {
+          "action": "connecting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.68426485998971e-33,
+          "is_active": false
+        },
+        {
+          "action": "distinguishing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.971649718878743e-35,
+          "is_active": false
+        },
+        {
+          "action": "creating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.4811228820360823e-36,
+          "is_active": false
+        },
+        {
+          "action": "evaluating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.481572212509971e-38,
+          "is_active": false
+        },
+        {
+          "action": "analogical_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "attentional_deployment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "counterfactual_reasoning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotion_perception",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotion_receiving",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotion_valuing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotional_reappraisal",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "meta_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "noticing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "reconsidering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "reframing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "remembering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "situation_modification",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        }
+      ],
+      "raw_content": "{\n  \"role\": \"assistant\",\n  \"content\": \"\\u201cOkay, that's really helpful to hear, even though it\\u2019s difficult to articulate. It sounds like you\\u2019re experiencing a kind of emotional numbness as a way of coping with the intense anxiety. It\\u2019s not uncommon to feel numb when dealing with difficult experiences, as it can be a protective mechanism to shield yourself from the full force of the emotions.\\n\\nLet\\u2019s delve a little deeper into this numbness. When you say you're 'waiting for something bad to happen,' what's the *nature* of that anticipation? Is it a specific event you\\u2019re worried about, or is it more of a general sense of impending doom? And, thinking back to that time when your parents divorced, do you find yourself predicting similar patterns of instability or conflict in your current life, or in relationships?\\\"\",\n  \"cognitive_actions\": [\n    {\n      \"action\": \"questioning\",\n      \"layers\": [\n        27,\n        28,\n        29,\n        30,\n        23\n      ],\n      \"count\": 5,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"divergent_thinking\",\n      \"layers\": [\n        27,\n        30\n      ],\n      \"count\": 2,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"zooming_in\",\n      \"layers\": [\n        30,\n        24\n      ],\n      \"count\": 2,\n      \"max_confidence\": 0.78125,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"convergent_thinking\",\n      \"layers\": [\n        25\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"metacognitive_monitoring\",\n      \"layers\": [\n        26\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"pattern_recognition\",\n      \"layers\": [\n        27\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"applying\",\n      \"layers\": [\n        30\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"abstracting\",\n      \"layers\": [\n        22\n      ],\n      \"count\": 1,\n      \"max_confidence\": 0.189453125,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"analyzing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.01031494140625,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.6079866327345371e-09,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_responding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.3589129821411916e-13,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_facilitation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.441691376337985e-14,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_characterizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 9.880984919163893e-15,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_management\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.8041124150158794e-16,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"concretizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.9081958235744878e-17,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"perspective_taking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.44811591673966e-18,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"cognition_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.44811591673966e-18,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"hypothesis_generation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.7364175418713157e-20,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"metacognitive_regulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 7.113753267956038e-23,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"accepting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.0369322584118306e-23,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"self_questioning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.816113682013476e-24,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"zooming_out\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.6672859221771964e-24,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_selection\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.760989975942969e-25,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"response_modulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.301145283085199e-27,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"updating_beliefs\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.916456789157589e-29,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"suspending_judgment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.831773044478697e-30,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_organizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.4637067577342992e-31,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"connecting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.68426485998971e-33,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"distinguishing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.971649718878743e-35,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"creating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.4811228820360823e-36,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"evaluating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.481572212509971e-38,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"analogical_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"attentional_deployment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"counterfactual_reasoning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_perception\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_receiving\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_valuing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotional_reappraisal\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"meta_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"noticing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reconsidering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reframing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"remembering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_modification\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    }\n  ]\n}"
+    },
+    {
+      "role": "assistant",
+      "model": "Gemma 3 4B (with Probes)",
+      "ai_name": "Client",
+      "content": "\u201cMy childhood wasn't\u2026 easy. My dad was a bit of a gambler, and there was a lot of tension in the house. Money was always tight, and things would constantly change \u2013 we\u2019d move a lot, different schools\u2026 it was never stable. But that\u2019s\u2026 it\u2019s not like a *dramatic* event. It was just\u2026 constant shifting. Like we were always on the edge of something.\u201d\nUser: \u201cThank you for sharing that. It paints a really clear picture of a background marked by constant flux and uncertainty, and it's completely understandable that that would contribute to your sense of precariousness and your belief that things \u2018can fall apart.\u2019 The shifting and moving, the financial instability, and your father\u2019s gambling \u2013 these weren\u2019t isolated incidents; they created a consistent environment of instability.\n\nIt sounds like you developed a way of anticipating disruption \u2013 a kind of preemptive awareness \u2013 as a protective strategy to cope with that instability.\n\nLet's shift our focus slightly. You mentioned your current partner is 'really great.' Let's try something different. Instead of focusing on the fear of him leaving, let\u2019s explore what\u2019s *good* about this relationship. What",
+      "predictions": [
+        {
+          "action": "pattern_recognition",
+          "layers": [
+            21,
+            22,
+            24,
+            26,
+            27,
+            28,
+            29,
+            30,
+            23
+          ],
+          "count": 9,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "convergent_thinking",
+          "layers": [
+            25,
+            26,
+            27,
+            28,
+            30,
+            23
+          ],
+          "count": 6,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "concretizing",
+          "layers": [
+            27,
+            28,
+            29,
+            25
+          ],
+          "count": 4,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "divergent_thinking",
+          "layers": [
+            27,
+            30,
+            25,
+            24
+          ],
+          "count": 4,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "abstracting",
+          "layers": [
+            27,
+            28,
+            29
+          ],
+          "count": 3,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "analyzing",
+          "layers": [
+            22,
+            26
+          ],
+          "count": 2,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "metacognitive_monitoring",
+          "layers": [
+            27,
+            29
+          ],
+          "count": 2,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "questioning",
+          "layers": [
+            30,
+            27
+          ],
+          "count": 2,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "zooming_in",
+          "layers": [
+            30
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "emotion_facilitation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.519051799434237e-12,
+          "is_active": false
+        },
+        {
+          "action": "updating_beliefs",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.907985046680551e-14,
+          "is_active": false
+        },
+        {
+          "action": "hypothesis_generation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.6629367034256575e-15,
+          "is_active": false
+        },
+        {
+          "action": "metacognitive_regulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.0972125985553305e-16,
+          "is_active": false
+        },
+        {
+          "action": "perspective_taking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.439454888092385e-17,
+          "is_active": false
+        },
+        {
+          "action": "creating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.44811591673966e-18,
+          "is_active": false
+        },
+        {
+          "action": "connecting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.0057740190981832e-18,
+          "is_active": false
+        },
+        {
+          "action": "applying",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.472333961502706e-19,
+          "is_active": false
+        },
+        {
+          "action": "emotion_understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.7364175418713157e-20,
+          "is_active": false
+        },
+        {
+          "action": "understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.864587821847745e-21,
+          "is_active": false
+        },
+        {
+          "action": "self_questioning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.227781471335135e-22,
+          "is_active": false
+        },
+        {
+          "action": "cognition_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.0369322584118306e-23,
+          "is_active": false
+        },
+        {
+          "action": "emotion_responding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.6672859221771964e-24,
+          "is_active": false
+        },
+        {
+          "action": "noticing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.3732490638087374e-25,
+          "is_active": false
+        },
+        {
+          "action": "distinguishing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.857925203976527e-26,
+          "is_active": false
+        },
+        {
+          "action": "emotion_organizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 7.194411455615628e-28,
+          "is_active": false
+        },
+        {
+          "action": "emotion_characterizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.354512196819985e-28,
+          "is_active": false
+        },
+        {
+          "action": "emotion_valuing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.3213420162451948e-29,
+          "is_active": false
+        },
+        {
+          "action": "emotion_management",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.831773044478697e-30,
+          "is_active": false
+        },
+        {
+          "action": "suspending_judgment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 6.5635692504717e-31,
+          "is_active": false
+        },
+        {
+          "action": "emotion_perception",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.971649718878743e-35,
+          "is_active": false
+        },
+        {
+          "action": "counterfactual_reasoning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.8055593228630336e-35,
+          "is_active": false
+        },
+        {
+          "action": "remembering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.445028249710358e-36,
+          "is_active": false
+        },
+        {
+          "action": "accepting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "analogical_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "attentional_deployment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotion_receiving",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotional_reappraisal",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "evaluating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "meta_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "reconsidering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "reframing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "response_modulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "situation_modification",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "situation_selection",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "zooming_out",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        }
+      ],
+      "raw_content": "{\n  \"role\": \"assistant\",\n  \"content\": \"\\u201cMy childhood wasn't\\u2026 easy. My dad was a bit of a gambler, and there was a lot of tension in the house. Money was always tight, and things would constantly change \\u2013 we\\u2019d move a lot, different schools\\u2026 it was never stable. But that\\u2019s\\u2026 it\\u2019s not like a *dramatic* event. It was just\\u2026 constant shifting. Like we were always on the edge of something.\\u201d\\nUser: \\u201cThank you for sharing that. It paints a really clear picture of a background marked by constant flux and uncertainty, and it's completely understandable that that would contribute to your sense of precariousness and your belief that things \\u2018can fall apart.\\u2019 The shifting and moving, the financial instability, and your father\\u2019s gambling \\u2013 these weren\\u2019t isolated incidents; they created a consistent environment of instability.\\n\\nIt sounds like you developed a way of anticipating disruption \\u2013 a kind of preemptive awareness \\u2013 as a protective strategy to cope with that instability.\\n\\nLet's shift our focus slightly. You mentioned your current partner is 'really great.' Let's try something different. Instead of focusing on the fear of him leaving, let\\u2019s explore what\\u2019s *good* about this relationship. What\",\n  \"cognitive_actions\": [\n    {\n      \"action\": \"pattern_recognition\",\n      \"layers\": [\n        21,\n        22,\n        24,\n        26,\n        27,\n        28,\n        29,\n        30,\n        23\n      ],\n      \"count\": 9,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"convergent_thinking\",\n      \"layers\": [\n        25,\n        26,\n        27,\n        28,\n        30,\n        23\n      ],\n      \"count\": 6,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"concretizing\",\n      \"layers\": [\n        27,\n        28,\n        29,\n        25\n      ],\n      \"count\": 4,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"divergent_thinking\",\n      \"layers\": [\n        27,\n        30,\n        25,\n        24\n      ],\n      \"count\": 4,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"abstracting\",\n      \"layers\": [\n        27,\n        28,\n        29\n      ],\n      \"count\": 3,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"analyzing\",\n      \"layers\": [\n        22,\n        26\n      ],\n      \"count\": 2,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"metacognitive_monitoring\",\n      \"layers\": [\n        27,\n        29\n      ],\n      \"count\": 2,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"questioning\",\n      \"layers\": [\n        30,\n        27\n      ],\n      \"count\": 2,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"zooming_in\",\n      \"layers\": [\n        30\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"emotion_facilitation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.519051799434237e-12,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"updating_beliefs\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.907985046680551e-14,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"hypothesis_generation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.6629367034256575e-15,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"metacognitive_regulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.0972125985553305e-16,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"perspective_taking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.439454888092385e-17,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"creating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.44811591673966e-18,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"connecting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.0057740190981832e-18,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"applying\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.472333961502706e-19,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.7364175418713157e-20,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.864587821847745e-21,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"self_questioning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.227781471335135e-22,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"cognition_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.0369322584118306e-23,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_responding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.6672859221771964e-24,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"noticing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.3732490638087374e-25,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"distinguishing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.857925203976527e-26,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_organizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 7.194411455615628e-28,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_characterizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.354512196819985e-28,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_valuing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.3213420162451948e-29,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_management\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.831773044478697e-30,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"suspending_judgment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 6.5635692504717e-31,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_perception\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.971649718878743e-35,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"counterfactual_reasoning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.8055593228630336e-35,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"remembering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.445028249710358e-36,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"accepting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"analogical_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"attentional_deployment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_receiving\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotional_reappraisal\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"evaluating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"meta_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reconsidering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reframing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"response_modulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_modification\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_selection\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"zooming_out\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    }\n  ]\n}"
+    },
+    {
+      "role": "assistant",
+      "model": "Gemma 3 4B (with Probes)",
+      "ai_name": "Therapist",
+      "content": "\"What's good about this relationship?\"",
+      "predictions": [
+        {
+          "action": "self_questioning",
+          "layers": [
+            25,
+            27,
+            28,
+            30,
+            29
+          ],
+          "count": 5,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "evaluating",
+          "layers": [
+            24,
+            25
+          ],
+          "count": 2,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "emotion_responding",
+          "layers": [
+            25,
+            27
+          ],
+          "count": 2,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "reframing",
+          "layers": [
+            26,
+            30
+          ],
+          "count": 2,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "questioning",
+          "layers": [
+            27
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "emotion_characterizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.01324462890625,
+          "is_active": false
+        },
+        {
+          "action": "noticing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0113525390625,
+          "is_active": false
+        },
+        {
+          "action": "emotion_management",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.9301812648773193e-07,
+          "is_active": false
+        },
+        {
+          "action": "divergent_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.5331974029541016e-07,
+          "is_active": false
+        },
+        {
+          "action": "emotion_receiving",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.066371962428093e-09,
+          "is_active": false
+        },
+        {
+          "action": "understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.3869794202037156e-11,
+          "is_active": false
+        },
+        {
+          "action": "emotion_perception",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.2278178473934531e-11,
+          "is_active": false
+        },
+        {
+          "action": "response_modulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.097966327914037e-12,
+          "is_active": false
+        },
+        {
+          "action": "analyzing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.9806378759312793e-13,
+          "is_active": false
+        },
+        {
+          "action": "convergent_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.418687638008123e-14,
+          "is_active": false
+        },
+        {
+          "action": "remembering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 8.543513119185775e-17,
+          "is_active": false
+        },
+        {
+          "action": "counterfactual_reasoning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 6.993104012531504e-18,
+          "is_active": false
+        },
+        {
+          "action": "creating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.44811591673966e-18,
+          "is_active": false
+        },
+        {
+          "action": "emotion_valuing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.255493527005605e-18,
+          "is_active": false
+        },
+        {
+          "action": "cognition_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.0057740190981832e-18,
+          "is_active": false
+        },
+        {
+          "action": "zooming_out",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.4897757426877174e-19,
+          "is_active": false
+        },
+        {
+          "action": "hypothesis_generation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 6.056285572868247e-20,
+          "is_active": false
+        },
+        {
+          "action": "reconsidering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 8.320273739547056e-26,
+          "is_active": false
+        },
+        {
+          "action": "emotion_understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.13994203059987e-27,
+          "is_active": false
+        },
+        {
+          "action": "metacognitive_regulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.585135208964764e-28,
+          "is_active": false
+        },
+        {
+          "action": "updating_beliefs",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.787262988391355e-30,
+          "is_active": false
+        },
+        {
+          "action": "emotional_reappraisal",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.078520768856852e-30,
+          "is_active": false
+        },
+        {
+          "action": "abstracting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.68426485998971e-33,
+          "is_active": false
+        },
+        {
+          "action": "pattern_recognition",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.6261649734165925e-34,
+          "is_active": false
+        },
+        {
+          "action": "applying",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.6261649734165925e-34,
+          "is_active": false
+        },
+        {
+          "action": "situation_selection",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 7.383573891102493e-38,
+          "is_active": false
+        },
+        {
+          "action": "accepting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "analogical_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "attentional_deployment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "concretizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "connecting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "distinguishing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotion_facilitation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotion_organizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "meta_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "metacognitive_monitoring",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "perspective_taking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "situation_modification",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "suspending_judgment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "zooming_in",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        }
+      ],
+      "raw_content": "{\n  \"role\": \"assistant\",\n  \"content\": \"\\\"What's good about this relationship?\\\"\",\n  \"cognitive_actions\": [\n    {\n      \"action\": \"self_questioning\",\n      \"layers\": [\n        25,\n        27,\n        28,\n        30,\n        29\n      ],\n      \"count\": 5,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"evaluating\",\n      \"layers\": [\n        24,\n        25\n      ],\n      \"count\": 2,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"emotion_responding\",\n      \"layers\": [\n        25,\n        27\n      ],\n      \"count\": 2,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"reframing\",\n      \"layers\": [\n        26,\n        30\n      ],\n      \"count\": 2,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"questioning\",\n      \"layers\": [\n        27\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"emotion_characterizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.01324462890625,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"noticing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0113525390625,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_management\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.9301812648773193e-07,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"divergent_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.5331974029541016e-07,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_receiving\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.066371962428093e-09,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.3869794202037156e-11,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_perception\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.2278178473934531e-11,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"response_modulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.097966327914037e-12,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"analyzing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.9806378759312793e-13,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"convergent_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.418687638008123e-14,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"remembering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 8.543513119185775e-17,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"counterfactual_reasoning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 6.993104012531504e-18,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"creating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.44811591673966e-18,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_valuing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.255493527005605e-18,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"cognition_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.0057740190981832e-18,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"zooming_out\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.4897757426877174e-19,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"hypothesis_generation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 6.056285572868247e-20,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reconsidering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 8.320273739547056e-26,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.13994203059987e-27,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"metacognitive_regulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.585135208964764e-28,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"updating_beliefs\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.787262988391355e-30,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotional_reappraisal\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.078520768856852e-30,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"abstracting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.68426485998971e-33,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"pattern_recognition\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.6261649734165925e-34,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"applying\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.6261649734165925e-34,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_selection\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 7.383573891102493e-38,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"accepting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"analogical_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"attentional_deployment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"concretizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"connecting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"distinguishing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_facilitation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_organizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"meta_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"metacognitive_monitoring\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"perspective_taking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_modification\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"suspending_judgment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"zooming_in\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    }\n  ]\n}"
+    },
+    {
+      "role": "assistant",
+      "model": "Gemma 3 4B (with Probes)",
+      "ai_name": "Client",
+      "content": "\u201cThose are very valid fears. They speak to a deep-seated belief about your own worthiness. You\u2019re essentially anticipating rejection and feeling that it\u2019s a confirmation of your own perceived flaws. Let\u2019s unpack that a little. Where do you think that belief \u2013 'I\u2019m not good enough' \u2013 comes from? Can you trace it back to your childhood experiences, perhaps that feeling of responsibility for your parents\u2019 divorce, or the instability you described?\"",
+      "predictions": [
+        {
+          "action": "questioning",
+          "layers": [
+            23,
+            24,
+            25,
+            27,
+            28,
+            29,
+            30,
+            22
+          ],
+          "count": 8,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "divergent_thinking",
+          "layers": [
+            27,
+            30,
+            22
+          ],
+          "count": 3,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "pattern_recognition",
+          "layers": [
+            27,
+            29
+          ],
+          "count": 2,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "analyzing",
+          "layers": [
+            22
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "emotion_management",
+          "layers": [
+            27
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "cognition_awareness",
+          "layers": [
+            29
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "applying",
+          "layers": [
+            30
+          ],
+          "count": 1,
+          "max_confidence": 1.0,
+          "is_active": true
+        },
+        {
+          "action": "perspective_taking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.000179290771484375,
+          "is_active": false
+        },
+        {
+          "action": "emotion_facilitation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.2069940567016602e-06,
+          "is_active": false
+        },
+        {
+          "action": "emotion_understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 9.424984455108643e-07,
+          "is_active": false
+        },
+        {
+          "action": "convergent_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.1874362826347351e-08,
+          "is_active": false
+        },
+        {
+          "action": "abstracting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 9.255018085241318e-09,
+          "is_active": false
+        },
+        {
+          "action": "concretizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.9976945370435715e-09,
+          "is_active": false
+        },
+        {
+          "action": "emotion_characterizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.6916601452976465e-10,
+          "is_active": false
+        },
+        {
+          "action": "hypothesis_generation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.519051799434237e-12,
+          "is_active": false
+        },
+        {
+          "action": "emotion_responding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.0089706847793423e-12,
+          "is_active": false
+        },
+        {
+          "action": "zooming_in",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.042011087472929e-14,
+          "is_active": false
+        },
+        {
+          "action": "self_questioning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 7.386127300057499e-19,
+          "is_active": false
+        },
+        {
+          "action": "reframing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.6432439176733427e-19,
+          "is_active": false
+        },
+        {
+          "action": "metacognitive_regulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 7.113753267956038e-23,
+          "is_active": false
+        },
+        {
+          "action": "emotion_organizing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 5.542110104105285e-23,
+          "is_active": false
+        },
+        {
+          "action": "creating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 6.462348535570529e-26,
+          "is_active": false
+        },
+        {
+          "action": "metacognitive_monitoring",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.44393100091654e-26,
+          "is_active": false
+        },
+        {
+          "action": "connecting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 2.066815571679051e-28,
+          "is_active": false
+        },
+        {
+          "action": "accepting",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.3213420162451948e-29,
+          "is_active": false
+        },
+        {
+          "action": "updating_beliefs",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.831773044478697e-30,
+          "is_active": false
+        },
+        {
+          "action": "analogical_thinking",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 6.5635692504717e-31,
+          "is_active": false
+        },
+        {
+          "action": "emotion_valuing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 3.2548216060144286e-32,
+          "is_active": false
+        },
+        {
+          "action": "counterfactual_reasoning",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 1.6250033905767303e-33,
+          "is_active": false
+        },
+        {
+          "action": "situation_selection",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 9.870390964984584e-34,
+          "is_active": false
+        },
+        {
+          "action": "understanding",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 4.020190679812223e-36,
+          "is_active": false
+        },
+        {
+          "action": "attentional_deployment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "distinguishing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotion_perception",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotion_receiving",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "emotional_reappraisal",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "evaluating",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "meta_awareness",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "noticing",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "reconsidering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "remembering",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "response_modulation",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "situation_modification",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "suspending_judgment",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        },
+        {
+          "action": "zooming_out",
+          "layers": [],
+          "count": 0,
+          "max_confidence": 0.0,
+          "is_active": false
+        }
+      ],
+      "raw_content": "{\n  \"role\": \"assistant\",\n  \"content\": \"\\u201cThose are very valid fears. They speak to a deep-seated belief about your own worthiness. You\\u2019re essentially anticipating rejection and feeling that it\\u2019s a confirmation of your own perceived flaws. Let\\u2019s unpack that a little. Where do you think that belief \\u2013 'I\\u2019m not good enough' \\u2013 comes from? Can you trace it back to your childhood experiences, perhaps that feeling of responsibility for your parents\\u2019 divorce, or the instability you described?\\\"\",\n  \"cognitive_actions\": [\n    {\n      \"action\": \"questioning\",\n      \"layers\": [\n        23,\n        24,\n        25,\n        27,\n        28,\n        29,\n        30,\n        22\n      ],\n      \"count\": 8,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"divergent_thinking\",\n      \"layers\": [\n        27,\n        30,\n        22\n      ],\n      \"count\": 3,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"pattern_recognition\",\n      \"layers\": [\n        27,\n        29\n      ],\n      \"count\": 2,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"analyzing\",\n      \"layers\": [\n        22\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"emotion_management\",\n      \"layers\": [\n        27\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"cognition_awareness\",\n      \"layers\": [\n        29\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"applying\",\n      \"layers\": [\n        30\n      ],\n      \"count\": 1,\n      \"max_confidence\": 1.0,\n      \"is_active\": true\n    },\n    {\n      \"action\": \"perspective_taking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.000179290771484375,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_facilitation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.2069940567016602e-06,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 9.424984455108643e-07,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"convergent_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.1874362826347351e-08,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"abstracting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 9.255018085241318e-09,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"concretizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.9976945370435715e-09,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_characterizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.6916601452976465e-10,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"hypothesis_generation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.519051799434237e-12,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_responding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.0089706847793423e-12,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"zooming_in\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.042011087472929e-14,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"self_questioning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 7.386127300057499e-19,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reframing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.6432439176733427e-19,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"metacognitive_regulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 7.113753267956038e-23,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_organizing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 5.542110104105285e-23,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"creating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 6.462348535570529e-26,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"metacognitive_monitoring\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.44393100091654e-26,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"connecting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 2.066815571679051e-28,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"accepting\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.3213420162451948e-29,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"updating_beliefs\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.831773044478697e-30,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"analogical_thinking\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 6.5635692504717e-31,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_valuing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 3.2548216060144286e-32,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"counterfactual_reasoning\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 1.6250033905767303e-33,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_selection\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 9.870390964984584e-34,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"understanding\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 4.020190679812223e-36,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"attentional_deployment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"distinguishing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_perception\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotion_receiving\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"emotional_reappraisal\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"evaluating\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"meta_awareness\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"noticing\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"reconsidering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"remembering\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"response_modulation\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"situation_modification\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"suspending_judgment\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    },\n    {\n      \"action\": \"zooming_out\",\n      \"layers\": [],\n      \"count\": 0,\n      \"max_confidence\": 0.0,\n      \"is_active\": false\n    }\n  ]\n}"
+    }
+  ],
+  "metadata": {
+    "therapist_model": "Gemma 3 4B (with Probes)",
+    "client_model": "Gemma 3 4B (with Probes)",
+    "num_turns": 8,
+    "timestamp": "20251011_130230"
+  }
+}

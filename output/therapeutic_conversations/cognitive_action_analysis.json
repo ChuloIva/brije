@@ -1,0 +1,59 @@
+{
+  "therapist_actions": {
+    "divergent_thinking": 35,
+    "concretizing": 24,
+    "questioning": 20,
+    "applying": 14,
+    "situation_selection": 12,
+    "convergent_thinking": 11,
+    "response_modulation": 11,
+    "emotion_perception": 9,
+    "reframing": 8,
+    "zooming_in": 7,
+    "metacognitive_monitoring": 7,
+    "analyzing": 7,
+    "abstracting": 6,
+    "emotion_responding": 6,
+    "self_questioning": 6,
+    "pattern_recognition": 6,
+    "counterfactual_reasoning": 4,
+    "updating_beliefs": 4,
+    "emotion_management": 4,
+    "evaluating": 4
+  },
+  "client_actions": {
+    "divergent_thinking": 46,
+    "concretizing": 32,
+    "pattern_recognition": 18,
+    "abstracting": 17,
+    "response_modulation": 15,
+    "questioning": 12,
+    "metacognitive_monitoring": 12,
+    "emotion_valuing": 12,
+    "emotion_facilitation": 11,
+    "convergent_thinking": 8,
+    "hypothesis_generation": 8,
+    "zooming_in": 7,
+    "emotion_management": 6,
+    "emotion_perception": 6,
+    "analyzing": 5,
+    "emotion_responding": 4,
+    "applying": 4,
+    "creating": 3,
+    "emotion_characterizing": 2,
+    "situation_selection": 2
+  },
+  "therapist_only": [
+    "understanding",
+    "perspective_taking",
+    "emotion_understanding",
+    "updating_beliefs",
+    "analogical_thinking",
+    "self_questioning"
+  ],
+  "client_only": [
+    "noticing",
+    "hypothesis_generation",
+    "attentional_deployment"
+  ]
+}

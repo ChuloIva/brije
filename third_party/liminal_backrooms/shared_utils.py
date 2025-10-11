@@ -384,12 +384,38 @@ def call_gemma_api(prompt, conversation_history, model, system_prompt):
         predictions = gemma.get_predictions_dict()
 
         print(f"\nCognitive Actions Detected:")
-        for pred in predictions[:3]:  # Show top 3
-            # Binary mode has 'layer' and 'auc', multiclass mode has 'category'
-            if 'category' in pred:
-                print(f"  - {pred['action']:30s} {pred['confidence']:5.1%} [{pred['category']}]")
-            else:
-                print(f"  - {pred['action']:30s} {pred['confidence']:5.1%} [Layer {pred.get('layer', '?')}]")
+
+        # Check mode to determine display format
+        from config import PROBE_MODE
+
+        if PROBE_MODE == "universal":
+            # Universal mode: display grouped by action with layers
+            print("Predictions grouped by action:")
+            for i, pred in enumerate(predictions[:10], 1):  # Show top 10
+                marker = "✓" if pred['is_active'] else " "
+                action = pred['action']
+                layers = pred['layers']
+                count = pred['count']
+                max_conf = pred['max_confidence']
+
+                # Format layers display
+                if len(layers) <= 10:
+                    layers_str = ', '.join([str(l) for l in sorted(layers)])
+                else:
+                    layers_str = ', '.join([str(l) for l in sorted(layers)[:10]]) + '...'
+
+                # Pad layers display to consistent width
+                layers_display = f"(Layers {layers_str:20s})"
+
+                print(f"  {marker} {i}. {action:35s} {layers_display}  Count: {count:2d}  Max: {max_conf:.4f}")
+        else:
+            # Binary or multiclass mode: original display
+            for pred in predictions[:3]:  # Show top 3
+                # Binary mode has 'layer' and 'auc', multiclass mode has 'category'
+                if 'category' in pred:
+                    print(f"  - {pred['action']:30s} {pred['confidence']:5.1%} [{pred['category']}]")
+                else:
+                    print(f"  - {pred['action']:30s} {pred['confidence']:5.1%} [Layer {pred.get('layer', '?')}]")
 
         # Return in the format expected by main.py
         return {
