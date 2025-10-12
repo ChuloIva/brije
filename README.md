@@ -1,4 +1,4 @@
-# Brije: Watching Minds Think (Condensed)
+# Brije: Watching Minds Think
 
 This repository provides a toolkit to detect 45 cognitive actions in real-time as a language model (Gemma 3 4B) generates text. Think of it as an fMRI for an AI's thought process.
 
@@ -17,13 +17,32 @@ This repository provides a toolkit to detect 45 cognitive actions in real-time a
 
 ## Getting Started
 
+### Skip Training: Use Pre-Trained Probes
+**All 45 cognitive action probes are already trained and ready to use!** You can immediately run inference on any text without training:
+
+```bash
+# Test the universal inference engine on example texts
+python src/probes/test_universal_inference.py
+
+# Or run inference on your own text
+python src/probes/universal_multi_layer_inference.py \
+    --text "I'm reconsidering my approach after analyzing the situation."
+```
+
+The test script demonstrates three different output modes:
+- **Mode 1**: Top predictions across all layers (flat ranked list)
+- **Mode 2**: Predictions grouped by action (shows which layers activate for each cognitive process)
+- **Mode 3**: Predictions grouped by layer (shows which processes activate at each layer)
+
+See [`src/probes/test_universal_inference.py`](src/probes/test_universal_inference.py) for examples.
+
 ### The Easy Way: Google Colab
 1. Open [`Brije_Full_Pipeline_Colab.ipynb`](./Brije_Full_Pipeline_Colab.ipynb).
 2. Set runtime to GPU.
 3. Run all cells. This takes ~3-4 hours to train all 45 probes.
 4. Download your trained probes from the Colab environment.
 
-### The Local Way (16GB+ VRAM GPU Recommended)
+### The Local Way: Train Your Own Probes (16GB+ VRAM GPU Recommended)
 ```bash
 # 1. Install dependencies
 pip install torch transformers nnsight h5py scikit-learn tqdm
