@@ -1,0 +1,365 @@
+{
+  "total_transcripts": 51,
+  "total_utterances": 529,
+  "therapist_utterances": 455,
+  "client_utterances": 74,
+  "transcripts": [
+    {
+      "transcript_id": 1,
+      "title": "Rogers’ Transcripts, Volume 12, Sylvia, 5th Interview, page 39",
+      "total_utterances": 10,
+      "therapist_utterances": 4,
+      "client_utterances": 6
+    },
+    {
+      "transcript_id": 2,
+      "title": "Rogers’ Transcripts, Volume 12, Sylvia, 5th Interview, page 40",
+      "total_utterances": 3,
+      "therapist_utterances": 1,
+      "client_utterances": 2
+    },
+    {
+      "transcript_id": 3,
+      "title": "C Commentary 5: [One thing that has been true with Sylvia in every interview we've had",
+      "total_utterances": 4,
+      "therapist_utterances": 2,
+      "client_utterances": 2
+    },
+    {
+      "transcript_id": 4,
+      "title": "Rogers’ Transcripts, Volume 12, Sylvia, 5th Interview, page 41",
+      "total_utterances": 2,
+      "therapist_utterances": 1,
+      "client_utterances": 1
+    },
+    {
+      "transcript_id": 5,
+      "title": "another session of being all in control of things and and rattling on and on. I probably",
+      "total_utterances": 5,
+      "therapist_utterances": 2,
+      "client_utterances": 3
+    },
+    {
+      "transcript_id": 6,
+      "title": "Rogers’ Transcripts, Volume 12, Sylvia, 5th Interview, page 42",
+      "total_utterances": 8,
+      "therapist_utterances": 4,
+      "client_utterances": 4
+    },
+    {
+      "transcript_id": 7,
+      "title": "holding my hands during the interview, and here she, uh, returns to the pattern of a year",
+      "total_utterances": 6,
+      "therapist_utterances": 2,
+      "client_utterances": 4
+    },
+    {
+      "transcript_id": 8,
+      "title": "Rogers’ Transcripts, Volume 12, Sylvia, 5th Interview, page 44",
+      "total_utterances": 14,
+      "therapist_utterances": 7,
+      "client_utterances": 7
+    },
+    {
+      "transcript_id": 9,
+      "title": "Rogers’ Transcripts, Volume 12, Sylvia, 5th Interview, page 45",
+      "total_utterances": 13,
+      "therapist_utterances": 6,
+      "client_utterances": 7
+    },
+    {
+      "transcript_id": 10,
+      "title": "Rogers’ Transcripts, Volume 12, Sylvia, 5th Interview, page 46",
+      "total_utterances": 11,
+      "therapist_utterances": 5,
+      "client_utterances": 6
+    },
+    {
+      "transcript_id": 11,
+      "title": "Rogers’ Transcripts, Volume 12, Sylvia, 5th Interview, page 47",
+      "total_utterances": 9,
+      "therapist_utterances": 4,
+      "client_utterances": 5
+    },
+    {
+      "transcript_id": 12,
+      "title": "Rogers’ Transcripts, Volume 12, Sylvia, 5th Interview, page 48",
+      "total_utterances": 9,
+      "therapist_utterances": 4,
+      "client_utterances": 5
+    },
+    {
+      "transcript_id": 13,
+      "title": "Rogers’ Transcripts, Volume 12, Sylvia, 5th Interview, page 49",
+      "total_utterances": 8,
+      "therapist_utterances": 3,
+      "client_utterances": 5
+    },
+    {
+      "transcript_id": 14,
+      "title": "Rogers’ Transcripts, Volume 12, Sylvia, 5th Interview, page 50",
+      "total_utterances": 12,
+      "therapist_utterances": 5,
+      "client_utterances": 7
+    },
+    {
+      "transcript_id": 15,
+      "title": "Carl Rogers’ Interview with Kathy -- 1977",
+      "total_utterances": 3,
+      "therapist_utterances": 2,
+      "client_utterances": 1
+    },
+    {
+      "transcript_id": 16,
+      "title": "Rogers’ Transcripts, Volume 12, Kathy Interview, page 54",
+      "total_utterances": 13,
+      "therapist_utterances": 13,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 17,
+      "title": "Rogers’ Transcripts, Volume 12, Kathy Interview, page 55",
+      "total_utterances": 17,
+      "therapist_utterances": 16,
+      "client_utterances": 1
+    },
+    {
+      "transcript_id": 18,
+      "title": "Rogers’ Transcripts, Volume 12, Kathy Interview, page 56",
+      "total_utterances": 15,
+      "therapist_utterances": 14,
+      "client_utterances": 1
+    },
+    {
+      "transcript_id": 19,
+      "title": "Rogers’ Transcripts, Volume 12, Kathy Interview, page 57",
+      "total_utterances": 14,
+      "therapist_utterances": 14,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 20,
+      "title": "Rogers’ Transcripts, Volume 12, Kathy Interview, page 58",
+      "total_utterances": 16,
+      "therapist_utterances": 16,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 21,
+      "title": "Rogers’ Transcripts, Volume 12, Kathy Interview, page 59",
+      "total_utterances": 16,
+      "therapist_utterances": 15,
+      "client_utterances": 1
+    },
+    {
+      "transcript_id": 22,
+      "title": "Rogers’ Transcripts, Volume 12, Kathy Interview, page 60",
+      "total_utterances": 9,
+      "therapist_utterances": 9,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 23,
+      "title": "Rogers’ Transcripts, Volume 12, Kathy Interview, page 61",
+      "total_utterances": 14,
+      "therapist_utterances": 14,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 24,
+      "title": "Rogers’ Transcripts, Volume 12, Kathy Interview, page 62",
+      "total_utterances": 13,
+      "therapist_utterances": 13,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 25,
+      "title": "Rogers’ Transcripts, Volume 12, Kathy Interview, page 63",
+      "total_utterances": 20,
+      "therapist_utterances": 20,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 26,
+      "title": "Rogers’ Transcripts, Volume 12, Kathy Interview, page 64",
+      "total_utterances": 14,
+      "therapist_utterances": 13,
+      "client_utterances": 1
+    },
+    {
+      "transcript_id": 27,
+      "title": "Rogers’ Transcripts, Volume 12, Kathy Interview, page 65",
+      "total_utterances": 3,
+      "therapist_utterances": 3,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 28,
+      "title": "is in a state of remission. In his first interview he realized that the self he had at age 7, was",
+      "total_utterances": 7,
+      "therapist_utterances": 7,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 29,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 85",
+      "total_utterances": 12,
+      "therapist_utterances": 12,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 30,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 86",
+      "total_utterances": 9,
+      "therapist_utterances": 9,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 31,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 87",
+      "total_utterances": 10,
+      "therapist_utterances": 10,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 32,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 88",
+      "total_utterances": 10,
+      "therapist_utterances": 10,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 33,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 89",
+      "total_utterances": 13,
+      "therapist_utterances": 13,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 34,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 90",
+      "total_utterances": 9,
+      "therapist_utterances": 8,
+      "client_utterances": 1
+    },
+    {
+      "transcript_id": 35,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 91",
+      "total_utterances": 12,
+      "therapist_utterances": 11,
+      "client_utterances": 1
+    },
+    {
+      "transcript_id": 36,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 92",
+      "total_utterances": 9,
+      "therapist_utterances": 8,
+      "client_utterances": 1
+    },
+    {
+      "transcript_id": 37,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 93",
+      "total_utterances": 12,
+      "therapist_utterances": 12,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 38,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 94",
+      "total_utterances": 9,
+      "therapist_utterances": 9,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 39,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 95",
+      "total_utterances": 6,
+      "therapist_utterances": 6,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 40,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 96",
+      "total_utterances": 9,
+      "therapist_utterances": 8,
+      "client_utterances": 1
+    },
+    {
+      "transcript_id": 41,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 97",
+      "total_utterances": 11,
+      "therapist_utterances": 11,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 42,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 98",
+      "total_utterances": 9,
+      "therapist_utterances": 9,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 43,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 99",
+      "total_utterances": 12,
+      "therapist_utterances": 12,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 44,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 100",
+      "total_utterances": 16,
+      "therapist_utterances": 16,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 45,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 101",
+      "total_utterances": 9,
+      "therapist_utterances": 9,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 46,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 102",
+      "total_utterances": 11,
+      "therapist_utterances": 11,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 47,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 103",
+      "total_utterances": 14,
+      "therapist_utterances": 14,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 48,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 104",
+      "total_utterances": 11,
+      "therapist_utterances": 11,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 49,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 105",
+      "total_utterances": 13,
+      "therapist_utterances": 12,
+      "client_utterances": 1
+    },
+    {
+      "transcript_id": 50,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 106",
+      "total_utterances": 14,
+      "therapist_utterances": 14,
+      "client_utterances": 0
+    },
+    {
+      "transcript_id": 51,
+      "title": "Rogers’ Transcripts, Volume 12, Dione, 2nd Interview, page 107",
+      "total_utterances": 1,
+      "therapist_utterances": 1,
+      "client_utterances": 0
+    }
+  ]
+}

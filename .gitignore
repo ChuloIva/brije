@@ -1,6 +1,7 @@
 .venv/
 data/activations
 output/analysis_AnnoMI/all_predictions.json
+pdfs/brodley-transcripts-of-carl-rogers-therapy-sessions.pdf
 
 # Python cache files
 __pycache__/
