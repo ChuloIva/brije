@@ -34,7 +34,9 @@ The test script demonstrates three different output modes:
 - **Mode 2**: Predictions grouped by action (shows which layers activate for each cognitive process)
 - **Mode 3**: Predictions grouped by layer (shows which processes activate at each layer)
 
-See [`src/probes/test_universal_inference.py`](src/probes/test_universal_inference.py) for examples.
+For more details and examples:
+- Python script: [`src/probes/test_universal_inference.py`](src/probes/test_universal_inference.py)
+- Interactive notebook: [`notebooks/test_universal_inference.ipynb`](notebooks/test_universal_inference.ipynb)
 
 ### The Easy Way: Google Colab
 1. Open [`Brije_Full_Pipeline_Colab.ipynb`](./Brije_Full_Pipeline_Colab.ipynb).
