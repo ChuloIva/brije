@@ -147,6 +147,22 @@ This view shows the raw confidence scores for each detected action at each speci
   Layer 30: convergent_thinking(1.000), evaluating(1.000), noticing(1.000), questioning(1.000)
 ```
 ---
+### Carl Rogers Therapy Session Analysis
+We've transcribed and analyzed 6 complete Carl Rogers therapy sessions using our cognitive action detection system. The full annotated transcripts are available with detailed statistics showing which cognitive processes were active during each utterance, along with their layer activations and confidence scores.
+
+**📄 [Read the Full Annotated Transcripts (PDF)](output/carl_rogers_analysis/detailed_transcript.pdf)**
+
+Key findings:
+- 1,935 utterances analyzed (860 therapist, 1,075 client)
+- 45 unique cognitive processes detected
+- Top therapist processes: Response Modulation, Noticing, Hypothesis Generation, Emotion Perception
+- Layers 21-30 analyzed with detailed confidence scores
+
+Alternative formats:
+- [Compact text format](output/carl_rogers_analysis/compact_transcript.txt) - Table-style view with layer and confidence details
+- [Markdown version](output/carl_rogers_analysis/detailed_transcript.md) - For easy editing and customization
+
+---
 ### Network Analysis Visualization
 This graph shows the relationships between different cognitive actions, derived from analyzing 133 therapy transcripts. `noticing` is the central hub.
 
