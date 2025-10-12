@@ -59,7 +59,7 @@ This view summarizes which actions were detected across all layers for a given t
 | `"What if we completely flipped the script?..."` | `divergent_thinking` (10), `questioning` (3), `convergent_thinking` (3) |
 | `"If we launch in Q2 instead of Q1..."` | `counterfactual_reasoning` (10), `evaluating` (6), `reframing` (1) |
 
-**[See full output for 30 examples in `output_example_3.md`](./output_example_3.md)**
+**[See full output for 30 examples in `output_example_3.md`](./output_example_3.txt)**
 
 ---
 
@@ -72,7 +72,7 @@ This view shows the raw confidence scores for each detected action at each speci
 | `"What if we completely flipped the script?..."` | **L21:** `divergent_thinking`(1.0), `questioning`(1.0)<br>**L22:** `creating`(0.88)<br>**L28:** `hypothesis_generation`(1.0) |
 | `"If we launch in Q2 instead of Q1..."` | **L22:** `counterfactual_reasoning`(1.0)<br>**L26:** `reframing`(1.0)<br>**L30:** `evaluating`(0.93) |
 
-**[See full output for 30 examples in `output_example_4.md`](./output_example_4.md)
+**[See full output for 30 examples in `output_example_4.md`](./output_example_4.txt)
 
 ### Network Analysis Visualization
 This graph shows the relationships between different cognitive actions, derived from analyzing 133 therapy transcripts. `noticing` is the central hub.
