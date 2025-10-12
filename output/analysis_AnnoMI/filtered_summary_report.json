@@ -1,0 +1,168 @@
+{
+  "dataset": {
+    "total_utterances_original": 9699,
+    "total_utterances_filtered": 7372,
+    "removed_utterances": 2327,
+    "min_length_threshold": 10,
+    "transcripts": 133,
+    "topics": 44,
+    "mean_utterance_length": 106.21174715138362
+  },
+  "cognitive_actions": {
+    "unique_actions": 45,
+    "mean_per_utterance": 4.085729788388497,
+    "median_per_utterance": 4.0
+  },
+  "top_therapist_actions": {
+    "noticing": 1851.16455078125,
+    "self_questioning": 1148.0947933197021,
+    "response_modulation": 1126.7375183105469,
+    "questioning": 832.0118408203125,
+    "reframing": 797.7410507202148,
+    "emotion_understanding": 780.3485136032104,
+    "divergent_thinking": 640.55615234375,
+    "analogical_thinking": 591.8034591674805,
+    "abstracting": 570.7494277954102,
+    "convergent_thinking": 568.4541015625
+  },
+  "top_client_actions": {
+    "noticing": 1827.6096286773682,
+    "self_questioning": 1440.29345703125,
+    "reframing": 1204.4874153137207,
+    "response_modulation": 992.0259609222412,
+    "analogical_thinking": 824.37109375,
+    "evaluating": 813.918701171875,
+    "understanding": 612.8442687988281,
+    "hypothesis_generation": 592.5609893798828,
+    "questioning": 509.93768310546875,
+    "emotion_understanding": 475.9310989379883
+  },
+  "top_cooccurrences": [
+    [
+      "reframing",
+      "self_questioning",
+      1350
+    ],
+    [
+      "noticing",
+      "self_questioning",
+      1307
+    ],
+    [
+      "noticing",
+      "response_modulation",
+      1109
+    ],
+    [
+      "noticing",
+      "reframing",
+      1032
+    ],
+    [
+      "response_modulation",
+      "self_questioning",
+      788
+    ],
+    [
+      "emotion_understanding",
+      "noticing",
+      706
+    ],
+    [
+      "analogical_thinking",
+      "noticing",
+      698
+    ],
+    [
+      "evaluating",
+      "self_questioning",
+      679
+    ],
+    [
+      "questioning",
+      "self_questioning",
+      646
+    ],
+    [
+      "evaluating",
+      "reframing",
+      622
+    ]
+  ],
+  "top_transitions": [
+    [
+      "noticing",
+      "noticing",
+      1915
+    ],
+    [
+      "self_questioning",
+      "noticing",
+      1313
+    ],
+    [
+      "noticing",
+      "self_questioning",
+      1281
+    ],
+    [
+      "response_modulation",
+      "noticing",
+      1077
+    ],
+    [
+      "noticing",
+      "response_modulation",
+      1026
+    ],
+    [
+      "reframing",
+      "noticing",
+      990
+    ],
+    [
+      "self_questioning",
+      "self_questioning",
+      972
+    ],
+    [
+      "noticing",
+      "reframing",
+      970
+    ],
+    [
+      "response_modulation",
+      "self_questioning",
+      823
+    ],
+    [
+      "self_questioning",
+      "response_modulation",
+      784
+    ]
+  ],
+  "high_quality_top_actions": {
+    "noticing": 3324.465585708618,
+    "self_questioning": 2375.564031600952,
+    "response_modulation": 1858.884572982788,
+    "reframing": 1806.048713684082,
+    "analogical_thinking": 1319.1530685424805,
+    "evaluating": 1220.2070922851562,
+    "questioning": 1174.4143676757812,
+    "emotion_understanding": 1145.2986993789673,
+    "understanding": 973.4936923980713,
+    "divergent_thinking": 898.22998046875
+  },
+  "low_quality_top_actions": {
+    "noticing": 354.30859375,
+    "response_modulation": 259.87890625,
+    "self_questioning": 212.82421875,
+    "reframing": 196.17975234985352,
+    "questioning": 167.53515625,
+    "convergent_thinking": 154.0302734375,
+    "evaluating": 140.71936798095703,
+    "emotion_understanding": 110.98091316223145,
+    "analogical_thinking": 97.021484375,
+    "counterfactual_reasoning": 91.0
+  }
+}

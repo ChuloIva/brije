@@ -1,0 +1,87 @@
+{
+  "dataset": {
+    "total_utterances": 7372,
+    "transcripts": 133,
+    "with_annotations_and_cognitive": 7287
+  },
+  "technique_signatures": {
+    "open_question": {
+      "count": 949,
+      "top_5_actions": [
+        "noticing",
+        "questioning",
+        "response_modulation",
+        "divergent_thinking",
+        "self_questioning"
+      ]
+    },
+    "closed_question": {
+      "count": 676,
+      "top_5_actions": [
+        "noticing",
+        "questioning",
+        "response_modulation",
+        "self_questioning",
+        "divergent_thinking"
+      ]
+    },
+    "simple_reflection": {
+      "count": 815,
+      "top_5_actions": [
+        "noticing",
+        "self_questioning",
+        "response_modulation",
+        "emotion_understanding",
+        "analogical_thinking"
+      ]
+    },
+    "complex_reflection": {
+      "count": 705,
+      "top_5_actions": [
+        "noticing",
+        "emotion_understanding",
+        "response_modulation",
+        "self_questioning",
+        "analogical_thinking"
+      ]
+    }
+  },
+  "predictive_modeling": {
+    "cross_val_accuracy_mean": 0.8981538461538461,
+    "cross_val_accuracy_std": 0.020419273874507177,
+    "top_10_features": [
+      "input_rate",
+      "reflection_rate",
+      "complex_ref_rate",
+      "action_self_questioning",
+      "question_rate",
+      "simple_ref_rate",
+      "action_questioning",
+      "action_convergent_thinking",
+      "action_evaluating",
+      "action_response_modulation"
+    ]
+  },
+  "change_talk_precursors": {
+    "total_patterns": 784,
+    "top_techniques": {
+      "question_open": 273,
+      "reflect_simple": 151,
+      "reflect_complex": 133,
+      "question_closed": 95,
+      "other": 79
+    },
+    "top_cognitive_actions": {
+      "noticing": 234,
+      "questioning": 176,
+      "response_modulation": 149,
+      "self_questioning": 147,
+      "divergent_thinking": 142,
+      "evaluating": 108,
+      "abstracting": 102,
+      "convergent_thinking": 99,
+      "reframing": 92,
+      "counterfactual_reasoning": 68
+    }
+  }
+}

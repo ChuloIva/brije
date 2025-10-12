@@ -1,20 +1,20 @@
 {
   "synchrony_analysis": {
-    "mean_high_quality": 0.47921098450212213,
-    "mean_low_quality": 0.5007474571595735,
-    "significance": "not significant"
+    "mean_high_quality": 0.38497026057550904,
+    "mean_low_quality": 0.421570422789891,
+    "significance": "p < 0.05"
   },
   "change_talk": {
     "top_change_actions": [
       "noticing",
-      "response_modulation",
       "self_questioning",
+      "response_modulation",
       "reframing",
       "evaluating",
       "understanding",
       "analogical_thinking",
-      "convergent_thinking",
       "reconsidering",
+      "convergent_thinking",
       "hypothesis_generation"
     ],
     "top_sustain_actions": [
@@ -23,38 +23,38 @@
       "hypothesis_generation",
       "analogical_thinking",
       "response_modulation",
-      "evaluating",
       "reframing",
-      "questioning",
+      "evaluating",
       "reconsidering",
-      "understanding"
+      "questioning",
+      "convergent_thinking"
     ],
     "most_predictive_of_change": [
       "metacognitive_regulation",
-      "applying",
       "emotion_understanding",
-      "attentional_deployment",
+      "abstracting",
+      "emotion_perception",
       "understanding"
     ]
   },
   "critical_moments": {
-    "breakthrough_count": 682,
-    "breakthrough_percentage": 9.25122083559414,
-    "stuck_points_detected": 0
+    "breakthrough_count": 1012,
+    "breakthrough_percentage": 13.727618014107435,
+    "stuck_points_detected": 56
   },
   "therapist_styles": {
     "num_clusters": 4,
     "cluster_sizes": [
-      75,
-      27,
+      95,
+      7,
       1,
       25
     ],
     "cluster_quality_percentages": [
-      89.33333333333333,
-      74.07407407407408,
+      83.15789473684211,
+      85.71428571428571,
       100.0,
-      76.0
+      84.0
     ]
   },
   "markov_chain": {
@@ -62,83 +62,83 @@
       [
         "noticing",
         "noticing",
-        0.1231880884606963
+        0.15324903969270168
       ],
       [
         "self_questioning",
         "noticing",
-        0.11659426585577759
+        0.14729638770473413
       ],
       [
         "noticing",
         "self_questioning",
-        0.08784760236479089
+        0.10251280409731114
       ],
       [
         "response_modulation",
         "noticing",
-        0.11556130702038175
+        0.14126442812172088
       ],
       [
         "noticing",
         "response_modulation",
-        0.07545434639807314
+        0.08210627400768246
       ],
       [
         "reframing",
         "noticing",
-        0.11644128113879003
+        0.14503369469674773
+      ],
+      [
+        "self_questioning",
+        "self_questioning",
+        0.10904195647296387
       ],
       [
         "noticing",
         "reframing",
-        0.07006787825706152
+        0.07762483994878361
+      ],
+      [
+        "response_modulation",
+        "self_questioning",
+        0.1079485834207765
       ],
       [
         "self_questioning",
-        "self_questioning",
-        0.09244135534317985
-      ],
-      [
-        "noticing",
-        "evaluating",
-        0.06472520253996059
-      ],
-      [
-        "evaluating",
-        "noticing",
-        0.109812552174243
+        "response_modulation",
+        0.08795153690823423
       ]
     ],
     "stationary_distribution": {
-      "noticing": 0.11578063981159284,
-      "self_questioning": 0.08804944542142408,
-      "response_modulation": 0.0772047232816255,
-      "reframing": 0.07156539252811674,
-      "evaluating": 0.0670448365083408,
-      "understanding": 0.05740163451349205,
-      "questioning": 0.05661502653408502,
-      "emotion_understanding": 0.05329443704563822,
-      "emotion_responding": 0.052855266212332774,
-      "analogical_thinking": 0.046335764388724894
+      "noticing": 0.142026052821444,
+      "self_questioning": 0.10209341974076018,
+      "response_modulation": 0.08506860602416004,
+      "reframing": 0.07870527683693739,
+      "questioning": 0.05539566473910759,
+      "analogical_thinking": 0.05464372441565227,
+      "evaluating": 0.05460632274371713,
+      "emotion_understanding": 0.04936262910389981,
+      "understanding": 0.04222504079323897,
+      "convergent_thinking": 0.04122788082270376
     }
   },
   "network_analysis": {
     "num_nodes": 20,
-    "num_edges": 121,
-    "density": 0.31842105263157894,
-    "num_communities": 6,
+    "num_edges": 122,
+    "density": 0.32105263157894737,
+    "num_communities": 3,
     "top_pagerank": {
-      "noticing": 0.20509838740965233,
-      "self_questioning": 0.1242026751408356,
-      "response_modulation": 0.09415766311487218,
-      "reframing": 0.08386823330896574,
-      "evaluating": 0.07405314541614762,
-      "understanding": 0.06517243861246587,
-      "questioning": 0.055352379858494505,
-      "emotion_understanding": 0.054273780347854364,
-      "emotion_responding": 0.0530159028420195,
-      "analogical_thinking": 0.035329689243307295
+      "noticing": 0.23199268523764507,
+      "self_questioning": 0.13994816279929875,
+      "response_modulation": 0.10523703291753746,
+      "reframing": 0.09003132218691223,
+      "evaluating": 0.051801108668301205,
+      "analogical_thinking": 0.04850926368704441,
+      "questioning": 0.048427283662936915,
+      "emotion_understanding": 0.045354802935940054,
+      "understanding": 0.028657339058419454,
+      "convergent_thinking": 0.027751762685348673
     }
   }
 }
