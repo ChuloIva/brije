@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 2 - Therapeutic Conversation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2em;
+        }
+        .metadata {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .metadata h2 {
+            margin-top: 0;
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .metadata-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .metadata-item {
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 3px solid #667eea;
+            border-radius: 4px;
+        }
+        .metadata-label {
+            font-weight: bold;
+            color: #555;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .metadata-value {
+            color: #333;
+            margin-top: 5px;
+        }
+        .conversation {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .turn {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        .turn:hover {
+            transform: translateX(5px);
+        }
+        .turn.therapist {
+            background: linear-gradient(to right, #e3f2fd, #f5f5f5);
+            border-left: 5px solid #2196F3;
+        }
+        .turn.client {
+            background: linear-gradient(to right, #f3e5f5, #f5f5f5);
+            border-left: 5px solid #9C27B0;
+        }
+        .turn.client-conclusion {
+            background: linear-gradient(to right, #e8f5e9, #f5f5f5);
+            border-left: 5px solid #4CAF50;
+        }
+        .speaker {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .turn-number {
+            display: inline-block;
+            background-color: #667eea;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin-right: 10px;
+        }
+        .content {
+            margin: 15px 0;
+            color: #444;
+            font-size: 1.05em;
+            line-height: 1.8;
+        }
+        .cognitive-actions {
+            margin-top: 15px;
+        }
+        .actions-label {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .action-tag {
+            display: inline-block;
+            padding: 6px 12px;
+            margin: 4px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 500;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .action-tag:hover {
+            transform: scale(1.05);
+        }
+        .confidence {
+            opacity: 0.7;
+            font-size: 0.85em;
+            margin-left: 4px;
+        }
+        .legend {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .legend h3 {
+            margin-top: 0;
+            color: #667eea;
+        }
+        .legend-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .no-actions {
+            color: #999;
+            font-style: italic;
+        }
+        .stats-summary {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        .stat-box {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Session 2: Therapeutic Conversation</h1>
+        <p>Primary Issue: <strong>DEPRESSION</strong></p>
+    </div>
+
+    <div class="metadata">
+        <h2>Session Metadata</h2>
+        <div class="metadata-grid">
+    
+            <div class="metadata-item">
+                <div class="metadata-label">Primary Issue</div>
+                <div class="metadata-value">Depression</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Primary Symptoms</div>
+                <div class="metadata-value">loss of interest in activities once enjoyed, difficulty concentrating and making decisions</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Cognitive Distortion</div>
+                <div class="metadata-value">personalizing blame for external events</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Emotional Presentation</div>
+                <div class="metadata-value">defensive and guarded</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Symptom Duration</div>
+                <div class="metadata-value">six months or more</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Trigger Context</div>
+                <div class="metadata-value">identity crisis or questioning life purpose</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Support Level</div>
+                <div class="metadata-value">some supportive friends but distant family</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Therapy Goal</div>
+                <div class="metadata-value">feel like myself again</div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="legend">
+        <h3>Cognitive Action Categories</h3>
+        <div class="legend-grid">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #E8B4F5;"></div>
+                <span>Emotion-focused</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #AED9E0;"></div>
+                <span>Cognitive</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #FAE29C;"></div>
+                <span>Metacognitive</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #B8E0AC;"></div>
+                <span>Action-oriented</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="conversation">
+        <h2 style="color: #667eea; border-bottom: 2px solid #667eea; padding-bottom: 10px;">Conversation</h2>
+    
+        <div class="turn client">
+            <div class="speaker">
+                <span class="turn-number">Turn 1</span>
+                Client (Opening)
+            </div>
+            <div class="content">I'm here because of loss of interest in activities once enjoyed. This has been going on for six months or more, ever since identity crisis or questioning life purpose. I've tried nothing seems to work, but nothing helps.</div>
+        
+            <div class="cognitive-actions">
+                <div class="no-actions">No active cognitive actions detected</div>
+            </div>
+            
+        </div>
+        
+        <div class="turn therapist">
+            <div class="speaker">
+                <span class="turn-number">Turn 2</span>
+                Therapist
+            </div>
+            <div class="content">It sounds like you're carrying a significant weight right now, feeling a profound sense of disconnection from things that once brought you joy.  It's really brave of you to reach out and acknowledge this struggle, especially knowing you’ve already tried to find a solution without success.  It's understandable that you're feeling hopeless when nothing seems to help.  Could you tell me more about what aspects of those activities you used to enjoy now feel particularly distant or unappealing?</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    divergent thinking
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion perception
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    abstracting
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion understanding
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion characterizing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn client">
+            <div class="speaker">
+                <span class="turn-number">Turn 3</span>
+                Client
+            </div>
+            <div class="content">Honestly, it’s just... everything. Painting used to be my passion, spending hours just losing myself in it. Now, the thought of even picking up a brush makes me feel incredibly anxious and empty. And hiking – I used to love being outdoors, the fresh air, the challenge... now, the idea of putting in the effort just feels pointless. I don't even want to go outside.</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    evaluating
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion responding
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion receiving
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #FAE29C;">
+                    noticing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E0E0E0;">
+                    reconsidering
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #B8E0AC;">
+                    situation selection
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #B8E0AC;">
+                    response modulation
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion valuing
+                    <span class="confidence">(0.96)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E0E0E0;">
+                    situation modification
+                    <span class="confidence">(0.92)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn therapist">
+            <div class="speaker">
+                <span class="turn-number">Turn 4</span>
+                Therapist
+            </div>
+            <div class="content">I hear you saying that the simple act of engaging in activities that were once sources of deep fulfillment, like painting and hiking, now trigger significant anxiety and a sense of emptiness. It’s truly disheartening to lose that connection to things that used to feel so intrinsically rewarding. It’s common to feel overwhelmed when facing such widespread loss of interest.  Perhaps we could explore what’s underneath that anxiety – is there a specific fear associated with returning to these activities, or something else entirely?</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    divergent thinking
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    hypothesis generation
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    pattern recognition
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion characterizing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    convergent thinking
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn client">
+            <div class="speaker">
+                <span class="turn-number">Turn 5</span>
+                Client
+            </div>
+            <div class="content">I don't know... I guess it's like, if I start painting again, I'll just fail, like I always do. Or if I go hiking, I'll just be tired and frustrated and it’ll be a waste of time.  It feels easier to just... not do anything. I'm starting to think I'm just fundamentally incapable of enjoying anything anymore.</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    evaluating
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    hypothesis generation
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion valuing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion responding
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #FAE29C;">
+                    self questioning
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn therapist">
+            <div class="speaker">
+                <span class="turn-number">Turn 6</span>
+                Therapist
+            </div>
+            <div class="content">It sounds like you're experiencing a really powerful sense of self-doubt and a fear of experiencing that familiar feeling of inadequacy, and that's creating a significant barrier to reconnecting with activities you once loved. It makes perfect sense that you'd gravitate toward avoidance when facing those kinds of anticipated negative outcomes.  When you think about "failure," what does that actually *feel* like in your body?</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    evaluating
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E0E0E0;">
+                    situation modification
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #B8E0AC;">
+                    situation selection
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E0E0E0;">
+                    zooming out
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion valuing
+                    <span class="confidence">(0.68)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn client">
+            <div class="speaker">
+                <span class="turn-number">Turn 7</span>
+                Client
+            </div>
+            <div class="content">It feels... heavy. Like a lead weight in my stomach, and my chest tightens up. My hands start to shake, and I just feel... paralyzed. It's like I’m waiting for it to all go wrong, and it always does.</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion responding
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion receiving
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #B8E0AC;">
+                    response modulation
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion perception
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    hypothesis generation
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn client-conclusion">
+            <div class="speaker">
+                <span class="turn-number">Turn 8</span>
+                Client (Concluding)
+            </div>
+            <div class="content">That's a really vivid description – that heavy feeling in your stomach and the physical sensations of tightness and shaking when you anticipate failure. It's incredibly helpful to be able to identify those physical responses. It sounds like your anxiety is manifesting very powerfully in your body, almost as if it’s trying to prevent you from even trying. Would you be willing to tell me a little more about when you first started noticing these physical responses, and if there’s a particular situation or thought that seems to trigger them most often?</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    abstracting
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    concretizing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion valuing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion perception
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    divergent thinking
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <div class="stats-summary">
+        <div class="stat-box">
+            <div class="stat-number">8</div>
+            <div class="stat-label">Total Turns</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">39</div>
+            <div class="stat-label">Total Cognitive Actions</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">20</div>
+            <div class="stat-label">Unique Actions</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">4.9</div>
+            <div class="stat-label">Avg Actions/Turn</div>
+        </div>
+    </div>
+    
+    <div style="text-align: center; margin-top: 40px; padding: 20px; color: #999; font-size: 0.9em;">
+        <p>Generated by therapeutic_meta_analysis.py on 2025-10-13 09:31:35</p>
+    </div>
+</body>
+</html>

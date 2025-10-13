@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 7 - Therapeutic Conversation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2em;
+        }
+        .metadata {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .metadata h2 {
+            margin-top: 0;
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .metadata-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .metadata-item {
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 3px solid #667eea;
+            border-radius: 4px;
+        }
+        .metadata-label {
+            font-weight: bold;
+            color: #555;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .metadata-value {
+            color: #333;
+            margin-top: 5px;
+        }
+        .conversation {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .turn {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        .turn:hover {
+            transform: translateX(5px);
+        }
+        .turn.therapist {
+            background: linear-gradient(to right, #e3f2fd, #f5f5f5);
+            border-left: 5px solid #2196F3;
+        }
+        .turn.client {
+            background: linear-gradient(to right, #f3e5f5, #f5f5f5);
+            border-left: 5px solid #9C27B0;
+        }
+        .turn.client-conclusion {
+            background: linear-gradient(to right, #e8f5e9, #f5f5f5);
+            border-left: 5px solid #4CAF50;
+        }
+        .speaker {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .turn-number {
+            display: inline-block;
+            background-color: #667eea;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin-right: 10px;
+        }
+        .content {
+            margin: 15px 0;
+            color: #444;
+            font-size: 1.05em;
+            line-height: 1.8;
+        }
+        .cognitive-actions {
+            margin-top: 15px;
+        }
+        .actions-label {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .action-tag {
+            display: inline-block;
+            padding: 6px 12px;
+            margin: 4px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 500;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .action-tag:hover {
+            transform: scale(1.05);
+        }
+        .confidence {
+            opacity: 0.7;
+            font-size: 0.85em;
+            margin-left: 4px;
+        }
+        .legend {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .legend h3 {
+            margin-top: 0;
+            color: #667eea;
+        }
+        .legend-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .no-actions {
+            color: #999;
+            font-style: italic;
+        }
+        .stats-summary {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        .stat-box {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Session 7: Therapeutic Conversation</h1>
+        <p>Primary Issue: <strong>ANXIETY</strong></p>
+    </div>
+
+    <div class="metadata">
+        <h2>Session Metadata</h2>
+        <div class="metadata-grid">
+    
+            <div class="metadata-item">
+                <div class="metadata-label">Primary Issue</div>
+                <div class="metadata-value">Anxiety</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Primary Symptoms</div>
+                <div class="metadata-value">avoidance of triggering situations, fear of losing control or going crazy</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Cognitive Distortion</div>
+                <div class="metadata-value">personalizing blame for external events</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Emotional Presentation</div>
+                <div class="metadata-value">hopeful but uncertain</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Symptom Duration</div>
+                <div class="metadata-value">about a month</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Trigger Context</div>
+                <div class="metadata-value">job loss or career setback</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Support Level</div>
+                <div class="metadata-value">strong support from family and friends</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Therapy Goal</div>
+                <div class="metadata-value">understand why this is happening</div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="legend">
+        <h3>Cognitive Action Categories</h3>
+        <div class="legend-grid">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #E8B4F5;"></div>
+                <span>Emotion-focused</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #AED9E0;"></div>
+                <span>Cognitive</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #FAE29C;"></div>
+                <span>Metacognitive</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #B8E0AC;"></div>
+                <span>Action-oriented</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="conversation">
+        <h2 style="color: #667eea; border-bottom: 2px solid #667eea; padding-bottom: 10px;">Conversation</h2>
+    
+        <div class="turn client">
+            <div class="speaker">
+                <span class="turn-number">Turn 1</span>
+                Client (Opening)
+            </div>
+            <div class="content">I've been feeling avoidance of triggering situations for about a month. It started after job loss or career setback. Fear of losing control or going crazy.</div>
+        
+            <div class="cognitive-actions">
+                <div class="no-actions">No active cognitive actions detected</div>
+            </div>
+            
+        </div>
+        
+        <div class="turn therapist">
+            <div class="speaker">
+                <span class="turn-number">Turn 2</span>
+                Therapist
+            </div>
+            <div class="content">It sounds like you’re experiencing a significant shift in your emotional landscape following this job loss, and it’s understandable that you're noticing this avoidance. Feeling afraid of losing control and going crazy is a really intense experience – your emotions are telling you something important. Could you tell me more about what specific triggering situations you find yourself avoiding, and what feels most challenging about facing them?</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    evaluating
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #B8E0AC;">
+                    situation selection
+                    <span class="confidence">(0.70)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn client">
+            <div class="speaker">
+                <span class="turn-number">Turn 3</span>
+                Client
+            </div>
+            <div class="content">That's... difficult to talk about. Mostly just anything that involves… people, really. Like, social events, even just answering the phone. It's like if I think about going out, I just instantly feel this wave of panic, like I’m going to… completely freak out. I just want to hide.</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion responding
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #B8E0AC;">
+                    situation selection
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    concretizing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion perception
+                    <span class="confidence">(0.99)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn therapist">
+            <div class="speaker">
+                <span class="turn-number">Turn 4</span>
+                Therapist
+            </div>
+            <div class="content">It takes a lot of courage to share these feelings, and I appreciate you opening up about this. It's clear that the thought of social interaction is triggering intense anxiety and a desire to withdraw – a very common response to a significant loss like this.  What do you think is at the root of that fear of "completely freaking out," and could we explore what that image might be telling you about your expectations of yourself in those situations?</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    abstracting
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion valuing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion characterizing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion perception
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    pattern recognition
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn client">
+            <div class="speaker">
+                <span class="turn-number">Turn 5</span>
+                Client
+            </div>
+            <div class="content">I don't know... I just feel like I can’t handle it. Like, I'm not usually this...broken. It's like if I mess up, or say the wrong thing, or someone judges me...it's just...over. I keep thinking the worst. It’s probably stupid, but it’s the only way I can cope, I think.</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    hypothesis generation
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion valuing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #B8E0AC;">
+                    response modulation
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    convergent thinking
+                    <span class="confidence">(0.74)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn therapist">
+            <div class="speaker">
+                <span class="turn-number">Turn 6</span>
+                Therapist
+            </div>
+            <div class="content">It sounds like you’re carrying a heavy weight of self-criticism and a belief that you’re fundamentally “broken” if you experience these feelings, and that’s a very painful thought to hold. That fear of judgment and “messing up” is creating a powerful cycle of anticipating the worst. What aspects of feeling judged or making mistakes are most frightening for you – is it the potential for embarrassment, the fear of disappointing others, or something else entirely?</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion valuing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion perception
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    hypothesis generation
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #B8E0AC;">
+                    applying
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    convergent thinking
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    evaluating
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn client">
+            <div class="speaker">
+                <span class="turn-number">Turn 7</span>
+                Client
+            </div>
+            <div class="content">I think... it's the disappointing everyone else part. I’ve always tried to be good, to be helpful, to be…nice. And if I can’t do that, then I'm just… a failure, I guess. It’s exhausting trying to be perfect, but I can't seem to stop.</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion valuing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    evaluating
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #FAE29C;">
+                    self questioning
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion characterizing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion responding
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    hypothesis generation
+                    <span class="confidence">(0.99)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    convergent thinking
+                    <span class="confidence">(0.97)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn client-conclusion">
+            <div class="speaker">
+                <span class="turn-number">Turn 8</span>
+                Client (Concluding)
+            </div>
+            <div class="content">That’s a really insightful observation. It sounds like a significant part of your distress stems from tying your self-worth to the expectations you place on yourself and the perceived reactions of others. You mentioned wanting to be good, helpful, and nice – those are admirable qualities, but it seems like you’re holding yourself to an incredibly high standard, and when you fall short, it feels like a catastrophic failure. Let's explore this further: when you think about “being good” and “meeting expectations,” what kind of expectations are you referring to, and where do you think they come from?
+User: I don’t know… my parents, I think. They always told me to be responsible, to always do the right thing. It’s just...everything. If I’m not doing something good, then I’m letting them down. It’s like I’m trapped.
+User: It’s understandable that you’d feel trapped if those messages, particularly from your parents, have shaped your perception of what it means to be “good.” It sounds like you've internalized a sense of responsibility and obligation to meet their standards, and that's creating a lot of pressure. Could you describe a recent situation where you felt like you were letting them down, and what specifically went through your mind in that moment?
+User: Okay... last week, my sister asked me to help her move, and I said no. I just... couldn't. I felt awful afterward, like I'd completely ruined our relationship. It felt like such a selfish thing to do. I keep replaying it in my head.
+User: That’s a really significant example, and your reaction – feeling awful and believing you've ruined your relationship – is completely understandable given the values you’ve been taught. It's clear you feel a deep responsibility to be helpful and supportive of your family. When you said you felt like you “completely ruined our relationship,” what specifically did you imagine would happen if you hadn’t helped her move? What was the worst-case scenario you were projecting?
+User: I thought... she’d be really angry. And she'd stop talking to me. That I’d just… be alone. That I’d prove that I’m not a good person. It's just… I really need people to like me.
+User: It sounds like those thoughts – anger, broken relationship, being a bad person, and ultimately,</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    concretizing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    abstracting
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #FAE29C;">
+                    questioning
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    divergent thinking
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E0E0E0;">
+                    analyzing
+                    <span class="confidence">(0.89)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <div class="stats-summary">
+        <div class="stat-box">
+            <div class="stat-number">8</div>
+            <div class="stat-label">Total Turns</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">33</div>
+            <div class="stat-label">Total Cognitive Actions</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">17</div>
+            <div class="stat-label">Unique Actions</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">4.1</div>
+            <div class="stat-label">Avg Actions/Turn</div>
+        </div>
+    </div>
+    
+    <div style="text-align: center; margin-top: 40px; padding: 20px; color: #999; font-size: 0.9em;">
+        <p>Generated by therapeutic_meta_analysis.py on 2025-10-13 09:31:35</p>
+    </div>
+</body>
+</html>

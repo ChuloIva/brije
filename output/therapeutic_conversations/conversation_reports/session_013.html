@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 13 - Therapeutic Conversation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2em;
+        }
+        .metadata {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .metadata h2 {
+            margin-top: 0;
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .metadata-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .metadata-item {
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 3px solid #667eea;
+            border-radius: 4px;
+        }
+        .metadata-label {
+            font-weight: bold;
+            color: #555;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .metadata-value {
+            color: #333;
+            margin-top: 5px;
+        }
+        .conversation {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .turn {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        .turn:hover {
+            transform: translateX(5px);
+        }
+        .turn.therapist {
+            background: linear-gradient(to right, #e3f2fd, #f5f5f5);
+            border-left: 5px solid #2196F3;
+        }
+        .turn.client {
+            background: linear-gradient(to right, #f3e5f5, #f5f5f5);
+            border-left: 5px solid #9C27B0;
+        }
+        .turn.client-conclusion {
+            background: linear-gradient(to right, #e8f5e9, #f5f5f5);
+            border-left: 5px solid #4CAF50;
+        }
+        .speaker {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .turn-number {
+            display: inline-block;
+            background-color: #667eea;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin-right: 10px;
+        }
+        .content {
+            margin: 15px 0;
+            color: #444;
+            font-size: 1.05em;
+            line-height: 1.8;
+        }
+        .cognitive-actions {
+            margin-top: 15px;
+        }
+        .actions-label {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .action-tag {
+            display: inline-block;
+            padding: 6px 12px;
+            margin: 4px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 500;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .action-tag:hover {
+            transform: scale(1.05);
+        }
+        .confidence {
+            opacity: 0.7;
+            font-size: 0.85em;
+            margin-left: 4px;
+        }
+        .legend {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .legend h3 {
+            margin-top: 0;
+            color: #667eea;
+        }
+        .legend-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .no-actions {
+            color: #999;
+            font-style: italic;
+        }
+        .stats-summary {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        .stat-box {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Session 13: Therapeutic Conversation</h1>
+        <p>Primary Issue: <strong>ANXIETY</strong></p>
+    </div>
+
+    <div class="metadata">
+        <h2>Session Metadata</h2>
+        <div class="metadata-grid">
+    
+            <div class="metadata-item">
+                <div class="metadata-label">Primary Issue</div>
+                <div class="metadata-value">Anxiety</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Primary Symptoms</div>
+                <div class="metadata-value">fear of losing control or going crazy, hypervigilance and startling easily, rapid heartbeat and chest discomfort</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Cognitive Distortion</div>
+                <div class="metadata-value">overgeneralizing from single events</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Emotional Presentation</div>
+                <div class="metadata-value">agitated and restless</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Symptom Duration</div>
+                <div class="metadata-value">several months</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Trigger Context</div>
+                <div class="metadata-value">death of a loved one</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Support Level</div>
+                <div class="metadata-value">strong support from family and friends</div>
+            </div>
+        
+            <div class="metadata-item">
+                <div class="metadata-label">Therapy Goal</div>
+                <div class="metadata-value">understand why this is happening</div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="legend">
+        <h3>Cognitive Action Categories</h3>
+        <div class="legend-grid">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #E8B4F5;"></div>
+                <span>Emotion-focused</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #AED9E0;"></div>
+                <span>Cognitive</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #FAE29C;"></div>
+                <span>Metacognitive</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #B8E0AC;"></div>
+                <span>Action-oriented</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="conversation">
+        <h2 style="color: #667eea; border-bottom: 2px solid #667eea; padding-bottom: 10px;">Conversation</h2>
+    
+        <div class="turn client">
+            <div class="speaker">
+                <span class="turn-number">Turn 1</span>
+                Client (Opening)
+            </div>
+            <div class="content">I don't understand why fear of losing control or going crazy for several months. It started after death of a loved one. Hypervigilance and startling easily.</div>
+        
+            <div class="cognitive-actions">
+                <div class="no-actions">No active cognitive actions detected</div>
+            </div>
+            
+        </div>
+        
+        <div class="turn therapist">
+            <div class="speaker">
+                <span class="turn-number">Turn 2</span>
+                Therapist
+            </div>
+            <div class="content">It sounds incredibly distressing to be experiencing this fear of losing control and going crazy, especially following the loss of a loved one. The hypervigilance and easy startle responses are significant and understandably impacting your daily life. You're describing a very real and unsettling experience.  Could you tell me a little more about what typically triggers these moments of intense fear or panic?</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    divergent thinking
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion perception
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    hypothesis generation
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    pattern recognition
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    abstracting
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn client">
+            <div class="speaker">
+                <span class="turn-number">Turn 3</span>
+                Client
+            </div>
+            <div class="content">It’s just…everything. It feels like if I don’t pay attention to every little detail, something terrible is going to happen. Like if I leave the house and don't check the locks three times, something awful will definitely happen to my family. It’s exhausting.</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #E0E0E0;">
+                    zooming in
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #FAE29C;">
+                    noticing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    convergent thinking
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion responding
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #B8E0AC;">
+                    response modulation
+                    <span class="confidence">(0.97)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn therapist">
+            <div class="speaker">
+                <span class="turn-number">Turn 4</span>
+                Therapist
+            </div>
+            <div class="content">It sounds like you're carrying a tremendous weight, feeling completely responsible for preventing harm to your family, and that’s exhausting beyond words. The feeling that needing to meticulously check everything is linked to this profound fear suggests a strong need for safety and control, which makes perfect sense given the recent loss you've experienced.  What do you think is at the root of this intense need for control, do you believe it's connected to the fear of the loss you've suffered?</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion perception
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    abstracting
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    convergent thinking
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion responding
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E0E0E0;">
+                    analyzing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn client">
+            <div class="speaker">
+                <span class="turn-number">Turn 5</span>
+                Client
+            </div>
+            <div class="content">I don’t know. It feels like I have to be in charge of everything, otherwise, things will fall apart and...and everyone will be hurt. It's like, if I'm not actively preventing it, it's going to happen. Maybe it's because when my mom died, it felt like everything just...disappeared.</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    hypothesis generation
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion responding
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    abstracting
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E0E0E0;">
+                    analyzing
+                    <span class="confidence">(0.91)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn therapist">
+            <div class="speaker">
+                <span class="turn-number">Turn 6</span>
+                Therapist
+            </div>
+            <div class="content">It’s understandable to feel this way; the image of everything dissolving like your mother's passing is incredibly painful and creates a deep sense of vulnerability.  The feeling that you must be the anchor, preventing chaos, is a natural response to such a significant loss, and it’s a way of trying to regain some control in a world that suddenly feels unstable.  Perhaps we could explore how this tendency to be ‘in charge’ has shown up in your life before this recent experience?</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #E0E0E0;">
+                    analogical thinking
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn client">
+            <div class="speaker">
+                <span class="turn-number">Turn 7</span>
+                Client
+            </div>
+            <div class="content">I don’t know… my mom was pretty…strict. She always had to know where I was. I guess I just…learned that’s how it was done.
+
+User: That’s a really significant piece of information. It sounds like you've internalized a pattern of control from your own upbringing, where</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    pattern recognition
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #FAE29C;">
+                    noticing
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #FAE29C;">
+                    questioning
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion responding
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E0E0E0;">
+                    perspective taking
+                    <span class="confidence">(0.61)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    hypothesis generation
+                    <span class="confidence">(0.18)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="turn client-conclusion">
+            <div class="speaker">
+                <span class="turn-number">Turn 8</span>
+                Client (Concluding)
+            </div>
+            <div class="content">You're absolutely right. It sounds like you've internalized a pattern of control from your own upbringing, where your mother’s need for certainty and her focus on safety may have inadvertently shaped your own approach to life. It's not necessarily your fault that you’ve adopted this way of being; sometimes, we learn behaviors from those closest to us, even if they aren’t helpful for us in the long run. Can you recall specific examples of how this manifested when you were growing up?</div>
+        
+            <div class="cognitive-actions">
+                <div class="actions-label">Cognitive Actions:</div>
+            
+                <span class="action-tag" style="background-color: #AED9E0;">
+                    pattern recognition
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #B8E0AC;">
+                    applying
+                    <span class="confidence">(1.00)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E8B4F5;">
+                    emotion responding
+                    <span class="confidence">(0.66)</span>
+                </span>
+                
+                <span class="action-tag" style="background-color: #E0E0E0;">
+                    analyzing
+                    <span class="confidence">(0.34)</span>
+                </span>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <div class="stats-summary">
+        <div class="stat-box">
+            <div class="stat-number">8</div>
+            <div class="stat-label">Total Turns</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">30</div>
+            <div class="stat-label">Total Cognitive Actions</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">15</div>
+            <div class="stat-label">Unique Actions</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">3.8</div>
+            <div class="stat-label">Avg Actions/Turn</div>
+        </div>
+    </div>
+    
+    <div style="text-align: center; margin-top: 40px; padding: 20px; color: #999; font-size: 0.9em;">
+        <p>Generated by therapeutic_meta_analysis.py on 2025-10-13 09:31:35</p>
+    </div>
+</body>
+</html>

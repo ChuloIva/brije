@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Therapeutic Conversations - Master Index</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .summary {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+        }
+        .stat-label {
+            font-size: 1em;
+            opacity: 0.9;
+        }
+        .sessions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+        .session-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+        .session-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .session-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        .session-issue {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .issue-depression {
+            background-color: #E8B4F5;
+            color: #4A148C;
+        }
+        .issue-anxiety {
+            background-color: #FFCDD2;
+            color: #B71C1C;
+        }
+        .issue-both {
+            background-color: #FFE082;
+            color: #F57F17;
+        }
+        .session-meta {
+            color: #666;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+        .view-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .view-link:hover {
+            background-color: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Therapeutic Conversations</h1>
+        <p>Meta-Analysis of 30 Simulated Therapy Sessions</p>
+    </div>
+
+    <div class="summary">
+        <h2 style="color: #667eea;">Overview</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">30</div>
+                <div class="stat-label">Sessions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">240</div>
+                <div class="stat-label">Total Turns</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">11</div>
+                <div class="stat-label">Depression</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">9</div>
+                <div class="stat-label">Anxiety</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">10</div>
+                <div class="stat-label">Both</div>
+            </div>
+        </div>
+    </div>
+
+    <h2 style="color: #333; margin-bottom: 20px;">All Sessions</h2>
+    <div class="sessions-grid">
+
+        <div class="session-card">
+            <div class="session-title">Session 000</div>
+            <div class="session-issue issue-anxiety">ANXIETY</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> emotional reasoning (feelings as facts)<br>
+                <strong>Goal:</strong> make important life decisions
+            </div>
+            <a href="session_000.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 001</div>
+            <div class="session-issue issue-depression">DEPRESSION</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> catastrophizing worst-case scenarios<br>
+                <strong>Goal:</strong> rebuild confidence and self-worth
+            </div>
+            <a href="session_001.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 002</div>
+            <div class="session-issue issue-depression">DEPRESSION</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> personalizing blame for external events<br>
+                <strong>Goal:</strong> feel like myself again
+            </div>
+            <a href="session_002.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 003</div>
+            <div class="session-issue issue-depression">DEPRESSION</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> fortune telling (predicting negative outcomes)<br>
+                <strong>Goal:</strong> understand why this is happening
+            </div>
+            <a href="session_003.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 004</div>
+            <div class="session-issue issue-depression">DEPRESSION</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> should statements and rigid rules<br>
+                <strong>Goal:</strong> feel like myself again
+            </div>
+            <a href="session_004.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 005</div>
+            <div class="session-issue issue-both">BOTH</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> catastrophizing worst-case scenarios<br>
+                <strong>Goal:</strong> understand why this is happening
+            </div>
+            <a href="session_005.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 006</div>
+            <div class="session-issue issue-both">BOTH</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> emotional reasoning (feelings as facts)<br>
+                <strong>Goal:</strong> repair damaged relationships
+            </div>
+            <a href="session_006.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 007</div>
+            <div class="session-issue issue-anxiety">ANXIETY</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> personalizing blame for external events<br>
+                <strong>Goal:</strong> understand why this is happening
+            </div>
+            <a href="session_007.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 008</div>
+            <div class="session-issue issue-depression">DEPRESSION</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> mind reading (assuming others' thoughts)<br>
+                <strong>Goal:</strong> repair damaged relationships
+            </div>
+            <a href="session_008.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 009</div>
+            <div class="session-issue issue-anxiety">ANXIETY</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> catastrophizing worst-case scenarios<br>
+                <strong>Goal:</strong> just function day-to-day better
+            </div>
+            <a href="session_009.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 010</div>
+            <div class="session-issue issue-both">BOTH</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> overgeneralizing from single events<br>
+                <strong>Goal:</strong> repair damaged relationships
+            </div>
+            <a href="session_010.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 011</div>
+            <div class="session-issue issue-anxiety">ANXIETY</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> overgeneralizing from single events<br>
+                <strong>Goal:</strong> learn better coping strategies
+            </div>
+            <a href="session_011.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 012</div>
+            <div class="session-issue issue-anxiety">ANXIETY</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> labeling self as defective or broken<br>
+                <strong>Goal:</strong> just function day-to-day better
+            </div>
+            <a href="session_012.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 013</div>
+            <div class="session-issue issue-anxiety">ANXIETY</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> overgeneralizing from single events<br>
+                <strong>Goal:</strong> understand why this is happening
+            </div>
+            <a href="session_013.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 014</div>
+            <div class="session-issue issue-depression">DEPRESSION</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> labeling self as defective or broken<br>
+                <strong>Goal:</strong> rebuild confidence and self-worth
+            </div>
+            <a href="session_014.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 015</div>
+            <div class="session-issue issue-depression">DEPRESSION</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> all-or-nothing thinking<br>
+                <strong>Goal:</strong> stop negative thought patterns
+            </div>
+            <a href="session_015.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 016</div>
+            <div class="session-issue issue-anxiety">ANXIETY</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> fortune telling (predicting negative outcomes)<br>
+                <strong>Goal:</strong> feel like myself again
+            </div>
+            <a href="session_016.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 017</div>
+            <div class="session-issue issue-both">BOTH</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> all-or-nothing thinking<br>
+                <strong>Goal:</strong> rebuild confidence and self-worth
+            </div>
+            <a href="session_017.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 018</div>
+            <div class="session-issue issue-depression">DEPRESSION</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> overgeneralizing from single events<br>
+                <strong>Goal:</strong> repair damaged relationships
+            </div>
+            <a href="session_018.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 019</div>
+            <div class="session-issue issue-both">BOTH</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> overgeneralizing from single events<br>
+                <strong>Goal:</strong> manage anxiety and worry better
+            </div>
+            <a href="session_019.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 020</div>
+            <div class="session-issue issue-both">BOTH</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> should statements and rigid rules<br>
+                <strong>Goal:</strong> manage anxiety and worry better
+            </div>
+            <a href="session_020.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 021</div>
+            <div class="session-issue issue-depression">DEPRESSION</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> overgeneralizing from single events<br>
+                <strong>Goal:</strong> understand why this is happening
+            </div>
+            <a href="session_021.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 022</div>
+            <div class="session-issue issue-depression">DEPRESSION</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> catastrophizing worst-case scenarios<br>
+                <strong>Goal:</strong> feel like myself again
+            </div>
+            <a href="session_022.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 023</div>
+            <div class="session-issue issue-anxiety">ANXIETY</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> mind reading (assuming others' thoughts)<br>
+                <strong>Goal:</strong> feel like myself again
+            </div>
+            <a href="session_023.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 024</div>
+            <div class="session-issue issue-both">BOTH</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> fortune telling (predicting negative outcomes)<br>
+                <strong>Goal:</strong> repair damaged relationships
+            </div>
+            <a href="session_024.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 025</div>
+            <div class="session-issue issue-anxiety">ANXIETY</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> fortune telling (predicting negative outcomes)<br>
+                <strong>Goal:</strong> manage anxiety and worry better
+            </div>
+            <a href="session_025.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 026</div>
+            <div class="session-issue issue-both">BOTH</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> personalizing blame for external events<br>
+                <strong>Goal:</strong> rebuild confidence and self-worth
+            </div>
+            <a href="session_026.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 027</div>
+            <div class="session-issue issue-both">BOTH</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> emotional reasoning (feelings as facts)<br>
+                <strong>Goal:</strong> understand why this is happening
+            </div>
+            <a href="session_027.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 028</div>
+            <div class="session-issue issue-depression">DEPRESSION</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> mind reading (assuming others' thoughts)<br>
+                <strong>Goal:</strong> rebuild confidence and self-worth
+            </div>
+            <a href="session_028.html" class="view-link">View Session →</a>
+        </div>
+    
+        <div class="session-card">
+            <div class="session-title">Session 029</div>
+            <div class="session-issue issue-both">BOTH</div>
+            <div class="session-meta">
+                <strong>Turns:</strong> 8<br>
+                <strong>Distortion:</strong> all-or-nothing thinking<br>
+                <strong>Goal:</strong> understand why this is happening
+            </div>
+            <a href="session_029.html" class="view-link">View Session →</a>
+        </div>
+    
+    </div>
+    <div style="text-align: center; margin-top: 40px; padding: 20px; color: #999;">
+        <p>Generated on 2025-10-13 09:31:35</p>
+    </div>
+</body>
+</html>

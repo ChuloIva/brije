@@ -1,0 +1,75 @@
+{
+  "data_overview": {
+    "total_sessions": 30,
+    "total_turns": 240,
+    "therapist_turns": 90,
+    "client_turns": 150
+  },
+  "issue_distribution": {
+    "depression": 11,
+    "both": 10,
+    "anxiety": 9
+  },
+  "client_progression": {
+    "early_avg_actions": 5.4,
+    "late_avg_actions": 5.183333333333334,
+    "change_percent": -4.0123456790123475
+  },
+  "top_therapist_actions": {
+    "emotion_perception": 56,
+    "abstracting": 48,
+    "divergent_thinking": 39,
+    "emotion_valuing": 36,
+    "emotion_characterizing": 31,
+    "evaluating": 27,
+    "pattern_recognition": 26,
+    "hypothesis_generation": 24,
+    "convergent_thinking": 23,
+    "emotion_responding": 17,
+    "zooming_out": 15,
+    "emotion_understanding": 13,
+    "questioning": 12,
+    "applying": 11,
+    "noticing": 11,
+    "emotion_management": 7,
+    "situation_selection": 7,
+    "cognition_awareness": 7,
+    "concretizing": 6,
+    "response_modulation": 5
+  },
+  "top_client_actions": {
+    "emotion_responding": 56,
+    "hypothesis_generation": 47,
+    "emotion_receiving": 33,
+    "emotion_valuing": 33,
+    "emotion_perception": 30,
+    "evaluating": 30,
+    "abstracting": 29,
+    "noticing": 29,
+    "convergent_thinking": 29,
+    "pattern_recognition": 27,
+    "divergent_thinking": 25,
+    "response_modulation": 24,
+    "questioning": 23,
+    "concretizing": 17,
+    "emotion_understanding": 16,
+    "self_questioning": 15,
+    "understanding": 13,
+    "analyzing": 13,
+    "emotion_characterizing": 11,
+    "applying": 10
+  },
+  "emerging_actions": {
+    "pattern_recognition": 22,
+    "questioning": 19,
+    "divergent_thinking": 19,
+    "convergent_thinking": 16,
+    "abstracting": 14,
+    "emotion_understanding": 13,
+    "concretizing": 12,
+    "emotion_perception": 9,
+    "reframing": 7,
+    "emotion_management": 7
+  },
+  "declining_actions": {}
+}
