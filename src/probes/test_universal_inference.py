@@ -130,7 +130,7 @@ def compare_with_best_layer():
     print("Initializing Universal Multi-Layer Engine...")
     universal_engine = UniversalMultiLayerInferenceEngine(
         probes_base_dir=probes_dir,
-        model_name="google/gemma-2-3b-it"
+        model_name="google/gemma-3-4b-it"
     )
 
     # Try to import and initialize best-layer engine

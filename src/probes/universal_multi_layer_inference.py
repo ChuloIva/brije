@@ -44,7 +44,7 @@ class UniversalMultiLayerInferenceEngine:
     def __init__(
         self,
         probes_base_dir: Path,
-        model_name: str = "google/gemma-2-3b-it",
+        model_name: str = "google/gemma-3-4b-it",
         device: str = None,
         layer_range: Tuple[int, int] = (21, 30)  # (start, end) inclusive
     ):

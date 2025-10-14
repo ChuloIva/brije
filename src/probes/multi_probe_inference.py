@@ -42,7 +42,7 @@ class MultiProbeInferenceEngine:
     def __init__(
         self,
         probes_dir: Path,
-        model_name: str = "google/gemma-2-3b-it",
+        model_name: str = "google/gemma-3-4b-it",
         layer_idx: int = 27,
         device: str = None
     ):
@@ -301,7 +301,7 @@ def main():
     parser.add_argument(
         "--model",
         type=str,
-        default="google/gemma-2-3b-it",
+        default="google/gemma-3-4b-it",
         help="Language model name"
     )
     parser.add_argument(
