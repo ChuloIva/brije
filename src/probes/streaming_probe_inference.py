@@ -606,6 +606,80 @@ class StreamingProbeInferenceEngine:
                 pattern.append('·')
         return ''.join(pattern)
 
+    def generate_with_cognitive_tracking(
+        self,
+        prompt: str,
+        max_new_tokens: int = 256,
+        threshold: float = 0.1,
+        show_realtime: bool = True,
+        temperature: float = 0.7,
+        top_p: float = 0.9
+    ) -> Tuple[str, List[StreamingPrediction]]:
+        """
+        Generate text while tracking cognitive actions in real-time
+
+        Args:
+            prompt: Input prompt for generation
+            max_new_tokens: Maximum tokens to generate
+            threshold: Confidence threshold for active predictions
+            show_realtime: Show real-time cognitive activations during generation
+            temperature: Sampling temperature
+            top_p: Top-p sampling parameter
+
+        Returns:
+            Tuple of (generated_text, predictions_list)
+        """
+        if show_realtime:
+            print(f"\n{'=' * 80}")
+            print(f"{'GENERATING WITH COGNITIVE TRACKING':^80}")
+            print(f"{'=' * 80}\n")
+            print(f"Prompt: {prompt[:100]}{'...' if len(prompt) > 100 else ''}\n")
+            print(f"{'=' * 80}\n")
+
+        # Generate text using the underlying model from the nnsight wrapper
+        inputs = self.tokenizer(prompt, return_tensors="pt").to(self.device)
+
+        # Access the underlying model from the LanguageModel wrapper
+        # The nnsight LanguageModel stores the actual model in ._model
+        underlying_model = self.model._model
+
+        # Generate with the underlying model
+        with torch.no_grad():
+            outputs = underlying_model.generate(
+                **inputs,
+                max_new_tokens=max_new_tokens,
+                temperature=temperature,
+                top_p=top_p,
+                do_sample=True,
+                pad_token_id=self.tokenizer.eos_token_id
+            )
+
+        # Decode the generated text
+        generated_text = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+        # Remove the prompt from the generated text to get only the new content
+        # Use the tokenizer to properly extract just the generated tokens
+        prompt_tokens = self.tokenizer.encode(prompt, add_special_tokens=False)
+        response_text = self.tokenizer.decode(outputs[0][len(prompt_tokens):], skip_special_tokens=True)
+
+        if show_realtime:
+            print(f"\nGenerated Response:")
+            print(f"{'-' * 80}")
+            print(response_text)
+            print(f"{'-' * 80}\n")
+            print(f"\nNow analyzing cognitive actions during generation...\n")
+
+        # Now analyze the full generated text for cognitive actions
+        full_text = prompt + "\n" + response_text
+        predictions = self.predict_streaming(
+            full_text,
+            top_k=len(self.probes),
+            threshold=threshold,
+            show_realtime=show_realtime
+        )
+
+        return response_text, predictions
+
     def visualize_token_activations(
         self,
         predictions: List[StreamingPrediction],

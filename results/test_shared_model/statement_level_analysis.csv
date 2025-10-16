@@ -1,0 +1,91 @@
+entry_id,statement_type,cognitive_pattern_name,cognitive_pattern_type,action,max_confidence,mean_confidence,layer_count,best_layer,num_tokens
+0,positive,Executive Fatigue & Avolition,Cognitive depletion pattern,emotion_management,1.0,0.7652343791443855,8,22,106
+0,positive,Executive Fatigue & Avolition,Cognitive depletion pattern,metacognitive_regulation,1.0,0.5340232849313538,6,29,106
+0,positive,Executive Fatigue & Avolition,Cognitive depletion pattern,emotion_responding,1.0,0.16484375007567004,2,22,106
+0,positive,Executive Fatigue & Avolition,Cognitive depletion pattern,metacognitive_monitoring,1.0,0.13550415039070351,2,26,106
+0,positive,Executive Fatigue & Avolition,Cognitive depletion pattern,reframing,0.99609375,0.10036624353444665,1,30,106
+0,positive,Executive Fatigue & Avolition,Cognitive depletion pattern,analyzing,1.3597309589385986e-07,1.3597309589385986e-08,0,22,106
+0,positive,Executive Fatigue & Avolition,Cognitive depletion pattern,emotion_characterizing,9.049472282640636e-11,9.04947228874921e-12,0,26,106
+0,positive,Executive Fatigue & Avolition,Cognitive depletion pattern,updating_beliefs,5.995204332975845e-15,6.035536679228113e-16,0,23,106
+0,positive,Executive Fatigue & Avolition,Cognitive depletion pattern,creating,6.056285572868247e-20,6.05628557286825e-21,0,22,106
+0,positive,Executive Fatigue & Avolition,Cognitive depletion pattern,situation_selection,2.6056189295420372e-23,2.605618929542185e-24,0,21,106
+0,negative,Executive Fatigue & Avolition,Cognitive depletion pattern,emotion_receiving,1.0,0.32891007093785163,4,26,58
+0,negative,Executive Fatigue & Avolition,Cognitive depletion pattern,emotion_responding,1.0,0.29218750004368704,3,27,58
+0,negative,Executive Fatigue & Avolition,Cognitive depletion pattern,analogical_thinking,1.0,0.29648437784053483,3,28,58
+0,negative,Executive Fatigue & Avolition,Cognitive depletion pattern,attentional_deployment,1.0,0.1,1,30,58
+0,negative,Executive Fatigue & Avolition,Cognitive depletion pattern,emotion_perception,4.6798959374427795e-08,4.679895942625771e-09,0,27,58
+0,negative,Executive Fatigue & Avolition,Cognitive depletion pattern,evaluating,2.066371962428093e-09,2.066471136769379e-10,0,25,58
+0,negative,Executive Fatigue & Avolition,Cognitive depletion pattern,emotion_valuing,3.268496584496461e-13,3.28563565259731e-14,0,21,58
+0,negative,Executive Fatigue & Avolition,Cognitive depletion pattern,applying,9.370282327836321e-14,9.37098163823759e-15,0,21,58
+0,negative,Executive Fatigue & Avolition,Cognitive depletion pattern,creating,2.481541837659083e-22,2.4815476047099307e-23,0,22,58
+0,negative,Executive Fatigue & Avolition,Cognitive depletion pattern,emotion_management,1.9273308272485545e-22,1.9273308272485545e-23,0,30,58
+0,transformed,Executive Fatigue & Avolition,Cognitive depletion pattern,concretizing,1.0,0.20000000000000204,2,21,72
+0,transformed,Executive Fatigue & Avolition,Cognitive depletion pattern,emotion_management,1.0,0.18682556152344093,2,30,72
+0,transformed,Executive Fatigue & Avolition,Cognitive depletion pattern,metacognitive_monitoring,2.514570951461792e-08,2.514571062180518e-09,0,26,72
+0,transformed,Executive Fatigue & Avolition,Cognitive depletion pattern,situation_selection,5.995204332975845e-15,6.928177914773762e-16,0,26,72
+0,transformed,Executive Fatigue & Avolition,Cognitive depletion pattern,emotion_responding,4.926614671774132e-16,4.9266146717799245e-17,0,22,72
+0,transformed,Executive Fatigue & Avolition,Cognitive depletion pattern,divergent_thinking,1.485356976305141e-17,1.485356976305141e-18,0,23,72
+0,transformed,Executive Fatigue & Avolition,Cognitive depletion pattern,emotion_organizing,3.3068166260807885e-18,3.3068217636561344e-19,0,29,72
+0,transformed,Executive Fatigue & Avolition,Cognitive depletion pattern,metacognitive_regulation,1.3499587596865412e-20,1.35121493540225e-21,0,29,72
+0,transformed,Executive Fatigue & Avolition,Cognitive depletion pattern,attentional_deployment,6.3792168840089494e-21,6.37921688400895e-22,0,21,72
+0,transformed,Executive Fatigue & Avolition,Cognitive depletion pattern,emotion_facilitation,1.826414792517085e-21,1.8264155119626362e-22,0,21,72
+1,positive,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,emotion_management,1.0,0.5000000346452398,5,22,120
+1,positive,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,emotion_responding,1.0,0.21964206704295758,3,27,120
+1,positive,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,metacognitive_monitoring,1.0,0.11621093750000004,2,26,120
+1,positive,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,metacognitive_regulation,7.963180541992188e-05,7.96376229503826e-06,0,30,120
+1,positive,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,emotion_understanding,2.574980159653073e-18,2.5751307065620734e-19,0,22,120
+1,positive,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,emotional_reappraisal,1.565316886525947e-18,1.5876581690185565e-19,0,23,120
+1,positive,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,emotion_perception,2.355810384551023e-21,3.222695780983872e-22,0,23,120
+1,positive,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,reframing,6.716706573930585e-22,6.717211474245692e-23,0,22,120
+1,positive,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,emotion_facilitation,9.098986738083304e-23,9.099007420898102e-24,0,21,120
+1,positive,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,pattern_recognition,7.496324301261813e-24,7.563390099980283e-25,0,27,120
+1,negative,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,hypothesis_generation,1.0,0.42561340332089237,5,25,65
+1,negative,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,counterfactual_reasoning,1.0,0.16171875,2,22,65
+1,negative,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,convergent_thinking,1.0,0.13515625,2,24,65
+1,negative,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,divergent_thinking,1.0,0.1000000013646897,1,22,65
+1,negative,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,evaluating,2.514570951461792e-08,2.625165507742203e-09,0,24,65
+1,negative,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,emotion_responding,1.0477378964424133e-08,1.0477384971175257e-09,0,27,65
+1,negative,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,self_questioning,1.3322676295501878e-15,1.3322677007250306e-16,0,21,65
+1,negative,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,situation_selection,1.3499587596865412e-20,1.354260098871817e-21,0,28,65
+1,negative,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,reconsidering,2.7529604761530452e-24,2.7529604761681596e-25,0,27,65
+1,negative,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,concretizing,6.462348535570529e-26,6.462348535570529e-27,0,21,65
+1,transformed,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,pattern_recognition,1.0,0.6841264761285857,8,21,80
+1,transformed,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,emotion_perception,1.0,0.10000002535654247,1,29,80
+1,transformed,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,concretizing,0.036865234375,0.003686523437500014,0,21,80
+1,transformed,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,analyzing,0.0023193359375,0.00023198723793030029,0,26,80
+1,transformed,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,updating_beliefs,5.14984130859375e-05,5.14984130859375e-06,0,21,80
+1,transformed,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,emotion_organizing,9.486769009248164e-19,9.486769009263026e-20,0,25,80
+1,transformed,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,analogical_thinking,1.2989320556496763e-24,1.2989320556496764e-25,0,21,80
+1,transformed,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,applying,4.782137916322191e-25,4.782137932572325e-26,0,21,80
+1,transformed,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,distinguishing,3.715850407953054e-25,3.715850407953054e-26,0,21,80
+1,transformed,Persistent Suicidal Ideation Focus,Intrusive suicidal fixation,zooming_in,1.3732490638087374e-25,1.373249183699096e-26,0,21,80
+2,positive,Self-Critical Rumination,Negative self-evaluative loop,reframing,1.0,0.8984375087544322,9,21,66
+2,positive,Self-Critical Rumination,Negative self-evaluative loop,emotion_management,1.0,0.49650063887289664,5,26,66
+2,positive,Self-Critical Rumination,Negative self-evaluative loop,response_modulation,1.0,0.11778836846351659,2,24,66
+2,positive,Self-Critical Rumination,Negative self-evaluative loop,metacognitive_regulation,0.98046875,0.11367197740163064,2,29,66
+2,positive,Self-Critical Rumination,Negative self-evaluative loop,divergent_thinking,1.0,0.1000000009255018,1,27,66
+2,positive,Self-Critical Rumination,Negative self-evaluative loop,accepting,0.07275390625,0.0073398611242737385,0,26,66
+2,positive,Self-Critical Rumination,Negative self-evaluative loop,evaluating,0.000518798828125,5.187988281288164e-05,0,25,66
+2,positive,Self-Critical Rumination,Negative self-evaluative loop,emotional_reappraisal,8.754432201385498e-08,9.09683374702235e-09,0,23,66
+2,positive,Self-Critical Rumination,Negative self-evaluative loop,emotion_characterizing,2.2118911147117615e-08,2.2118911154121254e-09,0,26,66
+2,positive,Self-Critical Rumination,Negative self-evaluative loop,emotion_responding,2.7830537874251604e-10,2.7909053394305643e-11,0,22,66
+2,negative,Self-Critical Rumination,Negative self-evaluative loop,self_questioning,1.0,0.7244140712544322,8,21,46
+2,negative,Self-Critical Rumination,Negative self-evaluative loop,hypothesis_generation,1.0,0.5459027077653446,6,25,46
+2,negative,Self-Critical Rumination,Negative self-evaluative loop,emotion_responding,1.0,0.20000027683564237,2,22,46
+2,negative,Self-Critical Rumination,Negative self-evaluative loop,evaluating,1.0,0.20106506500160465,2,25,46
+2,negative,Self-Critical Rumination,Negative self-evaluative loop,convergent_thinking,1.0,0.10000001201406294,1,24,46
+2,negative,Self-Critical Rumination,Negative self-evaluative loop,questioning,5.781650543212891e-06,5.782241565763072e-07,0,22,46
+2,negative,Self-Critical Rumination,Negative self-evaluative loop,emotion_valuing,3.9301812648773193e-07,3.9355063563564254e-08,0,29,46
+2,negative,Self-Critical Rumination,Negative self-evaluative loop,counterfactual_reasoning,1.1874362826347351e-08,1.187436282634735e-09,0,21,46
+2,negative,Self-Critical Rumination,Negative self-evaluative loop,updating_beliefs,1.0800249583553523e-11,1.0800249583553523e-12,0,28,46
+2,negative,Self-Critical Rumination,Negative self-evaluative loop,response_modulation,3.042011087472929e-14,3.042011090823011e-15,0,24,46
+2,transformed,Self-Critical Rumination,Negative self-evaluative loop,metacognitive_monitoring,1.0,0.4018310546875591,4,24,23
+2,transformed,Self-Critical Rumination,Negative self-evaluative loop,attentional_deployment,1.0,0.1,1,29,23
+2,transformed,Self-Critical Rumination,Negative self-evaluative loop,cognition_awareness,1.0,0.1,1,30,23
+2,transformed,Self-Critical Rumination,Negative self-evaluative loop,self_questioning,1.0,0.10000050961971282,1,30,23
+2,transformed,Self-Critical Rumination,Negative self-evaluative loop,understanding,1.0,0.10004577636718756,1,30,23
+2,transformed,Self-Critical Rumination,Negative self-evaluative loop,emotion_management,0.00093841552734375,9.384181757923364e-05,0,28,23
+2,transformed,Self-Critical Rumination,Negative self-evaluative loop,applying,0.0001087188720703125,1.0871889436111366e-05,0,26,23
+2,transformed,Self-Critical Rumination,Negative self-evaluative loop,reframing,3.314018249511719e-05,3.3140182495117193e-06,0,29,23
+2,transformed,Self-Critical Rumination,Negative self-evaluative loop,metacognitive_regulation,4.500150680541992e-06,4.5876950124368795e-07,0,29,23
+2,transformed,Self-Critical Rumination,Negative self-evaluative loop,analyzing,1.0654330253601074e-06,1.0654330253601076e-07,0,30,23

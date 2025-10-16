@@ -1,0 +1,3391 @@
+[
+  {
+    "task_id": "false_belief_0001",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Emma and Sally are in the living room. Emma puts a book in the box and then leaves to go outside. While Emma is gone, Sally takes the book out of the box and puts it in the drawer. Emma comes back inside.",
+    "control_scenario": "Emma and Sally are in the living room. A book is first in the box. Then the book is moved to the drawer. Emma was not present when the book was moved.",
+    "question": "Where will Emma look for the book?",
+    "correct_answer": "in the box",
+    "alternatives": [
+      "in the drawer",
+      "in both the box and drawer",
+      "Emma won't look for it"
+    ],
+    "characters": [
+      "Emma",
+      "Sally"
+    ],
+    "objects": [
+      "book"
+    ],
+    "locations": [
+      "box",
+      "drawer"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Emma has a false belief about the book's location. The reasoner must distinguish between reality (item in drawer) and Emma's belief (thinks item is still in box)."
+  },
+  {
+    "task_id": "false_belief_0002",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Emma and Isabella are in the kitchen. Emma puts a toy car in the cupboard and then leaves to go outside. While Emma is gone, Isabella takes the toy car out of the cupboard and puts it in the bag. Emma comes back inside.",
+    "control_scenario": "Emma and Isabella are in the kitchen. A toy car is first in the cupboard. Then the toy car is moved to the bag. Emma was not present when the toy car was moved.",
+    "question": "Where will Emma look for the toy car?",
+    "correct_answer": "in the cupboard",
+    "alternatives": [
+      "in the bag",
+      "in both the cupboard and bag",
+      "Emma won't look for it"
+    ],
+    "characters": [
+      "Emma",
+      "Isabella"
+    ],
+    "objects": [
+      "toy car"
+    ],
+    "locations": [
+      "cupboard",
+      "bag"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Emma has a false belief about the toy car's location. The reasoner must distinguish between reality (item in bag) and Emma's belief (thinks item is still in cupboard)."
+  },
+  {
+    "task_id": "false_belief_0003",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Sally and Tom are in the playground. Sally puts a ball in the box and then leaves to go outside. While Sally is gone, Tom takes the ball out of the box and puts it in the trunk. Sally comes back inside.",
+    "control_scenario": "Sally and Tom are in the playground. A ball is first in the box. Then the ball is moved to the trunk. Sally was not present when the ball was moved.",
+    "question": "Where will Sally look for the ball?",
+    "correct_answer": "in the box",
+    "alternatives": [
+      "in the trunk",
+      "in both the box and trunk",
+      "Sally won't look for it"
+    ],
+    "characters": [
+      "Sally",
+      "Tom"
+    ],
+    "objects": [
+      "ball"
+    ],
+    "locations": [
+      "box",
+      "trunk"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Sally has a false belief about the ball's location. The reasoner must distinguish between reality (item in trunk) and Sally's belief (thinks item is still in box)."
+  },
+  {
+    "task_id": "false_belief_0004",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Sally and Mia are in the classroom. Sally puts a ball in the trunk and then leaves to go outside. While Sally is gone, Mia takes the ball out of the trunk and puts it in the cabinet. Sally comes back inside.",
+    "control_scenario": "Sally and Mia are in the classroom. A ball is first in the trunk. Then the ball is moved to the cabinet. Sally was not present when the ball was moved.",
+    "question": "Where will Sally look for the ball?",
+    "correct_answer": "in the trunk",
+    "alternatives": [
+      "in the cabinet",
+      "in both the trunk and cabinet",
+      "Sally won't look for it"
+    ],
+    "characters": [
+      "Sally",
+      "Mia"
+    ],
+    "objects": [
+      "ball"
+    ],
+    "locations": [
+      "trunk",
+      "cabinet"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Sally has a false belief about the ball's location. The reasoner must distinguish between reality (item in cabinet) and Sally's belief (thinks item is still in trunk)."
+  },
+  {
+    "task_id": "false_belief_0005",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Charlotte and Emma are in the kitchen. Charlotte puts a apple in the cupboard and then leaves to go outside. While Charlotte is gone, Emma takes the apple out of the cupboard and puts it in the drawer. Charlotte comes back inside.",
+    "control_scenario": "Charlotte and Emma are in the kitchen. A apple is first in the cupboard. Then the apple is moved to the drawer. Charlotte was not present when the apple was moved.",
+    "question": "Where will Charlotte look for the apple?",
+    "correct_answer": "in the cupboard",
+    "alternatives": [
+      "in the drawer",
+      "in both the cupboard and drawer",
+      "Charlotte won't look for it"
+    ],
+    "characters": [
+      "Charlotte",
+      "Emma"
+    ],
+    "objects": [
+      "apple"
+    ],
+    "locations": [
+      "cupboard",
+      "drawer"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Charlotte has a false belief about the apple's location. The reasoner must distinguish between reality (item in drawer) and Charlotte's belief (thinks item is still in cupboard)."
+  },
+  {
+    "task_id": "false_belief_0006",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Sophia and Ethan are in the living room. Sophia puts a cookie in the drawer and then leaves to go outside. While Sophia is gone, Ethan takes the cookie out of the drawer and puts it in the bag. Sophia comes back inside.",
+    "control_scenario": "Sophia and Ethan are in the living room. A cookie is first in the drawer. Then the cookie is moved to the bag. Sophia was not present when the cookie was moved.",
+    "question": "Where will Sophia look for the cookie?",
+    "correct_answer": "in the drawer",
+    "alternatives": [
+      "in the bag",
+      "in both the drawer and bag",
+      "Sophia won't look for it"
+    ],
+    "characters": [
+      "Sophia",
+      "Ethan"
+    ],
+    "objects": [
+      "cookie"
+    ],
+    "locations": [
+      "drawer",
+      "bag"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Sophia has a false belief about the cookie's location. The reasoner must distinguish between reality (item in bag) and Sophia's belief (thinks item is still in drawer)."
+  },
+  {
+    "task_id": "false_belief_0007",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Oliver and Charlotte are in the garden. Oliver puts a crayon in the basket and then leaves to go outside. While Oliver is gone, Charlotte takes the crayon out of the basket and puts it in the box. Oliver comes back inside.",
+    "control_scenario": "Oliver and Charlotte are in the garden. A crayon is first in the basket. Then the crayon is moved to the box. Oliver was not present when the crayon was moved.",
+    "question": "Where will Oliver look for the crayon?",
+    "correct_answer": "in the basket",
+    "alternatives": [
+      "in the box",
+      "in both the basket and box",
+      "Oliver won't look for it"
+    ],
+    "characters": [
+      "Oliver",
+      "Charlotte"
+    ],
+    "objects": [
+      "crayon"
+    ],
+    "locations": [
+      "basket",
+      "box"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Oliver has a false belief about the crayon's location. The reasoner must distinguish between reality (item in box) and Oliver's belief (thinks item is still in basket)."
+  },
+  {
+    "task_id": "false_belief_0008",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Emma and Oliver are in the kitchen. Emma puts a crayon in the cupboard and then leaves to go outside. While Emma is gone, Oliver takes the crayon out of the cupboard and puts it in the drawer. Emma comes back inside.",
+    "control_scenario": "Emma and Oliver are in the kitchen. A crayon is first in the cupboard. Then the crayon is moved to the drawer. Emma was not present when the crayon was moved.",
+    "question": "Where will Emma look for the crayon?",
+    "correct_answer": "in the cupboard",
+    "alternatives": [
+      "in the drawer",
+      "in both the cupboard and drawer",
+      "Emma won't look for it"
+    ],
+    "characters": [
+      "Emma",
+      "Oliver"
+    ],
+    "objects": [
+      "crayon"
+    ],
+    "locations": [
+      "cupboard",
+      "drawer"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Emma has a false belief about the crayon's location. The reasoner must distinguish between reality (item in drawer) and Emma's belief (thinks item is still in cupboard)."
+  },
+  {
+    "task_id": "false_belief_0009",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Lucas and Liam are in the playground. Lucas puts a toy car in the bag and then leaves to go outside. While Lucas is gone, Liam takes the toy car out of the bag and puts it in the basket. Lucas comes back inside.",
+    "control_scenario": "Lucas and Liam are in the playground. A toy car is first in the bag. Then the toy car is moved to the basket. Lucas was not present when the toy car was moved.",
+    "question": "Where will Lucas look for the toy car?",
+    "correct_answer": "in the bag",
+    "alternatives": [
+      "in the basket",
+      "in both the bag and basket",
+      "Lucas won't look for it"
+    ],
+    "characters": [
+      "Lucas",
+      "Liam"
+    ],
+    "objects": [
+      "toy car"
+    ],
+    "locations": [
+      "bag",
+      "basket"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Lucas has a false belief about the toy car's location. The reasoner must distinguish between reality (item in basket) and Lucas's belief (thinks item is still in bag)."
+  },
+  {
+    "task_id": "false_belief_0010",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Mia and Lucas are in the classroom. Mia puts a crayon in the cupboard and then leaves to go outside. While Mia is gone, Lucas takes the crayon out of the cupboard and puts it in the box. Mia comes back inside.",
+    "control_scenario": "Mia and Lucas are in the classroom. A crayon is first in the cupboard. Then the crayon is moved to the box. Mia was not present when the crayon was moved.",
+    "question": "Where will Mia look for the crayon?",
+    "correct_answer": "in the cupboard",
+    "alternatives": [
+      "in the box",
+      "in both the cupboard and box",
+      "Mia won't look for it"
+    ],
+    "characters": [
+      "Mia",
+      "Lucas"
+    ],
+    "objects": [
+      "crayon"
+    ],
+    "locations": [
+      "cupboard",
+      "box"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Mia has a false belief about the crayon's location. The reasoner must distinguish between reality (item in box) and Mia's belief (thinks item is still in cupboard)."
+  },
+  {
+    "task_id": "false_belief_0011",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Tom and Sally are in the kitchen. Tom puts a ball in the cabinet and then leaves to go outside. While Tom is gone, Sally takes the ball out of the cabinet and puts it in the drawer. Tom comes back inside.",
+    "control_scenario": "Tom and Sally are in the kitchen. A ball is first in the cabinet. Then the ball is moved to the drawer. Tom was not present when the ball was moved.",
+    "question": "Where will Tom look for the ball?",
+    "correct_answer": "in the cabinet",
+    "alternatives": [
+      "in the drawer",
+      "in both the cabinet and drawer",
+      "Tom won't look for it"
+    ],
+    "characters": [
+      "Tom",
+      "Sally"
+    ],
+    "objects": [
+      "ball"
+    ],
+    "locations": [
+      "cabinet",
+      "drawer"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Tom has a false belief about the ball's location. The reasoner must distinguish between reality (item in drawer) and Tom's belief (thinks item is still in cabinet)."
+  },
+  {
+    "task_id": "false_belief_0012",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Ava and Lucas are in the garden. Ava puts a toy car in the bag and then leaves to go outside. While Ava is gone, Lucas takes the toy car out of the bag and puts it in the drawer. Ava comes back inside.",
+    "control_scenario": "Ava and Lucas are in the garden. A toy car is first in the bag. Then the toy car is moved to the drawer. Ava was not present when the toy car was moved.",
+    "question": "Where will Ava look for the toy car?",
+    "correct_answer": "in the bag",
+    "alternatives": [
+      "in the drawer",
+      "in both the bag and drawer",
+      "Ava won't look for it"
+    ],
+    "characters": [
+      "Ava",
+      "Lucas"
+    ],
+    "objects": [
+      "toy car"
+    ],
+    "locations": [
+      "bag",
+      "drawer"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Ava has a false belief about the toy car's location. The reasoner must distinguish between reality (item in drawer) and Ava's belief (thinks item is still in bag)."
+  },
+  {
+    "task_id": "false_belief_0013",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Isabella and Tom are in the classroom. Isabella puts a crayon in the drawer and then leaves to go outside. While Isabella is gone, Tom takes the crayon out of the drawer and puts it in the box. Isabella comes back inside.",
+    "control_scenario": "Isabella and Tom are in the classroom. A crayon is first in the drawer. Then the crayon is moved to the box. Isabella was not present when the crayon was moved.",
+    "question": "Where will Isabella look for the crayon?",
+    "correct_answer": "in the drawer",
+    "alternatives": [
+      "in the box",
+      "in both the drawer and box",
+      "Isabella won't look for it"
+    ],
+    "characters": [
+      "Isabella",
+      "Tom"
+    ],
+    "objects": [
+      "crayon"
+    ],
+    "locations": [
+      "drawer",
+      "box"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Isabella has a false belief about the crayon's location. The reasoner must distinguish between reality (item in box) and Isabella's belief (thinks item is still in drawer)."
+  },
+  {
+    "task_id": "false_belief_0014",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Liam and Ethan are in the living room. Liam puts a toy car in the cupboard and then leaves to go outside. While Liam is gone, Ethan takes the toy car out of the cupboard and puts it in the cabinet. Liam comes back inside.",
+    "control_scenario": "Liam and Ethan are in the living room. A toy car is first in the cupboard. Then the toy car is moved to the cabinet. Liam was not present when the toy car was moved.",
+    "question": "Where will Liam look for the toy car?",
+    "correct_answer": "in the cupboard",
+    "alternatives": [
+      "in the cabinet",
+      "in both the cupboard and cabinet",
+      "Liam won't look for it"
+    ],
+    "characters": [
+      "Liam",
+      "Ethan"
+    ],
+    "objects": [
+      "toy car"
+    ],
+    "locations": [
+      "cupboard",
+      "cabinet"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Liam has a false belief about the toy car's location. The reasoner must distinguish between reality (item in cabinet) and Liam's belief (thinks item is still in cupboard)."
+  },
+  {
+    "task_id": "false_belief_0015",
+    "task_type": "false_belief",
+    "difficulty": "easy",
+    "scenario": "Ava and Tom are in the classroom. Ava puts a apple in the bag and then leaves to go outside. While Ava is gone, Tom takes the apple out of the bag and puts it in the drawer. Ava comes back inside.",
+    "control_scenario": "Ava and Tom are in the classroom. A apple is first in the bag. Then the apple is moved to the drawer. Ava was not present when the apple was moved.",
+    "question": "Where will Ava look for the apple?",
+    "correct_answer": "in the bag",
+    "alternatives": [
+      "in the drawer",
+      "in both the bag and drawer",
+      "Ava won't look for it"
+    ],
+    "characters": [
+      "Ava",
+      "Tom"
+    ],
+    "objects": [
+      "apple"
+    ],
+    "locations": [
+      "bag",
+      "drawer"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Ava has a false belief about the apple's location. The reasoner must distinguish between reality (item in drawer) and Ava's belief (thinks item is still in bag)."
+  },
+  {
+    "task_id": "false_belief_0016",
+    "task_type": "false_belief",
+    "difficulty": "medium",
+    "scenario": "Ava and Isabella are in the living room. Ava puts a crayon in the cabinet and then leaves to go outside. While Ava is gone, Isabella takes the crayon out of the cabinet and puts it in the basket. Ava comes back inside.",
+    "control_scenario": "Ava and Isabella are in the living room. A crayon is first in the cabinet. Then the crayon is moved to the basket. Ava was not present when the crayon was moved.",
+    "question": "Where will Ava look for the crayon?",
+    "correct_answer": "in the cabinet",
+    "alternatives": [
+      "in the basket",
+      "in both the cabinet and basket",
+      "Ava won't look for it"
+    ],
+    "characters": [
+      "Ava",
+      "Isabella"
+    ],
+    "objects": [
+      "crayon"
+    ],
+    "locations": [
+      "cabinet",
+      "basket"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Ava has a false belief about the crayon's location. The reasoner must distinguish between reality (item in basket) and Ava's belief (thinks item is still in cabinet)."
+  },
+  {
+    "task_id": "false_belief_0017",
+    "task_type": "false_belief",
+    "difficulty": "medium",
+    "scenario": "Anne and Charlotte are in the kitchen. Anne puts a crayon in the bag and then leaves to go outside. While Anne is gone, Charlotte takes the crayon out of the bag and puts it in the drawer. Anne comes back inside.",
+    "control_scenario": "Anne and Charlotte are in the kitchen. A crayon is first in the bag. Then the crayon is moved to the drawer. Anne was not present when the crayon was moved.",
+    "question": "Where will Anne look for the crayon?",
+    "correct_answer": "in the bag",
+    "alternatives": [
+      "in the drawer",
+      "in both the bag and drawer",
+      "Anne won't look for it"
+    ],
+    "characters": [
+      "Anne",
+      "Charlotte"
+    ],
+    "objects": [
+      "crayon"
+    ],
+    "locations": [
+      "bag",
+      "drawer"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Anne has a false belief about the crayon's location. The reasoner must distinguish between reality (item in drawer) and Anne's belief (thinks item is still in bag)."
+  },
+  {
+    "task_id": "false_belief_0018",
+    "task_type": "false_belief",
+    "difficulty": "medium",
+    "scenario": "Oliver and Amelia are in the garden. Oliver puts a crayon in the box and then leaves to go outside. While Oliver is gone, Amelia takes the crayon out of the box and puts it in the cabinet. Oliver comes back inside.",
+    "control_scenario": "Oliver and Amelia are in the garden. A crayon is first in the box. Then the crayon is moved to the cabinet. Oliver was not present when the crayon was moved.",
+    "question": "Where will Oliver look for the crayon?",
+    "correct_answer": "in the box",
+    "alternatives": [
+      "in the cabinet",
+      "in both the box and cabinet",
+      "Oliver won't look for it"
+    ],
+    "characters": [
+      "Oliver",
+      "Amelia"
+    ],
+    "objects": [
+      "crayon"
+    ],
+    "locations": [
+      "box",
+      "cabinet"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Oliver has a false belief about the crayon's location. The reasoner must distinguish between reality (item in cabinet) and Oliver's belief (thinks item is still in box)."
+  },
+  {
+    "task_id": "false_belief_0019",
+    "task_type": "false_belief",
+    "difficulty": "medium",
+    "scenario": "Ethan and Amelia are in the living room. Ethan puts a apple in the box and then leaves to go outside. While Ethan is gone, Amelia takes the apple out of the box and puts it in the bag. Ethan comes back inside.",
+    "control_scenario": "Ethan and Amelia are in the living room. A apple is first in the box. Then the apple is moved to the bag. Ethan was not present when the apple was moved.",
+    "question": "Where will Ethan look for the apple?",
+    "correct_answer": "in the box",
+    "alternatives": [
+      "in the bag",
+      "in both the box and bag",
+      "Ethan won't look for it"
+    ],
+    "characters": [
+      "Ethan",
+      "Amelia"
+    ],
+    "objects": [
+      "apple"
+    ],
+    "locations": [
+      "box",
+      "bag"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Ethan has a false belief about the apple's location. The reasoner must distinguish between reality (item in bag) and Ethan's belief (thinks item is still in box)."
+  },
+  {
+    "task_id": "false_belief_0020",
+    "task_type": "false_belief",
+    "difficulty": "medium",
+    "scenario": "Ava and Ethan are in the garden. Ava puts a book in the trunk and then leaves to go outside. While Ava is gone, Ethan takes the book out of the trunk and puts it in the cupboard. Ava comes back inside.",
+    "control_scenario": "Ava and Ethan are in the garden. A book is first in the trunk. Then the book is moved to the cupboard. Ava was not present when the book was moved.",
+    "question": "Where will Ava look for the book?",
+    "correct_answer": "in the trunk",
+    "alternatives": [
+      "in the cupboard",
+      "in both the trunk and cupboard",
+      "Ava won't look for it"
+    ],
+    "characters": [
+      "Ava",
+      "Ethan"
+    ],
+    "objects": [
+      "book"
+    ],
+    "locations": [
+      "trunk",
+      "cupboard"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Ava has a false belief about the book's location. The reasoner must distinguish between reality (item in cupboard) and Ava's belief (thinks item is still in trunk)."
+  },
+  {
+    "task_id": "false_belief_0021",
+    "task_type": "false_belief",
+    "difficulty": "medium",
+    "scenario": "Ethan and Sophia are in the garden. Ethan puts a ball in the box and then leaves to go outside. While Ethan is gone, Sophia takes the ball out of the box and puts it in the trunk. Ethan comes back inside.",
+    "control_scenario": "Ethan and Sophia are in the garden. A ball is first in the box. Then the ball is moved to the trunk. Ethan was not present when the ball was moved.",
+    "question": "Where will Ethan look for the ball?",
+    "correct_answer": "in the box",
+    "alternatives": [
+      "in the trunk",
+      "in both the box and trunk",
+      "Ethan won't look for it"
+    ],
+    "characters": [
+      "Ethan",
+      "Sophia"
+    ],
+    "objects": [
+      "ball"
+    ],
+    "locations": [
+      "box",
+      "trunk"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Ethan has a false belief about the ball's location. The reasoner must distinguish between reality (item in trunk) and Ethan's belief (thinks item is still in box)."
+  },
+  {
+    "task_id": "false_belief_0022",
+    "task_type": "false_belief",
+    "difficulty": "medium",
+    "scenario": "Tom and Charlotte are in the living room. Tom puts a marble in the cabinet and then leaves to go outside. While Tom is gone, Charlotte takes the marble out of the cabinet and puts it in the basket. Tom comes back inside.",
+    "control_scenario": "Tom and Charlotte are in the living room. A marble is first in the cabinet. Then the marble is moved to the basket. Tom was not present when the marble was moved.",
+    "question": "Where will Tom look for the marble?",
+    "correct_answer": "in the cabinet",
+    "alternatives": [
+      "in the basket",
+      "in both the cabinet and basket",
+      "Tom won't look for it"
+    ],
+    "characters": [
+      "Tom",
+      "Charlotte"
+    ],
+    "objects": [
+      "marble"
+    ],
+    "locations": [
+      "cabinet",
+      "basket"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Tom has a false belief about the marble's location. The reasoner must distinguish between reality (item in basket) and Tom's belief (thinks item is still in cabinet)."
+  },
+  {
+    "task_id": "false_belief_0023",
+    "task_type": "false_belief",
+    "difficulty": "medium",
+    "scenario": "Sophia and Charlotte are in the garden. Sophia puts a cookie in the cupboard and then leaves to go outside. While Sophia is gone, Charlotte takes the cookie out of the cupboard and puts it in the basket. Sophia comes back inside.",
+    "control_scenario": "Sophia and Charlotte are in the garden. A cookie is first in the cupboard. Then the cookie is moved to the basket. Sophia was not present when the cookie was moved.",
+    "question": "Where will Sophia look for the cookie?",
+    "correct_answer": "in the cupboard",
+    "alternatives": [
+      "in the basket",
+      "in both the cupboard and basket",
+      "Sophia won't look for it"
+    ],
+    "characters": [
+      "Sophia",
+      "Charlotte"
+    ],
+    "objects": [
+      "cookie"
+    ],
+    "locations": [
+      "cupboard",
+      "basket"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Sophia has a false belief about the cookie's location. The reasoner must distinguish between reality (item in basket) and Sophia's belief (thinks item is still in cupboard)."
+  },
+  {
+    "task_id": "false_belief_0024",
+    "task_type": "false_belief",
+    "difficulty": "medium",
+    "scenario": "Ethan and Mia are in the playground. Ethan puts a apple in the cupboard and then leaves to go outside. While Ethan is gone, Mia takes the apple out of the cupboard and puts it in the drawer. Ethan comes back inside.",
+    "control_scenario": "Ethan and Mia are in the playground. A apple is first in the cupboard. Then the apple is moved to the drawer. Ethan was not present when the apple was moved.",
+    "question": "Where will Ethan look for the apple?",
+    "correct_answer": "in the cupboard",
+    "alternatives": [
+      "in the drawer",
+      "in both the cupboard and drawer",
+      "Ethan won't look for it"
+    ],
+    "characters": [
+      "Ethan",
+      "Mia"
+    ],
+    "objects": [
+      "apple"
+    ],
+    "locations": [
+      "cupboard",
+      "drawer"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Ethan has a false belief about the apple's location. The reasoner must distinguish between reality (item in drawer) and Ethan's belief (thinks item is still in cupboard)."
+  },
+  {
+    "task_id": "false_belief_0025",
+    "task_type": "false_belief",
+    "difficulty": "hard",
+    "scenario": "Sally and Isabella are in the bedroom. Sally puts a toy car in the trunk and then leaves to go outside. While Sally is gone, Isabella takes the toy car out of the trunk and puts it in the cupboard. Sally comes back inside. Isabella tells Sally that the bedroom has been reorganized.",
+    "control_scenario": "Sally and Isabella are in the bedroom. A toy car is first in the trunk. Then the toy car is moved to the cupboard. Sally was not present when the toy car was moved.",
+    "question": "Where will Sally look for the toy car?",
+    "correct_answer": "in the trunk",
+    "alternatives": [
+      "in the cupboard",
+      "in both the trunk and cupboard",
+      "Sally won't look for it",
+      "anywhere in the bedroom"
+    ],
+    "characters": [
+      "Sally",
+      "Isabella"
+    ],
+    "objects": [
+      "toy car"
+    ],
+    "locations": [
+      "trunk",
+      "cupboard"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Sally has a false belief about the toy car's location. The reasoner must distinguish between reality (item in cupboard) and Sally's belief (thinks item is still in trunk)."
+  },
+  {
+    "task_id": "false_belief_0026",
+    "task_type": "false_belief",
+    "difficulty": "hard",
+    "scenario": "Noah and Anne are in the garden. Noah puts a book in the bag and then leaves to go outside. While Noah is gone, Anne takes the book out of the bag and puts it in the box. Noah comes back inside. Anne tells Noah that the garden has been reorganized.",
+    "control_scenario": "Noah and Anne are in the garden. A book is first in the bag. Then the book is moved to the box. Noah was not present when the book was moved.",
+    "question": "Where will Noah look for the book?",
+    "correct_answer": "in the bag",
+    "alternatives": [
+      "in the box",
+      "in both the bag and box",
+      "Noah won't look for it",
+      "anywhere in the garden"
+    ],
+    "characters": [
+      "Noah",
+      "Anne"
+    ],
+    "objects": [
+      "book"
+    ],
+    "locations": [
+      "bag",
+      "box"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Noah has a false belief about the book's location. The reasoner must distinguish between reality (item in box) and Noah's belief (thinks item is still in bag)."
+  },
+  {
+    "task_id": "false_belief_0027",
+    "task_type": "false_belief",
+    "difficulty": "hard",
+    "scenario": "Sally and Ethan are in the playground. Sally puts a book in the cupboard and then leaves to go outside. While Sally is gone, Ethan takes the book out of the cupboard and puts it in the box. Sally comes back inside. Ethan tells Sally that the playground has been reorganized.",
+    "control_scenario": "Sally and Ethan are in the playground. A book is first in the cupboard. Then the book is moved to the box. Sally was not present when the book was moved.",
+    "question": "Where will Sally look for the book?",
+    "correct_answer": "in the cupboard",
+    "alternatives": [
+      "in the box",
+      "in both the cupboard and box",
+      "Sally won't look for it",
+      "anywhere in the playground"
+    ],
+    "characters": [
+      "Sally",
+      "Ethan"
+    ],
+    "objects": [
+      "book"
+    ],
+    "locations": [
+      "cupboard",
+      "box"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Sally has a false belief about the book's location. The reasoner must distinguish between reality (item in box) and Sally's belief (thinks item is still in cupboard)."
+  },
+  {
+    "task_id": "false_belief_0028",
+    "task_type": "false_belief",
+    "difficulty": "hard",
+    "scenario": "Emma and Lucas are in the playground. Emma puts a book in the cabinet and then leaves to go outside. While Emma is gone, Lucas takes the book out of the cabinet and puts it in the trunk. Emma comes back inside. Lucas tells Emma that the playground has been reorganized.",
+    "control_scenario": "Emma and Lucas are in the playground. A book is first in the cabinet. Then the book is moved to the trunk. Emma was not present when the book was moved.",
+    "question": "Where will Emma look for the book?",
+    "correct_answer": "in the cabinet",
+    "alternatives": [
+      "in the trunk",
+      "in both the cabinet and trunk",
+      "Emma won't look for it",
+      "anywhere in the playground"
+    ],
+    "characters": [
+      "Emma",
+      "Lucas"
+    ],
+    "objects": [
+      "book"
+    ],
+    "locations": [
+      "cabinet",
+      "trunk"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Emma has a false belief about the book's location. The reasoner must distinguish between reality (item in trunk) and Emma's belief (thinks item is still in cabinet)."
+  },
+  {
+    "task_id": "false_belief_0029",
+    "task_type": "false_belief",
+    "difficulty": "hard",
+    "scenario": "Oliver and Tom are in the playground. Oliver puts a crayon in the cabinet and then leaves to go outside. While Oliver is gone, Tom takes the crayon out of the cabinet and puts it in the box. Oliver comes back inside. Tom tells Oliver that the playground has been reorganized.",
+    "control_scenario": "Oliver and Tom are in the playground. A crayon is first in the cabinet. Then the crayon is moved to the box. Oliver was not present when the crayon was moved.",
+    "question": "Where will Oliver look for the crayon?",
+    "correct_answer": "in the cabinet",
+    "alternatives": [
+      "in the box",
+      "in both the cabinet and box",
+      "Oliver won't look for it",
+      "anywhere in the playground"
+    ],
+    "characters": [
+      "Oliver",
+      "Tom"
+    ],
+    "objects": [
+      "crayon"
+    ],
+    "locations": [
+      "cabinet",
+      "box"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Oliver has a false belief about the crayon's location. The reasoner must distinguish between reality (item in box) and Oliver's belief (thinks item is still in cabinet)."
+  },
+  {
+    "task_id": "false_belief_0030",
+    "task_type": "false_belief",
+    "difficulty": "hard",
+    "scenario": "Sally and Noah are in the kitchen. Sally puts a crayon in the bag and then leaves to go outside. While Sally is gone, Noah takes the crayon out of the bag and puts it in the basket. Sally comes back inside. Noah tells Sally that the kitchen has been reorganized.",
+    "control_scenario": "Sally and Noah are in the kitchen. A crayon is first in the bag. Then the crayon is moved to the basket. Sally was not present when the crayon was moved.",
+    "question": "Where will Sally look for the crayon?",
+    "correct_answer": "in the bag",
+    "alternatives": [
+      "in the basket",
+      "in both the bag and basket",
+      "Sally won't look for it",
+      "anywhere in the kitchen"
+    ],
+    "characters": [
+      "Sally",
+      "Noah"
+    ],
+    "objects": [
+      "crayon"
+    ],
+    "locations": [
+      "bag",
+      "basket"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires tracking that Sally has a false belief about the crayon's location. The reasoner must distinguish between reality (item in basket) and Sally's belief (thinks item is still in bag)."
+  },
+  {
+    "task_id": "unexpected_contents_0031",
+    "task_type": "unexpected_contents",
+    "difficulty": "easy",
+    "scenario": "You see a cookie jar on the table. Before opening it, it looks like a normal cookie jar. You open it and find marbles inside, not cookies. Your friend Mia has never seen inside this cookie jar before. Mia walks into the room and sees the closed cookie jar.",
+    "control_scenario": "A cookie jar is on the table. The cookie jar contains marbles. The cookie jar is labeled as containing cookies. Mia sees the closed cookie jar.",
+    "question": "What does Mia think is inside the cookie jar?",
+    "correct_answer": "cookies",
+    "alternatives": [
+      "marbles",
+      "keys",
+      "stamps"
+    ],
+    "characters": [
+      "Mia"
+    ],
+    "objects": [
+      "cookie jar",
+      "cookies",
+      "marbles"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Mia doesn't know what you know. Mia will have the default belief (cookies) based on the container's appearance, not your privileged knowledge (marbles)."
+  },
+  {
+    "task_id": "unexpected_contents_0032",
+    "task_type": "unexpected_contents",
+    "difficulty": "easy",
+    "scenario": "You see a cereal box on the table. Before opening it, it looks like a normal cereal box. You open it and find toys inside, not cereal. Your friend Tom has never seen inside this cereal box before. Tom walks into the room and sees the closed cereal box.",
+    "control_scenario": "A cereal box is on the table. The cereal box contains toys. The cereal box is labeled as containing cereal. Tom sees the closed cereal box.",
+    "question": "What does Tom think is inside the cereal box?",
+    "correct_answer": "cereal",
+    "alternatives": [
+      "toys",
+      "letters",
+      "photos"
+    ],
+    "characters": [
+      "Tom"
+    ],
+    "objects": [
+      "cereal box",
+      "cereal",
+      "toys"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Tom doesn't know what you know. Tom will have the default belief (cereal) based on the container's appearance, not your privileged knowledge (toys)."
+  },
+  {
+    "task_id": "unexpected_contents_0033",
+    "task_type": "unexpected_contents",
+    "difficulty": "easy",
+    "scenario": "You see a candy box on the table. Before opening it, it looks like a normal candy box. You open it and find pencils inside, not candies. Your friend Jack has never seen inside this candy box before. Jack walks into the room and sees the closed candy box.",
+    "control_scenario": "A candy box is on the table. The candy box contains pencils. The candy box is labeled as containing candies. Jack sees the closed candy box.",
+    "question": "What does Jack think is inside the candy box?",
+    "correct_answer": "candies",
+    "alternatives": [
+      "pencils",
+      "buttons",
+      "coins"
+    ],
+    "characters": [
+      "Jack"
+    ],
+    "objects": [
+      "candy box",
+      "candies",
+      "pencils"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Jack doesn't know what you know. Jack will have the default belief (candies) based on the container's appearance, not your privileged knowledge (pencils)."
+  },
+  {
+    "task_id": "unexpected_contents_0034",
+    "task_type": "unexpected_contents",
+    "difficulty": "easy",
+    "scenario": "You see a cereal box on the table. Before opening it, it looks like a normal cereal box. You open it and find toys inside, not cereal. Your friend Liam has never seen inside this cereal box before. Liam walks into the room and sees the closed cereal box.",
+    "control_scenario": "A cereal box is on the table. The cereal box contains toys. The cereal box is labeled as containing cereal. Liam sees the closed cereal box.",
+    "question": "What does Liam think is inside the cereal box?",
+    "correct_answer": "cereal",
+    "alternatives": [
+      "toys",
+      "photos",
+      "letters"
+    ],
+    "characters": [
+      "Liam"
+    ],
+    "objects": [
+      "cereal box",
+      "cereal",
+      "toys"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Liam doesn't know what you know. Liam will have the default belief (cereal) based on the container's appearance, not your privileged knowledge (toys)."
+  },
+  {
+    "task_id": "unexpected_contents_0035",
+    "task_type": "unexpected_contents",
+    "difficulty": "easy",
+    "scenario": "You see a cereal box on the table. Before opening it, it looks like a normal cereal box. You open it and find toys inside, not cereal. Your friend Mia has never seen inside this cereal box before. Mia walks into the room and sees the closed cereal box.",
+    "control_scenario": "A cereal box is on the table. The cereal box contains toys. The cereal box is labeled as containing cereal. Mia sees the closed cereal box.",
+    "question": "What does Mia think is inside the cereal box?",
+    "correct_answer": "cereal",
+    "alternatives": [
+      "toys",
+      "photos",
+      "letters"
+    ],
+    "characters": [
+      "Mia"
+    ],
+    "objects": [
+      "cereal box",
+      "cereal",
+      "toys"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Mia doesn't know what you know. Mia will have the default belief (cereal) based on the container's appearance, not your privileged knowledge (toys)."
+  },
+  {
+    "task_id": "unexpected_contents_0036",
+    "task_type": "unexpected_contents",
+    "difficulty": "easy",
+    "scenario": "You see a pencil case on the table. Before opening it, it looks like a normal pencil case. You open it and find candies inside, not pencils. Your friend Lucas has never seen inside this pencil case before. Lucas walks into the room and sees the closed pencil case.",
+    "control_scenario": "A pencil case is on the table. The pencil case contains candies. The pencil case is labeled as containing pencils. Lucas sees the closed pencil case.",
+    "question": "What does Lucas think is inside the pencil case?",
+    "correct_answer": "pencils",
+    "alternatives": [
+      "candies",
+      "erasers",
+      "clips"
+    ],
+    "characters": [
+      "Lucas"
+    ],
+    "objects": [
+      "pencil case",
+      "pencils",
+      "candies"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Lucas doesn't know what you know. Lucas will have the default belief (pencils) based on the container's appearance, not your privileged knowledge (candies)."
+  },
+  {
+    "task_id": "unexpected_contents_0037",
+    "task_type": "unexpected_contents",
+    "difficulty": "easy",
+    "scenario": "You see a cereal box on the table. Before opening it, it looks like a normal cereal box. You open it and find toys inside, not cereal. Your friend Tom has never seen inside this cereal box before. Tom walks into the room and sees the closed cereal box.",
+    "control_scenario": "A cereal box is on the table. The cereal box contains toys. The cereal box is labeled as containing cereal. Tom sees the closed cereal box.",
+    "question": "What does Tom think is inside the cereal box?",
+    "correct_answer": "cereal",
+    "alternatives": [
+      "toys",
+      "photos",
+      "letters"
+    ],
+    "characters": [
+      "Tom"
+    ],
+    "objects": [
+      "cereal box",
+      "cereal",
+      "toys"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Tom doesn't know what you know. Tom will have the default belief (cereal) based on the container's appearance, not your privileged knowledge (toys)."
+  },
+  {
+    "task_id": "unexpected_contents_0038",
+    "task_type": "unexpected_contents",
+    "difficulty": "easy",
+    "scenario": "You see a cereal box on the table. Before opening it, it looks like a normal cereal box. You open it and find toys inside, not cereal. Your friend Ava has never seen inside this cereal box before. Ava walks into the room and sees the closed cereal box.",
+    "control_scenario": "A cereal box is on the table. The cereal box contains toys. The cereal box is labeled as containing cereal. Ava sees the closed cereal box.",
+    "question": "What does Ava think is inside the cereal box?",
+    "correct_answer": "cereal",
+    "alternatives": [
+      "toys",
+      "letters",
+      "photos"
+    ],
+    "characters": [
+      "Ava"
+    ],
+    "objects": [
+      "cereal box",
+      "cereal",
+      "toys"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Ava doesn't know what you know. Ava will have the default belief (cereal) based on the container's appearance, not your privileged knowledge (toys)."
+  },
+  {
+    "task_id": "unexpected_contents_0039",
+    "task_type": "unexpected_contents",
+    "difficulty": "easy",
+    "scenario": "You see a candy box on the table. Before opening it, it looks like a normal candy box. You open it and find pencils inside, not candies. Your friend Ava has never seen inside this candy box before. Ava walks into the room and sees the closed candy box.",
+    "control_scenario": "A candy box is on the table. The candy box contains pencils. The candy box is labeled as containing candies. Ava sees the closed candy box.",
+    "question": "What does Ava think is inside the candy box?",
+    "correct_answer": "candies",
+    "alternatives": [
+      "pencils",
+      "buttons",
+      "coins"
+    ],
+    "characters": [
+      "Ava"
+    ],
+    "objects": [
+      "candy box",
+      "candies",
+      "pencils"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Ava doesn't know what you know. Ava will have the default belief (candies) based on the container's appearance, not your privileged knowledge (pencils)."
+  },
+  {
+    "task_id": "unexpected_contents_0040",
+    "task_type": "unexpected_contents",
+    "difficulty": "easy",
+    "scenario": "You see a cookie jar on the table. Before opening it, it looks like a normal cookie jar. You open it and find marbles inside, not cookies. Your friend Tom has never seen inside this cookie jar before. Tom walks into the room and sees the closed cookie jar.",
+    "control_scenario": "A cookie jar is on the table. The cookie jar contains marbles. The cookie jar is labeled as containing cookies. Tom sees the closed cookie jar.",
+    "question": "What does Tom think is inside the cookie jar?",
+    "correct_answer": "cookies",
+    "alternatives": [
+      "marbles",
+      "keys",
+      "stamps"
+    ],
+    "characters": [
+      "Tom"
+    ],
+    "objects": [
+      "cookie jar",
+      "cookies",
+      "marbles"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Tom doesn't know what you know. Tom will have the default belief (cookies) based on the container's appearance, not your privileged knowledge (marbles)."
+  },
+  {
+    "task_id": "unexpected_contents_0041",
+    "task_type": "unexpected_contents",
+    "difficulty": "medium",
+    "scenario": "You see a pencil case on the table. Before opening it, it looks like a normal pencil case. You open it and find candies inside, not pencils. Your friend Oliver has never seen inside this pencil case before. Oliver walks into the room and sees the closed pencil case.",
+    "control_scenario": "A pencil case is on the table. The pencil case contains candies. The pencil case is labeled as containing pencils. Oliver sees the closed pencil case.",
+    "question": "What does Oliver think is inside the pencil case?",
+    "correct_answer": "pencils",
+    "alternatives": [
+      "candies",
+      "erasers",
+      "clips"
+    ],
+    "characters": [
+      "Oliver"
+    ],
+    "objects": [
+      "pencil case",
+      "pencils",
+      "candies"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Oliver doesn't know what you know. Oliver will have the default belief (pencils) based on the container's appearance, not your privileged knowledge (candies)."
+  },
+  {
+    "task_id": "unexpected_contents_0042",
+    "task_type": "unexpected_contents",
+    "difficulty": "medium",
+    "scenario": "You see a cereal box on the table. Before opening it, it looks like a normal cereal box. You open it and find toys inside, not cereal. Your friend Amelia has never seen inside this cereal box before. Amelia walks into the room and sees the closed cereal box.",
+    "control_scenario": "A cereal box is on the table. The cereal box contains toys. The cereal box is labeled as containing cereal. Amelia sees the closed cereal box.",
+    "question": "What does Amelia think is inside the cereal box?",
+    "correct_answer": "cereal",
+    "alternatives": [
+      "toys",
+      "photos",
+      "letters"
+    ],
+    "characters": [
+      "Amelia"
+    ],
+    "objects": [
+      "cereal box",
+      "cereal",
+      "toys"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Amelia doesn't know what you know. Amelia will have the default belief (cereal) based on the container's appearance, not your privileged knowledge (toys)."
+  },
+  {
+    "task_id": "unexpected_contents_0043",
+    "task_type": "unexpected_contents",
+    "difficulty": "medium",
+    "scenario": "You see a candy box on the table. Before opening it, it looks like a normal candy box. You open it and find pencils inside, not candies. Your friend Emma has never seen inside this candy box before. Emma walks into the room and sees the closed candy box.",
+    "control_scenario": "A candy box is on the table. The candy box contains pencils. The candy box is labeled as containing candies. Emma sees the closed candy box.",
+    "question": "What does Emma think is inside the candy box?",
+    "correct_answer": "candies",
+    "alternatives": [
+      "pencils",
+      "coins",
+      "buttons"
+    ],
+    "characters": [
+      "Emma"
+    ],
+    "objects": [
+      "candy box",
+      "candies",
+      "pencils"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Emma doesn't know what you know. Emma will have the default belief (candies) based on the container's appearance, not your privileged knowledge (pencils)."
+  },
+  {
+    "task_id": "unexpected_contents_0044",
+    "task_type": "unexpected_contents",
+    "difficulty": "medium",
+    "scenario": "You see a pencil case on the table. Before opening it, it looks like a normal pencil case. You open it and find candies inside, not pencils. Your friend Charlotte has never seen inside this pencil case before. Charlotte walks into the room and sees the closed pencil case.",
+    "control_scenario": "A pencil case is on the table. The pencil case contains candies. The pencil case is labeled as containing pencils. Charlotte sees the closed pencil case.",
+    "question": "What does Charlotte think is inside the pencil case?",
+    "correct_answer": "pencils",
+    "alternatives": [
+      "candies",
+      "clips",
+      "erasers"
+    ],
+    "characters": [
+      "Charlotte"
+    ],
+    "objects": [
+      "pencil case",
+      "pencils",
+      "candies"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Charlotte doesn't know what you know. Charlotte will have the default belief (pencils) based on the container's appearance, not your privileged knowledge (candies)."
+  },
+  {
+    "task_id": "unexpected_contents_0045",
+    "task_type": "unexpected_contents",
+    "difficulty": "medium",
+    "scenario": "You see a candy box on the table. Before opening it, it looks like a normal candy box. You open it and find pencils inside, not candies. Your friend Anne has never seen inside this candy box before. Anne walks into the room and sees the closed candy box.",
+    "control_scenario": "A candy box is on the table. The candy box contains pencils. The candy box is labeled as containing candies. Anne sees the closed candy box.",
+    "question": "What does Anne think is inside the candy box?",
+    "correct_answer": "candies",
+    "alternatives": [
+      "pencils",
+      "coins",
+      "buttons"
+    ],
+    "characters": [
+      "Anne"
+    ],
+    "objects": [
+      "candy box",
+      "candies",
+      "pencils"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Anne doesn't know what you know. Anne will have the default belief (candies) based on the container's appearance, not your privileged knowledge (pencils)."
+  },
+  {
+    "task_id": "unexpected_contents_0046",
+    "task_type": "unexpected_contents",
+    "difficulty": "medium",
+    "scenario": "You see a candy box on the table. Before opening it, it looks like a normal candy box. You open it and find pencils inside, not candies. Your friend Ava has never seen inside this candy box before. Ava walks into the room and sees the closed candy box.",
+    "control_scenario": "A candy box is on the table. The candy box contains pencils. The candy box is labeled as containing candies. Ava sees the closed candy box.",
+    "question": "What does Ava think is inside the candy box?",
+    "correct_answer": "candies",
+    "alternatives": [
+      "pencils",
+      "buttons",
+      "coins"
+    ],
+    "characters": [
+      "Ava"
+    ],
+    "objects": [
+      "candy box",
+      "candies",
+      "pencils"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Ava doesn't know what you know. Ava will have the default belief (candies) based on the container's appearance, not your privileged knowledge (pencils)."
+  },
+  {
+    "task_id": "unexpected_contents_0047",
+    "task_type": "unexpected_contents",
+    "difficulty": "hard",
+    "scenario": "You see a pencil case on the table. Before opening it, it looks like a normal pencil case. You open it and find candies inside, not pencils. Your friend Jack has never seen inside this pencil case before. Jack walks into the room and sees the closed pencil case. Earlier, Sophia looked inside the pencil case.",
+    "control_scenario": "A pencil case is on the table. The pencil case contains candies. The pencil case is labeled as containing pencils. Jack sees the closed pencil case.",
+    "question": "What does Jack think is inside? What does Sophia think is inside?",
+    "correct_answer": "pencils",
+    "alternatives": [
+      "candies",
+      "clips",
+      "erasers"
+    ],
+    "characters": [
+      "Jack"
+    ],
+    "objects": [
+      "pencil case",
+      "pencils",
+      "candies"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Jack doesn't know what you know. Jack will have the default belief (pencils) based on the container's appearance, not your privileged knowledge (candies)."
+  },
+  {
+    "task_id": "unexpected_contents_0048",
+    "task_type": "unexpected_contents",
+    "difficulty": "hard",
+    "scenario": "You see a pencil case on the table. Before opening it, it looks like a normal pencil case. You open it and find candies inside, not pencils. Your friend Ava has never seen inside this pencil case before. Ava walks into the room and sees the closed pencil case. Earlier, Charlotte looked inside the pencil case.",
+    "control_scenario": "A pencil case is on the table. The pencil case contains candies. The pencil case is labeled as containing pencils. Ava sees the closed pencil case.",
+    "question": "What does Ava think is inside? What does Charlotte think is inside?",
+    "correct_answer": "pencils",
+    "alternatives": [
+      "candies",
+      "erasers",
+      "clips"
+    ],
+    "characters": [
+      "Ava"
+    ],
+    "objects": [
+      "pencil case",
+      "pencils",
+      "candies"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Ava doesn't know what you know. Ava will have the default belief (pencils) based on the container's appearance, not your privileged knowledge (candies)."
+  },
+  {
+    "task_id": "unexpected_contents_0049",
+    "task_type": "unexpected_contents",
+    "difficulty": "hard",
+    "scenario": "You see a candy box on the table. Before opening it, it looks like a normal candy box. You open it and find pencils inside, not candies. Your friend Anne has never seen inside this candy box before. Anne walks into the room and sees the closed candy box. Earlier, Amelia looked inside the candy box.",
+    "control_scenario": "A candy box is on the table. The candy box contains pencils. The candy box is labeled as containing candies. Anne sees the closed candy box.",
+    "question": "What does Anne think is inside? What does Amelia think is inside?",
+    "correct_answer": "candies",
+    "alternatives": [
+      "pencils",
+      "buttons",
+      "coins"
+    ],
+    "characters": [
+      "Anne"
+    ],
+    "objects": [
+      "candy box",
+      "candies",
+      "pencils"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Anne doesn't know what you know. Anne will have the default belief (candies) based on the container's appearance, not your privileged knowledge (pencils)."
+  },
+  {
+    "task_id": "unexpected_contents_0050",
+    "task_type": "unexpected_contents",
+    "difficulty": "hard",
+    "scenario": "You see a cereal box on the table. Before opening it, it looks like a normal cereal box. You open it and find toys inside, not cereal. Your friend Sophia has never seen inside this cereal box before. Sophia walks into the room and sees the closed cereal box. Earlier, Liam looked inside the cereal box.",
+    "control_scenario": "A cereal box is on the table. The cereal box contains toys. The cereal box is labeled as containing cereal. Sophia sees the closed cereal box.",
+    "question": "What does Sophia think is inside? What does Liam think is inside?",
+    "correct_answer": "cereal",
+    "alternatives": [
+      "toys",
+      "photos",
+      "letters"
+    ],
+    "characters": [
+      "Sophia"
+    ],
+    "objects": [
+      "cereal box",
+      "cereal",
+      "toys"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires understanding that Sophia doesn't know what you know. Sophia will have the default belief (cereal) based on the container's appearance, not your privileged knowledge (toys)."
+  },
+  {
+    "task_id": "appearance_reality_0051",
+    "task_type": "appearance_reality",
+    "difficulty": "easy",
+    "scenario": "There is an object on the table that looks like an apple but is actually a candle. When you look at it closely, you realize it's actually a candle, even though it looks exactly like a apple. Ethan has not touched or examined the object closely. Ethan is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a candle. The object resembles a apple. Ethan is looking at the object from across the room.",
+    "question": "What does Ethan think the object is?",
+    "correct_answer": "apple",
+    "alternatives": [
+      "candle",
+      "both a candle and a apple",
+      "neither"
+    ],
+    "characters": [
+      "Ethan"
+    ],
+    "objects": [
+      "candle",
+      "apple"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Ethan's perspective (sees apple) while maintaining your own knowledge (knows it's candle). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0052",
+    "task_type": "appearance_reality",
+    "difficulty": "easy",
+    "scenario": "There is an object on the table that looks like a rock but is actually a sponge. When you look at it closely, you realize it's actually a sponge, even though it looks exactly like a rock. Sophia has not touched or examined the object closely. Sophia is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a sponge. The object resembles a rock. Sophia is looking at the object from across the room.",
+    "question": "What does Sophia think the object is?",
+    "correct_answer": "rock",
+    "alternatives": [
+      "sponge",
+      "both a sponge and a rock",
+      "neither"
+    ],
+    "characters": [
+      "Sophia"
+    ],
+    "objects": [
+      "sponge",
+      "rock"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Sophia's perspective (sees rock) while maintaining your own knowledge (knows it's sponge). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0053",
+    "task_type": "appearance_reality",
+    "difficulty": "easy",
+    "scenario": "There is an object on the table that looks like candy but is actually an eraser. When you look at it closely, you realize it's actually a eraser, even though it looks exactly like a candy. Sally has not touched or examined the object closely. Sally is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a eraser. The object resembles a candy. Sally is looking at the object from across the room.",
+    "question": "What does Sally think the object is?",
+    "correct_answer": "candy",
+    "alternatives": [
+      "eraser",
+      "both a eraser and a candy",
+      "neither"
+    ],
+    "characters": [
+      "Sally"
+    ],
+    "objects": [
+      "eraser",
+      "candy"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Sally's perspective (sees candy) while maintaining your own knowledge (knows it's eraser). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0054",
+    "task_type": "appearance_reality",
+    "difficulty": "easy",
+    "scenario": "There is an object on the table that looks like candy but is actually an eraser. When you look at it closely, you realize it's actually a eraser, even though it looks exactly like a candy. Liam has not touched or examined the object closely. Liam is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a eraser. The object resembles a candy. Liam is looking at the object from across the room.",
+    "question": "What does Liam think the object is?",
+    "correct_answer": "candy",
+    "alternatives": [
+      "eraser",
+      "both a eraser and a candy",
+      "neither"
+    ],
+    "characters": [
+      "Liam"
+    ],
+    "objects": [
+      "eraser",
+      "candy"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Liam's perspective (sees candy) while maintaining your own knowledge (knows it's eraser). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0055",
+    "task_type": "appearance_reality",
+    "difficulty": "easy",
+    "scenario": "There is an object on the table that looks like candy but is actually an eraser. When you look at it closely, you realize it's actually a eraser, even though it looks exactly like a candy. Mia has not touched or examined the object closely. Mia is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a eraser. The object resembles a candy. Mia is looking at the object from across the room.",
+    "question": "What does Mia think the object is?",
+    "correct_answer": "candy",
+    "alternatives": [
+      "eraser",
+      "both a eraser and a candy",
+      "neither"
+    ],
+    "characters": [
+      "Mia"
+    ],
+    "objects": [
+      "eraser",
+      "candy"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Mia's perspective (sees candy) while maintaining your own knowledge (knows it's eraser). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0056",
+    "task_type": "appearance_reality",
+    "difficulty": "easy",
+    "scenario": "There is an object on the table that looks like candy but is actually an eraser. When you look at it closely, you realize it's actually a eraser, even though it looks exactly like a candy. Amelia has not touched or examined the object closely. Amelia is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a eraser. The object resembles a candy. Amelia is looking at the object from across the room.",
+    "question": "What does Amelia think the object is?",
+    "correct_answer": "candy",
+    "alternatives": [
+      "eraser",
+      "both a eraser and a candy",
+      "neither"
+    ],
+    "characters": [
+      "Amelia"
+    ],
+    "objects": [
+      "eraser",
+      "candy"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Amelia's perspective (sees candy) while maintaining your own knowledge (knows it's eraser). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0057",
+    "task_type": "appearance_reality",
+    "difficulty": "easy",
+    "scenario": "There is an object on the table that looks like an apple but is actually a candle. When you look at it closely, you realize it's actually a candle, even though it looks exactly like a apple. Oliver has not touched or examined the object closely. Oliver is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a candle. The object resembles a apple. Oliver is looking at the object from across the room.",
+    "question": "What does Oliver think the object is?",
+    "correct_answer": "apple",
+    "alternatives": [
+      "candle",
+      "both a candle and a apple",
+      "neither"
+    ],
+    "characters": [
+      "Oliver"
+    ],
+    "objects": [
+      "candle",
+      "apple"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Oliver's perspective (sees apple) while maintaining your own knowledge (knows it's candle). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0058",
+    "task_type": "appearance_reality",
+    "difficulty": "easy",
+    "scenario": "There is an object on the table that looks like chocolate but is actually soap. When you look at it closely, you realize it's actually a soap, even though it looks exactly like a chocolate. Oliver has not touched or examined the object closely. Oliver is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a soap. The object resembles a chocolate. Oliver is looking at the object from across the room.",
+    "question": "What does Oliver think the object is?",
+    "correct_answer": "chocolate",
+    "alternatives": [
+      "soap",
+      "both a soap and a chocolate",
+      "neither"
+    ],
+    "characters": [
+      "Oliver"
+    ],
+    "objects": [
+      "soap",
+      "chocolate"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Oliver's perspective (sees chocolate) while maintaining your own knowledge (knows it's soap). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0059",
+    "task_type": "appearance_reality",
+    "difficulty": "easy",
+    "scenario": "There is an object on the table that looks like a rock but is actually a sponge. When you look at it closely, you realize it's actually a sponge, even though it looks exactly like a rock. Anne has not touched or examined the object closely. Anne is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a sponge. The object resembles a rock. Anne is looking at the object from across the room.",
+    "question": "What does Anne think the object is?",
+    "correct_answer": "rock",
+    "alternatives": [
+      "sponge",
+      "both a sponge and a rock",
+      "neither"
+    ],
+    "characters": [
+      "Anne"
+    ],
+    "objects": [
+      "sponge",
+      "rock"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Anne's perspective (sees rock) while maintaining your own knowledge (knows it's sponge). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0060",
+    "task_type": "appearance_reality",
+    "difficulty": "easy",
+    "scenario": "There is an object on the table that looks like chocolate but is actually soap. When you look at it closely, you realize it's actually a soap, even though it looks exactly like a chocolate. Anne has not touched or examined the object closely. Anne is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a soap. The object resembles a chocolate. Anne is looking at the object from across the room.",
+    "question": "What does Anne think the object is?",
+    "correct_answer": "chocolate",
+    "alternatives": [
+      "soap",
+      "both a soap and a chocolate",
+      "neither"
+    ],
+    "characters": [
+      "Anne"
+    ],
+    "objects": [
+      "soap",
+      "chocolate"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Anne's perspective (sees chocolate) while maintaining your own knowledge (knows it's soap). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0061",
+    "task_type": "appearance_reality",
+    "difficulty": "medium",
+    "scenario": "There is an object on the table that looks like a rock but is actually a sponge. When you look at it closely, you realize it's actually a sponge, even though it looks exactly like a rock. Amelia has not touched or examined the object closely. Amelia is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a sponge. The object resembles a rock. Amelia is looking at the object from across the room.",
+    "question": "What does Amelia think the object is?",
+    "correct_answer": "rock",
+    "alternatives": [
+      "sponge",
+      "both a sponge and a rock",
+      "neither"
+    ],
+    "characters": [
+      "Amelia"
+    ],
+    "objects": [
+      "sponge",
+      "rock"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Amelia's perspective (sees rock) while maintaining your own knowledge (knows it's sponge). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0062",
+    "task_type": "appearance_reality",
+    "difficulty": "medium",
+    "scenario": "There is an object on the table that looks like an apple but is actually a candle. When you look at it closely, you realize it's actually a candle, even though it looks exactly like a apple. Anne has not touched or examined the object closely. Anne is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a candle. The object resembles a apple. Anne is looking at the object from across the room.",
+    "question": "What does Anne think the object is?",
+    "correct_answer": "apple",
+    "alternatives": [
+      "candle",
+      "both a candle and a apple",
+      "neither"
+    ],
+    "characters": [
+      "Anne"
+    ],
+    "objects": [
+      "candle",
+      "apple"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Anne's perspective (sees apple) while maintaining your own knowledge (knows it's candle). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0063",
+    "task_type": "appearance_reality",
+    "difficulty": "medium",
+    "scenario": "There is an object on the table that looks like a rock but is actually a sponge. When you look at it closely, you realize it's actually a sponge, even though it looks exactly like a rock. Sophia has not touched or examined the object closely. Sophia is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a sponge. The object resembles a rock. Sophia is looking at the object from across the room.",
+    "question": "What does Sophia think the object is?",
+    "correct_answer": "rock",
+    "alternatives": [
+      "sponge",
+      "both a sponge and a rock",
+      "neither"
+    ],
+    "characters": [
+      "Sophia"
+    ],
+    "objects": [
+      "sponge",
+      "rock"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Sophia's perspective (sees rock) while maintaining your own knowledge (knows it's sponge). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0064",
+    "task_type": "appearance_reality",
+    "difficulty": "medium",
+    "scenario": "There is an object on the table that looks like a rock but is actually a sponge. When you look at it closely, you realize it's actually a sponge, even though it looks exactly like a rock. Tom has not touched or examined the object closely. Tom is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a sponge. The object resembles a rock. Tom is looking at the object from across the room.",
+    "question": "What does Tom think the object is?",
+    "correct_answer": "rock",
+    "alternatives": [
+      "sponge",
+      "both a sponge and a rock",
+      "neither"
+    ],
+    "characters": [
+      "Tom"
+    ],
+    "objects": [
+      "sponge",
+      "rock"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Tom's perspective (sees rock) while maintaining your own knowledge (knows it's sponge). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0065",
+    "task_type": "appearance_reality",
+    "difficulty": "medium",
+    "scenario": "There is an object on the table that looks like an apple but is actually a candle. When you look at it closely, you realize it's actually a candle, even though it looks exactly like a apple. Ethan has not touched or examined the object closely. Ethan is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a candle. The object resembles a apple. Ethan is looking at the object from across the room.",
+    "question": "What does Ethan think the object is?",
+    "correct_answer": "apple",
+    "alternatives": [
+      "candle",
+      "both a candle and a apple",
+      "neither"
+    ],
+    "characters": [
+      "Ethan"
+    ],
+    "objects": [
+      "candle",
+      "apple"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Ethan's perspective (sees apple) while maintaining your own knowledge (knows it's candle). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0066",
+    "task_type": "appearance_reality",
+    "difficulty": "medium",
+    "scenario": "There is an object on the table that looks like a rock but is actually a sponge. When you look at it closely, you realize it's actually a sponge, even though it looks exactly like a rock. Ava has not touched or examined the object closely. Ava is just looking at it from across the room.",
+    "control_scenario": "An object on the table is a sponge. The object resembles a rock. Ava is looking at the object from across the room.",
+    "question": "What does Ava think the object is?",
+    "correct_answer": "rock",
+    "alternatives": [
+      "sponge",
+      "both a sponge and a rock",
+      "neither"
+    ],
+    "characters": [
+      "Ava"
+    ],
+    "objects": [
+      "sponge",
+      "rock"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Ava's perspective (sees rock) while maintaining your own knowledge (knows it's sponge). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0067",
+    "task_type": "appearance_reality",
+    "difficulty": "hard",
+    "scenario": "There is an object on the table that looks like a rock but is actually a sponge. When you look at it closely, you realize it's actually a sponge, even though it looks exactly like a rock. Tom has not touched or examined the object closely. Tom is just looking at it from across the room. However, Tom is known for being very observant and skeptical.",
+    "control_scenario": "An object on the table is a sponge. The object resembles a rock. Tom is looking at the object from across the room.",
+    "question": "What does Tom think the object is?",
+    "correct_answer": "rock",
+    "alternatives": [
+      "sponge",
+      "both a sponge and a rock",
+      "neither",
+      "Tom would be suspicious and uncertain"
+    ],
+    "characters": [
+      "Tom"
+    ],
+    "objects": [
+      "sponge",
+      "rock"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Tom's perspective (sees rock) while maintaining your own knowledge (knows it's sponge). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0068",
+    "task_type": "appearance_reality",
+    "difficulty": "hard",
+    "scenario": "There is an object on the table that looks like candy but is actually an eraser. When you look at it closely, you realize it's actually a eraser, even though it looks exactly like a candy. Noah has not touched or examined the object closely. Noah is just looking at it from across the room. However, Noah is known for being very observant and skeptical.",
+    "control_scenario": "An object on the table is a eraser. The object resembles a candy. Noah is looking at the object from across the room.",
+    "question": "What does Noah think the object is?",
+    "correct_answer": "candy",
+    "alternatives": [
+      "eraser",
+      "both a eraser and a candy",
+      "neither",
+      "Noah would be suspicious and uncertain"
+    ],
+    "characters": [
+      "Noah"
+    ],
+    "objects": [
+      "eraser",
+      "candy"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Noah's perspective (sees candy) while maintaining your own knowledge (knows it's eraser). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0069",
+    "task_type": "appearance_reality",
+    "difficulty": "hard",
+    "scenario": "There is an object on the table that looks like chocolate but is actually soap. When you look at it closely, you realize it's actually a soap, even though it looks exactly like a chocolate. Oliver has not touched or examined the object closely. Oliver is just looking at it from across the room. However, Oliver is known for being very observant and skeptical.",
+    "control_scenario": "An object on the table is a soap. The object resembles a chocolate. Oliver is looking at the object from across the room.",
+    "question": "What does Oliver think the object is?",
+    "correct_answer": "chocolate",
+    "alternatives": [
+      "soap",
+      "both a soap and a chocolate",
+      "neither",
+      "Oliver would be suspicious and uncertain"
+    ],
+    "characters": [
+      "Oliver"
+    ],
+    "objects": [
+      "soap",
+      "chocolate"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Oliver's perspective (sees chocolate) while maintaining your own knowledge (knows it's soap). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "appearance_reality_0070",
+    "task_type": "appearance_reality",
+    "difficulty": "hard",
+    "scenario": "There is an object on the table that looks like chocolate but is actually soap. When you look at it closely, you realize it's actually a soap, even though it looks exactly like a chocolate. Ava has not touched or examined the object closely. Ava is just looking at it from across the room. However, Ava is known for being very observant and skeptical.",
+    "control_scenario": "An object on the table is a soap. The object resembles a chocolate. Ava is looking at the object from across the room.",
+    "question": "What does Ava think the object is?",
+    "correct_answer": "chocolate",
+    "alternatives": [
+      "soap",
+      "both a soap and a chocolate",
+      "neither",
+      "Ava would be suspicious and uncertain"
+    ],
+    "characters": [
+      "Ava"
+    ],
+    "objects": [
+      "soap",
+      "chocolate"
+    ],
+    "locations": [
+      "table"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "distinguishing",
+      "suspending_judgment",
+      "metacognitive_monitoring"
+    ],
+    "tom_explanation": "Requires representing Ava's perspective (sees chocolate) while maintaining your own knowledge (knows it's soap). Tests ability to hold dual representations simultaneously."
+  },
+  {
+    "task_id": "second_order_belief_0071",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Liam and Oliver are together in the garden. Liam tells Oliver that the book is in the garden. Oliver leaves. While Oliver is gone, Tom moves the book to the bedroom and tells Liam about it. Liam sees the book in the new location. Oliver doesn't know the book was moved. Liam doesn't know that Oliver doesn't know about the move.",
+    "control_scenario": "Initially, Liam and Oliver both knew the book was in the garden. The book was moved to the bedroom. Liam knows about the move. Oliver does not know about the move.",
+    "question": "Where does Liam think that Oliver will look for the book?",
+    "correct_answer": "in the garden",
+    "alternatives": [
+      "in the bedroom",
+      "Liam doesn't know where Oliver will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Liam",
+      "Oliver",
+      "Tom"
+    ],
+    "objects": [
+      "book"
+    ],
+    "locations": [
+      "garden",
+      "bedroom"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Liam thinks that Oliver thinks the book is in garden. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "second_order_belief_0072",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Tom and Sally are together in the kitchen. Tom tells Sally that the toy car is in the kitchen. Sally leaves. While Sally is gone, Mia moves the toy car to the classroom and tells Tom about it. Tom sees the toy car in the new location. Sally doesn't know the toy car was moved. Tom doesn't know that Sally doesn't know about the move.",
+    "control_scenario": "Initially, Tom and Sally both knew the toy car was in the kitchen. The toy car was moved to the classroom. Tom knows about the move. Sally does not know about the move.",
+    "question": "Where does Tom think that Sally will look for the toy car?",
+    "correct_answer": "in the kitchen",
+    "alternatives": [
+      "in the classroom",
+      "Tom doesn't know where Sally will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Tom",
+      "Sally",
+      "Mia"
+    ],
+    "objects": [
+      "toy car"
+    ],
+    "locations": [
+      "kitchen",
+      "classroom"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Tom thinks that Sally thinks the toy car is in kitchen. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "second_order_belief_0073",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Oliver and Mia are together in the bedroom. Oliver tells Mia that the doll is in the bedroom. Mia leaves. While Mia is gone, Jack moves the doll to the kitchen and tells Oliver about it. Oliver sees the doll in the new location. Mia doesn't know the doll was moved. Oliver doesn't know that Mia doesn't know about the move.",
+    "control_scenario": "Initially, Oliver and Mia both knew the doll was in the bedroom. The doll was moved to the kitchen. Oliver knows about the move. Mia does not know about the move.",
+    "question": "Where does Oliver think that Mia will look for the doll?",
+    "correct_answer": "in the bedroom",
+    "alternatives": [
+      "in the kitchen",
+      "Oliver doesn't know where Mia will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Oliver",
+      "Mia",
+      "Jack"
+    ],
+    "objects": [
+      "doll"
+    ],
+    "locations": [
+      "bedroom",
+      "kitchen"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Oliver thinks that Mia thinks the doll is in bedroom. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "second_order_belief_0074",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Ava and Sophia are together in the garden. Ava tells Sophia that the doll is in the garden. Sophia leaves. While Sophia is gone, Jack moves the doll to the classroom and tells Ava about it. Ava sees the doll in the new location. Sophia doesn't know the doll was moved. Ava doesn't know that Sophia doesn't know about the move.",
+    "control_scenario": "Initially, Ava and Sophia both knew the doll was in the garden. The doll was moved to the classroom. Ava knows about the move. Sophia does not know about the move.",
+    "question": "Where does Ava think that Sophia will look for the doll?",
+    "correct_answer": "in the garden",
+    "alternatives": [
+      "in the classroom",
+      "Ava doesn't know where Sophia will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Ava",
+      "Sophia",
+      "Jack"
+    ],
+    "objects": [
+      "doll"
+    ],
+    "locations": [
+      "garden",
+      "classroom"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Ava thinks that Sophia thinks the doll is in garden. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "second_order_belief_0075",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Mia and Noah are together in the classroom. Mia tells Noah that the marble is in the classroom. Noah leaves. While Noah is gone, Lucas moves the marble to the playground and tells Mia about it. Mia sees the marble in the new location. Noah doesn't know the marble was moved. Mia doesn't know that Noah doesn't know about the move.",
+    "control_scenario": "Initially, Mia and Noah both knew the marble was in the classroom. The marble was moved to the playground. Mia knows about the move. Noah does not know about the move.",
+    "question": "Where does Mia think that Noah will look for the marble?",
+    "correct_answer": "in the classroom",
+    "alternatives": [
+      "in the playground",
+      "Mia doesn't know where Noah will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Mia",
+      "Noah",
+      "Lucas"
+    ],
+    "objects": [
+      "marble"
+    ],
+    "locations": [
+      "classroom",
+      "playground"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Mia thinks that Noah thinks the marble is in classroom. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "second_order_belief_0076",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Mia and Amelia are together in the living room. Mia tells Amelia that the toy car is in the living room. Amelia leaves. While Amelia is gone, Isabella moves the toy car to the garden and tells Mia about it. Mia sees the toy car in the new location. Amelia doesn't know the toy car was moved. Mia doesn't know that Amelia doesn't know about the move.",
+    "control_scenario": "Initially, Mia and Amelia both knew the toy car was in the living room. The toy car was moved to the garden. Mia knows about the move. Amelia does not know about the move.",
+    "question": "Where does Mia think that Amelia will look for the toy car?",
+    "correct_answer": "in the living room",
+    "alternatives": [
+      "in the garden",
+      "Mia doesn't know where Amelia will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Mia",
+      "Amelia",
+      "Isabella"
+    ],
+    "objects": [
+      "toy car"
+    ],
+    "locations": [
+      "living room",
+      "garden"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Mia thinks that Amelia thinks the toy car is in living room. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "second_order_belief_0077",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Emma and Amelia are together in the bedroom. Emma tells Amelia that the doll is in the bedroom. Amelia leaves. While Amelia is gone, Anne moves the doll to the garden and tells Emma about it. Emma sees the doll in the new location. Amelia doesn't know the doll was moved. Emma doesn't know that Amelia doesn't know about the move.",
+    "control_scenario": "Initially, Emma and Amelia both knew the doll was in the bedroom. The doll was moved to the garden. Emma knows about the move. Amelia does not know about the move.",
+    "question": "Where does Emma think that Amelia will look for the doll?",
+    "correct_answer": "in the bedroom",
+    "alternatives": [
+      "in the garden",
+      "Emma doesn't know where Amelia will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Emma",
+      "Amelia",
+      "Anne"
+    ],
+    "objects": [
+      "doll"
+    ],
+    "locations": [
+      "bedroom",
+      "garden"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Emma thinks that Amelia thinks the doll is in bedroom. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "second_order_belief_0078",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Oliver and Ethan are together in the classroom. Oliver tells Ethan that the ball is in the classroom. Ethan leaves. While Ethan is gone, Sophia moves the ball to the bedroom and tells Oliver about it. Oliver sees the ball in the new location. Ethan doesn't know the ball was moved. Oliver doesn't know that Ethan doesn't know about the move.",
+    "control_scenario": "Initially, Oliver and Ethan both knew the ball was in the classroom. The ball was moved to the bedroom. Oliver knows about the move. Ethan does not know about the move.",
+    "question": "Where does Oliver think that Ethan will look for the ball?",
+    "correct_answer": "in the classroom",
+    "alternatives": [
+      "in the bedroom",
+      "Oliver doesn't know where Ethan will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Oliver",
+      "Ethan",
+      "Sophia"
+    ],
+    "objects": [
+      "ball"
+    ],
+    "locations": [
+      "classroom",
+      "bedroom"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Oliver thinks that Ethan thinks the ball is in classroom. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "second_order_belief_0079",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Amelia and Jack are together in the kitchen. Amelia tells Jack that the marble is in the kitchen. Jack leaves. While Jack is gone, Lucas moves the marble to the playground and tells Amelia about it. Amelia sees the marble in the new location. Jack doesn't know the marble was moved. Amelia doesn't know that Jack doesn't know about the move.",
+    "control_scenario": "Initially, Amelia and Jack both knew the marble was in the kitchen. The marble was moved to the playground. Amelia knows about the move. Jack does not know about the move.",
+    "question": "Where does Amelia think that Jack will look for the marble?",
+    "correct_answer": "in the kitchen",
+    "alternatives": [
+      "in the playground",
+      "Amelia doesn't know where Jack will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Amelia",
+      "Jack",
+      "Lucas"
+    ],
+    "objects": [
+      "marble"
+    ],
+    "locations": [
+      "kitchen",
+      "playground"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Amelia thinks that Jack thinks the marble is in kitchen. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "second_order_belief_0080",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Liam and Sally are together in the living room. Liam tells Sally that the crayon is in the living room. Sally leaves. While Sally is gone, Anne moves the crayon to the garden and tells Liam about it. Liam sees the crayon in the new location. Sally doesn't know the crayon was moved. Liam doesn't know that Sally doesn't know about the move.",
+    "control_scenario": "Initially, Liam and Sally both knew the crayon was in the living room. The crayon was moved to the garden. Liam knows about the move. Sally does not know about the move.",
+    "question": "Where does Liam think that Sally will look for the crayon?",
+    "correct_answer": "in the living room",
+    "alternatives": [
+      "in the garden",
+      "Liam doesn't know where Sally will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Liam",
+      "Sally",
+      "Anne"
+    ],
+    "objects": [
+      "crayon"
+    ],
+    "locations": [
+      "living room",
+      "garden"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Liam thinks that Sally thinks the crayon is in living room. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "second_order_belief_0081",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Sophia and Ethan are together in the playground. Sophia tells Ethan that the cookie is in the playground. Ethan leaves. While Ethan is gone, Liam moves the cookie to the kitchen and tells Sophia about it. Sophia sees the cookie in the new location. Ethan doesn't know the cookie was moved. Sophia doesn't know that Ethan doesn't know about the move.",
+    "control_scenario": "Initially, Sophia and Ethan both knew the cookie was in the playground. The cookie was moved to the kitchen. Sophia knows about the move. Ethan does not know about the move.",
+    "question": "Where does Sophia think that Ethan will look for the cookie?",
+    "correct_answer": "in the playground",
+    "alternatives": [
+      "in the kitchen",
+      "Sophia doesn't know where Ethan will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Sophia",
+      "Ethan",
+      "Liam"
+    ],
+    "objects": [
+      "cookie"
+    ],
+    "locations": [
+      "playground",
+      "kitchen"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Sophia thinks that Ethan thinks the cookie is in playground. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "second_order_belief_0082",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Emma and Anne are together in the playground. Emma tells Anne that the doll is in the playground. Anne leaves. While Anne is gone, Charlotte moves the doll to the kitchen and tells Emma about it. Emma sees the doll in the new location. Anne doesn't know the doll was moved. Emma doesn't know that Anne doesn't know about the move.",
+    "control_scenario": "Initially, Emma and Anne both knew the doll was in the playground. The doll was moved to the kitchen. Emma knows about the move. Anne does not know about the move.",
+    "question": "Where does Emma think that Anne will look for the doll?",
+    "correct_answer": "in the playground",
+    "alternatives": [
+      "in the kitchen",
+      "Emma doesn't know where Anne will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Emma",
+      "Anne",
+      "Charlotte"
+    ],
+    "objects": [
+      "doll"
+    ],
+    "locations": [
+      "playground",
+      "kitchen"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Emma thinks that Anne thinks the doll is in playground. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "second_order_belief_0083",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Isabella and Mia are together in the garden. Isabella tells Mia that the doll is in the garden. Mia leaves. While Mia is gone, Liam moves the doll to the living room and tells Isabella about it. Isabella sees the doll in the new location. Mia doesn't know the doll was moved. Isabella doesn't know that Mia doesn't know about the move.",
+    "control_scenario": "Initially, Isabella and Mia both knew the doll was in the garden. The doll was moved to the living room. Isabella knows about the move. Mia does not know about the move.",
+    "question": "Where does Isabella think that Mia will look for the doll?",
+    "correct_answer": "in the garden",
+    "alternatives": [
+      "in the living room",
+      "Isabella doesn't know where Mia will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Isabella",
+      "Mia",
+      "Liam"
+    ],
+    "objects": [
+      "doll"
+    ],
+    "locations": [
+      "garden",
+      "living room"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Isabella thinks that Mia thinks the doll is in garden. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "second_order_belief_0084",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Anne and Sophia are together in the bedroom. Anne tells Sophia that the marble is in the bedroom. Sophia leaves. While Sophia is gone, Ava moves the marble to the living room and tells Anne about it. Anne sees the marble in the new location. Sophia doesn't know the marble was moved. Anne doesn't know that Sophia doesn't know about the move.",
+    "control_scenario": "Initially, Anne and Sophia both knew the marble was in the bedroom. The marble was moved to the living room. Anne knows about the move. Sophia does not know about the move.",
+    "question": "Where does Anne think that Sophia will look for the marble?",
+    "correct_answer": "in the bedroom",
+    "alternatives": [
+      "in the living room",
+      "Anne doesn't know where Sophia will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Anne",
+      "Sophia",
+      "Ava"
+    ],
+    "objects": [
+      "marble"
+    ],
+    "locations": [
+      "bedroom",
+      "living room"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Anne thinks that Sophia thinks the marble is in bedroom. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "second_order_belief_0085",
+    "task_type": "second_order_belief",
+    "difficulty": "hard",
+    "scenario": "Ava and Isabella are together in the playground. Ava tells Isabella that the crayon is in the playground. Isabella leaves. While Isabella is gone, Anne moves the crayon to the garden and tells Ava about it. Ava sees the crayon in the new location. Isabella doesn't know the crayon was moved. Ava doesn't know that Isabella doesn't know about the move.",
+    "control_scenario": "Initially, Ava and Isabella both knew the crayon was in the playground. The crayon was moved to the garden. Ava knows about the move. Isabella does not know about the move.",
+    "question": "Where does Ava think that Isabella will look for the crayon?",
+    "correct_answer": "in the playground",
+    "alternatives": [
+      "in the garden",
+      "Ava doesn't know where Isabella will look",
+      "in both locations"
+    ],
+    "characters": [
+      "Ava",
+      "Isabella",
+      "Anne"
+    ],
+    "objects": [
+      "crayon"
+    ],
+    "locations": [
+      "playground",
+      "garden"
+    ],
+    "expected_cognitive_actions": [
+      "perspective_taking",
+      "hypothesis_generation",
+      "metacognitive_monitoring",
+      "distinguishing",
+      "counterfactual_reasoning",
+      "updating_beliefs"
+    ],
+    "tom_explanation": "Requires recursive reasoning: Ava thinks that Isabella thinks the crayon is in playground. Must track multiple nested belief states and distinguish who knows what."
+  },
+  {
+    "task_id": "affective_tom_0086",
+    "task_type": "affective_tom",
+    "difficulty": "easy",
+    "scenario": "Jack spent months planning a surprise birthday party for their best friend. When the friend arrived, they smiled widely and hugged everyone.",
+    "control_scenario": "Jack spent months planning a surprise birthday party for their best friend. When the friend arrived, they smiled widely and hugged everyone.",
+    "question": "How does Jack likely feel in this situation?",
+    "correct_answer": "happy and grateful",
+    "alternatives": [
+      "confused and suspicious",
+      "sad and lonely",
+      "angry and betrayed"
+    ],
+    "characters": [
+      "Jack"
+    ],
+    "objects": [
+      "birthday party"
+    ],
+    "locations": [
+      "party venue"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Jack's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0087",
+    "task_type": "affective_tom",
+    "difficulty": "easy",
+    "scenario": "Sophia spent months planning a surprise birthday party for their best friend. When the friend arrived, they smiled widely and hugged everyone.",
+    "control_scenario": "Sophia spent months planning a surprise birthday party for their best friend. When the friend arrived, they smiled widely and hugged everyone.",
+    "question": "How does Sophia likely feel in this situation?",
+    "correct_answer": "happy and grateful",
+    "alternatives": [
+      "confused and suspicious",
+      "sad and lonely",
+      "angry and betrayed"
+    ],
+    "characters": [
+      "Sophia"
+    ],
+    "objects": [
+      "birthday party"
+    ],
+    "locations": [
+      "party venue"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Sophia's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0088",
+    "task_type": "affective_tom",
+    "difficulty": "easy",
+    "scenario": "Charlotte studied hard for weeks for an important test. On test day, Charlotte arrived late and missed the test entirely.",
+    "control_scenario": "Charlotte studied hard for weeks for an important test. On test day, Charlotte arrived late and missed the test entirely.",
+    "question": "How does Charlotte likely feel in this situation?",
+    "correct_answer": "disappointed and upset",
+    "alternatives": [
+      "happy and relieved",
+      "angry at the teacher",
+      "indifferent"
+    ],
+    "characters": [
+      "Charlotte"
+    ],
+    "objects": [
+      "test"
+    ],
+    "locations": [
+      "school"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Charlotte's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0089",
+    "task_type": "affective_tom",
+    "difficulty": "easy",
+    "scenario": "Sophia was promised they could go to the amusement park this weekend. At the last minute, their parents said they had to cancel the trip.",
+    "control_scenario": "Sophia was promised they could go to the amusement park this weekend. At the last minute, their parents said they had to cancel the trip.",
+    "question": "How does Sophia likely feel in this situation?",
+    "correct_answer": "disappointed and frustrated",
+    "alternatives": [
+      "excited and eager",
+      "grateful and relieved",
+      "proud and accomplished"
+    ],
+    "characters": [
+      "Sophia"
+    ],
+    "objects": [
+      "amusement park trip"
+    ],
+    "locations": [
+      "home"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Sophia's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0090",
+    "task_type": "affective_tom",
+    "difficulty": "easy",
+    "scenario": "Charlotte spent months planning a surprise birthday party for their best friend. When the friend arrived, they smiled widely and hugged everyone.",
+    "control_scenario": "Charlotte spent months planning a surprise birthday party for their best friend. When the friend arrived, they smiled widely and hugged everyone.",
+    "question": "How does Charlotte likely feel in this situation?",
+    "correct_answer": "happy and grateful",
+    "alternatives": [
+      "confused and suspicious",
+      "sad and lonely",
+      "angry and betrayed"
+    ],
+    "characters": [
+      "Charlotte"
+    ],
+    "objects": [
+      "birthday party"
+    ],
+    "locations": [
+      "party venue"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Charlotte's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0091",
+    "task_type": "affective_tom",
+    "difficulty": "easy",
+    "scenario": "Liam spent months planning a surprise birthday party for their best friend. When the friend arrived, they smiled widely and hugged everyone.",
+    "control_scenario": "Liam spent months planning a surprise birthday party for their best friend. When the friend arrived, they smiled widely and hugged everyone.",
+    "question": "How does Liam likely feel in this situation?",
+    "correct_answer": "happy and grateful",
+    "alternatives": [
+      "confused and suspicious",
+      "sad and lonely",
+      "angry and betrayed"
+    ],
+    "characters": [
+      "Liam"
+    ],
+    "objects": [
+      "birthday party"
+    ],
+    "locations": [
+      "party venue"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Liam's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0092",
+    "task_type": "affective_tom",
+    "difficulty": "easy",
+    "scenario": "Emma found their lost pet after searching for three days. The pet ran up to Emma wagging its tail.",
+    "control_scenario": "Emma found their lost pet after searching for three days. The pet ran up to Emma wagging its tail.",
+    "question": "How does Emma likely feel in this situation?",
+    "correct_answer": "relieved and joyful",
+    "alternatives": [
+      "angry and resentful",
+      "scared and nervous",
+      "indifferent"
+    ],
+    "characters": [
+      "Emma"
+    ],
+    "objects": [
+      "pet"
+    ],
+    "locations": [
+      "neighborhood"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Emma's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0093",
+    "task_type": "affective_tom",
+    "difficulty": "easy",
+    "scenario": "Anne found their lost pet after searching for three days. The pet ran up to Anne wagging its tail.",
+    "control_scenario": "Anne found their lost pet after searching for three days. The pet ran up to Anne wagging its tail.",
+    "question": "How does Anne likely feel in this situation?",
+    "correct_answer": "relieved and joyful",
+    "alternatives": [
+      "angry and resentful",
+      "scared and nervous",
+      "indifferent"
+    ],
+    "characters": [
+      "Anne"
+    ],
+    "objects": [
+      "pet"
+    ],
+    "locations": [
+      "neighborhood"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Anne's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0094",
+    "task_type": "affective_tom",
+    "difficulty": "easy",
+    "scenario": "Ava spent months planning a surprise birthday party for their best friend. When the friend arrived, they smiled widely and hugged everyone.",
+    "control_scenario": "Ava spent months planning a surprise birthday party for their best friend. When the friend arrived, they smiled widely and hugged everyone.",
+    "question": "How does Ava likely feel in this situation?",
+    "correct_answer": "happy and grateful",
+    "alternatives": [
+      "confused and suspicious",
+      "sad and lonely",
+      "angry and betrayed"
+    ],
+    "characters": [
+      "Ava"
+    ],
+    "objects": [
+      "birthday party"
+    ],
+    "locations": [
+      "party venue"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Ava's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0095",
+    "task_type": "affective_tom",
+    "difficulty": "easy",
+    "scenario": "Lucas was promised they could go to the amusement park this weekend. At the last minute, their parents said they had to cancel the trip.",
+    "control_scenario": "Lucas was promised they could go to the amusement park this weekend. At the last minute, their parents said they had to cancel the trip.",
+    "question": "How does Lucas likely feel in this situation?",
+    "correct_answer": "disappointed and frustrated",
+    "alternatives": [
+      "excited and eager",
+      "grateful and relieved",
+      "proud and accomplished"
+    ],
+    "characters": [
+      "Lucas"
+    ],
+    "objects": [
+      "amusement park trip"
+    ],
+    "locations": [
+      "home"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Lucas's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0096",
+    "task_type": "affective_tom",
+    "difficulty": "medium",
+    "scenario": "Mia spent months planning a surprise birthday party for their best friend. When the friend arrived, they smiled widely and hugged everyone.",
+    "control_scenario": "Mia spent months planning a surprise birthday party for their best friend. When the friend arrived, they smiled widely and hugged everyone.",
+    "question": "How does Mia likely feel in this situation?",
+    "correct_answer": "happy and grateful",
+    "alternatives": [
+      "confused and suspicious",
+      "sad and lonely",
+      "angry and betrayed"
+    ],
+    "characters": [
+      "Mia"
+    ],
+    "objects": [
+      "birthday party"
+    ],
+    "locations": [
+      "party venue"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Mia's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0097",
+    "task_type": "affective_tom",
+    "difficulty": "medium",
+    "scenario": "Ava studied hard for weeks for an important test. On test day, Ava arrived late and missed the test entirely.",
+    "control_scenario": "Ava studied hard for weeks for an important test. On test day, Ava arrived late and missed the test entirely.",
+    "question": "How does Ava likely feel in this situation?",
+    "correct_answer": "disappointed and upset",
+    "alternatives": [
+      "happy and relieved",
+      "angry at the teacher",
+      "indifferent"
+    ],
+    "characters": [
+      "Ava"
+    ],
+    "objects": [
+      "test"
+    ],
+    "locations": [
+      "school"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Ava's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0098",
+    "task_type": "affective_tom",
+    "difficulty": "medium",
+    "scenario": "Oliver found their lost pet after searching for three days. The pet ran up to Oliver wagging its tail.",
+    "control_scenario": "Oliver found their lost pet after searching for three days. The pet ran up to Oliver wagging its tail.",
+    "question": "How does Oliver likely feel in this situation?",
+    "correct_answer": "relieved and joyful",
+    "alternatives": [
+      "angry and resentful",
+      "scared and nervous",
+      "indifferent"
+    ],
+    "characters": [
+      "Oliver"
+    ],
+    "objects": [
+      "pet"
+    ],
+    "locations": [
+      "neighborhood"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Oliver's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0099",
+    "task_type": "affective_tom",
+    "difficulty": "medium",
+    "scenario": "Noah was promised they could go to the amusement park this weekend. At the last minute, their parents said they had to cancel the trip.",
+    "control_scenario": "Noah was promised they could go to the amusement park this weekend. At the last minute, their parents said they had to cancel the trip.",
+    "question": "How does Noah likely feel in this situation?",
+    "correct_answer": "disappointed and frustrated",
+    "alternatives": [
+      "excited and eager",
+      "grateful and relieved",
+      "proud and accomplished"
+    ],
+    "characters": [
+      "Noah"
+    ],
+    "objects": [
+      "amusement park trip"
+    ],
+    "locations": [
+      "home"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Noah's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0100",
+    "task_type": "affective_tom",
+    "difficulty": "medium",
+    "scenario": "Tom was promised they could go to the amusement park this weekend. At the last minute, their parents said they had to cancel the trip.",
+    "control_scenario": "Tom was promised they could go to the amusement park this weekend. At the last minute, their parents said they had to cancel the trip.",
+    "question": "How does Tom likely feel in this situation?",
+    "correct_answer": "disappointed and frustrated",
+    "alternatives": [
+      "excited and eager",
+      "grateful and relieved",
+      "proud and accomplished"
+    ],
+    "characters": [
+      "Tom"
+    ],
+    "objects": [
+      "amusement park trip"
+    ],
+    "locations": [
+      "home"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Tom's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0101",
+    "task_type": "affective_tom",
+    "difficulty": "medium",
+    "scenario": "Isabella found their lost pet after searching for three days. The pet ran up to Isabella wagging its tail.",
+    "control_scenario": "Isabella found their lost pet after searching for three days. The pet ran up to Isabella wagging its tail.",
+    "question": "How does Isabella likely feel in this situation?",
+    "correct_answer": "relieved and joyful",
+    "alternatives": [
+      "angry and resentful",
+      "scared and nervous",
+      "indifferent"
+    ],
+    "characters": [
+      "Isabella"
+    ],
+    "objects": [
+      "pet"
+    ],
+    "locations": [
+      "neighborhood"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Isabella's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0102",
+    "task_type": "affective_tom",
+    "difficulty": "hard",
+    "scenario": "Noah studied hard for weeks for an important test. On test day, Noah arrived late and missed the test entirely. However, Noah tried to hide their true feelings and smiled.",
+    "control_scenario": "Noah studied hard for weeks for an important test. On test day, Noah arrived late and missed the test entirely.",
+    "question": "How does Noah likely feel in this situation?",
+    "correct_answer": "disappointed and upset",
+    "alternatives": [
+      "happy and relieved",
+      "angry at the teacher",
+      "indifferent",
+      "pretending to feel differently than they actually do"
+    ],
+    "characters": [
+      "Noah"
+    ],
+    "objects": [
+      "test"
+    ],
+    "locations": [
+      "school"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Noah's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0103",
+    "task_type": "affective_tom",
+    "difficulty": "hard",
+    "scenario": "Emma was promised they could go to the amusement park this weekend. At the last minute, their parents said they had to cancel the trip. However, Emma tried to hide their true feelings and smiled.",
+    "control_scenario": "Emma was promised they could go to the amusement park this weekend. At the last minute, their parents said they had to cancel the trip.",
+    "question": "How does Emma likely feel in this situation?",
+    "correct_answer": "disappointed and frustrated",
+    "alternatives": [
+      "excited and eager",
+      "grateful and relieved",
+      "proud and accomplished",
+      "pretending to feel differently than they actually do"
+    ],
+    "characters": [
+      "Emma"
+    ],
+    "objects": [
+      "amusement park trip"
+    ],
+    "locations": [
+      "home"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Emma's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0104",
+    "task_type": "affective_tom",
+    "difficulty": "hard",
+    "scenario": "Sophia was promised they could go to the amusement park this weekend. At the last minute, their parents said they had to cancel the trip. However, Sophia tried to hide their true feelings and smiled.",
+    "control_scenario": "Sophia was promised they could go to the amusement park this weekend. At the last minute, their parents said they had to cancel the trip.",
+    "question": "How does Sophia likely feel in this situation?",
+    "correct_answer": "disappointed and frustrated",
+    "alternatives": [
+      "excited and eager",
+      "grateful and relieved",
+      "proud and accomplished",
+      "pretending to feel differently than they actually do"
+    ],
+    "characters": [
+      "Sophia"
+    ],
+    "objects": [
+      "amusement park trip"
+    ],
+    "locations": [
+      "home"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Sophia's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  },
+  {
+    "task_id": "affective_tom_0105",
+    "task_type": "affective_tom",
+    "difficulty": "hard",
+    "scenario": "Anne studied hard for weeks for an important test. On test day, Anne arrived late and missed the test entirely. However, Anne tried to hide their true feelings and smiled.",
+    "control_scenario": "Anne studied hard for weeks for an important test. On test day, Anne arrived late and missed the test entirely.",
+    "question": "How does Anne likely feel in this situation?",
+    "correct_answer": "disappointed and upset",
+    "alternatives": [
+      "happy and relieved",
+      "angry at the teacher",
+      "indifferent",
+      "pretending to feel differently than they actually do"
+    ],
+    "characters": [
+      "Anne"
+    ],
+    "objects": [
+      "test"
+    ],
+    "locations": [
+      "school"
+    ],
+    "expected_cognitive_actions": [
+      "emotion_perception",
+      "perspective_taking",
+      "hypothesis_generation",
+      "emotion_understanding",
+      "connecting"
+    ],
+    "tom_explanation": "Requires inferring Anne's emotional state from the situation. Must understand how events affect mental/emotional states of others."
+  }
+]
