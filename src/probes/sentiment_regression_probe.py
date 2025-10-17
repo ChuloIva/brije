@@ -84,7 +84,9 @@ class SentimentRegressionDataset(Dataset):
         """
         self.activations = activations
         # Convert binary labels to regression targets: 0 -> -1, 1 -> +1
-        self.targets = (labels.float() * 2.0) - 1.0
+        # Match dtype with activations (bfloat16)
+        targets = (labels.float() * 2.0) - 1.0
+        self.targets = targets.to(activations.dtype)
 
     def __len__(self):
         return len(self.targets)
