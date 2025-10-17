@@ -29,10 +29,14 @@ from nnsight import LanguageModel
 
 # Import our dataset utilities
 from dataset_utils import (
+    load_dataset,
     load_cognitive_actions_dataset,
+    load_sentiment_dataset,
     create_splits,
     get_action_to_idx_mapping,
-    print_dataset_statistics
+    print_dataset_statistics,
+    SentimentExample,
+    CognitiveActionExample
 )
 
 
@@ -43,7 +47,8 @@ class ActivationCapture:
         self,
         model_name: str = "google/gemma-3-4b-it",  # Gemma 3 4B instruction-tuned
         device: str = "auto",
-        layers_to_capture: Optional[List[int]] = None
+        layers_to_capture: Optional[List[int]] = None,
+        examples: Optional[List] = None
     ):
         """
         Initialize activation capture
@@ -52,6 +57,7 @@ class ActivationCapture:
             model_name: HuggingFace model ID
             device: Device to run on ('cuda', 'cpu', or 'auto')
             layers_to_capture: Which transformer layers to capture (default: [6, 12, 18, 24])
+            examples: Optional list of examples to infer label mapping from
         """
         print(f"Loading model: {model_name}")
 
@@ -96,7 +102,8 @@ class ActivationCapture:
 
         print(f"Will capture activations from layers: {self.layers_to_capture}")
 
-        self.action_to_idx = get_action_to_idx_mapping()
+        # Get action/sentiment to index mapping
+        self.action_to_idx = get_action_to_idx_mapping(examples)
 
     def capture_single_example(
         self,
@@ -526,9 +533,9 @@ def main():
 
     args = parser.parse_args()
 
-    # Load dataset
+    # Load dataset (auto-detect sentiment or cognitive actions)
     print("Loading dataset...")
-    examples = load_cognitive_actions_dataset(args.dataset, limit=args.max_examples)
+    examples = load_dataset(args.dataset, limit=args.max_examples)
     print_dataset_statistics(examples)
 
     # Create splits
@@ -543,7 +550,8 @@ def main():
     capture = ActivationCapture(
         model_name=args.model,
         device=args.device,
-        layers_to_capture=args.layers
+        layers_to_capture=args.layers,
+        examples=examples  # Pass examples to infer label mapping
     )
 
     # Determine hidden size by capturing one example

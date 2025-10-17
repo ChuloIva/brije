@@ -26,6 +26,58 @@ class CognitiveActionExample:
     sentence_starter: str
 
 
+@dataclass
+class SentimentExample:
+    """Single sentiment training example"""
+    text: str
+    sentiment: str  # "positive" or "negative"
+    emotion: str
+
+    @property
+    def primary_action(self):
+        """Alias for compatibility with cognitive actions code"""
+        return self.sentiment
+
+
+def load_sentiment_dataset(
+    dataset_path: str,
+    limit: Optional[int] = None
+) -> List[SentimentExample]:
+    """
+    Load sentiment dataset from JSONL file
+
+    Args:
+        dataset_path: Path to JSONL file with sentiment data
+        limit: Optional limit on number of examples to load
+
+    Returns:
+        List of SentimentExample objects
+    """
+    examples = []
+    dataset_path = Path(dataset_path)
+
+    if not dataset_path.exists():
+        raise FileNotFoundError(f"Dataset not found: {dataset_path}")
+
+    print(f"Loading sentiment dataset from {dataset_path}")
+
+    with open(dataset_path, 'r') as f:
+        for i, line in enumerate(f):
+            if limit and i >= limit:
+                break
+
+            data = json.loads(line.strip())
+            example = SentimentExample(
+                text=data['text'],
+                sentiment=data['sentiment'],
+                emotion=data['emotion']
+            )
+            examples.append(example)
+
+    print(f"Loaded {len(examples)} sentiment examples")
+    return examples
+
+
 def load_cognitive_actions_dataset(
     dataset_path: str,
     limit: Optional[int] = None
@@ -46,7 +98,7 @@ def load_cognitive_actions_dataset(
     if not dataset_path.exists():
         raise FileNotFoundError(f"Dataset not found: {dataset_path}")
 
-    print(f"Loading dataset from {dataset_path}")
+    print(f"Loading cognitive actions dataset from {dataset_path}")
 
     with open(dataset_path, 'r') as f:
         for i, line in enumerate(f):
@@ -65,8 +117,44 @@ def load_cognitive_actions_dataset(
             )
             examples.append(example)
 
-    print(f"Loaded {len(examples)} examples")
+    print(f"Loaded {len(examples)} cognitive action examples")
     return examples
+
+
+def load_dataset(
+    dataset_path: str,
+    limit: Optional[int] = None
+):
+    """
+    Auto-detect and load dataset (sentiment or cognitive actions)
+
+    Args:
+        dataset_path: Path to JSONL file
+        limit: Optional limit on number of examples to load
+
+    Returns:
+        List of example objects (SentimentExample or CognitiveActionExample)
+    """
+    dataset_path = Path(dataset_path)
+
+    if not dataset_path.exists():
+        raise FileNotFoundError(f"Dataset not found: {dataset_path}")
+
+    # Read first line to detect format
+    with open(dataset_path, 'r') as f:
+        first_line = f.readline().strip()
+        first_data = json.loads(first_line)
+
+    # Auto-detect dataset type
+    if 'sentiment' in first_data:
+        print("📊 Detected: Sentiment dataset")
+        return load_sentiment_dataset(dataset_path, limit)
+    elif 'cognitive_action' in first_data:
+        print("🧠 Detected: Cognitive actions dataset")
+        return load_cognitive_actions_dataset(dataset_path, limit)
+    else:
+        raise ValueError(f"Unknown dataset format. Expected 'sentiment' or 'cognitive_action' field.")
+
 
 
 def create_splits(
@@ -140,15 +228,26 @@ def create_splits(
     return train_examples, val_examples, test_examples
 
 
-def get_action_to_idx_mapping() -> Dict[str, int]:
+def get_action_to_idx_mapping(examples=None) -> Dict[str, int]:
     """
-    Get mapping from cognitive action names to indices
+    Get mapping from action/sentiment names to indices
+
+    Args:
+        examples: Optional list of examples to infer mapping from.
+                  If provided and contains SentimentExample, returns sentiment mapping.
+                  If None, returns cognitive actions mapping.
 
     Returns:
-        Dictionary mapping action names to integer indices
+        Dictionary mapping action/sentiment names to integer indices
     """
-    actions = sorted(list(COGNITIVE_ACTIONS.keys()))
-    return {action: idx for idx, action in enumerate(actions)}
+    # Check if we have sentiment examples
+    if examples and len(examples) > 0 and isinstance(examples[0], SentimentExample):
+        # For sentiment: positive=1, negative=0
+        return {"negative": 0, "positive": 1}
+    else:
+        # For cognitive actions: use COGNITIVE_ACTIONS
+        actions = sorted(list(COGNITIVE_ACTIONS.keys()))
+        return {action: idx for idx, action in enumerate(actions)}
 
 
 def get_idx_to_action_mapping() -> Dict[int, str]:
@@ -209,8 +308,8 @@ def create_binary_labels(labels, target_action_idx: int):
         return [1.0 if label == target_action_idx else 0.0 for label in labels]
 
 
-def print_dataset_statistics(examples: List[CognitiveActionExample]):
-    """Print statistics about the dataset"""
+def print_dataset_statistics(examples):
+    """Print statistics about the dataset (supports both sentiment and cognitive actions)"""
     from collections import Counter
 
     print("\n" + "="*60)
@@ -219,31 +318,48 @@ def print_dataset_statistics(examples: List[CognitiveActionExample]):
 
     print(f"\nTotal examples: {len(examples)}")
 
-    # Action distribution
-    action_counts = Counter(ex.primary_action for ex in examples)
-    print(f"\nCognitive actions (top 10):")
-    for action, count in action_counts.most_common(10):
-        print(f"  {action:30s}: {count:4d} ({count/len(examples)*100:.1f}%)")
+    # Check dataset type
+    is_sentiment = isinstance(examples[0], SentimentExample)
 
-    # Domain distribution
-    domain_counts = Counter(ex.domain for ex in examples)
-    print(f"\nDomains (top 10):")
-    for domain, count in domain_counts.most_common(10):
-        print(f"  {domain:30s}: {count:4d} ({count/len(examples)*100:.1f}%)")
+    if is_sentiment:
+        # Sentiment distribution
+        sentiment_counts = Counter(ex.sentiment for ex in examples)
+        print(f"\nSentiment distribution:")
+        for sentiment, count in sentiment_counts.items():
+            print(f"  {sentiment:15s}: {count:4d} ({count/len(examples)*100:.1f}%)")
 
-    # Emotional state distribution
-    emotional_counts = Counter(ex.emotional_state for ex in examples)
-    print(f"\nEmotional states (top 10):")
-    for emotional_state, count in emotional_counts.most_common(10):
-        print(f"  {emotional_state:30s}: {count:4d} ({count/len(examples)*100:.1f}%)")
+        # Emotion distribution
+        emotion_counts = Counter(ex.emotion for ex in examples)
+        print(f"\nEmotion distribution (top 10):")
+        for emotion, count in emotion_counts.most_common(10):
+            print(f"  {emotion:20s}: {count:4d} ({count/len(examples)*100:.1f}%)")
 
-    # Language style distribution
-    style_counts = Counter(ex.language_style for ex in examples)
-    print(f"\nLanguage styles (top 10):")
-    for style, count in style_counts.most_common(10):
-        print(f"  {style:30s}: {count:4d} ({count/len(examples)*100:.1f}%)")
+    else:
+        # Action distribution
+        action_counts = Counter(ex.primary_action for ex in examples)
+        print(f"\nCognitive actions (top 10):")
+        for action, count in action_counts.most_common(10):
+            print(f"  {action:30s}: {count:4d} ({count/len(examples)*100:.1f}%)")
 
-    # Text length statistics
+        # Domain distribution
+        domain_counts = Counter(ex.domain for ex in examples)
+        print(f"\nDomains (top 10):")
+        for domain, count in domain_counts.most_common(10):
+            print(f"  {domain:30s}: {count:4d} ({count/len(examples)*100:.1f}%)")
+
+        # Emotional state distribution
+        emotional_counts = Counter(ex.emotional_state for ex in examples)
+        print(f"\nEmotional states (top 10):")
+        for emotional_state, count in emotional_counts.most_common(10):
+            print(f"  {emotional_state:30s}: {count:4d} ({count/len(examples)*100:.1f}%)")
+
+        # Language style distribution
+        style_counts = Counter(ex.language_style for ex in examples)
+        print(f"\nLanguage styles (top 10):")
+        for style, count in style_counts.most_common(10):
+            print(f"  {style:30s}: {count:4d} ({count/len(examples)*100:.1f}%)")
+
+    # Text length statistics (common to both)
     text_lengths = [len(ex.text) for ex in examples]
     print(f"\nText length statistics:")
     print(f"  Mean: {sum(text_lengths)/len(text_lengths):.1f} characters")
