@@ -40,6 +40,7 @@ class TokenActivation:
     layer: int
     timestamp: float
     is_active: bool
+    probe_type: str = "cognitive"  # "cognitive" or "sentiment"
 
 
 @dataclass
@@ -54,6 +55,7 @@ class StreamingPrediction:
     token_activations: List[TokenActivation] = field(default_factory=list)
     peak_activation_token: Optional[str] = None
     peak_confidence: float = 0.0
+    probe_type: str = "cognitive"  # "cognitive" or "sentiment"
 
 
 @dataclass
@@ -89,7 +91,9 @@ class StreamingProbeInferenceEngine:
         model_name: str = "google/gemma-3-4b-it",
         device: str = None,
         verbose: bool = False,
-        layer_range: Tuple[int, int] = (21, 30)
+        layer_range: Tuple[int, int] = (21, 30),
+        sentiment_probes_dir: Optional[Path] = None,
+        include_sentiment: bool = False
     ):
         """
         Initialize streaming inference engine
@@ -100,6 +104,8 @@ class StreamingProbeInferenceEngine:
             device: Device to run on (auto-detects if None)
             verbose: Whether to print detailed loading info
             layer_range: (start, end) layer range to load (inclusive)
+            sentiment_probes_dir: Base directory containing sentiment probes (optional)
+            include_sentiment: Whether to include sentiment probes in inference
         """
         # Auto-detect device if not provided
         if device is None:
@@ -107,6 +113,8 @@ class StreamingProbeInferenceEngine:
             device = get_optimal_device()
 
         self.probes_base_dir = Path(probes_base_dir)
+        self.sentiment_probes_dir = Path(sentiment_probes_dir) if sentiment_probes_dir else None
+        self.include_sentiment = include_sentiment
         self.model_name = model_name
         self.device = device
         self.verbose = verbose
@@ -118,7 +126,10 @@ class StreamingProbeInferenceEngine:
             print(f"  Probes base dir: {probes_base_dir}")
             print(f"  Model: {model_name}")
             print(f"  Device: {device}")
-            print(f"  Layer range: {self.layer_start}-{self.layer_end} ({len(self.layers_needed)} layers)\n")
+            print(f"  Layer range: {self.layer_start}-{self.layer_end} ({len(self.layers_needed)} layers)")
+            if include_sentiment:
+                print(f"  Sentiment probes: {sentiment_probes_dir}")
+            print()
 
         # Load index to action mapping
         self.idx_to_action = get_idx_to_action_mapping()
@@ -127,9 +138,16 @@ class StreamingProbeInferenceEngine:
         # Load all probes from all layers (not just best)
         self.probes = self._load_all_probes()
 
+        # Load sentiment probes if requested
+        self.sentiment_probes = {}
+        if include_sentiment and sentiment_probes_dir:
+            self.sentiment_probes = self._load_sentiment_probes()
+
         if verbose:
-            print(f"\n✓ Loaded {len(self.probes)} total probes across {len(self.layers_needed)} layers")
+            print(f"\n✓ Loaded {len(self.probes)} cognitive probes across {len(self.layers_needed)} layers")
             print(f"  ({len(self.probes) // len(self.layers_needed)} actions × {len(self.layers_needed)} layers)")
+            if include_sentiment:
+                print(f"✓ Loaded {len(self.sentiment_probes)} sentiment probes across {len([l for l in self.sentiment_probes.keys()])} layers")
 
         # Load model and tokenizer
         if verbose:
@@ -212,6 +230,59 @@ class StreamingProbeInferenceEngine:
 
         if failed > 0 and self.verbose:
             print(f"\n  Warning: Failed to load {failed} probes")
+
+        return probes
+
+    def _load_sentiment_probes(self) -> Dict[int, Dict]:
+        """
+        Load sentiment regression probes from layers 1-11 (default range for sentiment)
+
+        Returns:
+            Dictionary mapping layer -> probe_info
+        """
+        probes = {}
+        total_loaded = 0
+        failed = 0
+
+        # Sentiment probes: use layers 1-11 by default
+        sentiment_layers = range(1, 12)
+
+        for layer_idx in sentiment_layers:
+            layer_dir = self.sentiment_probes_dir / f"layer_{layer_idx}"
+
+            if not layer_dir.exists():
+                if self.verbose:
+                    print(f"  Warning: Sentiment layer directory not found: {layer_dir}")
+                continue
+
+            # Look for sentiment_regression_probe.pth
+            probe_path = layer_dir / "sentiment_regression_probe.pth"
+
+            if not probe_path.exists():
+                if self.verbose:
+                    print(f"  Warning: Sentiment probe not found: {probe_path}")
+                continue
+
+            try:
+                # Load the probe using the standard load_probe function
+                probe, metadata = load_probe(probe_path, device=self.device)
+
+                probes[layer_idx] = {
+                    'probe': probe,
+                    'layer': layer_idx,
+                    'metadata': metadata
+                }
+                total_loaded += 1
+
+            except Exception as e:
+                if self.verbose:
+                    print(f"  Warning: Failed to load sentiment probe {probe_path}: {e}")
+                failed += 1
+
+        if self.verbose:
+            print(f"  Loaded {total_loaded} sentiment probes")
+            if failed > 0:
+                print(f"  Warning: Failed to load {failed} sentiment probes")
 
         return probes
 
@@ -311,7 +382,7 @@ class StreamingProbeInferenceEngine:
         # Initialize predictions with token-level tracking
         predictions = {}
         for (action_name, layer_idx), probe_info in self.probes.items():
-            key = (action_name, layer_idx)
+            key = (action_name, layer_idx, "cognitive")
             predictions[key] = StreamingPrediction(
                 action_name=action_name,
                 action_idx=self.action_to_idx[action_name],
@@ -319,8 +390,24 @@ class StreamingProbeInferenceEngine:
                 is_active=False,
                 layer=layer_idx,
                 auc=probe_info['metadata'].get('auc', 0.0) if 'metadata' in probe_info else 0.0,
-                token_activations=[]
+                token_activations=[],
+                probe_type="cognitive"
             )
+
+        # Initialize sentiment predictions if enabled
+        if self.include_sentiment:
+            for layer_idx, probe_info in self.sentiment_probes.items():
+                key = ("sentiment", layer_idx, "sentiment")
+                predictions[key] = StreamingPrediction(
+                    action_name="sentiment",
+                    action_idx=-1,  # Special index for sentiment
+                    confidence=0.0,
+                    is_active=False,
+                    layer=layer_idx,
+                    auc=probe_info['metadata'].get('r2', 0.0) if 'metadata' in probe_info else 0.0,
+                    token_activations=[],
+                    probe_type="sentiment"
+                )
 
         # Process each token with augmented text
         with torch.no_grad():
@@ -334,27 +421,28 @@ class StreamingProbeInferenceEngine:
                 # Decode text up to and including this token
                 text_prefix = self.tokenizer.decode(input_ids[0, :token_pos + 1], skip_special_tokens=False)
 
-                # Append cognitive action prompt (like universal_multi_layer_inference)
-                augmented_text = f"{text_prefix}\n\nThe cognitive action being demonstrated here is"
+                # === COGNITIVE ACTION PROBES ===
+                # Append cognitive action prompt
+                cognitive_augmented_text = f"{text_prefix}\n\nThe cognitive action being demonstrated here is"
 
-                # Extract activations from all layers for this augmented text
-                token_layer_activations = {}
-                with self.model.trace(augmented_text):
+                # Extract activations from all layers for cognitive probes
+                cognitive_activations = {}
+                with self.model.trace(cognitive_augmented_text):
                     for layer_idx in self.layers_needed:
                         # Get hidden states from this layer - shape: (batch_size, seq_len, hidden_dim)
                         hidden_states = self.model.model.layers[layer_idx].output[0]
                         # Save the LAST token representation
-                        token_layer_activations[layer_idx] = hidden_states[:, -1, :].save()
+                        cognitive_activations[layer_idx] = hidden_states[:, -1, :].save()
 
                 # Collect activations for this token
                 token_active_probes = []
 
-                # Run each probe on this token's activation
+                # Run each cognitive probe on this token's activation
                 for (action_name, layer_idx), probe_info in self.probes.items():
                     probe = probe_info['probe']
 
                     # Get activation for this token at this layer (last token of augmented text)
-                    act = token_layer_activations[layer_idx].squeeze(0)
+                    act = cognitive_activations[layer_idx].squeeze(0)
 
                     # Run probe
                     logits = probe(act)
@@ -369,10 +457,11 @@ class StreamingProbeInferenceEngine:
                         confidence=confidence,
                         layer=layer_idx,
                         timestamp=token_time - start_time,
-                        is_active=confidence >= threshold
+                        is_active=confidence >= threshold,
+                        probe_type="cognitive"
                     )
 
-                    key = (action_name, layer_idx)
+                    key = (action_name, layer_idx, "cognitive")
                     predictions[key].token_activations.append(token_activation)
 
                     # Update peak if this is highest confidence
@@ -382,7 +471,57 @@ class StreamingProbeInferenceEngine:
 
                     # Collect active probes for display
                     if confidence >= threshold:
-                        token_active_probes.append((action_name, confidence, layer_idx))
+                        token_active_probes.append((action_name, confidence, layer_idx, "cognitive"))
+
+                # === SENTIMENT PROBES ===
+                if self.include_sentiment:
+                    # Append sentiment prompt
+                    sentiment_augmented_text = f"{text_prefix}\n\nThe sentiment of this section is"
+
+                    # Extract activations from sentiment probe layers (1-11)
+                    sentiment_activations = {}
+                    with self.model.trace(sentiment_augmented_text):
+                        for layer_idx in self.sentiment_probes.keys():
+                            # Get hidden states from this layer
+                            hidden_states = self.model.model.layers[layer_idx].output[0]
+                            # Save the LAST token representation
+                            sentiment_activations[layer_idx] = hidden_states[:, -1, :].save()
+
+                    # Run each sentiment probe
+                    for layer_idx, probe_info in self.sentiment_probes.items():
+                        if layer_idx not in sentiment_activations:
+                            continue
+
+                        probe = probe_info['probe']
+                        act = sentiment_activations[layer_idx].squeeze(0)
+
+                        # Run probe - sentiment probes output regression scores
+                        score = probe(act).item()
+
+                        # Record token activation
+                        token_activation = TokenActivation(
+                            token_id=input_ids[0, token_pos].item(),
+                            token_text=token_text,
+                            token_position=token_pos,
+                            action_name="sentiment",
+                            confidence=score,  # Raw sentiment score
+                            layer=layer_idx,
+                            timestamp=token_time - start_time,
+                            is_active=abs(score) >= threshold,  # Active if sentiment magnitude exceeds threshold
+                            probe_type="sentiment"
+                        )
+
+                        key = ("sentiment", layer_idx, "sentiment")
+                        predictions[key].token_activations.append(token_activation)
+
+                        # Update peak if this is highest magnitude
+                        if abs(score) > abs(predictions[key].peak_confidence):
+                            predictions[key].peak_confidence = score
+                            predictions[key].peak_activation_token = token_text
+
+                        # Collect active sentiment for display
+                        if abs(score) >= threshold:
+                            token_active_probes.append(("sentiment", score, layer_idx, "sentiment"))
 
                 # Show real-time activations for this token
                 if show_realtime and token_active_probes:
@@ -408,10 +547,63 @@ class StreamingProbeInferenceEngine:
 
         return top_predictions
 
+    def normalize_sentiment_scores(
+        self,
+        predictions: List[StreamingPrediction]
+    ) -> List[StreamingPrediction]:
+        """
+        Normalize sentiment scores across all layers using global statistics
+
+        This computes mean and std across ALL sentiment scores from ALL layers and tokens,
+        then applies z-score normalization: (score - mean) / std
+
+        Args:
+            predictions: List of predictions including sentiment predictions
+
+        Returns:
+            Updated predictions with normalized sentiment scores
+        """
+        # Collect all sentiment scores from all layers and tokens
+        all_sentiment_scores = []
+        sentiment_preds = []
+
+        for pred in predictions:
+            if pred.probe_type == "sentiment":
+                sentiment_preds.append(pred)
+                for tok_act in pred.token_activations:
+                    all_sentiment_scores.append(tok_act.confidence)
+
+        if not all_sentiment_scores:
+            return predictions  # No sentiment scores to normalize
+
+        # Compute global statistics
+        import numpy as np
+        scores_array = np.array(all_sentiment_scores)
+        global_mean = np.mean(scores_array)
+        global_std = np.std(scores_array)
+
+        if global_std == 0:
+            global_std = 1.0  # Avoid division by zero
+
+        # Normalize all sentiment scores
+        for pred in sentiment_preds:
+            for tok_act in pred.token_activations:
+                # Apply z-score normalization
+                normalized_score = (tok_act.confidence - global_mean) / global_std
+                tok_act.confidence = normalized_score
+
+            # Update prediction confidence (last token)
+            if pred.token_activations:
+                pred.confidence = pred.token_activations[-1].confidence
+                pred.peak_confidence = max(pred.token_activations, key=lambda x: abs(x.confidence)).confidence
+
+        return predictions
+
     def aggregate_predictions(
         self,
         predictions: List[StreamingPrediction],
-        threshold: float = 0.1
+        threshold: float = 0.1,
+        normalize_sentiment: bool = True
     ) -> List[AggregatedPrediction]:
         """
         Aggregate predictions by action across all layers
@@ -419,11 +611,16 @@ class StreamingProbeInferenceEngine:
         Args:
             predictions: List of StreamingPrediction objects (one per action-layer pair)
             threshold: Minimum confidence threshold for "active"
+            normalize_sentiment: Whether to normalize sentiment scores across all layers (default: True)
 
         Returns:
             List of AggregatedPrediction objects, sorted by layer_count then max_confidence
         """
         from collections import defaultdict
+
+        # Normalize sentiment scores if requested
+        if normalize_sentiment:
+            predictions = self.normalize_sentiment_scores(predictions)
 
         # Group by action name
         action_groups = defaultdict(list)
@@ -433,29 +630,51 @@ class StreamingProbeInferenceEngine:
         # Create aggregated predictions
         aggregated = []
         for action_name, preds in action_groups.items():
+            # Check if this is a sentiment prediction
+            is_sentiment = preds[0].probe_type == "sentiment" if preds else False
+
             # Sort by confidence to find best layer
-            preds_sorted = sorted(preds, key=lambda x: x.confidence, reverse=True)
+            # For sentiment, sort by absolute value
+            if is_sentiment:
+                preds_sorted = sorted(preds, key=lambda x: abs(x.confidence), reverse=True)
+            else:
+                preds_sorted = sorted(preds, key=lambda x: x.confidence, reverse=True)
             best_pred = preds_sorted[0]
 
             # Get all layers and confidences
             all_layers = [p.layer for p in preds]
             all_confidences = [p.confidence for p in preds]
-            
+
             # Get only ACTIVE layers (above threshold)
-            active_layers = [p.layer for p in preds if p.confidence >= threshold]
-            active_confidences = [p.confidence for p in preds if p.confidence >= threshold]
+            # For sentiment, use absolute value comparison
+            if is_sentiment:
+                active_layers = [p.layer for p in preds if abs(p.confidence) >= threshold]
+                active_confidences = [p.confidence for p in preds if abs(p.confidence) >= threshold]
+            else:
+                active_layers = [p.layer for p in preds if p.confidence >= threshold]
+                active_confidences = [p.confidence for p in preds if p.confidence >= threshold]
 
             # Calculate aggregates
-            max_conf = max(all_confidences)
+            # For sentiment, use absolute value for max
+            if is_sentiment:
+                max_conf = max(all_confidences, key=abs)
+            else:
+                max_conf = max(all_confidences)
             mean_conf = sum(all_confidences) / len(all_confidences)
 
             # Find overall peak activation
+            # For sentiment, use absolute value
             peak_conf = 0.0
             peak_token = None
             for pred in preds:
-                if pred.peak_confidence > peak_conf:
-                    peak_conf = pred.peak_confidence
-                    peak_token = pred.peak_activation_token
+                if is_sentiment:
+                    if abs(pred.peak_confidence) > abs(peak_conf):
+                        peak_conf = pred.peak_confidence
+                        peak_token = pred.peak_activation_token
+                else:
+                    if pred.peak_confidence > peak_conf:
+                        peak_conf = pred.peak_confidence
+                        peak_token = pred.peak_activation_token
 
             agg_pred = AggregatedPrediction(
                 action_name=action_name,
@@ -465,7 +684,7 @@ class StreamingProbeInferenceEngine:
                 max_confidence=max_conf,
                 mean_confidence=mean_conf,
                 best_layer=best_pred.layer,
-                is_active=max_conf >= threshold,
+                is_active=(abs(max_conf) >= threshold) if is_sentiment else (max_conf >= threshold),
                 layer_predictions=preds,  # Keep all for reference
                 peak_activation_token=peak_token,
                 peak_confidence=peak_conf
@@ -473,7 +692,8 @@ class StreamingProbeInferenceEngine:
             aggregated.append(agg_pred)
 
         # Sort by layer count (descending) then max confidence (descending)
-        aggregated.sort(key=lambda x: (x.layer_count, x.max_confidence), reverse=True)
+        # For sorting, use absolute value for sentiment
+        aggregated.sort(key=lambda x: (x.layer_count, abs(x.max_confidence)), reverse=True)
 
         return aggregated
 
@@ -518,36 +738,61 @@ class StreamingProbeInferenceEngine:
         else:  # bars
             print(f"\nToken {pos:3d}: '{token}'")
 
-    def _print_activations(self, activations: List[Tuple[str, float, int]], mode: str):
+    def _print_activations(self, activations: List[Tuple[str, float, int, str]], mode: str):
         """Print activations based on display mode"""
-        # Sort by confidence
-        activations = sorted(activations, key=lambda x: x[1], reverse=True)
+        # Sort by absolute confidence (for sentiment scores that can be negative)
+        activations = sorted(activations, key=lambda x: abs(x[1]), reverse=True)
 
         if mode == "matrix":
-            for action, conf, layer in activations:
-                blocks = self._get_matrix_blocks(conf)
-                print(f"│  {blocks} {action[:25]:25s} {conf:5.1%} L{layer}")
+            for action, conf, layer, probe_type in activations:
+                if probe_type == "sentiment":
+                    blocks = self._get_matrix_blocks(abs(conf))
+                    sentiment_label = "positive" if conf > 0 else "negative"
+                    print(f"│  {blocks} {action[:18]:18s} ({sentiment_label:8s}) {conf:+6.2f} L{layer}")
+                else:
+                    blocks = self._get_matrix_blocks(conf)
+                    print(f"│  {blocks} {action[:25]:25s} {conf:5.1%} L{layer}")
             print(f"└{'─' * 60}")
 
         elif mode == "fire":
-            for action, conf, layer in activations:
-                flame = self._get_flame_intensity(conf)
-                print(f"   {flame} {action[:25]:25s} {conf:5.1%} L{layer}")
+            for action, conf, layer, probe_type in activations:
+                if probe_type == "sentiment":
+                    flame = self._get_flame_intensity(abs(conf))
+                    sentiment_label = "positive" if conf > 0 else "negative"
+                    print(f"   {flame} {action[:18]:18s} ({sentiment_label:8s}) {conf:+6.2f} L{layer}")
+                else:
+                    flame = self._get_flame_intensity(conf)
+                    print(f"   {flame} {action[:25]:25s} {conf:5.1%} L{layer}")
 
         elif mode == "waves":
-            for action, conf, layer in activations:
-                wave = self._get_wave_pattern(conf)
-                print(f"    {wave} {action[:25]:25s} {conf:5.1%} L{layer}")
+            for action, conf, layer, probe_type in activations:
+                if probe_type == "sentiment":
+                    wave = self._get_wave_pattern(abs(conf))
+                    sentiment_label = "positive" if conf > 0 else "negative"
+                    print(f"    {wave} {action[:18]:18s} ({sentiment_label:8s}) {conf:+6.2f} L{layer}")
+                else:
+                    wave = self._get_wave_pattern(conf)
+                    print(f"    {wave} {action[:25]:25s} {conf:5.1%} L{layer}")
 
         elif mode == "pulse":
-            for action, conf, layer in activations:
-                pulse = self._get_pulse_pattern(conf)
-                print(f"  {pulse} {action[:25]:25s} {conf:5.1%} L{layer}")
+            for action, conf, layer, probe_type in activations:
+                if probe_type == "sentiment":
+                    pulse = self._get_pulse_pattern(abs(conf))
+                    sentiment_label = "positive" if conf > 0 else "negative"
+                    print(f"  {pulse} {action[:18]:18s} ({sentiment_label:8s}) {conf:+6.2f} L{layer}")
+                else:
+                    pulse = self._get_pulse_pattern(conf)
+                    print(f"  {pulse} {action[:25]:25s} {conf:5.1%} L{layer}")
 
         else:  # bars
-            for action, conf, layer in activations:
-                bar = self._get_bar(conf)
-                print(f"  {bar} {action[:25]:25s} {conf:5.1%} L{layer}")
+            for action, conf, layer, probe_type in activations:
+                if probe_type == "sentiment":
+                    bar = self._get_bar(abs(conf))
+                    sentiment_label = "positive" if conf > 0 else "negative"
+                    print(f"  {bar} {action[:18]:18s} ({sentiment_label:8s}) {conf:+6.2f} L{layer}")
+                else:
+                    bar = self._get_bar(conf)
+                    print(f"  {bar} {action[:25]:25s} {conf:5.1%} L{layer}")
 
     def _get_bar(self, confidence: float) -> str:
         """Classic bar visualization"""

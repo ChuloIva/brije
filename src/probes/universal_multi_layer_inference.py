@@ -33,6 +33,7 @@ class UniversalPrediction:
     layer: int
     confidence: float
     is_active: bool  # Whether confidence >= threshold
+    probe_type: str = "cognitive"  # "cognitive" or "sentiment"
 
 
 class UniversalMultiLayerInferenceEngine:
@@ -46,7 +47,9 @@ class UniversalMultiLayerInferenceEngine:
         probes_base_dir: Path,
         model_name: str = "google/gemma-3-4b-it",
         device: str = None,
-        layer_range: Tuple[int, int] = (21, 30)  # (start, end) inclusive
+        layer_range: Tuple[int, int] = (21, 30),  # (start, end) inclusive
+        sentiment_probes_dir: Optional[Path] = None,
+        include_sentiment: bool = False
     ):
         """
         Initialize universal multi-layer inference engine
@@ -56,6 +59,8 @@ class UniversalMultiLayerInferenceEngine:
             model_name: Name of the language model
             device: Device to run on (auto-detects if None)
             layer_range: (start, end) layer range to load (inclusive)
+            sentiment_probes_dir: Base directory containing sentiment probes (optional)
+            include_sentiment: Whether to include sentiment probes in inference
         """
         # Auto-detect device if not provided
         if device is None:
@@ -63,6 +68,8 @@ class UniversalMultiLayerInferenceEngine:
             device = get_optimal_device()
 
         self.probes_base_dir = Path(probes_base_dir)
+        self.sentiment_probes_dir = Path(sentiment_probes_dir) if sentiment_probes_dir else None
+        self.include_sentiment = include_sentiment
         self.model_name = model_name
         self.device = device
         self.layer_start, self.layer_end = layer_range
@@ -73,6 +80,8 @@ class UniversalMultiLayerInferenceEngine:
         print(f"  Model: {model_name}")
         print(f"  Device: {device}")
         print(f"  Layer range: {self.layer_start}-{self.layer_end} ({len(self.layers)} layers)")
+        if include_sentiment:
+            print(f"  Sentiment probes: {sentiment_probes_dir}")
         print()
 
         # Load index to action mapping
@@ -83,8 +92,16 @@ class UniversalMultiLayerInferenceEngine:
         print("Loading probes from all layers...")
         self.probes = self._load_all_probes()
 
-        print(f"\n✓ Loaded {len(self.probes)} total probes across {len(self.layers)} layers")
+        # Load sentiment probes if requested
+        self.sentiment_probes = {}
+        if include_sentiment and sentiment_probes_dir:
+            print("Loading sentiment probes...")
+            self.sentiment_probes = self._load_sentiment_probes()
+
+        print(f"\n✓ Loaded {len(self.probes)} cognitive probes across {len(self.layers)} layers")
         print(f"  ({len(self.probes) // len(self.layers)} actions × {len(self.layers)} layers)")
+        if include_sentiment:
+            print(f"✓ Loaded {len(self.sentiment_probes)} sentiment probes")
 
         # Load model and tokenizer
         print(f"\nLoading language model: {model_name}...")
@@ -165,6 +182,52 @@ class UniversalMultiLayerInferenceEngine:
 
         return probes
 
+    def _load_sentiment_probes(self) -> Dict[int, Dict]:
+        """
+        Load sentiment regression probes from layers 1-11 (default range for sentiment)
+
+        Returns:
+            Dictionary mapping layer -> probe_info
+        """
+        probes = {}
+        total_loaded = 0
+        failed = 0
+
+        # Sentiment probes: use layers 1-11 by default
+        sentiment_layers = range(1, 12)
+
+        for layer_idx in sentiment_layers:
+            layer_dir = self.sentiment_probes_dir / f"layer_{layer_idx}"
+
+            if not layer_dir.exists():
+                continue
+
+            # Look for sentiment_regression_probe.pth
+            probe_path = layer_dir / "sentiment_regression_probe.pth"
+
+            if not probe_path.exists():
+                continue
+
+            try:
+                # Load the probe using the standard load_probe function
+                probe, metadata = load_probe(probe_path, device=self.device)
+
+                probes[layer_idx] = {
+                    'probe': probe,
+                    'layer': layer_idx,
+                    'metadata': metadata
+                }
+                total_loaded += 1
+
+            except Exception as e:
+                print(f"  Warning: Failed to load sentiment probe {probe_path}: {e}")
+                failed += 1
+
+        if failed > 0:
+            print(f"  Warning: Failed to load {failed} sentiment probes")
+
+        return probes
+
     def extract_all_layer_activations(self, text: str) -> Dict[int, torch.Tensor]:
         """
         Extract activations from all layers in range
@@ -209,10 +272,10 @@ class UniversalMultiLayerInferenceEngine:
         Returns:
             List of UniversalPrediction objects, sorted by confidence (descending)
         """
-        # Extract activations from all layers (single forward pass)
+        # Extract activations from all layers for cognitive probes (single forward pass)
         layer_activations = self.extract_all_layer_activations(text)
 
-        # Run all probes
+        # Run all cognitive probes
         predictions = []
 
         with torch.no_grad():
@@ -232,12 +295,48 @@ class UniversalMultiLayerInferenceEngine:
                     action_idx=action_idx,
                     layer=layer_idx,
                     confidence=confidence,
-                    is_active=confidence >= threshold
+                    is_active=confidence >= threshold,
+                    probe_type="cognitive"
                 )
                 predictions.append(prediction)
 
-        # Sort by confidence (descending)
-        predictions = sorted(predictions, key=lambda x: x.confidence, reverse=True)
+            # Run sentiment probes if enabled
+            if self.include_sentiment:
+                # Extract activations for sentiment probes with sentiment-specific prompt
+                sentiment_augmented_text = f"{text}\n\nThe sentiment of this section is"
+
+                sentiment_activations = {}
+                with self.model.trace(sentiment_augmented_text) as tracer:
+                    for layer_idx in self.sentiment_probes.keys():
+                        hidden_states = self.model.model.layers[layer_idx].output[0]
+                        sentiment_activations[layer_idx] = hidden_states[:, -1, :].save()
+
+                # Squeeze batch dimension
+                sentiment_activations = {layer_idx: act.squeeze(0) for layer_idx, act in sentiment_activations.items()}
+
+                # Run each sentiment probe
+                for layer_idx, probe_info in self.sentiment_probes.items():
+                    if layer_idx not in sentiment_activations:
+                        continue
+
+                    probe = probe_info['probe']
+                    activations = sentiment_activations[layer_idx]
+
+                    # Get sentiment score (regression output)
+                    score = probe(activations).item()
+
+                    prediction = UniversalPrediction(
+                        action_name="sentiment",
+                        action_idx=-1,  # Special index for sentiment
+                        layer=layer_idx,
+                        confidence=score,  # Raw sentiment score
+                        is_active=abs(score) >= threshold,  # Active if magnitude exceeds threshold
+                        probe_type="sentiment"
+                    )
+                    predictions.append(prediction)
+
+        # Sort by absolute confidence (to handle negative sentiment scores)
+        predictions = sorted(predictions, key=lambda x: abs(x.confidence), reverse=True)
 
         # Apply top_k filter if specified
         if top_k is not None:

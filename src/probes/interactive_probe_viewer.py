@@ -39,8 +39,8 @@ from visualization_utils import (
 from action_categories import get_action_category, get_category_tag
 
 
-class TokenDisplay(Static):
-    """Display tokens with highlighting for selected token"""
+class TokenDisplay(ScrollableContainer):
+    """Display tokens with highlighting for selected token - SCROLLABLE VERSION"""
 
     selected_token = reactive(0)
 
@@ -49,15 +49,24 @@ class TokenDisplay(Static):
         self.tokens = tokens
         self.predictions: Optional[List[StreamingPrediction]] = None
         self.display_threshold: float = 0.1
+        self.token_static = Static()
+
+    def compose(self) -> ComposeResult:
+        """Compose the scrollable container"""
+        yield self.token_static
 
     def set_predictions(self, predictions: List[StreamingPrediction]):
         """Set predictions data"""
         self.predictions = predictions
-        self.refresh()
+        self.refresh_display()
 
-    def render(self) -> Panel:
-        """Render token stream with highlighting"""
+    def refresh_display(self):
+        """Refresh the token display"""
         text = Text()
+
+        # Wrap tokens to fit nicely - aim for ~100 chars per line
+        current_line_length = 0
+        max_line_length = 100
 
         for i, token in enumerate(self.tokens):
             # Check if this token has activations
@@ -71,20 +80,34 @@ class TokenDisplay(Static):
                             has_activation = True
                             break
 
+            # Add newline if line is getting too long
+            token_display_length = len(token) + 2  # +2 for brackets or space
+            if current_line_length + token_display_length > max_line_length and current_line_length > 0:
+                text.append("\n")
+                current_line_length = 0
+
             # Style based on state
             if i == self.selected_token:
                 # Selected: bold and highlighted
                 text.append(f"[{token}]", style="bold black on yellow")
+                current_line_length += len(token) + 2
             elif has_activation:
                 # Has activation: colored
                 text.append(token, style="bold cyan")
+                current_line_length += len(token)
             else:
                 # Normal
                 text.append(token, style="dim white")
+                current_line_length += len(token)
 
             text.append(" ")
+            current_line_length += 1
 
-        return Panel(text, title="Token Stream (←/→ to navigate)", border_style="blue")
+        self.token_static.update(Panel(text, title="Token Stream (←/→ to navigate, scroll with mouse/trackpad)", border_style="blue"))
+
+    def watch_selected_token(self, new_value: int) -> None:
+        """Called when selected_token changes"""
+        self.refresh_display()
 
 
 class ProbeDetails(Static):
@@ -138,16 +161,30 @@ class ProbeDetails(Static):
                 max_conf_at_token = 0.0
                 any_active = False
                 
+                # Check if this is a sentiment prediction
+                is_sentiment = pred.action_name == "sentiment"
+
                 for layer_pred in pred.layer_predictions:
                     # Only consider layers that passed the threshold in aggregation
                     if layer_pred.layer in pred.layers:
                         if self.selected_token < len(layer_pred.token_activations):
                             tok_act = layer_pred.token_activations[self.selected_token]
+                            conf_val = tok_act.confidence
+
                             # Check if this layer is active at this specific token
-                            if tok_act.confidence >= self.display_threshold:
-                                active_layers_at_token += 1
-                                any_active = True
-                            max_conf_at_token = max(max_conf_at_token, tok_act.confidence)
+                            # For sentiment, use absolute value comparison
+                            if is_sentiment:
+                                if abs(conf_val) >= self.display_threshold:
+                                    active_layers_at_token += 1
+                                    any_active = True
+                                # Track max by absolute value but keep sign
+                                if abs(conf_val) > abs(max_conf_at_token):
+                                    max_conf_at_token = conf_val
+                            else:
+                                if conf_val >= self.display_threshold:
+                                    active_layers_at_token += 1
+                                    any_active = True
+                                max_conf_at_token = max(max_conf_at_token, conf_val)
                 
                 max_layers_at_token = max(max_layers_at_token, active_layers_at_token)
                 
@@ -163,11 +200,25 @@ class ProbeDetails(Static):
                     activations.append((pred.action_name, tok_act.confidence, tok_act.confidence >= self.display_threshold, layer_count))
 
         # Sort by layer count at this token (descending), then confidence
-        activations.sort(key=lambda x: (x[3], x[1]), reverse=True)
+        # For sentiment (action name), sort by absolute value of confidence
+        activations.sort(key=lambda x: (x[3], abs(x[1]) if x[0] == "sentiment" else x[1]), reverse=True)
 
         # Add ALL rows (not just top 15)
         for action, conf, is_active, layer_count_at_token in activations:
-            color = confidence_to_color(conf)
+            # Special handling for sentiment probes (regression scores, not probabilities)
+            if action == "sentiment":
+                # Sentiment scores are z-score normalized (typically -3 to +3)
+                # Use absolute value for color intensity
+                abs_conf = abs(conf)
+                # Normalize to 0-1 range for color (z-scores: 0=weak, 3=strong)
+                normalized_for_color = min(abs_conf / 3.0, 1.0)
+                color = confidence_to_color(normalized_for_color)
+                conf_str = f"{conf:+6.2f}"  # e.g., "-1.43" or "+2.15"
+            else:
+                # Cognitive probes use 0-1 probabilities
+                color = confidence_to_color(conf)
+                conf_str = format_confidence(conf)
+
             # Bar represents layer count at this token position, not overall
             bar_len = int((layer_count_at_token / max(max_layers_at_token, 1)) * 12) if max_layers_at_token > 0 else 0
             bar = "█" * bar_len
@@ -182,7 +233,7 @@ class ProbeDetails(Static):
             table.add_row(
                 f"[{cat_color}]{action_short}[/{cat_color}] [{cat_color}]{cat_tag}[/{cat_color}]",
                 f"[yellow]{layer_count_at_token}[/yellow]",
-                f"[{color}]{format_confidence(conf)}[/{color}]",
+                f"[{color}]{conf_str}[/{color}]",
                 f"[yellow]{bar}[/yellow]",
                 f"[green]{marker}[/green]"
             )
@@ -245,13 +296,20 @@ class ActivationHeatmap(Static):
             # Sort within category by active layers at this token (desc)
             def active_layers_for(pred: AggregatedPrediction) -> int:
                 count = 0
+                is_sentiment = pred.action_name == "sentiment"
                 for layer_idx in range(self.layer_range[0], self.layer_range[1] + 1):
                     if layer_idx not in pred.layers:
                         continue
                     layer_pred = next((p for p in pred.layer_predictions if p.layer == layer_idx), None)
                     if layer_pred and self.selected_token < len(layer_pred.token_activations):
-                        if layer_pred.token_activations[self.selected_token].confidence >= self.display_threshold:
-                            count += 1
+                        conf = layer_pred.token_activations[self.selected_token].confidence
+                        # For sentiment, check absolute value
+                        if is_sentiment:
+                            if abs(conf) >= self.display_threshold:
+                                count += 1
+                        else:
+                            if conf >= self.display_threshold:
+                                count += 1
                 return count
 
             preds_in_cat.sort(key=lambda p: active_layers_for(p), reverse=True)
@@ -270,16 +328,31 @@ class ActivationHeatmap(Static):
                 # Count active layers at this token
                 active_layers_at_token = 0
                 layer_cells = []
+                is_sentiment = pred.action_name == "sentiment"
+
                 for layer_idx in range(self.layer_range[0], self.layer_range[1] + 1):
                     layer_pred = next((p for p in pred.layer_predictions if p.layer == layer_idx), None)
                     if layer_pred and self.selected_token < len(layer_pred.token_activations):
                         tok_act = layer_pred.token_activations[self.selected_token]
                         conf = tok_act.confidence
-                        symbol = get_activation_symbol(conf)
-                        color = confidence_to_color(conf)
+
+                        # Special handling for sentiment (z-score normalized)
+                        if is_sentiment:
+                            # Normalize z-score to 0-1 for visualization (z-scores typically -3 to +3)
+                            normalized_conf = min(abs(conf) / 3.0, 1.0)
+                            symbol = get_activation_symbol(normalized_conf)
+                            color = confidence_to_color(normalized_conf)
+                            # Check if active using absolute value
+                            if abs(conf) >= self.display_threshold and layer_idx in pred.layers:
+                                active_layers_at_token += 1
+                        else:
+                            # Cognitive probes use 0-1 probabilities
+                            symbol = get_activation_symbol(conf)
+                            color = confidence_to_color(conf)
+                            if conf >= self.display_threshold and layer_idx in pred.layers:
+                                active_layers_at_token += 1
+
                         layer_cells.append(f"[{color}]{symbol}[/{color}]")
-                        if conf >= self.display_threshold and layer_idx in pred.layers:
-                            active_layers_at_token += 1
                     else:
                         layer_cells.append("[dim]·[/dim]")
 
@@ -295,62 +368,165 @@ class ActivationHeatmap(Static):
         self.refresh_heatmap()
 
 
-class StatsPanel(Static):
-    """Display statistics and controls"""
+class SentimentTracker(Static):
+    """Display sentiment analysis across tokens with sparkline visualization"""
 
-    def __init__(self, *args, **kwargs):
+    selected_token = reactive(0)
+
+    def __init__(self, tokens: List[str], *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.predictions: Optional[List[StreamingPrediction]] = None
-        self.tokens: List[str] = []
-        self.processing_time: float = 0.0
-
-    def set_data(self, predictions, tokens: List[str], processing_time: float):
-        """Set data"""
-        self.predictions = predictions
         self.tokens = tokens
-        self.processing_time = processing_time
+        self.predictions: Optional[List[AggregatedPrediction]] = None
+
+    def set_predictions(self, predictions: List[AggregatedPrediction]):
+        """Set predictions data"""
+        self.predictions = predictions
         self.refresh()
 
     def render(self) -> Panel:
-        """Render stats"""
-        if not self.predictions:
-            return Panel("No data", title="Statistics")
+        """Render sentiment tracker with sparkline and current value"""
+        try:
+            if not self.predictions or not self.tokens:
+                return Panel("No sentiment data", title="Sentiment Tracker", border_style="magenta", height=8)
 
-        text = Text()
+            # Find sentiment predictions
+            sentiment_preds = [p for p in self.predictions if p.action_name == "sentiment"]
 
-        # Summary stats
-        text.append(f"Tokens: ", style="bold")
-        text.append(f"{len(self.tokens)}\n")
+            if not sentiment_preds:
+                return Panel("No sentiment probes loaded", title="Sentiment Tracker 😊😐😢", border_style="magenta", height=8)
 
-        text.append(f"Actions: ", style="bold")
-        text.append(f"{len(self.predictions)}\n")
+            # Get sentiment scores across all tokens from all layers
+            num_tokens = len(self.tokens)
+            sentiment_scores = [0.0] * num_tokens
 
-        text.append(f"Time: ", style="bold")
-        text.append(f"{self.processing_time:.2f}s\n\n")
+            # Average sentiment across layers for each token
+            for token_idx in range(num_tokens):
+                scores_at_token = []
+                for sent_pred in sentiment_preds:
+                    for layer_pred in sent_pred.layer_predictions:
+                        if token_idx < len(layer_pred.token_activations):
+                            scores_at_token.append(layer_pred.token_activations[token_idx].confidence)
+                if scores_at_token:
+                    sentiment_scores[token_idx] = sum(scores_at_token) / len(scores_at_token)
 
-        # Top 5 active probes - handle both AggregatedPrediction and StreamingPrediction
-        text.append("Top 5 Active:\n", style="bold green")
-        for i, pred in enumerate(self.predictions[:5], 1):
-            # Check if it's aggregated or regular prediction
-            is_aggregated = hasattr(pred, 'layer_count')
+            # Current token sentiment
+            current_sentiment = sentiment_scores[self.selected_token] if self.selected_token < len(sentiment_scores) else 0.0
 
-            if is_aggregated:
-                if pred.is_active:
-                    emoji = get_emoji_for_confidence(pred.max_confidence)
-                    color = confidence_to_color(pred.max_confidence)
-                    text.append(f"  {i}. ", style="dim")
-                    text.append(f"{emoji} ", style=color)
-                    text.append(f"{truncate_text(pred.action_name, 12)}", style=color)
-                    text.append(f" ({pred.layer_count}L)\n", style="dim")
+            # Determine sentiment label and emoji (z-scores: typically -3 to +3)
+            # Use 0.5 as threshold since scores are normalized
+            if current_sentiment > 0.5:
+                sentiment_label = "POSITIVE"
+                sentiment_emoji = "😊"
+                sentiment_color = "green"
+            elif current_sentiment < -0.5:
+                sentiment_label = "NEGATIVE"
+                sentiment_emoji = "😢"
+                sentiment_color = "red"
             else:
-                if pred.is_active:
-                    emoji = get_emoji_for_confidence(pred.confidence)
-                    color = confidence_to_color(pred.confidence)
-                    text.append(f"  {i}. ", style="dim")
-                    text.append(f"{emoji} ", style=color)
-                    text.append(f"{truncate_text(pred.action_name, 15)}\n", style=color)
+                sentiment_label = "NEUTRAL"
+                sentiment_emoji = "😐"
+                sentiment_color = "yellow"
 
-        return Panel(text, title="Statistics", border_style="yellow")
+            # Create sparkline visualization with sliding window that follows the selected token
+            sparkline_chars = ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
+            max_sparkline_width = 80
+
+            # Use a sliding window approach that centers on the selected token
+            if num_tokens > max_sparkline_width:
+                # Calculate window bounds centered on selected token
+                half_window = max_sparkline_width // 2
+                window_start = max(0, self.selected_token - half_window)
+                window_end = min(num_tokens, window_start + max_sparkline_width)
+
+                # Adjust if we're at the end
+                if window_end == num_tokens:
+                    window_start = max(0, window_end - max_sparkline_width)
+
+                # Extract window of scores
+                windowed_scores = sentiment_scores[window_start:window_end]
+                # Position of selected token within the window
+                selected_in_window = self.selected_token - window_start
+
+                # Show position indicator
+                position_indicator = f" [{window_start+1}-{window_end}/{num_tokens}]"
+            else:
+                # Show all tokens if they fit
+                windowed_scores = sentiment_scores
+                selected_in_window = self.selected_token
+                position_indicator = ""
+
+            # Normalize z-scores to 0-1 range for sparkline (shift from [-3,3] to [0,1])
+            # Z-scores typically range from -3 to +3
+            normalized_scores = [(min(max(s, -3.0), 3.0) + 3.0) / 6.0 for s in windowed_scores]
+
+            # Validate selected_in_window is within bounds
+            if selected_in_window >= len(windowed_scores):
+                selected_in_window = len(windowed_scores) - 1 if windowed_scores else 0
+
+            # Build display
+            text = Text()
+
+            # Current sentiment (big display)
+            text.append(f"\n  {sentiment_emoji}  Current: ", style="bold")
+            text.append(f"{sentiment_label}", style=f"bold {sentiment_color}")
+            text.append(f"  ({current_sentiment:+.2f})", style=sentiment_color)
+            text.append("\n\n")
+
+            # Sparkline with position indicator
+            text.append("  Sentiment Flow", style="dim")
+            if position_indicator:
+                text.append(position_indicator, style="dim cyan")
+            text.append(": ", style="dim")
+
+            # Build sparkline directly into the Text object
+            for idx, norm_score in enumerate(normalized_scores):
+                # Defensive bounds check to prevent IndexError
+                if idx >= len(windowed_scores):
+                    break
+
+                char_idx = min(int(norm_score * len(sparkline_chars)), len(sparkline_chars) - 1)
+                char = sparkline_chars[char_idx]
+
+                # Color based on sentiment (z-score thresholds)
+                if windowed_scores[idx] > 0.5:
+                    char_color = "green"
+                elif windowed_scores[idx] < -0.5:
+                    char_color = "red"
+                else:
+                    char_color = "yellow"
+
+                # Highlight selected token with a marker
+                if idx == selected_in_window:
+                    text.append(char, style=f"bold {char_color} on white")
+                else:
+                    text.append(char, style=char_color)
+
+            text.append("\n\n")
+
+            # Summary stats
+            avg_sentiment = sum(sentiment_scores) / len(sentiment_scores) if sentiment_scores else 0.0
+            max_pos = max(sentiment_scores) if sentiment_scores else 0.0
+            max_neg = min(sentiment_scores) if sentiment_scores else 0.0
+
+            text.append("  Avg: ", style="dim")
+            text.append(f"{avg_sentiment:+.2f}", style="cyan")
+            text.append("  │  Peak: ", style="dim")
+            text.append(f"{max_pos:+.2f}", style="green")
+            text.append("  │  Low: ", style="dim")
+            text.append(f"{max_neg:+.2f}", style="red")
+
+            return Panel(text, title=f"Sentiment Tracker {sentiment_emoji}", border_style="magenta", height=8)
+
+        except Exception as e:
+            # If there's any error, return a clean error panel instead of crashing
+            error_text = Text()
+            error_text.append(f"\nError rendering sentiment: {str(e)}\n", style="red")
+            error_text.append(f"\nPlease check that sentiment probes are loaded correctly.", style="dim")
+            return Panel(error_text, title="Sentiment Tracker (Error)", border_style="red", height=8)
+
+    def watch_selected_token(self, new_value: int) -> None:
+        """Called when selected_token changes"""
+        self.refresh()
 
 
 class ProbeViewerApp(App):
@@ -359,12 +535,19 @@ class ProbeViewerApp(App):
     CSS = """
     Screen {
         layout: grid;
-        grid-size: 2 2;
-        grid-rows: auto 1fr;
+        grid-size: 2 3;
+        grid-rows: auto auto 1fr;
     }
 
     #token-display {
         column-span: 2;
+        height: 7;
+        overflow-y: auto;
+    }
+
+    #sentiment-tracker {
+        column-span: 2;
+        height: 8;
     }
 
     #probe-details {
@@ -406,19 +589,24 @@ class ProbeViewerApp(App):
         """Create UI components"""
         yield Header()
 
-        # Token display (top, spans 2 columns)
+        # Token display (top row, spans 2 columns)
         self.token_display = TokenDisplay(self.tokens, id="token-display")
         self.token_display.display_threshold = self.display_threshold
         self.token_display.set_predictions(self.predictions)
         yield self.token_display
 
-        # Probe details (left column)
+        # Sentiment tracker (second row, spans 2 columns) - fills the gap!
+        self.sentiment_tracker = SentimentTracker(self.tokens, id="sentiment-tracker")
+        self.sentiment_tracker.set_predictions(self.predictions)
+        yield self.sentiment_tracker
+
+        # Probe details (left column, bottom)
         self.probe_details = ProbeDetails(id="probe-details")
         self.probe_details.display_threshold = self.display_threshold
         self.probe_details.set_data(self.predictions, self.tokens)
         yield self.probe_details
 
-        # Heatmap (right column) - showing all layers
+        # Heatmap (right column, bottom) - showing all layers
         self.heatmap = ActivationHeatmap(id="heatmap")
         self.heatmap.display_threshold = self.display_threshold
         self.heatmap.set_data(self.predictions, self.layer_range)
@@ -455,6 +643,7 @@ class ProbeViewerApp(App):
     def _update_selection(self) -> None:
         """Update all panels with new selection"""
         self.token_display.selected_token = self.selected_token
+        self.sentiment_tracker.selected_token = self.selected_token
         self.probe_details.selected_token = self.selected_token
         self.heatmap.selected_token = self.selected_token
 
