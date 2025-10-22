@@ -29,19 +29,10 @@ class PatternAnalysis:
     cognitive_pattern_name: str
     cognitive_pattern_type: str
 
-    # Streaming inference results
-    streaming_top_actions: List[Tuple[str, int, float]]  # (action, layer_count, confidence)
-    streaming_sentiment_avg: float
-    streaming_sentiment_layers: List[int]
-
-    # Whole string inference results
-    whole_top_actions: List[Tuple[str, int, float]]
-    whole_sentiment_avg: float
-    whole_sentiment_layers: List[int]
-
-    # Comparison metrics
-    action_agreement: float  # How similar are top actions?
-    sentiment_diff: float  # Difference in sentiment
+    # Inference results
+    top_actions: List[Tuple[str, int, float]]  # (action, layer_count, confidence)
+    sentiment_avg: float
+    sentiment_layers: List[int]
 
 
 def load_dataset(file_path: Path) -> List[Dict]:
@@ -139,6 +130,10 @@ def predict_last_token_only(
                 'is_active': confidence >= threshold
             })
 
+    # Clear cognitive activations from GPU memory
+    del cognitive_activations
+    torch.cuda.empty_cache() if torch.cuda.is_available() else None
+
     # === SENTIMENT PROBES ===
     sentiment_predictions = []
     if engine.include_sentiment:
@@ -172,6 +167,10 @@ def predict_last_token_only(
                     'confidence': score,
                     'is_active': abs(score) >= threshold
                 })
+
+        # Clear sentiment activations from GPU memory
+        del sentiment_activations
+        torch.cuda.empty_cache() if torch.cuda.is_available() else None
 
     # === AGGREGATE BY ACTION ===
     all_predictions = cognitive_predictions + sentiment_predictions
@@ -242,53 +241,24 @@ def analyze_pattern(engine: StreamingProbeInferenceEngine,
     # Run inference (single pass, last token only)
     cog_preds, sent_preds = run_inference(engine, text, threshold)
 
-    # For backwards compatibility with the analysis structure, use the same results for both
-    streaming_cog, streaming_sent = cog_preds, sent_preds
-    whole_cog, whole_sent = cog_preds, sent_preds
-
-    # Extract top actions from streaming
-    streaming_top = [
+    # Extract top actions
+    top_actions = [
         (p.action_name, p.layer_count, p.max_confidence)
-        for p in streaming_cog[:10] if p.is_active
-    ]
-
-    # Extract top actions from whole
-    whole_top = [
-        (p.action_name, p.layer_count, p.max_confidence)
-        for p in whole_cog[:10] if p.is_active
+        for p in cog_preds[:10] if p.is_active
     ]
 
     # Sentiment aggregation
-    streaming_sent_avg = np.mean([p.max_confidence for p in streaming_sent]) if streaming_sent else 0.0
-    streaming_sent_layers = [p.best_layer for p in streaming_sent if p.is_active]
-
-    whole_sent_avg = np.mean([p.max_confidence for p in whole_sent]) if whole_sent else 0.0
-    whole_sent_layers = [p.best_layer for p in whole_sent if p.is_active]
-
-    # Compute agreement (Jaccard similarity of top 5 actions)
-    streaming_actions = set([a[0] for a in streaming_top[:5]])
-    whole_actions = set([a[0] for a in whole_top[:5]])
-
-    if len(streaming_actions) == 0 and len(whole_actions) == 0:
-        action_agreement = 1.0
-    else:
-        action_agreement = len(streaming_actions & whole_actions) / len(streaming_actions | whole_actions) if (streaming_actions | whole_actions) else 0.0
-
-    sentiment_diff = abs(streaming_sent_avg - whole_sent_avg)
+    sentiment_avg = np.mean([p.max_confidence for p in sent_preds]) if sent_preds else 0.0
+    sentiment_layers = [p.best_layer for p in sent_preds if p.is_active]
 
     return PatternAnalysis(
         pattern_type=pattern_type,
         text=text[:200],  # Store first 200 chars
         cognitive_pattern_name=entry.get('cognitive_pattern_name', ''),
         cognitive_pattern_type=entry.get('cognitive_pattern_type', ''),
-        streaming_top_actions=streaming_top,
-        streaming_sentiment_avg=streaming_sent_avg,
-        streaming_sentiment_layers=streaming_sent_layers,
-        whole_top_actions=whole_top,
-        whole_sentiment_avg=whole_sent_avg,
-        whole_sentiment_layers=whole_sent_layers,
-        action_agreement=action_agreement,
-        sentiment_diff=sentiment_diff
+        top_actions=top_actions,
+        sentiment_avg=sentiment_avg,
+        sentiment_layers=sentiment_layers
     )
 
 
@@ -301,47 +271,27 @@ def aggregate_group_statistics(analyses: List[PatternAnalysis],
     if not group_analyses:
         return {}
 
-    # Collect all streaming actions
-    streaming_action_counts = Counter()
-    streaming_layer_counts = defaultdict(list)
+    # Collect all actions
+    action_counts = Counter()
+    layer_counts = defaultdict(list)
 
     for analysis in group_analyses:
-        for action, layer_count, _ in analysis.streaming_top_actions:
-            streaming_action_counts[action] += 1
-            streaming_layer_counts[action].append(layer_count)
-
-    # Collect all whole string actions
-    whole_action_counts = Counter()
-    whole_layer_counts = defaultdict(list)
-
-    for analysis in group_analyses:
-        for action, layer_count, _ in analysis.whole_top_actions:
-            whole_action_counts[action] += 1
-            whole_layer_counts[action].append(layer_count)
+        for action, layer_count, _ in analysis.top_actions:
+            action_counts[action] += 1
+            layer_counts[action].append(layer_count)
 
     # Top actions for this group
-    top_streaming_actions = streaming_action_counts.most_common(15)
-    top_whole_actions = whole_action_counts.most_common(15)
+    top_actions = action_counts.most_common(15)
 
     # Sentiment statistics
-    streaming_sentiments = [a.streaming_sentiment_avg for a in group_analyses]
-    whole_sentiments = [a.whole_sentiment_avg for a in group_analyses]
-
-    # Agreement statistics
-    agreements = [a.action_agreement for a in group_analyses]
-    sentiment_diffs = [a.sentiment_diff for a in group_analyses]
+    sentiments = [a.sentiment_avg for a in group_analyses]
 
     return {
         'pattern_type': pattern_type,
         'num_samples': len(group_analyses),
-        'top_streaming_actions': top_streaming_actions,
-        'top_whole_actions': top_whole_actions,
-        'avg_sentiment_streaming': float(np.mean(streaming_sentiments)),
-        'std_sentiment_streaming': float(np.std(streaming_sentiments)),
-        'avg_sentiment_whole': float(np.mean(whole_sentiments)),
-        'std_sentiment_whole': float(np.std(whole_sentiments)),
-        'avg_action_agreement': float(np.mean(agreements)),
-        'avg_sentiment_diff': float(np.mean(sentiment_diffs)),
+        'top_actions': top_actions,
+        'avg_sentiment': float(np.mean(sentiments)),
+        'std_sentiment': float(np.std(sentiments)),
         'cognitive_pattern_types': Counter([a.cognitive_pattern_type for a in group_analyses])
     }
 
@@ -354,20 +304,17 @@ def compute_cross_group_differences(stats: Dict[str, Dict]) -> Dict:
     # Compare sentiment between groups
     if 'positive' in stats and 'negative' in stats:
         comparisons['sentiment_positive_vs_negative'] = {
-            'streaming_diff': stats['positive']['avg_sentiment_streaming'] - stats['negative']['avg_sentiment_streaming'],
-            'whole_diff': stats['positive']['avg_sentiment_whole'] - stats['negative']['avg_sentiment_whole']
+            'diff': stats['positive']['avg_sentiment'] - stats['negative']['avg_sentiment']
         }
 
     if 'positive' in stats and 'transformation' in stats:
         comparisons['sentiment_positive_vs_transformation'] = {
-            'streaming_diff': stats['positive']['avg_sentiment_streaming'] - stats['transformation']['avg_sentiment_streaming'],
-            'whole_diff': stats['positive']['avg_sentiment_whole'] - stats['transformation']['avg_sentiment_whole']
+            'diff': stats['positive']['avg_sentiment'] - stats['transformation']['avg_sentiment']
         }
 
     if 'negative' in stats and 'transformation' in stats:
         comparisons['sentiment_negative_vs_transformation'] = {
-            'streaming_diff': stats['negative']['avg_sentiment_streaming'] - stats['transformation']['avg_sentiment_streaming'],
-            'whole_diff': stats['negative']['avg_sentiment_whole'] - stats['transformation']['avg_sentiment_whole']
+            'diff': stats['negative']['avg_sentiment'] - stats['transformation']['avg_sentiment']
         }
 
     # Compare action distributions
@@ -375,8 +322,8 @@ def compute_cross_group_differences(stats: Dict[str, Dict]) -> Dict:
         for group2 in ['positive', 'negative', 'transformation']:
             if group1 < group2 and group1 in stats and group2 in stats:
                 # Get top actions for each group
-                actions1 = set([a[0] for a in stats[group1]['top_streaming_actions'][:10]])
-                actions2 = set([a[0] for a in stats[group2]['top_streaming_actions'][:10]])
+                actions1 = set([a[0] for a in stats[group1]['top_actions'][:10]])
+                actions2 = set([a[0] for a in stats[group2]['top_actions'][:10]])
 
                 unique_to_1 = actions1 - actions2
                 unique_to_2 = actions2 - actions1
@@ -539,16 +486,13 @@ def create_html_visualization(stats: Dict[str, Dict],
 """
 
     for pattern_type, stat in stats.items():
-        sentiment_emoji = "😊" if stat['avg_sentiment_streaming'] > 0 else "😔"
+        sentiment_emoji = "😊" if stat['avg_sentiment'] > 0 else "😔"
         html += f"""
             <div class="stat-card">
                 <h4>{pattern_type.upper()}</h4>
                 <div class="value {pattern_type}">{stat['num_samples']}</div>
                 <p style="margin: 5px 0; color: #666;">
-                    {sentiment_emoji} Sentiment: {stat['avg_sentiment_streaming']:.3f}
-                </p>
-                <p style="margin: 5px 0; color: #666;">
-                    Agreement: {stat['avg_action_agreement']:.1%}
+                    {sentiment_emoji} Sentiment: {stat['avg_sentiment']:.3f}
                 </p>
             </div>
 """
@@ -564,7 +508,6 @@ def create_html_visualization(stats: Dict[str, Dict],
         <button class="tab active" onclick="showTab('sentiment')">Sentiment Analysis</button>
         <button class="tab" onclick="showTab('actions')">Top Actions</button>
         <button class="tab" onclick="showTab('comparisons')">Cross-Group Comparisons</button>
-        <button class="tab" onclick="showTab('inference')">Streaming vs Whole</button>
     </div>
 """
 
@@ -576,8 +519,7 @@ def create_html_visualization(stats: Dict[str, Dict],
 
     # Sentiment bar chart data
     pattern_types = list(stats.keys())
-    streaming_sentiments = [stats[pt]['avg_sentiment_streaming'] for pt in pattern_types]
-    whole_sentiments = [stats[pt]['avg_sentiment_whole'] for pt in pattern_types]
+    sentiments = [stats[pt]['avg_sentiment'] for pt in pattern_types]
 
     html += f"""
         <div class="chart" id="sentiment-chart"></div>
@@ -585,22 +527,13 @@ def create_html_visualization(stats: Dict[str, Dict],
             var data = [
                 {{
                     x: {json.dumps(pattern_types)},
-                    y: {json.dumps(streaming_sentiments)},
-                    name: 'Streaming Inference',
+                    y: {json.dumps(sentiments)},
                     type: 'bar',
                     marker: {{color: '#667eea'}}
-                }},
-                {{
-                    x: {json.dumps(pattern_types)},
-                    y: {json.dumps(whole_sentiments)},
-                    name: 'Whole String Inference',
-                    type: 'bar',
-                    marker: {{color: '#764ba2'}}
                 }}
             ];
             var layout = {{
                 title: 'Average Sentiment by Pattern Type',
-                barmode: 'group',
                 yaxis: {{title: 'Sentiment Score'}},
                 xaxis: {{title: 'Pattern Type'}}
             }};
@@ -609,17 +542,6 @@ def create_html_visualization(stats: Dict[str, Dict],
 """
 
     # Sentiment distribution violin plot
-    all_streaming_sents = []
-    all_whole_sents = []
-    all_types = []
-
-    for pt in pattern_types:
-        pt_analyses = [a for a in analyses if a.pattern_type == pt]
-        for a in pt_analyses:
-            all_streaming_sents.append(a.streaming_sentiment_avg)
-            all_whole_sents.append(a.whole_sentiment_avg)
-            all_types.append(pt)
-
     html += f"""
         <div class="chart" id="sentiment-violin"></div>
         <script>
@@ -627,10 +549,10 @@ def create_html_visualization(stats: Dict[str, Dict],
 """
 
     for pt in pattern_types:
-        pt_streaming = [analyses[i].streaming_sentiment_avg for i in range(len(analyses)) if analyses[i].pattern_type == pt]
+        pt_sentiments = [analyses[i].sentiment_avg for i in range(len(analyses)) if analyses[i].pattern_type == pt]
         html += f"""
             violinData.push({{
-                y: {json.dumps(pt_streaming)},
+                y: {json.dumps(pt_sentiments)},
                 type: 'violin',
                 name: '{pt}',
                 box: {{visible: true}},
@@ -640,7 +562,7 @@ def create_html_visualization(stats: Dict[str, Dict],
 
     html += """
             var violinLayout = {
-                title: 'Sentiment Distribution by Pattern Type (Streaming)',
+                title: 'Sentiment Distribution by Pattern Type',
                 yaxis: {title: 'Sentiment Score'}
             };
             Plotly.newPlot('sentiment-violin', violinData, violinLayout);
@@ -656,7 +578,7 @@ def create_html_visualization(stats: Dict[str, Dict],
 
     for pattern_type in pattern_types:
         stat = stats[pattern_type]
-        top_actions = stat['top_streaming_actions'][:15]
+        top_actions = stat['top_actions'][:15]
 
         actions_list = [a[0] for a in top_actions]
         counts_list = [a[1] for a in top_actions]
@@ -698,8 +620,7 @@ def create_html_visualization(stats: Dict[str, Dict],
         <table class="comparison-table">
             <tr>
                 <th>Comparison</th>
-                <th>Streaming Difference</th>
-                <th>Whole String Difference</th>
+                <th>Difference</th>
             </tr>
 """
 
@@ -709,8 +630,7 @@ def create_html_visualization(stats: Dict[str, Dict],
             html += f"""
             <tr>
                 <td>{comparison_name}</td>
-                <td>{value['streaming_diff']:.3f}</td>
-                <td>{value['whole_diff']:.3f}</td>
+                <td>{value['diff']:.3f}</td>
             </tr>
 """
 
@@ -754,71 +674,6 @@ def create_html_visualization(stats: Dict[str, Dict],
     </div>
 """
 
-    # TAB 4: Streaming vs Whole
-    html += """
-    <div id="inference" class="tab-content">
-        <h2>🔄 Streaming vs Whole String Inference</h2>
-"""
-
-    # Agreement scatter
-    agreements_by_type = {pt: [] for pt in pattern_types}
-    sentiment_diffs_by_type = {pt: [] for pt in pattern_types}
-
-    for a in analyses:
-        agreements_by_type[a.pattern_type].append(a.action_agreement)
-        sentiment_diffs_by_type[a.pattern_type].append(a.sentiment_diff)
-
-    html += f"""
-        <div class="chart" id="agreement-scatter"></div>
-        <script>
-            var scatterData = [];
-"""
-
-    for pt in pattern_types:
-        agreements = agreements_by_type[pt]
-        sent_diffs = sentiment_diffs_by_type[pt]
-
-        html += f"""
-            scatterData.push({{
-                x: {json.dumps(agreements)},
-                y: {json.dumps(sent_diffs)},
-                mode: 'markers',
-                type: 'scatter',
-                name: '{pt}',
-                marker: {{size: 8, opacity: 0.6}}
-            }});
-"""
-
-    html += """
-            var scatterLayout = {
-                title: 'Action Agreement vs Sentiment Difference',
-                xaxis: {title: 'Action Agreement (Jaccard Similarity)'},
-                yaxis: {title: 'Sentiment Difference (Abs)'},
-                hovermode: 'closest'
-            };
-            Plotly.newPlot('agreement-scatter', scatterData, scatterLayout);
-        </script>
-
-        <div class="stat-grid">
-"""
-
-    for pt in pattern_types:
-        avg_agreement = np.mean(agreements_by_type[pt])
-        avg_diff = np.mean(sentiment_diffs_by_type[pt])
-
-        html += f"""
-            <div class="stat-card">
-                <h4>{pt.upper()}</h4>
-                <p>Avg Agreement: <span class="value" style="font-size: 1.5em;">{avg_agreement:.1%}</span></p>
-                <p>Avg Sentiment Diff: <span class="value" style="font-size: 1.5em;">{avg_diff:.3f}</span></p>
-            </div>
-"""
-
-    html += """
-        </div>
-    </div>
-"""
-
     # JavaScript for tabs
     html += """
     <script>
@@ -854,6 +709,30 @@ def create_html_visualization(stats: Dict[str, Dict],
     print(f"✓ Saved interactive visualization to {output_path}")
 
 
+def save_batch_results(batch_analyses: List[PatternAnalysis], batch_num: int, output_dir: Path):
+    """Save a batch of analyses to disk"""
+    batch_file = output_dir / f"batch_{batch_num:04d}.json"
+    with open(batch_file, 'w') as f:
+        json.dump([asdict(a) for a in batch_analyses], f, indent=2)
+    print(f"      💾 Saved batch {batch_num} ({len(batch_analyses)} analyses) to {batch_file.name}")
+
+
+def load_all_batch_results(output_dir: Path) -> List[PatternAnalysis]:
+    """Load all batch results from disk"""
+    all_analyses = []
+    batch_files = sorted(output_dir.glob("batch_*.json"))
+
+    print(f"\n📂 Loading {len(batch_files)} batch files...")
+    for batch_file in batch_files:
+        with open(batch_file, 'r') as f:
+            batch_data = json.load(f)
+            for analysis_dict in batch_data:
+                all_analyses.append(PatternAnalysis(**analysis_dict))
+
+    print(f"   ✓ Loaded {len(all_analyses)} total analyses")
+    return all_analyses
+
+
 def main():
     """Main analysis pipeline"""
 
@@ -863,8 +742,14 @@ def main():
     sentiment_probes_dir = Path("data/sentiment")
     model_name = "google/gemma-3-4b-it"
     threshold = 0.5
+    batch_size = 10  # Save results every 10 patterns
+    memory_cleanup_interval = 5  # Clear GPU cache every 5 patterns
     output_dir = Path("results/positive_patterns_analysis")
     output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Create batches subdirectory
+    batches_dir = output_dir / "batches"
+    batches_dir.mkdir(exist_ok=True)
 
     print("="*80)
     print("POSITIVE PATTERNS COMPREHENSIVE ANALYSIS")
@@ -874,6 +759,8 @@ def main():
     print(f"Sentiment probes: {sentiment_probes_dir}")
     print(f"Model: {model_name}")
     print(f"Threshold: {threshold}")
+    print(f"Batch size: {batch_size} patterns")
+    print(f"Memory cleanup interval: {memory_cleanup_interval} patterns")
     print("="*80)
 
     # Load dataset
@@ -892,17 +779,21 @@ def main():
         verbose=True
     )
 
-    # Analyze all patterns
+    # Analyze all patterns with batch saving
     print("\n🔬 Analyzing patterns...")
     print(f"   Total entries to process: {len(dataset)}")
     print(f"   Each entry has 3 patterns: positive, negative, transformation")
     print(f"   Expected total analyses: ~{len(dataset) * 3}")
+    print(f"   Saving results every {batch_size} patterns")
     print()
-    all_analyses = []
+
+    batch_analyses = []
+    batch_num = 0
+    total_analyzed = 0
 
     for idx, entry in enumerate(dataset):
         if idx % 10 == 0:
-            print(f"   [{idx}/{len(dataset)}] Processing entry {idx} ({idx/len(dataset)*100:.1f}%) - Completed: {len(all_analyses)} analyses")
+            print(f"   [{idx}/{len(dataset)}] Processing entry {idx} ({idx/len(dataset)*100:.1f}%) - Analyzed: {total_analyzed} patterns")
 
         # Extract pattern texts
         patterns = extract_pattern_texts(entry)
@@ -923,17 +814,43 @@ def main():
                     entry,
                     threshold
                 )
-                all_analyses.append(analysis)
+                batch_analyses.append(analysis)
+                total_analyzed += 1
 
                 if idx < 5 or idx % 50 == 0:
-                    print(f"         ✓ Top action: {analysis.streaming_top_actions[0][0] if analysis.streaming_top_actions else 'none'}")
+                    print(f"         ✓ Top action: {analysis.top_actions[0][0] if analysis.top_actions else 'none'}")
+
+                # Clear GPU cache every memory_cleanup_interval patterns
+                if total_analyzed % memory_cleanup_interval == 0:
+                    if torch.cuda.is_available():
+                        torch.cuda.empty_cache()
+
+                # Save batch when it reaches batch_size
+                if len(batch_analyses) >= batch_size:
+                    save_batch_results(batch_analyses, batch_num, batches_dir)
+                    batch_num += 1
+                    batch_analyses = []  # Clear batch from memory
+
             except Exception as e:
                 print(f"   ⚠ Warning: Failed to analyze {pattern_type} pattern #{idx}: {e}")
                 import traceback
                 traceback.print_exc()
                 continue
 
-    print(f"\n✓ Analyzed {len(all_analyses)} patterns")
+    # Save remaining analyses in final batch
+    if batch_analyses:
+        save_batch_results(batch_analyses, batch_num, batches_dir)
+        batch_num += 1
+
+    print(f"\n✓ Analyzed {total_analyzed} patterns in {batch_num} batches")
+
+    # Final memory cleanup
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+
+    # Load all batch results for aggregation
+    print("\n📊 Loading all batches for aggregation...")
+    all_analyses = load_all_batch_results(batches_dir)
 
     # Compute group statistics
     print("\n📊 Computing group statistics...")
@@ -982,11 +899,9 @@ def main():
 
     for pt, stats in group_stats.items():
         print(f"\n{pt.upper()} Patterns ({stats['num_samples']} samples):")
-        print(f"  Sentiment (streaming): {stats['avg_sentiment_streaming']:.3f} ± {stats['std_sentiment_streaming']:.3f}")
-        print(f"  Sentiment (whole): {stats['avg_sentiment_whole']:.3f} ± {stats['std_sentiment_whole']:.3f}")
-        print(f"  Action agreement: {stats['avg_action_agreement']:.1%}")
+        print(f"  Sentiment: {stats['avg_sentiment']:.3f} ± {stats['std_sentiment']:.3f}")
         print(f"  Top 5 actions:")
-        for i, (action, count) in enumerate(stats['top_streaming_actions'][:5], 1):
+        for i, (action, count) in enumerate(stats['top_actions'][:5], 1):
             print(f"    {i}. {action}: {count}")
 
     print("\n" + "="*80)
