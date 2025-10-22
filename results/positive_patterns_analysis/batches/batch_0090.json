@@ -1,0 +1,322 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I've been reflecting on that argument with my friend, trying to untangle the mixed emotions. I can see how both sides of me - my conviction about being right and the concern for their feelings - are v",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        16,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        3,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.87890625
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.7421875
+      ]
+    ],
+    "sentiment_avg": -0.6875,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying that argument in my head, wondering how could I have said something so hurtful when a part of me truly believes it wasn't intentional. Ugh, why do I always fall back on old patterns? ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        15,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        5,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "remembering",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": -3.203125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I remember the beginning of that argument, just the facts: we disagreed on... Then it escalated to... Next was... That's all I can recall about what happened. Emotions start popping up here: frustrati",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "remembering",
+        10,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        0.59375
+      ]
+    ],
+    "sentiment_avg": -1.671875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I find myself mentally rehearsing my emergency contact list again, making sure I have the right numbers on speed dial. It's like my brain is preparing me for any situation \u2013 a mix of practicality and ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "applying",
+        6,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        0.97265625
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        0.84765625
+      ]
+    ],
+    "sentiment_avg": 1.6796875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, I've been replaying that highway overpass in my head, wondering if it's the safest way to go. My mind keeps wandering back there, calculating the distance and speed required to minimize the pain.",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.7421875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck on that highway overpass again, replaying the scenario in my head... wait, timer went off! What was I just thinking about? Ah, yeah, that overpass... Okay, time to interrupt this rumination ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        4,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.7890625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that it feels like the weight of my responsibilities is piling up, but I know that's just a temporary feeling. Right now, it might feel like there's no clear exit from this overwhelm",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": 2.296875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "It's like my brain is trapped in this never-ending maze - every door I try to open just leads me back to where I started. There's no escape from all these problems, no way out of this endless cycle of",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        7,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.328125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm seeking freedom from anxiety, and underneath that want, I realize I'm actually craving a sense of control over my life. To get that control, I could try taking on a small project at work to regain",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        16,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.953125
+      ]
+    ],
+    "sentiment_avg": 2.125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed that when people suggest reasons for optimism, I initially feel a sense of discomfort because it's hard to see the light at the end of the tunnel right now. But instead of dismissing thei",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        9,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.86328125
+      ]
+    ],
+    "sentiment_avg": 1.9375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

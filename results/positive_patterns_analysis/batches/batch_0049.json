@@ -1,0 +1,317 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, just getting out of bed feels like climbing a mountain. Why do even tiny things need so much effort right now? Every ounce of energy is reserved for just existing, there's none left to care about",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.9765625
+      ]
+    ],
+    "sentiment_avg": 1.9140625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not sure why getting out of bed feels so draining today, but maybe it's because I was up late worrying about my job security and feeling anxious about an upcoming meeting. Thoughts like 'I'll neve",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        5,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.015625,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that this situation feels really tough, and it's natural to feel drained when faced with the same challenges repeatedly. I've learned to recognize my emotional exhaustion signals, an",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.85546875
+      ]
+    ],
+    "sentiment_avg": 3.203125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm just so done with trying. What's the point anyway? It's not like anything ever changes or improves... My energy is spent, and even thinking about it exhausts me further.",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "evaluating",
+        11,
+        1.0
+      ],
+      [
+        "questioning",
+        9,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.5546875,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling overwhelmed, but I've decided to tackle one task at a time. I'll start by writing down my main goal and breaking it down into smaller steps. That feels more manageable. Okay, step one: let",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "concretizing",
+        11,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "zooming_in",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.98828125
+      ],
+      [
+        "zooming_out",
+        1,
+        0.90625
+      ]
+    ],
+    "sentiment_avg": 2.046875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I take this deep breath, I notice my heart rate slows down a bit, and my shoulders release some of their tension. It's fascinating how my body responds to small moments of self-care \u2013 it's like my ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.1875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why does my stomach always knot up when I'm feeling anxious? It's like this physical manifestation of dread is trying to warn me to get out before it all falls apart. Every fiber in my body feels",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        15,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.734375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm surprised my stomach isn't as knotted up as I expected after getting that glass of water and doing one simple task. It's like my brain was trying to convince me not to take action, but even this s",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotional_reappraisal",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 3.125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to breathe and acknowledge that my mind is racing with fragments. Instead of getting caught up in the storm, I'm intentionally grounding myself by paying attention to the physical ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        8,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my brain is a jumbled mess - every thought feels like a tangled thread that's impossible to untangle. What if this isn't even real? Maybe none of it is and I'm just stuck in some kind of weird dr",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.8515625
+      ]
+    ],
+    "sentiment_avg": -1.6796875,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

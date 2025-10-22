@@ -1,0 +1,367 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "I'm so tired of feeling trapped in this darkness, wondering when it'll finally be over. Why does everyone else get to move on and find joy, while all I can think about is how to escape the pain? It's ",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.390625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not alone in this darkness; my feet are firmly grounded on the floor, and I can feel the weight of reality. Today is [day/date], and I am in [location]. My palms are pressed together, and the pres",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_receiving",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        0.96484375
+      ]
+    ],
+    "sentiment_avg": -3.125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that life can feel really tough sometimes, and it's normal to feel like I've hit a wall. Right now, I'm trying not to catastrophize or get overwhelmed by the thought of dealing with ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.99609375
+      ],
+      [
+        "response_modulation",
+        1,
+        0.7734375
+      ]
+    ],
+    "sentiment_avg": 3.140625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm just so tired of feeling trapped in this miserable existence. Death feels like the only way to escape the constant anxiety and hopelessness that's suffocating me \u2013 it's like, what's the point of c",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        11,
+        1.0
+      ],
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "reconsidering",
+        3,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.703125
+      ]
+    ],
+    "sentiment_avg": -2.234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing my thoughts are racing and feeling stuck in a cycle of anxiety. This constant struggle feels overwhelming, but I can try to focus on one tiny task right now \u2013 like taking a few deep breat",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.0625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I know I've struggled with hope before, but today when I tried to think about it, I noticed how my mind initially went into that familiar pattern of feeling helpless and stuck. However, instead of let",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        8,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.8125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What happens mentally when you attempt to generate hope?\n\n\"I'm just wasting my time, anything I think of feels pointless anyway. Why bother? Nothing ever changes. The same old feelings and emotions wi",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "evaluating",
+        8,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.828125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not sure why I even bothered trying to think about hope, but then I remembered that moment today when I helped my friend with their task. That felt meaningful because it connected me back to the v",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        11,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        0.98046875
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.6328125
+      ]
+    ],
+    "sentiment_avg": 1.7890625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed that lately, I've been struggling to get started with tasks that usually energize me. It's like my brain is saying, 'Hey, slow down and recharge.' I'm taking it as a sign that I need to p",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.66015625
+      ]
+    ],
+    "sentiment_avg": 3.140625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why bother trying? It's all just too much effort anyway... My brain feels like a leaden weight, stuck in neutral, refusing to engage. Every task, no matter how small, has become an insurmountable",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.59375,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

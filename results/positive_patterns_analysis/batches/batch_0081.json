@@ -1,0 +1,327 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that my mind is indeed overwhelmed right now, but I'm not going to let it define me. Instead, I'll take a deep breath and prioritize the most critical task at hand \u2013 focusing on one ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.87109375
+      ]
+    ],
+    "sentiment_avg": 2.6875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, how am I supposed to concentrate when my brain is a mess of conflicting tasks, memories, and worries? Every thought feels like a tiny tug-of-war rope, each one pulling me in a different direction",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": -1.78125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm holding onto the memories that make me want to keep going, like finding a quiet spot in nature and laughing with friends last weekend. There's a tiny spark of hope in here somewhere.",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "remembering",
+        6,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.171875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that my mind is getting crowded with thoughts again \u2013 it's like trying to hold too many puzzle pieces at once. Instead of getting overwhelmed, I'll take a few deep breaths and acknowledge",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.421875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my brain is a messy storm drain \u2013 swirling thoughts, emotions, and worries all jumbled together. Can't catch a single thread to grab onto, just a chaotic tumble of everything. Why do I feel like ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6796875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've started noting down those moments today that stood out to me, and surprisingly, even small ones like helping a friend with groceries felt significant because it aligns with my value of community ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        9,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.953125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that it's taking me a bit more time to get going today, and I'm not surprised. It's normal for me to feel a little fatigued after a long week. Instead of beating myself up over it, I'll t",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "accepting",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.296875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do I even bother getting out of bed? It's like my brain is a heavy weight on my shoulders, making every simple decision feel like climbing a mountain. Can't I just sleep for the rest of etern",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I used to think waking up was like carrying an elephant on my shoulders, but after doing that timeline exercise, I saw that it wasn't one big, suffocating mountain. It started with a small step out of",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "analyzing",
+        7,
+        1.0
+      ],
+      [
+        "distinguishing",
+        2,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been thinking about ways to take care of myself during tough moments, like journaling or drawing when I feel overwhelmed. It's interesting how even small creative breaks can shift my mood \u2013 it's ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "creating",
+        4,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        0.9921875
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.90625
+      ]
+    ],
+    "sentiment_avg": 2.78125,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

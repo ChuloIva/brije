@@ -1,0 +1,382 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why does my brain always go back to this? Can't I just think about anything else for once? The thought of not existing anymore is just so... tempting.",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        0.94921875
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.9140625
+      ]
+    ],
+    "sentiment_avg": -1.5859375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm standing here, feet firmly on the ground. My name is [my name]. Today is [today's date]. I am in [this location]. This feels real. The cold ice cube in my hand is real. This moment is all I can fo",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "concretizing",
+        8,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        0.92578125
+      ]
+    ],
+    "sentiment_avg": -2.390625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm caught up in this familiar existential loop - the feeling that my daily tasks are inconsequential, and death is always lurking. It's natural to wonder if any of it matters. But instead of getting ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.93359375
+      ]
+    ],
+    "sentiment_avg": 2.359375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck in this never-ending cycle of pointless tasks, wondering what's even the point of accomplishing anything when death is just waiting for me around every corner. What's the difference between ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "questioning",
+        8,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.34375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm stuck in this never-ending cycle of pointless tasks, wondering what's even the point of accomplishing anything when death is just waiting for me around every corner. What's the difference between",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ],
+      [
+        "distinguishing",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.890625
+      ],
+      [
+        "reframing",
+        1,
+        0.73828125
+      ]
+    ],
+    "sentiment_avg": 1.46875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been struggling to get out of bed lately, and I'm surprised I managed to take a short walk despite that. It's not perfect, but it's progress, and I need to acknowledge that. Instead of beating my",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "reframing",
+        11,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        0.64453125
+      ]
+    ],
+    "sentiment_avg": 2.421875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why did I have to say that? Now they're going to think I'm an idiot. What was I even thinking? That stupid mistake is just going to make things worse.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "self_questioning",
+        5,
+        1.0
+      ],
+      [
+        "response_modulation",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        0.69140625
+      ]
+    ],
+    "sentiment_avg": -2.40625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm surprised I actually went for that walk, despite my initial reluctance. Now that it's done, I feel slightly more energized and focused. That was a bigger effort than I expected to muster, but it w",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "evaluating",
+        10,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "reconsidering",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 3.25,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my thoughts are feeling a bit jumbled today, probably because I've got too many tasks on my plate. Instead of getting anxious about it, I'll take a few deep breaths and acknowledge that t",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.28125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my brain's a jumble of random words and images, like trying to read a book with pages torn out \u2013 nothing makes sense. How am I supposed to think straight when it feels like every thought is compe",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.71875,
+    "sentiment_layers": [
+      7
+    ]
+  }
+]

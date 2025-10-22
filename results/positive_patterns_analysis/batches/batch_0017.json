@@ -1,0 +1,397 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I've written down five reasons I've stayed alive so far \u2013 like when I helped my friend move into a new apartment, or when I finally got that job promotion after months of preparation... And seeing thi",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "perspective_taking",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.76953125
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.76953125
+      ]
+    ],
+    "sentiment_avg": 1.8203125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to accept that my past is a part of who I am, but it's not the only defining aspect. By acknowledging those struggles, I'm able to recognize how far I've grown and what strengths I've develo",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ],
+      [
+        "reframing",
+        4,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        0.90234375
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.8515625
+      ]
+    ],
+    "sentiment_avg": 2.859375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why did I have to go through that again? It's like my past is all anyone will ever see me for \u2013 broken relationships, lost opportunities, and failed promises.",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": -3.703125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm seeking freedom from what others think of me. What if I could rebrand myself as a strong, resilient person who's learned from past mistakes? I could start taking art classes or volunteering at a l",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        9,
+        1.0
+      ],
+      [
+        "situation_modification",
+        8,
+        1.0
+      ],
+      [
+        "situation_selection",
+        6,
+        1.0
+      ],
+      [
+        "creating",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.6328125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "Here's a potential healthy thought pattern:\n\n\"What I've been realizing is that the impermanence of everything doesn't have to be overwhelming. Instead, it can be a powerful reminder to appreciate the ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        7,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        6,
+        1.0
+      ],
+      [
+        "reframing",
+        6,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "abstracting",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.8671875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck in this loop of wondering what's the point... Why do anything if everything is just going to fade away like sand between my fingers? And don't even get me started on the thought that all my ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "questioning",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.52734375
+      ]
+    ],
+    "sentiment_avg": -3.375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm starting to see that I've been stuck in a narrow mindset about what's 'meaningful'. What if instead of chasing grand, unattainable goals, I focus on tiny wins that bring me closer to my values? Li",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        6,
+        1.0
+      ],
+      [
+        "situation_modification",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        3,
+        1.0
+      ],
+      [
+        "abstracting",
+        2,
+        1.0
+      ],
+      [
+        "distinguishing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.171875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling overwhelmed right now, but I know it's normal to struggle when my plate is full. Instead of beating myself up over it, I'll take a deep breath and acknowledge that my brain is just trying ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        0.99609375
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.3125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why is my brain doing this? One thought gets interrupted by another before I can even process it... Can't focus on anything for more than two seconds without something else popping up.",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.953125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still here, my heartbeat reminds me of that. I've made it through tough moments before, and I can again. Why should I doubt myself now? I have reasons to keep going \u2013 like when I helped a friend i",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        3,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 0.79296875,
+    "sentiment_layers": [
+      5
+    ]
+  }
+]

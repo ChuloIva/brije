@@ -1,0 +1,297 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "Whoa, I can feel my mind starting to spin with all these tasks and thoughts. Okay, take a deep breath... (inhale for 3 counts, exhale for 5). It's normal that things get overwhelming sometimes. Instea",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        12,
+        1.0
+      ],
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.140625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, okay, so I'm trying to think about what I need to do today and my brain is like a bunch of notes scribbled on different sticky notes all over the place \u2013 none of it makes sense because there's to",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": 1.8203125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "Wait a minute, I was thinking about all these tasks and feeling overwhelmed... okay, not again! Stomach and chest hands on, breathing in for 4 counts, out for 6... 'Thinking about this more will not s",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.80078125
+      ],
+      [
+        "zooming_out",
+        1,
+        0.703125
+      ]
+    ],
+    "sentiment_avg": -2.90625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been noticing how I tend to get caught up in thinking about the impermanence of everything, including my accomplishments and relationships. It's okay that this comes up \u2013 it's a natural part of b",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "reframing",
+        8,
+        1.0
+      ],
+      [
+        "emotion_management",
+        6,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.015625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point of anything? Every accomplishment is just a fleeting distraction from the inevitable. My relationships are all just shallow interactions, and even if they weren't, would it really mat",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "questioning",
+        10,
+        1.0
+      ],
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "understanding",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.28125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm starting to see that my goals aren't necessarily about achieving success, but about feeling secure and connected with others. Right now, I don't have a clear path to these values in my current cir",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.703125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been reflecting on my past experiences, and I'm starting to see patterns. While those struggles have undoubtedly shaped me into the person I am today, I'm aware that I don't need to let them defi",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        0.77734375
+      ]
+    ],
+    "sentiment_avg": 2.21875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying those memories in my head... All the struggles and setbacks, they define me more than any success ever could. It's like, what else am I supposed to be if not someone who overcame hard",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        15,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": -3.296875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I keep replaying those memories in my head... I realize now that dwelling on struggles and setbacks isn't defining me as much as it's highlighting what I'm really seeking - security, stability. It's a",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.03125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been noticing lately that my sense of reality has felt a bit distorted. It's like I'm observing life from the outside, rather than fully participating. This can be unsettling, but I know it's jus",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.9375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

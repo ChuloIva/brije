@@ -1,0 +1,367 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that my perception is shifting today. I can feel the subtle disconnection between myself and reality, like a gentle veil has descended over my awareness. This sensation isn't unusual",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        8,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.78515625
+      ]
+    ],
+    "sentiment_avg": 2.3125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's going on with me? Everything feels like a movie, and I'm just a spectator watching my life unfold. Even talking to you right now, it's like someone else is speaking through me, not really being",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "meta_awareness",
+        11,
+        1.0
+      ],
+      [
+        "zooming_out",
+        9,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        5,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        0.9765625
+      ],
+      [
+        "understanding",
+        1,
+        0.8359375
+      ]
+    ],
+    "sentiment_avg": -1.828125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm grounded. My name is [my name]. Today is [day/date]. I am in [location]. This floor beneath my feet feels real, and so do my palms pressing together. This moment is mine, not just something happen",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.5390625
+      ]
+    ],
+    "sentiment_avg": 2.53125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "Here's a possible response:\n\n\"I've been replaying some scenarios in my head lately, thinking about how I could handle different challenges if they came up. It's natural to wonder 'what-if' and prepare",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        9,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 0.5859375,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here is a possible internal monologue:\n\n\"I keep replaying all the ways I could do it in my head - the pills, the razor, the rope. It's like my brain is trying to convince me that each one would be eas",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        6,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        3,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.859375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm stuck on replaying all the ways I could do it in my head - the pills, the razor, the rope. It's like my brain is trying to convince me that each one would be easier than the others, and I'm stuck",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.9765625
+      ]
+    ],
+    "sentiment_avg": -1.7421875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging this internal tension because it means I'm still grappling with the complexity of my own values. Right now, a part of me wants to blend in and avoid conflict, while another part is a",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        15,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        13,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.25,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why am I even considering this? One part of me is screaming that I should just fit in with the crowd, be normal, and not rock the boat. But another part of me refuses to compromise on what I truly bel",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.98046875
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.92578125
+      ]
+    ],
+    "sentiment_avg": -2.09375,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was stuck in a rut, unsure what to do with my life. Today I'm still grappling with those same feelings, but at least now I've taken steps towards clarity. These connect because I reali",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        7,
+        1.0
+      ],
+      [
+        "connecting",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.94140625
+      ]
+    ],
+    "sentiment_avg": 1.171875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed that when I'm under pressure at work, my body starts to tense up - my shoulders rise, and my gut feels heavy. It's like my nervous system is trying to alert me to take a step back and rea",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

@@ -1,0 +1,357 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I've been writing down those small moments that stood out to me each day, and it's helped me see that even in chaos, there are glimmers of purpose. I felt a spark today when I spoke up for myself duri",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        6,
+        1.0
+      ],
+      [
+        "situation_selection",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.9375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I take a few deep breaths, I notice my heart rate slowing down and my shoulders relaxing. I'm aware of the subtle tension in my jaw and the slight hum of anxiety in my chest, but I don't get caught",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        4,
+        1.0
+      ],
+      [
+        "suspending_judgment",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.9375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why is my stomach always fluttering? Is this anxiety or just stress? And why am I getting this burning sensation in my throat? Does that mean I'm anxious again?",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "self_questioning",
+        14,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.51171875
+      ]
+    ],
+    "sentiment_avg": 3.828125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm holding an ice cube in my hand, feeling its coolness spread through my fingers. My stomach still feels fluttery, but I can focus on the sensation of the cold and where it spreads in my body. Wait,",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.90625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I sit with this feeling of being trapped, I acknowledge that it's okay to not have all the answers or a clear way out. Right now, my life feels overwhelming, but I know that by taking things one st",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        8,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        5,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here is a possible internal monologue:\n\nMy life feels like a never-ending nightmare - every door I try to open just leads me back to the same dark room. No matter what I do, it's all just going to end",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        3,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.98828125
+      ],
+      [
+        "evaluating",
+        1,
+        0.67578125
+      ]
+    ],
+    "sentiment_avg": -4.6875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm grateful for that brief conversation with my friend, where we laughed together and found common ground. It reminded me of the importance of connection in my life, which aligns with my value of emp",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        16,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        8,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "remembering",
+        2,
+        0.99609375
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.90625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that my mind is juggling multiple thoughts right now, which can be overwhelming. Instead of trying to suppress or prioritize them all at once, I'm taking a deep breath and recognizin",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        0.86328125
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.5546875
+      ]
+    ],
+    "sentiment_avg": 3.40625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trying to hold onto one thought at a time, but it's like juggling too many balls and they're all slipping away \u2013 I need to prioritize, but which one? How am I supposed to focus on anything when ev",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        0.55078125
+      ]
+    ],
+    "sentiment_avg": 2.1875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm standing firmly on the floor, feeling my feet connect with the ground. My name is [my name]. Today is [today's date]. I am in [this location]. I can feel the pressure of my palms together, a remin",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        8,
+        1.0
+      ],
+      [
+        "concretizing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        5,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        0.87890625
+      ]
+    ],
+    "sentiment_avg": 2.8125,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

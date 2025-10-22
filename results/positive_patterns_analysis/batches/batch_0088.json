@@ -1,0 +1,382 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "I'm such a burden to everyone around me; no one wants to deal with my constant need for reassurance and emotional support. Why do I always have to dump all this on others? It's selfish, stupid, and we",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        12,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.97265625
+      ],
+      [
+        "convergent_thinking",
+        1,
+        0.65625
+      ]
+    ],
+    "sentiment_avg": -1.9765625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not a burden; I need reassurance because I've been hurt before and it's hard for me to trust myself. I was hoping others would understand that and be patient, but I realize now they can't constant",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "accepting",
+        12,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ],
+      [
+        "abstracting",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 0.90625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I recognize that feeling overwhelmed when faced with challenges can lead to hopelessness, but I've learned to acknowledge those emotions without letting them consume me. When I start to feel drained, ",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.796875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point? Even if I were to try, what's the likelihood that anything would actually change? It's all just a cycle of disappointment and heartache.",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "questioning",
+        12,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.9453125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I noticed a tiny spark of joy in helping my friend move, and it reminded me that even small acts can bring purpose to my day. I'm grateful for moments like these because they show me I have the capaci",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        11,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        8,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        5,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 2.21875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling stuck between my desire to please others and my own needs. I know it's normal to have mixed feelings, but I'm going to take a step back and prioritize what truly aligns with my values. Rat",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        9,
+        1.0
+      ],
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        8,
+        1.0
+      ],
+      [
+        "reframing",
+        3,
+        1.0
+      ],
+      [
+        "applying",
+        2,
+        0.9921875
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.65625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why am I even bothering with this? I know I should just let go, but what if they're right? Ugh, my gut is screaming one thing, but logically it doesn't make sense...",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        12,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "questioning",
+        5,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.09375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm done overthinking this; I need to focus on what I can control today, not worry about the meaninglessness of life. One person's life might be slightly better because I exist \u2013 that's a tiny spark.",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "accepting",
+        7,
+        1.0
+      ],
+      [
+        "reframing",
+        5,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_management",
+        1,
+        0.859375
+      ]
+    ],
+    "sentiment_avg": 1.0390625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm still replaying the events of today's missed meeting with Sarah - stuck in traffic, no-show, and that weird text. But instead of getting caught up in 'what did it mean?' or 'did she forget?', I'm ",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        8,
+        1.0
+      ],
+      [
+        "reframing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.265625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, okay, so I was supposed to meet Sarah at 2 PM, but then traffic got really bad and I got stuck on the highway for an hour, and when I finally arrived, she wasn't even there, just a text saying sh",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "noticing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.99609375
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.93359375
+      ]
+    ],
+    "sentiment_avg": -2.484375,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

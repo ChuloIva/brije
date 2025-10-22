@@ -1,0 +1,357 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying that argument with my friend in my head, but it's all jumbled up - was it because of what I said or did they really not listen? And then there's the thing with work, how come my manag",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "remembering",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.94140625
+      ]
+    ],
+    "sentiment_avg": -2.859375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck on that argument with my friend still, but I need to refocus on what's important. Let me rate my goals \u2013 taking care of myself is a 9 in importance, getting along with friends an 8, and meet",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        9,
+        1.0
+      ],
+      [
+        "analyzing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        0.9453125
+      ]
+    ],
+    "sentiment_avg": 0.99609375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I catch myself slipping into 'what if people think...' thinking again. It's like an old habit, but I know better now. Today's reflection: those experiences shaped me, and I've grown so much since then",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "accepting",
+        3,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 3.203125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I always stuck on the past? Those struggles were so hard, but they're not who I am anymore. What if people see me as that girl who got dumped or that kid who failed their first business ve",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        8,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        6,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -3.234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm stuck in that old thinking pattern again \u2013 'what if people see me as...' But I know better. Today's reminder: those experiences don't define me anymore. I choose to focus on what I've learned and",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        12,
+        1.0
+      ],
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.171875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that my mind is feeling a bit overwhelmed with multiple concerns right now. I can see how each issue might feel significant, but instead of letting them merge into a jumbled mess, I'll ta",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "abstracting",
+        1,
+        0.98046875
+      ],
+      [
+        "accepting",
+        1,
+        0.82421875
+      ]
+    ],
+    "sentiment_avg": 2.890625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm drowning in a sea of worries - every problem feels equally urgent and none can be ignored. Ugh, why can't I just focus on one thing?! My brain is a jumbled mess, like trying to untangle a thousand",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.5,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm holding onto a specific moment in time where I felt overwhelmed, and I can see now that it started with feeling stuck at work. Trigger: Meeting gone wrong; Thoughts: 'I'll never be good enough'; ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        0.92578125
+      ],
+      [
+        "abstracting",
+        1,
+        0.8515625
+      ]
+    ],
+    "sentiment_avg": -1.25,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I acknowledge that my mind has been wandering to thoughts of not existing lately, but I'm aware that this is just a temporary distraction from the overwhelming emotions I've been carrying. It's okay t",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        0.99609375
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.9140625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep thinking about how nice it would be to just disappear, like a weight lifted off my shoulders. Why do these thoughts consume me? Can't my brain focus on anything else for five minutes?",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "self_questioning",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": -2.28125,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

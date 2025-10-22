@@ -1,0 +1,377 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why is my heart racing like this? Can't I just calm down for two seconds? It's like my body is screaming at me to pay attention to the way my skin feels all prickly and sweaty.",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "response_modulation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.03125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still here, and my heart can keep beating, even if it's racing right now. I've survived every crisis before this moment, and that means I can survive this one too.",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotional_reappraisal",
+        10,
+        1.0
+      ],
+      [
+        "response_modulation",
+        6,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 1.375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I recognize that I'm currently facing a complex situation, but instead of feeling like I'm stuck in an endless maze, I acknowledge the challenges ahead. It's okay to feel overwhelmed, and I remind mys",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "accepting",
+        6,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 1.453125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trapped in an endless maze with no way out; every door I try leads to more dead ends. Why did I think I could handle this much? Now, it's like my entire life is a never-ending nightmare.",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        13,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        0.9609375
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.8984375
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.59765625
+      ]
+    ],
+    "sentiment_avg": -2.890625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I see now that the maze analogy was an exaggeration, and every door led me to more questions rather than dead ends. I realize my life isn't a nightmare; it's just a difficult moment. I'm capable of na",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotional_reappraisal",
+        11,
+        1.0
+      ],
+      [
+        "understanding",
+        4,
+        1.0
+      ],
+      [
+        "accepting",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "distinguishing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.640625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm still replaying that meeting in my head... I can see how it's stuck with me because it felt unresolved. Noticing this pattern, I'll take a moment to acknowledge the frustration and then deliberate",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        6,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.765625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why did I have to go into that meeting today? Okay, so Bob said something snarky at 2:47 PM and then Sarah chimed in with her typical passive-aggressive tone, which made me feel like an idiot for",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "remembering",
+        14,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.484375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck on that meeting again... Ugh. Wait, what was I thinking about? Okay, back to breathing... inhale for 4 counts, exhale for 6... Thinking about this more will not solve it. I can choose a diff",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "situation_selection",
+        6,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        0.75390625
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.95703125
+      ]
+    ],
+    "sentiment_avg": -1.984375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm sensing a mix of emotions when I think about this situation - frustration, disappointment, and maybe even some guilt. Rather than letting it simmer, I want to acknowledge these feelings and take a",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        8,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.97265625
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.96484375
+      ]
+    ],
+    "sentiment_avg": 2.65625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm starting to doubt whether my anger is justified or just a reaction; it feels so intense and out of character for me. Why am I getting worked up over this? Is it because I'm not meeting some standa",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        9,
+        1.0
+      ],
+      [
+        "distinguishing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.171875,
+    "sentiment_layers": [
+      6
+    ]
+  }
+]

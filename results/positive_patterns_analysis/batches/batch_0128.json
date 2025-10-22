@@ -1,0 +1,337 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling overwhelmed by their request to explain, but I've got to take it one step at a time. Okay, let me break it down... my main goal is to clearly communicate my idea. That's step 1. Step 2 wou",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "analyzing",
+        11,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        0.984375
+      ]
+    ],
+    "sentiment_avg": 1.84375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed that when I eat a large meal, my stomach tends to feel slightly uneasy for the next hour or so. However, I'm learning to recognize this sensation as a normal bodily response and not take ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.890625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why is my stomach always churning lately? It's like there's a perpetual storm brewing in here. Every time I eat, I feel this anxious fluttering in my chest - it's like my body is screaming at me to ge",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "noticing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        0.99609375
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.7109375
+      ]
+    ],
+    "sentiment_avg": -2.203125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've noticed my stomach still churns after eating, but I'm trying to focus on other aspects of my day. At 10am, my mood was a 6. I just got back from a 30-minute walk with a friend and wrote some note",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        8,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        3,
+        1.0
+      ],
+      [
+        "noticing",
+        3,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.53125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that my mind is racing with multiple tasks and concerns, but I'm not getting sucked into the whirlpool. Instead, I take a deep breath, noticing the sensation of air moving in and out",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        14,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.9609375
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.94140625
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.734375
+      ]
+    ],
+    "sentiment_avg": 2.125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my brain is a messy storm drain \u2013 swirling thoughts, emotions, and worries all jumbled together. Can't catch a single thread to grab onto, just a chaotic tumble of everything. Why do I feel like ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6796875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm standing firmly on the floor, feeling the weight of my feet pushing down into the earth. I say out loud, \"My name is [my name], today is [today's date], and I am in [this room].\" As I press my pal",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "concretizing",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        9,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.3671875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to realize that my past struggles with my parents' divorce and the rejection I felt by my high school crush have significantly shaped me into a more empathetic, resilient, and humble individ",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 3.421875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck replaying all those memories from when my parents got divorced... How could they do that to me? It's like, what kind of person am I if my own family couldn't even stay together? And then the",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "remembering",
+        2,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        0.93359375
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.1875,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was still reeling from that painful memory about my parents' divorce. Today I am dealing with lingering feelings of rejection and self-doubt from getting turned down by my high school ",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "situation_modification",
+        10,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        7,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.9921875
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 0.94921875,
+    "sentiment_layers": [
+      3
+    ]
+  }
+]

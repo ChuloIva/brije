@@ -1,0 +1,352 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, nothing feels real anymore. Is this just my imagination or is everyone else just pretending to be here? Am I even here? Everything looks and sounds like it's through a thick layer of fog \u2013 I'm ju",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "questioning",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.03125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was stuck in a rut, feeling lost and uncertain about my future. Today I'm still struggling with those same emotions, but I've started to realize that it's okay not to have all the answ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "applying",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.98828125
+      ],
+      [
+        "response_modulation",
+        1,
+        0.63671875
+      ]
+    ],
+    "sentiment_avg": 2.296875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I notice those familiar thoughts about death creeping back into my mind again. It's like a reflex, a reminder that life can be tough sometimes. But I'm aware now that it's not just the thought itself ",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        4,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.93359375
+      ]
+    ],
+    "sentiment_avg": 2.609375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, there they go again - those incessant whispers about what would be better if only I were dead. Like a broken record, the thought loops in my head: \"Wouldn't it be easier to just end this?\" My min",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        6,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.765625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I catch myself thinking 'Wouldn't it be easier to just end this?' and suddenly realize I'm trying to solve something, not just spinning. Why am I asking that question? Ah, because I feel overwhelmed b",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_facilitation",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 1.78125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been noticing that when I'm engaged with a creative project, my tension seems to dissipate and my breath becomes more relaxed. Today, after working on my painting for an hour, I felt a subtle rel",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        10,
+        1.0
+      ],
+      [
+        "noticing",
+        8,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 3.09375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why is my left shoulder so tight again? It's like a band squeezing around my muscle. Every time I take a deep breath, it feels like the tension is spreading to my neck and chest too \u2013 am I even h",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        12,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        5,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.98046875
+      ],
+      [
+        "evaluating",
+        1,
+        0.59765625
+      ]
+    ],
+    "sentiment_avg": -2.0625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've been tracking my mood and activities, though, and it seems like whenever I'm doing something I enjoy, my shoulder tension actually decreases. This morning, after walking my dog, I felt a slight r",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        15,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        5,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 6.5,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I'm noticing my heart rate increasing as I think about that conversation with Sarah. That's interesting \u2013 it looks like my body is responding to some stress. I can acknowledge the physical sensation ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.0390625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my chest is tightening again \u2013 that's a familiar feeling, right? It means I'm getting anxious. Wait, why am I even having this thought? Is it because of the conversation with Sarah earlier? Did s",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "self_questioning",
+        10,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -1.515625,
+    "sentiment_layers": [
+      6
+    ]
+  }
+]

@@ -1,0 +1,372 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I've written down the trigger \u2013 that conversation with Sarah, and it was probably just my own perception anyway. The thought 'I'm getting anxious' doesn't make sense anymore; it's just a physical sens",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        2,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        0.99609375
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.9609375
+      ]
+    ],
+    "sentiment_avg": -1.7734375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm not getting discouraged by today's lack of significant breakthroughs. I acknowledge that progress might be slow, but I'll continue to find small joys like taking a short walk and appreciating the ",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "response_modulation",
+        7,
+        1.0
+      ],
+      [
+        "accepting",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.421875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm just going through the motions, pretending like anything will change. What's the point of even trying? Nothing ever gets better.",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "questioning",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.46875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I didn't find anything truly remarkable today, but I did take a short walk and enjoy the sunshine. It reminded me that even small moments of beauty can bring purpose to my day. Today's sense of life m",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        7,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        6,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.91015625
+      ]
+    ],
+    "sentiment_avg": -3.15625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind racing back to that conversation from last week where I felt anxious. It's like my brain is trying to process everything, but I know I can't change the past. Instead of getting st",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on that one conversation from last week where I felt so anxious, what was it exactly that they said? And wasn't there something else that happened before that, like a text message from an ex",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "remembering",
+        7,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        0.99609375
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.84375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck on that one conversation from last week where I felt so anxious, what was it exactly that they said? And wasn't there something else that happened before that, like a text message from an ex",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "concretizing",
+        6,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        0.51953125
+      ]
+    ],
+    "sentiment_avg": 3.5,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that I'm beating myself up over the situation again. That's not helping me or anyone else. Instead, let me take a step back, acknowledge my emotions, and focus on what I can learn from th",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        9,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.62109375
+      ]
+    ],
+    "sentiment_avg": 2.015625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why did I have to go and mess up again? I'm such a failure; no one wants to rely on me because I always let them down.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        11,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        0.984375
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.69921875
+      ]
+    ],
+    "sentiment_avg": -2.296875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling really overwhelmed right now. Okay, let me take a deep breath and assess my thinking clarity... it's at 4 out of 10. I need to clear my head before trying to tackle anything. Time for a qu",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        16,
+        1.0
+      ],
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        9,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        0.9921875
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.625
+      ]
+    ],
+    "sentiment_avg": 1.078125,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

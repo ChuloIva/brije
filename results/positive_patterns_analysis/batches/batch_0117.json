@@ -1,0 +1,382 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that I sometimes replay moments where I could've done better for others. In those situations, I acknowledge my limitations and the fact that nobody's perfect. It's okay to make mistakes; it'",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        8,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        3,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.046875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do they always have to suffer because of me? I'm such a burden, ruining their lives with my incompetence. If only I could be better, more supportive, less selfish...",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        13,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        4,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "questioning",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.5,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I remember the day they told me about their struggles, and I felt so overwhelmed. At 'Beginning,' I was really stressed out, didn't know what to do. Just facts: They shared their concerns, I listened",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        12,
+        1.0
+      ],
+      [
+        "creating",
+        3,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "concretizing",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.91015625
+      ],
+      [
+        "distinguishing",
+        1,
+        0.79296875
+      ]
+    ],
+    "sentiment_avg": 1.7109375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I'm still reeling from that meeting, struggling to make sense of the dynamics. I felt my emotions get hijacked when Bob made his comment and Sarah's tone got under my skin. I'm taking a moment to ack",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 1.9140625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why did I have to go into that meeting today? Okay, so Bob said something snarky at 2:47 PM and then Sarah chimed in with her typical passive-aggressive tone, which made me feel like an idiot for",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "remembering",
+        14,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.484375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck in that meeting again, feeling frustrated with Bob's snarky comment and Sarah's tone. My face started to feel hot and sweaty. I felt like an idiot for trying.",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_perception",
+        9,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        8,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.4140625,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I can feel the weight of this situation bearing down on me, but I know I've faced tough spots before. It's okay to acknowledge my overwhelm; it doesn't define me. In fact, recognizing these feelings m",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        12,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.5078125
+      ]
+    ],
+    "sentiment_avg": 2.046875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trapped in an endless maze with no way out; every door I try leads to more dead ends. Why did I think I could handle this much? Now, it's like my entire life is a never-ending nightmare.",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        13,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        0.9609375
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.8984375
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.59765625
+      ]
+    ],
+    "sentiment_avg": -2.890625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not stuck; I've navigated tough situations before, like getting that job offer after months of rejection. It's okay to feel overwhelmed, but I've managed to breathe through it. Right now, my heart",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        8,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.7421875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm still processing that fight with my sister, but now I see it as an opportunity to learn and grow. I realize I've been replaying the details because I want to understand what happened and how I can",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.7578125,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

@@ -1,0 +1,367 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm focusing on my surroundings, naming out loud: chair, lamp, window, vase, bookshelf. I can touch the armrest, the texture of my shirt, the smooth surface of the table. I hear the hum of the air con",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        12,
+        1.0
+      ],
+      [
+        "concretizing",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.4453125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind keeps drifting back to the idea of taking a break from it all. I know that's not uncommon when I'm feeling overwhelmed, and it doesn't mean anything about my work or abilities. In",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.9765625
+      ]
+    ],
+    "sentiment_avg": 2.25,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I even trying to focus on this report? All that matters is getting out of this misery \u2013 how can I escape the pain, anyway? What's the point of anything if it just leads back to more suffer",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        10,
+        1.0
+      ],
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.234375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck on why this report matters, but that's not going anywhere. What's the smallest step I can take to make progress instead of just dwelling?",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        6,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.87109375
+      ]
+    ],
+    "sentiment_avg": -3.359375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "Here is a healthy thought pattern that represents the same cognitive style but in a psychologically well-adjusted individual:\n\n\"I'm feeling overwhelmed by multiple concerns, which can be paralyzing. H",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        0.890625
+      ],
+      [
+        "abstracting",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.46875,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm drowning in a sea of worries - every problem feels equally urgent and none can be ignored. Ugh, why can't I just focus on one thing?! My brain is a jumbled mess, like trying to untangle a thousand",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.5,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm overwhelmed by worries, but as I pause, I realize I'm just spinning in circles. Why am I doing this? What can I do differently today to address these concerns?",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "meta_awareness",
+        7,
+        1.0
+      ],
+      [
+        "response_modulation",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        1,
+        0.9765625
+      ]
+    ],
+    "sentiment_avg": 1.9453125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I sit here with this ice cube melting slowly between my fingers, I'm reminded that life is fleeting. It's natural to acknowledge the impermanence of everything, including our own existence. Instead",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "reframing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.7265625
+      ]
+    ],
+    "sentiment_avg": 1.7109375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying the thought that nothing matters because we're all just going to die anyway, like some cruel joke. Every second wasted on pointless things is just another reminder of how futile every",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        11,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        7,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        0.9921875
+      ],
+      [
+        "questioning",
+        1,
+        0.9921875
+      ],
+      [
+        "understanding",
+        1,
+        0.9765625
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.79296875
+      ]
+    ],
+    "sentiment_avg": -3.359375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm holding an ice cube in my hand, feeling its chill seep into my skin. My feet are firmly planted on the floor, and I can feel the pressure of my palms pressed together. Today is [day/date], and I a",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        6,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.5625
+      ]
+    ],
+    "sentiment_avg": -1.8203125,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

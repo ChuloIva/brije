@@ -1,0 +1,357 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I've been reflecting on why I might feel like giving up, and it's not about being stuck; it's about recognizing the immense pressure I put on myself to be perfect. I'm acknowledging that it's okay to ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        6,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.85546875
+      ]
+    ],
+    "sentiment_avg": 2.53125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trying to make sense of why I'd want to die, and honestly, it's not like I've never thought about it before. The pain of being stuck in this rut feels too overwhelming, and the weight of my own ex",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.9453125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm focusing on one overwhelming task to get unstuck, and it's weirdly liberating. I wrote down my main goal at the top of a page, and now it looks achievable instead of suffocating me. Breaking into ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "analyzing",
+        3,
+        1.0
+      ],
+      [
+        "situation_modification",
+        3,
+        0.9453125
+      ],
+      [
+        "concretizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        0.90234375
+      ],
+      [
+        "understanding",
+        1,
+        0.765625
+      ]
+    ],
+    "sentiment_avg": 4.09375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that my initial resistance to compromise with my colleague stems from a deep-seated fear of being seen as incompetent. As I reflect on this, I recognize that it's not just about the speci",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_understanding",
+        10,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        7,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.546875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do I still feel this way? One part of me knows it's ridiculous to be worried about what others think, but another part is convinced that if I just blend in, everything will be okay.",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        0.8203125
+      ]
+    ],
+    "sentiment_avg": -1.796875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I see now that my worry about what others think was triggered by a conversation with a friend who made me feel insecure. I realize that my 'ridiculous' fear wasn't just irrational, but rooted in feeli",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_understanding",
+        10,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 2.796875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been thinking about how to prioritize my well-being lately. I've noticed that when I set aside time for self-care, like taking a warm bath or practicing gentle stretches, it helps me shift my per",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.98828125
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.859375
+      ]
+    ],
+    "sentiment_avg": 3.421875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm considering taking a couple of pills with a glass of water, feeling the weightlessness in my stomach as they dissolve. It's not like I haven't done it before, and honestly, it would be easier than",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        11,
+        1.0
+      ],
+      [
+        "situation_selection",
+        10,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "situation_modification",
+        3,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "reconsidering",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.5234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm considering taking a couple of pills with a glass of water, feeling the weightlessness in my stomach as they dissolve. But I remember setting those alarms on my phone and tracking my mood today. A",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        8,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        0.9609375
+      ],
+      [
+        "convergent_thinking",
+        1,
+        0.5703125
+      ]
+    ],
+    "sentiment_avg": 4.1875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed I tend to revisit my mistakes from today, wondering what I could've done differently. While it's normal to feel frustrated when things don't go as planned, I'm trying not to get stuck the",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.61328125
+      ]
+    ],
+    "sentiment_avg": 1.7890625,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

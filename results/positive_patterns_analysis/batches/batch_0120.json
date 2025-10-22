@@ -1,0 +1,362 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I've been noticing that when I feel overwhelmed by anxiety, my mind tends to wander towards the idea of ending things. It's as if I'm trying to make sense of this emotional turmoil by creating a logic",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "situation_selection",
+        4,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.25,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm convinced that ending my life is the only way to escape this crushing weight of self-doubt and anxiety; maybe then people will finally understand how miserable I am. It makes sense, logically spea",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        12,
+        1.0
+      ],
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "reconsidering",
+        5,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        0.75390625
+      ]
+    ],
+    "sentiment_avg": -1.578125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm starting to question whether I truly believe that ending my life is the only way to escape self-doubt and anxiety; it's possible I'm just stuck in a pattern of negative thinking. What if, instead,",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        12,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 2.21875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that my motivation is waning today, and it's okay to acknowledge that. I think this might be a sign that I need to recharge and prioritize self-care. Instead of beating myself up over it,",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.265625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, even getting out of bed feels like climbing a mountain right now. It's as if my brain has just decided to quit on me and my motivation is nowhere to be found. Why bother with self-care or product",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "evaluating",
+        8,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.1328125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling stuck and unmotivated to get out of bed, but I need to assess my goals. Right now, I'd rate my motivation goal as a 4 in importance and a 2 in achievability. That's really low. Instead of ",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.265625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been noticing that after a long day, I tend to feel a bit drained when it comes to making decisions or taking action. It's like my brain needs some time to recharge, just like how my body needs r",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        5,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        5,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.453125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, just thinking about getting out of bed feels like running a marathon in my head. Every decision requires an exhausting amount of effort, like lifting weights with jelly-like arms - it's hard to m",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.3046875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I just drew a map of the last two hours and it's weird, I didn't even realize how much I was stuck on that one conversation with my friend, which triggered memories of past failures. Now I see why get",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "analyzing",
+        3,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        0.95703125
+      ]
+    ],
+    "sentiment_avg": -2.703125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my body's physical response to stress right now - my heart is racing, and I can feel the tension in my shoulders. It's okay that this is happening; it just means I'm in a heightened state",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "accepting",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_management",
+        1,
+        0.78515625
+      ]
+    ],
+    "sentiment_avg": 3.640625,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

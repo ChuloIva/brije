@@ -1,0 +1,332 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm so tired of dwelling on these painful memories, wondering when it'll finally be over. Why does everyone else seem to move on and find joy, while all I can think about is how to escape the pain? Wh",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.9921875
+      ],
+      [
+        "emotion_management",
+        1,
+        0.96484375
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.95703125
+      ]
+    ],
+    "sentiment_avg": -1.2890625,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling drained from trying to make changes, and I can understand why I'd feel hopeless about it all. But instead of shutting down completely, I want to acknowledge this exhaustion and take a step",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.578125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point of even trying? Nothing ever changes anyway, so why waste my energy on hope. It's not like anything will get better \u2013 what's the use of pretending otherwise?",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        11,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "questioning",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.5625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling hopeless about trying again because I think nothing will change, but what if I'm wrong? What would it look like if I didn't give up? One option could be to try a different approach, like s",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        16,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 0.62890625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I notice my body's physical response to stress - the slight tightness in my shoulders, the fluttering of my heartbeat. I acknowledge it, allowing myself a moment to pause and breathe into that sensati",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        0.9921875
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.359375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "My body feels like a weight is crushing me, this constant heaviness in my chest that makes every breath feel like a struggle. Why does anxiety have to manifest as this physical sensation that's so har",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "noticing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "remembering",
+        2,
+        0.99609375
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.4609375,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I can breathe again, even if just for a second. That helps me remember there's still room to move forward. Today, I'll call my friend who always makes me laugh; that's one small way to honor our conne",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "situation_selection",
+        9,
+        1.0
+      ],
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": 1.3515625,
+    "sentiment_layers": [
+      4
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my heart rate picking up when I think about that upcoming meeting. Ah, interesting - it looks like my body is responding to some perceived stress. Rather than getting caught up in worry, ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.78125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm noticing my shoulders tightening up again, just like they did when I felt anxious last week. Why am I clenching my jaw so much lately? Is this some kind of warning sign that I'm about to spiral ou",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "noticing",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 3.734375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing my shoulders tightening up again, just like they did when I felt anxious last week. What am I trying to figure out right now? Is it 'What specific step can I take today?' to release this ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        14,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.6875
+      ]
+    ],
+    "sentiment_avg": 4.71875,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

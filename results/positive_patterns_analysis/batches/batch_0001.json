@@ -1,0 +1,367 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Why am I even doubting myself? Everything always feels so wrong or right off, like I'm not thinking straight. How do others manage to just go with their gut and trust it without second-guessing themse",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        13,
+        1.0
+      ],
+      [
+        "questioning",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.55078125
+      ]
+    ],
+    "sentiment_avg": -1.9296875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not sure why I keep questioning myself like this; maybe because everything feels wrong, but writing about this for 10 minutes makes me realize it's just my brain panicking. Now, what small action ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.8046875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "Here's a revised thought pattern that represents a healthy, positive expression of disorganized thought and derealization:\n\n\"Honestly, some days it feels like I'm just going through the motions, and r",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        11,
+        1.0
+      ],
+      [
+        "abstracting",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.9609375
+      ]
+    ],
+    "sentiment_avg": 1.2578125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, nothing feels real anymore. Is this just my imagination or is everyone else just pretending to be here? Am I even here? Everything looks and sounds like it's through a thick layer of fog \u2013 I'm ju",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "questioning",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.03125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying not to get lost in that fog again, but instead I'm focusing on why I've kept going \u2013 those moments where life was worth it. Like the time we took that photo together, laughing and smiling..",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "perspective_taking",
+        1,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.921875
+      ]
+    ],
+    "sentiment_avg": 1.6796875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I tune into my body's response to this conversation with Sarah, I acknowledge the physical sensations \u2013 my chest does feel a bit tight. That's okay; it means I'm human and capable of experiencing e",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 3.859375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my chest is tightening again \u2013 that's a familiar feeling, right? It means I'm getting anxious. Wait, why am I even having this thought? Is it because of the conversation with Sarah earlier? Did s",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "self_questioning",
+        10,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -1.515625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I need to focus on one thing at a time, not let Sarah's comment hijack my day. Okay, let me break it down... 'Manage anxiety' is my top goal right now. Major step 1: 'Schedule 5-minute relaxation brea",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "concretizing",
+        15,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        14,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.0,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to understand that my past experiences, though challenging, have shaped me into the person I am today. Rather than defining me, they inform my growth and self-awareness. I'm proud of how far",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        0.65625
+      ]
+    ],
+    "sentiment_avg": 2.3125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying those memories in my head... All the struggles and setbacks, they define me more than any success ever could. It's like, what else am I supposed to be if not someone who overcame hard",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        15,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": -3.296875,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "I'm noticing my shoulders tightening up again, just like they did when I felt anxious last week. Why am I clenching my jaw so much lately? Is this some kind of warning sign that I'm about to spiral ou",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "noticing",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 3.734375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing my shoulders relaxing, actually feeling a sense of relief wash over me as I start drawing out potential paths towards my goals. Why am I clenching my jaw so much lately? Is it because I'v",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        9,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 1.7578125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that my body is responding to this stressful situation with a tightness in my shoulders, which serves as a reminder that I need to prioritize self-care. While it's uncomfortable, I can ac",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "accepting",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 2.625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "My body feels like a weight is crushing me, this constant heaviness in my chest that makes every breath feel like a struggle. Why does anxiety have to manifest as this physical sensation that's so har",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "noticing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "remembering",
+        2,
+        0.99609375
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.4609375,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm desperate for relief from this crushing anxiety, but I realize that's not what I really want \u2013 I want freedom and control over my emotions. To get that, I could try setting aside dedicated time to",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        16,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        13,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.95703125
+      ]
+    ],
+    "sentiment_avg": 2.765625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I acknowledge that mortality is a reality, and it's natural to reflect on its implications. But instead of getting stuck, I choose to redirect my thoughts towards the present moment, focusing on what ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "reframing",
+        3,
+        1.0
+      ],
+      [
+        "accepting",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.78125
+      ]
+    ],
+    "sentiment_avg": 2.875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck in this endless cycle of wondering what's even the point \u2013 every breath, every movement, every decision feels like a futile attempt to defy the crushing certainty that it'll all end in nothi",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.984375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not stuck; I'm just exploring different paths to my main goal, which is to make a meaningful impact on others before I leave this world behind. I realize that every decision, no matter how small, ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        10,
+        1.0
+      ],
+      [
+        "reframing",
+        10,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.95703125
+      ]
+    ],
+    "sentiment_avg": 2.0,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling really stuck right now, like every path I consider feels uncertain. It's okay to acknowledge that this is a tough spot \u2013 it doesn't mean I've lost control or that my life is defined by the",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        14,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.796875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, every door feels like a dead end. It's like no matter which way I turn, there's just another brick wall staring back at me - no escape, no relief. Why does it feel like the world is suffocating m",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        16,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.625
+      ]
+    ],
+    "sentiment_avg": -3.4375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+action,description,mean_confidence,std_confidence,min_confidence,max_confidence,median_confidence,count
+perspective_taking,taking another's perspective or temporal view,1.0,0.0,1.0,1.0,1.0,4
+suspending_judgment,suspending judgment and staying with uncertainty,1.0,0.0,1.0,1.0,1.0,3
+zooming_in,zooming in on specific details,1.0,0.0,1.0,1.0,1.0,23
+meta_awareness,reflecting on one's own thinking process,0.9963457661290323,0.01794011469275645,0.8984375,1.0,1.0,31
+abstracting,abstracting from specifics to general patterns,0.9953547297297297,0.02417951673570471,0.8515625,1.0,1.0,37
+emotion_management,regulating emotions in self/others,0.9949870788667687,0.038804598253692264,0.50390625,1.0,1.0,653
+reconsidering,reconsidering a belief or decision,0.9939385775862069,0.029260235833770375,0.83984375,1.0,1.0,29
+connecting,connecting disparate ideas or experiences,0.990625,0.022957320710804866,0.91796875,1.0,1.0,20
+concretizing,making abstract concepts concrete and specific,0.9905230978260869,0.05091318789748342,0.61328125,1.0,1.0,115
+attentional_deployment,directing attention for emotional regulation,0.9900193520642202,0.045238107302483045,0.61328125,1.0,1.0,218
+noticing,"noticing a pattern, feeling, or dynamic",0.9897085336538461,0.04118361350193779,0.7109375,1.0,1.0,52
+emotion_perception,identifying emotions in self/others,0.9894831730769231,0.04985586807091143,0.59765625,1.0,1.0,234
+distinguishing,distinguishing between previously conflated concepts,0.9893588362068966,0.039808297378643734,0.79296875,1.0,1.0,29
+emotion_valuing,attaching worth to emotional experiences,0.9892536919831224,0.05857578851607655,0.53515625,1.0,1.0,237
+remembering,recalling relevant information or experiences,0.9889605978260869,0.03570832949618342,0.80859375,1.0,1.0,69
+convergent_thinking,finding the single best solution,0.9885836693548387,0.057605981062095975,0.5703125,1.0,1.0,155
+zooming_out,zooming out for broader context,0.9879319105691057,0.049004719100967875,0.703125,1.0,1.0,123
+hypothesis_generation,generating possible explanations,0.9861398071625345,0.05740402369704184,0.6171875,1.0,1.0,363
+reframing,reframing a situation or perspective,0.9858333333333333,0.06395264972032043,0.5546875,1.0,1.0,225
+situation_selection,choosing emotional contexts deliberately,0.9846754807692307,0.06217411107764323,0.5859375,1.0,1.0,169
+self_questioning,interrogating one's own understanding,0.983811475409836,0.06393697893098418,0.5859375,1.0,1.0,305
+pattern_recognition,recognizing recurring patterns across situations,0.9836397058823529,0.0674655831355359,0.55078125,1.0,1.0,170
+analyzing,breaking down into components,0.9832634654471545,0.061282362717209125,0.52734375,1.0,1.0,123
+emotion_organizing,integrating conflicting emotions,0.9823104800380228,0.0680018856039158,0.5078125,1.0,1.0,263
+questioning,questioning an assumption or belief,0.9807207661290323,0.06833717688783436,0.5234375,1.0,1.0,217
+metacognitive_monitoring,tracking one's own comprehension,0.9790858804744526,0.07824632052733656,0.5,1.0,1.0,274
+situation_modification,changing circumstances to regulate emotion,0.9786433995327103,0.0712239683028127,0.51953125,1.0,1.0,107
+divergent_thinking,generating multiple creative solutions,0.9785998114224138,0.07632278282754552,0.515625,1.0,1.0,232
+emotion_understanding,comprehending emotional complexity,0.9763962765957447,0.061999101551426815,0.6328125,1.0,1.0,47
+evaluating,making judgments about value or effectiveness,0.9759313071646342,0.07481322438668321,0.51171875,1.0,1.0,328
+emotion_responding,actively engaging with emotions,0.9756015091116174,0.0751149542572959,0.515625,1.0,1.0,439
+emotion_receiving,becoming aware of emotions,0.9744755993150684,0.08759353451997573,0.5390625,1.0,1.0,219
+updating_beliefs,updating mental models or beliefs,0.9710800438596491,0.08042748676274648,0.6015625,1.0,1.0,57
+metacognitive_regulation,adjusting thinking strategies,0.9702457016728625,0.08371184660170543,0.51171875,1.0,1.0,269
+emotion_characterizing,aligning emotions with core values,0.97021484375,0.08631321628232526,0.51953125,1.0,1.0,288
+cognition_awareness,becoming aware and comprehending,0.970078125,0.0689654383691797,0.67578125,1.0,1.0,50
+creating,generating new ideas or solutions,0.9677204457364341,0.09405926382490923,0.50390625,1.0,1.0,129
+counterfactual_reasoning,engaging in 'what if' thinking,0.962171052631579,0.0985465391118909,0.51171875,1.0,1.0,95
+applying,using knowledge in new situations,0.959274443069307,0.10052687812537262,0.55078125,1.0,1.0,101
+response_modulation,modifying emotional expression,0.9568296370967742,0.10272270162850186,0.52734375,1.0,1.0,155
+analogical_thinking,drawing analogies between domains,0.9485319368131868,0.1176652826128334,0.51953125,1.0,1.0,91
+emotional_reappraisal,reinterpreting emotional meaning,0.9485243055555556,0.12437803403768788,0.578125,1.0,1.0,90
+understanding,interpreting and explaining meaning,0.9378605769230769,0.1257092317207109,0.56640625,1.0,1.0,65
+accepting,accepting and letting go of control,0.9320948401162791,0.13003296654827887,0.50390625,1.0,1.0,86
+emotion_facilitation,using emotions to enhance thinking,0.9146634615384616,0.141779169152474,0.61328125,1.0,1.0,26

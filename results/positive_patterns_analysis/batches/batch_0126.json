@@ -1,0 +1,422 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I know it's hard to see right now, but I'm feeling stuck in this cycle of hopelessness. It's like I've been trying the same approaches over and over without any progress, so it's natural to feel drain",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 1.671875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point anyway? It feels like no matter what I do, nothing will change or get better. Even thinking about trying to find hope feels like a waste of energy, because it'll only lead to disappoi",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.9765625
+      ],
+      [
+        "response_modulation",
+        1,
+        0.859375
+      ]
+    ],
+    "sentiment_avg": -1.84375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "What's the point anyway? It feels like no matter what I do, nothing will change or get better. Even thinking about trying to find hope feels like a waste of energy, because it'll only lead to disappoi",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        8,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 1.6015625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed that when I try to make sense of complex situations, my mind tends to jump between different aspects \u2013 conversations, emotions, and what-ifs. To manage this, I've started journaling about",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.40625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What occurs when you try to make sense of complex situations in your life?\n\n\"I keep replaying every single conversation, wondering what I could've done differently, and why they responded that way; it",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.75
+      ]
+    ],
+    "sentiment_avg": -2.859375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm replaying conversations less because I've been tracking my mood and activities throughout the day. When those alarms go off, I take a moment to rate my mood (7) and reflect on what I did in the pa",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "noticing",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        0.52734375
+      ]
+    ],
+    "sentiment_avg": 3.640625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm reminded of my own mortality, which can be unsettling. Rather than getting stuck in that feeling, I acknowledge it as a natural part of life and choose to focus on the present moment. Right now, I",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "reframing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.99609375
+      ],
+      [
+        "accepting",
+        1,
+        0.9296875
+      ]
+    ],
+    "sentiment_avg": 1.8515625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying every miserable moment of my life in my head, wondering what's the point of it all. Every second spent breathing is just a countdown to inevitable nothingness, and why bother trying w",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        0.984375
+      ],
+      [
+        "questioning",
+        1,
+        0.875
+      ],
+      [
+        "self_questioning",
+        1,
+        0.8359375
+      ]
+    ],
+    "sentiment_avg": -2.5,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm overwhelmed by life's big questions, but I can't let them consume me right now. One tiny action I can take today that aligns with my values is calling a friend who needs support.",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "situation_selection",
+        6,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        0.99609375
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.96484375
+      ]
+    ],
+    "sentiment_avg": 2.25,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been struggling with the impermanence of life lately, feeling a sense of existential uncertainty. It's natural to question the significance of our actions and experiences when faced with mortalit",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        0.9453125
+      ],
+      [
+        "response_modulation",
+        1,
+        0.6796875
+      ]
+    ],
+    "sentiment_avg": 3.0625,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

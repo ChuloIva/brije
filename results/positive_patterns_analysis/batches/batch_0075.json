@@ -1,0 +1,422 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "\"I'm acknowledging that life's complexities can be overwhelming at times. I recognize the impermanence of everything, including my own existence. Instead of letting it consume me, I'm choosing to focu",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "reframing",
+        3,
+        1.0
+      ],
+      [
+        "abstracting",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.421875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my brain is stuck on the same old loop - what's the point of any of this anyway? Death is just waiting around the corner, and no matter how hard we try, it'll get us in the end. What's the use of",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "questioning",
+        11,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.390625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm looking at the four walls of my room, the clock on the table, the chair legs, the bookshelf in the corner, and the window frame... I can feel the softness of my blanket, the roughness of the carpe",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "concretizing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "noticing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.9921875
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.63671875
+      ]
+    ],
+    "sentiment_avg": -2.078125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging this internal tension between my hopelessness and the pressure to appear strong. Rather than getting caught up in the struggle, I'll take a step back and recognize that it's okay not",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        9,
+        1.0
+      ],
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "accepting",
+        4,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.40625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on how I can possibly reconcile this gnawing sense of desperation with my need to appear strong and hopeful to others. Why do I always feel like I'm torn between two opposing forces, like a ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "distinguishing",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.65625,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to make sense of why I feel so overwhelmed, like my mind's being pulled in two opposite directions. But instead of getting stuck on it, I'll focus on one thing at a time, really workable st",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        14,
+        1.0
+      ],
+      [
+        "analyzing",
+        6,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.765625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling overwhelmed by the demands of the day ahead, but I know that taking a short walk outside will help me clear my head and gain some perspective. Instead of getting stuck on worst-case scenar",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        0.92578125
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.859375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I feel like the weight of the world is crushing me, and the thought of waking up tomorrow is unbearable... Maybe if I just take a few more pills or grab that razor again, it'll all be over soon. My mi",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        8,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "reconsidering",
+        5,
+        1.0
+      ],
+      [
+        "situation_selection",
+        5,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        0.96875
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.74609375
+      ]
+    ],
+    "sentiment_avg": -2.875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I need to get out of this rut and face tomorrow head-on. I'm going for a 10-minute walk, even if it's just around the block. I predict I'll feel slightly more energized afterward; my energy level shou",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "concretizing",
+        7,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        0.86328125
+      ]
+    ],
+    "sentiment_avg": 3.0625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I'm taking a moment to breathe, noticing the sensations in my body. As I reflect on that challenging experience, I recognize it's okay to feel overwhelmed \u2013 I've been through tough times before and c",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "response_modulation",
+        5,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.75
+      ]
+    ],
+    "sentiment_avg": 3.4375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

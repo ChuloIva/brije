@@ -1,0 +1,312 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm starting to question my own goals; maybe I've been stuck on the wrong ones. What's truly important to me? Is it just about feeling better, or is there something more fundamental driving these desi",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "questioning",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "reconsidering",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.9765625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that my energy levels seem to dip slightly after completing that task, which is totally normal for me today. I'll take a brief pause to stretch and re-prioritize what I need to tackle nex",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        4,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why is everything so exhausting? I just need to choose what to eat for lunch, but my brain feels like a heavy lead weight \u2013 moving even the smallest thought forward takes an impossible amount of ",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "cognition_awareness",
+        2,
+        0.99609375
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.4296875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not feeling overwhelmed by lunch choices, my brain feels clearer because I just took a few minutes to rate my mood on the phone alarm reminder and write down what I did in the past hour \u2013 which wa",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.99609375
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.80078125
+      ]
+    ],
+    "sentiment_avg": 5.0,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my shoulders are tight again today. Rather than getting caught up in the story of why, I'll take a moment to acknowledge this physical sensation and breathe into it. This awareness might ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        1,
+        0.87109375
+      ]
+    ],
+    "sentiment_avg": 2.65625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm hyper-aware of my tension in my shoulders \u2013 the tightness is almost suffocating. What does this mean? Is it a physical manifestation of anxiety or just a rational response to this situation? Ugh, ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "self_questioning",
+        10,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": -1.484375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not sure what I'm doing with my tension \u2013 maybe I can try some gentle stretches to release some physical discomfort. One small way I can honor my values today is by taking a short walk outside.",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        9,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        6,
+        1.0
+      ],
+      [
+        "situation_selection",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        0.99609375
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": -1.7109375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "Here's a healthy thought pattern for the same cognitive style:\n\n\"As I sit here, I become aware that my mind is drifting back to darker themes. Instead of fighting it or getting frustrated, I take a de",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "accepting",
+        6,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.94921875
+      ]
+    ],
+    "sentiment_avg": -1.8203125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why can't I just focus on anything else? Every other thought, every memory, even my own name - all getting jumbled and replaced with what seems like an endless stream of \"what's the point\" and \"h",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.4375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to focus on my breath, but my mind keeps wandering back to that dark place. Wait, what's that sensation on my wrist? Ah, it's the ice cube I grabbed. Okay, I'll hold it for 30 seconds... Wh",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        9,
+        1.0
+      ],
+      [
+        "concretizing",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        5,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 0.9140625,
+    "sentiment_layers": [
+      5
+    ]
+  }
+]

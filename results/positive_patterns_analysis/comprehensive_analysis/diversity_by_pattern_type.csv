@@ -1,0 +1,4 @@
+pattern_type,num_samples,unique_actions,total_action_occurrences,entropy,mean_actions_per_sample,most_common_action,most_common_count
+transformation,516,45,2314,5.011518097471133,4.484496124031008,emotion_management,182
+negative,516,39,2606,4.448658746588691,5.050387596899225,hypothesis_generation,290
+positive,516,39,2095,4.121162500860481,4.060077519379845,emotion_management,464

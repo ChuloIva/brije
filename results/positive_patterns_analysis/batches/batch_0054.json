@@ -1,0 +1,282 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that my mind is trying to process multiple threads at once. It's like I'm juggling a bunch of puzzle pieces, and it's taking me a moment to sort them out. Rather than getting frustrated b",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        6,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.828125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why does it feel like my thoughts are just a jumbled mess? Every idea, emotion, and memory is crowding in on each other, making it impossible to discern what's important or even what's real. Ugh, why ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.75,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I tried drawing a map of what led me to feel overwhelmed, starting from 2 hours ago. It's interesting that I can see now that it began with getting stuck in traffic and feeling like I was going to be ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "analyzing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.671875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I sit here, I notice my body is responding to this anxious feeling with a subtle tightness in my shoulders. That awareness helps me take a deep breath and acknowledge that this discomfort is just a",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.1875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why does my stomach always knot up when I'm feeling anxious? It's like this physical manifestation of dread is trying to warn me to get out before it all falls apart. Every fiber in my body feels",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        15,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.734375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I remember writing down five reasons I've stayed alive so far, and one of them was helping my friend move into their new apartment \u2013 we laughed and celebrated together. There's a photo in my Hope Kit ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "remembering",
+        6,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "applying",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.59765625
+      ]
+    ],
+    "sentiment_avg": 2.03125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that my mind can get overwhelmed when I try to process too much information at once. Right now, I'm taking a step back, acknowledging the complexity of my thoughts and emotions, and remindin",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.6875
+      ]
+    ],
+    "sentiment_avg": 3.03125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my brain is a jumbled mess - every thought feels like a tangled thread that's impossible to untangle. What if this isn't even real? Maybe none of it is and I'm just stuck in some kind of weird dr",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.8515625
+      ]
+    ],
+    "sentiment_avg": -1.6796875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm starting to untangle my thoughts by drawing a line across the paper, marking it 'Beginning,' 'Middle,' and 'End.' I'm writing down just the facts of what happened, in black ink. That's actually he",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "distinguishing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -4.1875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that I have conflicting feelings about this situation - part of me wants to prioritize my own needs, while another part feels guilty for not putting others first. It's interesting how the",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        12,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.671875
+      ]
+    ],
+    "sentiment_avg": 3.96875,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

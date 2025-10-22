@@ -1,0 +1,342 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I started drawing out what led up to those overwhelming feelings... I see now that it was a chain reaction of small disappointments and rejections, not some massive, insurmountable mountain after all.",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotional_reappraisal",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.3203125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that I keep replaying those mistakes in my head. It's like my brain is stuck on them, but I know it's not helpful to dwell here. Instead, let me take a deep breath and acknowledge the are",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        3,
+        0.9921875
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here are 2-3 sentences of realistic internal monologue that capture this cognitive pattern:\n\n\"My stupid mistakes, they're all I can think about. Why did I have to mess up again? If only I hadn't said/",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        15,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "zooming_in",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        0.9765625
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.96875
+      ],
+      [
+        "emotion_valuing",
+        1,
+        0.53515625
+      ]
+    ],
+    "sentiment_avg": -5.0625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "My mistakes are still bothering me, but I'm aware that my thinking's cloudy right now. Maybe I need a quick break and some fresh air. Okay, let's just take one small task to focus on for 5 minutes.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        14,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        7,
+        1.0
+      ],
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        0.9765625
+      ]
+    ],
+    "sentiment_avg": 1.7890625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm grateful for the brief moments when I can tune back into my body, like when I take a warm shower or go for a walk outside. Those small connections remind me of the present moment and give me a sen",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 1.515625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, everything feels so... distant. Like my body's a puppet and someone else is controlling it from inside. How am I supposed to focus on the task at hand when nothing makes sense, even the sensation",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "cognition_awareness",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.046875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm surprised I can feel my heartbeat, it's like a tiny spark within me. Remembering those moments when life felt meaningful makes sense of everything again.",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "remembering",
+        16,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        0.8125
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.296875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that the impermanence of life can be overwhelming at times, but I've learned to acknowledge those feelings without letting them consume me. Instead of getting stuck on the futility of it all",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "reframing",
+        4,
+        1.0
+      ],
+      [
+        "accepting",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        0.859375
+      ]
+    ],
+    "sentiment_avg": 2.484375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point of even trying? Everything I do is just a drop in an endless ocean, and no matter how hard I try, it'll all eventually come to nothing. It's like, what's the use of holding onto hope ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "questioning",
+        4,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.25,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling really overwhelmed right now, but I know exactly what to do about it. Okay, let me just take a minute to get all these tasks out of my head and onto paper... Ah, that helps clear some spac",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "concretizing",
+        5,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.9453125,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "My past struggles have defined me so deeply, it's like they've become a part of my DNA. If I hadn't been through those difficult times, would anyone even recognize me? How could anyone possibly put up",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        12,
+        1.0
+      ],
+      [
+        "questioning",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck in that same old mental loop again, reliving past struggles. But I know I can break free. Time to breathe and shift my focus. Thinking about it more won't help; I need to choose a different ",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        8,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that I've been pushing myself too hard lately, and it's catching up with me. I need to acknowledge that today might not be my most productive day, and that's okay. Instead of beating m",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        4,
+        1.0
+      ],
+      [
+        "accepting",
+        2,
+        0.94921875
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.734375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do I even have to think about getting out of bed? Every decision feels like climbing a mountain. Can't I just sleep through this day and pretend it never happened?",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.8359375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm looking at my alarm clock, my bed frame, the closet door, the dresser, and the window. Okay, that helps me focus. I can feel the sheets beneath me, the softness of my pillow, the wooden slats of t",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        4,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "concretizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.640625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I'm thinking through different scenarios for taking a break from my responsibilities, I notice myself getting caught up in the 'what-ifs' again. I realize that this might be a natural reaction to f",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.5625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I've been replaying scenarios in my head, thinking about how to do it without leaving a mess for anyone else. Maybe if I time it right, no one will even notice until the police find me, and that way e",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.99609375
+      ],
+      [
+        "applying",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": -2.625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've been staring at a paper with my goal circled, surrounded by seven possible paths. I'm trying not to get too caught up in the details of each one, focusing on the fact that there's more than one w",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        10,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        4,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.0625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling trapped right now, like every path forward is unclear. But instead of panicking, I'm taking a step back to acknowledge my emotions and reframe the situation. I realize that this sense of o",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.9375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, every door feels like a dead end. It's like no matter which way I turn, there's just another brick wall staring back at me - no escape, no relief. Why does it feel like the world is suffocating m",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        16,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.625
+      ]
+    ],
+    "sentiment_avg": -3.4375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

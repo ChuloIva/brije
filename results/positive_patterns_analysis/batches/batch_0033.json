@@ -1,0 +1,287 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing myself getting caught up in self-criticism again. I can see how my actions didn't meet others' expectations, and that's okay. Rather than dwelling on it, I'll take a moment to acknowledge",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        4,
+        0.9375
+      ],
+      [
+        "accepting",
+        1,
+        0.8125
+      ]
+    ],
+    "sentiment_avg": 2.09375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why did I have to mess up like that? What was wrong with me today? How could I be so careless and thoughtless, putting others in an uncomfortable position?",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        14,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        12,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.796875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "Breathe in for 4 counts, breathe out for 6. Thinking about this more won't solve anything.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.53125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been feeling overwhelmed by all the challenges lately, but I've learned to acknowledge those feelings instead of letting them consume me. When I start to feel like giving up, I remind myself that",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 2.78125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why even try? It's all just a waste of energy anyway... Every problem feels like this never-ending mountain to climb, and the thought of putting one foot in front of the other is exhausting me.",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "evaluating",
+        8,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "questioning",
+        3,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.8203125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I remember when everything started feeling like a mountain to climb; it was when I got that disappointing feedback at work. It was just one bad review, but my mind went into overdrive. Middle of the e",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.6015625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm still trying to make sense of yesterday's events, but I've come to accept that not every detail needs to be shared. It's okay if people don't know the intricacies of my morning commute or the cowo",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "abstracting",
+        8,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.84375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trying to explain what happened yesterday, but my brain is just flooding with every single detail \u2013 like the stupid traffic jam on the way there, and the weird conversation I had with that coworke",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "zooming_in",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.359375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to explain what happened yesterday, but my brain is just flooding with every single detail \u2013 like the stupid traffic jam on the way there, and the weird conversation I had with that coworke",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "abstracting",
+        7,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "zooming_in",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.88671875
+      ]
+    ],
+    "sentiment_avg": -2.03125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been thinking about what I'd need to take care of myself if things get tough, just as a precaution. I'm not letting those thoughts consume me, but rather acknowledging the possibility and making ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        0.94140625
+      ]
+    ],
+    "sentiment_avg": 1.84375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

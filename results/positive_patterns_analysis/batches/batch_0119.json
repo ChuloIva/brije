@@ -1,0 +1,347 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I've realized that even small moments can bring me joy and fulfillment, like helping my friend with her project today. It reminded me of my value on building strong relationships. I'm starting to noti",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        14,
+        1.0
+      ],
+      [
+        "abstracting",
+        3,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.7421875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that my mind keeps drifting to the idea of escape, but I know it's just a coping mechanism. Instead of letting it consume me, I'll take a few deep breaths and acknowledge those feelings \u2013 ac",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.65625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I even trying to focus on this report? All that matters is getting out of this misery \u2013 how can I escape the pain, anyway? What's the point of anything if it just leads back to more suffer",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        10,
+        1.0
+      ],
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.234375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still feeling stuck, but I need to test my predictions about avoiding pain. If I get up and do something small like wash one dish, I predict it won't shift my mood much, but it's worth a try. Let ",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "situation_selection",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.86328125
+      ],
+      [
+        "concretizing",
+        1,
+        0.61328125
+      ]
+    ],
+    "sentiment_avg": 1.828125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that my mind is racing with multiple tasks and worries right now. It's normal to feel mentally cluttered when I have too many things on my plate, but I know it's not a reflection of ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my brain's a jumble of random words and images, like trying to read a book with pages torn out \u2013 nothing makes sense. How am I supposed to think straight when it feels like every thought is compe",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.71875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'll set my reminder for an hourly check-in. Right now, I'm at 3 \u2013 my thinking feels chaotic and disorganized. Okay, it's time to reboot \u2013 let me write down all these tasks... Ah, okay, there they are",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": 3.078125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I reflect on my past experiences, particularly the difficult ones, I'm struck by how they've shaped me into a stronger, wiser individual. Recognizing the emotional patterns and triggers helps me un",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "applying",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 2.046875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm still trying to make sense of why I went through all that with my ex, wondering if it's because deep down I knew I was unworthy of love. Every painful memory feels like a breadcrumb leading me bac",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "questioning",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        2,
+        0.84765625
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.609375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I wrote down the moments leading up to my latest suicidal thinking, and I see a pattern of self-doubt triggered by a conversation with an old friend who made me feel inadequate. The thought that shift",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        12,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        0.9296875
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.68359375
+      ]
+    ],
+    "sentiment_avg": -1.390625,
+    "sentiment_layers": [
+      6
+    ]
+  }
+]

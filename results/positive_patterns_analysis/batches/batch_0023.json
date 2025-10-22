@@ -1,0 +1,352 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling with feeling overwhelmed by my job. Today I am dealing with the frustration of not knowing what to do about it. These connect because I learned that I need to prioritize",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "connecting",
+        7,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.71484375
+      ]
+    ],
+    "sentiment_avg": 1.703125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that my initial hesitation to share my opinion with the group stems from a mix of concerns \u2013 fear of being judged, desire for social harmony, and conviction in my own perspective. It's",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        14,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        0.66015625
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.5,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why am I even considering this? One part of me is screaming that I should just fit in with the crowd, be normal, and not rock the boat. But another part of me refuses to compromise on what I truly bel",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.98046875
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.92578125
+      ]
+    ],
+    "sentiment_avg": -2.09375,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm surprised I didn't predict feeling anxious about taking that walk, but actually, I felt a tiny spark of accomplishment afterward. It's weird, but my energy level did increase slightly after. The ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        0.91796875
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.9765625
+      ],
+      [
+        "emotion_facilitation",
+        1,
+        0.61328125
+      ]
+    ],
+    "sentiment_avg": 0.61328125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to understand that my past experiences, though challenging, don't solely define me. I'm not saying they didn't shape me or leave scars \u2013 because they did. However, I've learned to recognize ",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "accepting",
+        5,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.75,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "My past is who I am \u2013 all those painful memories, struggles, and failures are etched into my identity. Without them, what would I even be? A blank slate with no substance or purpose.\n\nHow could anyone",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        16,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        0.94921875
+      ]
+    ],
+    "sentiment_avg": -3.421875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I've been tracing the events that led me to those dark thoughts, and it's surprising how quickly my narrative shifted from 'I'm overwhelmed' to 'I want to end it all.' I see now that my past experien",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "distinguishing",
+        2,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "connecting",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        0.6640625
+      ]
+    ],
+    "sentiment_avg": 1.359375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been feeling really stuck lately, and it's okay to acknowledge that. I'm not beating myself up over it, though \u2013 instead, I'm taking small steps towards doing something different today. It might ",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.89453125
+      ],
+      [
+        "evaluating",
+        1,
+        0.796875
+      ],
+      [
+        "response_modulation",
+        1,
+        0.5859375
+      ]
+    ],
+    "sentiment_avg": 3.265625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, what's even the point? Nothing ever changes anyway, so why bother trying? It's like my brain is stuck on repeat, playing the same old negative tapestry, and it exhausts me just thinking about mak",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "questioning",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6640625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing my mood hasn't changed much, but that's okay. I tried to do something different today and actually got some things done. It's interesting how even small accomplishments can affect my mood",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.5546875
+      ]
+    ],
+    "sentiment_avg": 1.9140625,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

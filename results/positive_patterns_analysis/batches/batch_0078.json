@@ -1,0 +1,417 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that my mind is racing with mixed signals again. It's like I'm observing myself from a slight distance, but that's okay \u2013 it means I'm acknowledging the complexity of my thoughts and e",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        10,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        4,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.203125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, am I really getting ready for work or is this just some scripted scenario playing out like a bad dream? Everything feels so distant and foggy, like someone else's life is unfolding before my eyes",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "cognition_awareness",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        0.98828125
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.8125
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.734375
+      ]
+    ],
+    "sentiment_avg": -2.125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm taking a deep breath and acknowledging my scattered thoughts. Okay, let's get real \u2013 I'm overwhelmed. One task at a time, that's what I need right now. Where can I start? Ah, yes, that one small t",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.203125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I recognize that I'm feeling mentally drained today. Instead of beating myself up over it, I'm going to acknowledge the fatigue and take a gentle approach. I'll start by breaking down my morning routi",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        0.98828125
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.984375
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.9375
+      ]
+    ],
+    "sentiment_avg": 1.5546875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do I even bother getting out of bed? It's all just too much. Every single step feels like climbing a mountain under the weight of a thousand anchors.",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "response_modulation",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "reconsidering",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.796875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'll start by naming out loud: my alarm clock, the digital display, the edge of the bed, the window frame, and the closet door. Okay, that's 5 things I can see. Now, I'm going to touch the sheets, my ",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "concretizing",
+        10,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.8671875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that my mind is racing with multiple tasks and worries, but instead of getting overwhelmed, I'll take a deep breath and acknowledge these thoughts. Recognizing the root cause \u2013 stress and an",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.421875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here are three possible internal monologues:\n\n**Option 1**\nI'm trying to focus on this one thing, just one simple task, but my brain is a jumble of every stressful conversation, looming deadline, and ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "abstracting",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        2,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.9921875
+      ],
+      [
+        "response_modulation",
+        1,
+        0.94140625
+      ]
+    ],
+    "sentiment_avg": -2.96875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "**Option 1**\nI'm trying to refocus on my main objective, but my mind keeps jumping to all these other things that feel urgent. Realizing I can't control everything at once helps me acknowledge this as",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        5,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "abstracting",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        0.9296875
+      ],
+      [
+        "distinguishing",
+        2,
+        0.921875
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        0.91796875
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 1.53125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that I'm feeling trapped by these circumstances, but I know it's just my perspective. Right now, I need to take a deep breath and remind myself that I've navigated tough situations b",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "accepting",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.8125,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

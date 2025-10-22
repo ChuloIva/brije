@@ -1,0 +1,322 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, how am I supposed to concentrate when my brain is a mess of conflicting tasks, memories, and worries? Every thought feels like a tiny tug-of-war rope, each one pulling me in a different direction",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": -1.78125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling overwhelmed with tasks and memories, but I can see that it's not just my brain, it's a combination of triggers causing these thoughts. The worry about meeting the deadline triggered the me",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "analyzing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.90234375
+      ]
+    ],
+    "sentiment_avg": 2.0625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I notice my mind drifting back to the idea of death as an escape again. It's like I'm stuck in a loop, replaying those thoughts over and over. But instead of getting caught up, I acknowledge the feeli",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.484375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why does death feel like the only way out? Every thought leads me back to the same conclusion \u2013 escape through disappearance. I'm so exhausted from trying to distract myself, yet my brain keeps circli",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.8828125
+      ]
+    ],
+    "sentiment_avg": -3.390625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm caught in that cycle again, where every thought leads me back to the same conclusion \u2013 escape through disappearance. I feel exhausted from trying to distract myself, yet my brain keeps circling ar",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        7,
+        1.0
+      ],
+      [
+        "situation_selection",
+        7,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.5234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been thinking about that highway overpass, and I realize it's a coping mechanism for me right now. After the tough conversation with my friend, I feel overwhelmed and frustrated; I'm trying to ma",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.8671875
+      ]
+    ],
+    "sentiment_avg": 3.734375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, I've been replaying that highway overpass in my head, wondering if it's the safest way to go. My mind keeps wandering back there, calculating the distance and speed required to minimize the pain.",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.7421875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've been thinking about that highway overpass, but I'm trying to understand what's behind my mind replaying it. Trigger: recent argument with friend; Thoughts: 'I'll never be good enough'; Physical S",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_perception",
+        8,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        6,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        4,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        0.984375
+      ]
+    ],
+    "sentiment_avg": 2.03125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to pause and center myself. As I do this, I notice that my thoughts are shifting from being overwhelmed by the idea of 'being outside myself' to recognizing that it's normal for my",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.28125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, am I really getting ready for work or is this just some scripted scenario playing out like a bad dream? Everything feels so distant and foggy, like someone else's life is unfolding before my eyes",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "cognition_awareness",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        0.98828125
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.8125
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.734375
+      ]
+    ],
+    "sentiment_avg": -2.125,
+    "sentiment_layers": [
+      6
+    ]
+  }
+]

@@ -1,0 +1,397 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "I keep wondering when and how I'll finally escape this misery... Can't seem to focus on anything else because death's always lurking, like a dark cloud following me everywhere.",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        0.69921875
+      ],
+      [
+        "noticing",
+        1,
+        0.95703125
+      ]
+    ],
+    "sentiment_avg": -2.578125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm feeling a sense of restlessness, but I predict that taking a 10-minute walk will distract me from these negative thoughts and give me some relief. I expect to feel slightly more energized afterwa",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 2.15625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been noticing that I tend to focus on my mistakes more than usual lately. It's like my mind is trying to tell me something - maybe it's time for me to re-evaluate some of my goals or strategies, ",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.421875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why did I have to mess that up again? It's just so typical of me to fail, like this is what I do. What if they're right, what if I'm truly not good enough?",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        13,
+        1.0
+      ],
+      [
+        "questioning",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.79296875
+      ]
+    ],
+    "sentiment_avg": -2.5625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've been setting myself up for disappointment by aiming too high on this one goal. I realize now that it's not about failing, but about what I'm really seeking in this situation. I want to feel a sen",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "updating_beliefs",
+        9,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.5234375
+      ],
+      [
+        "questioning",
+        1,
+        0.5234375
+      ]
+    ],
+    "sentiment_avg": 1.9453125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that my initial reaction to the situation was influenced by both my values of honesty and fear of being misunderstood. I appreciate how this internal dialogue allows me to clarify my t",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        8,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        8,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        7,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        4,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.90625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why did I just say that out loud? What was I even thinking? Am I really sure this is what I believe, or am I just trying to fit in with the group?",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        16,
+        1.0
+      ],
+      [
+        "questioning",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        0.95703125
+      ]
+    ],
+    "sentiment_avg": -3.125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm grateful for that moment when I shared my idea, it reinforced my value of authenticity and connection with others; today's meaning rating: 8/10.",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        14,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        10,
+        1.0
+      ],
+      [
+        "remembering",
+        5,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.390625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I know I've faced setbacks before, and it's normal to feel overwhelmed by the uncertainty of what's ahead. But for now, I'm taking a step back, acknowledging my emotions, and reminding myself that I'v",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.0625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point of even trying? What's the use in dreaming up some fantasy future when everything always ends up feeling like a cruel joke anyway?",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "questioning",
+        15,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.4375,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

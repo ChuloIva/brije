@@ -1,0 +1,367 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, I'm stuck on replaying that fight with my sister again... every tiny detail is still vivid in my head - the way she raised her voice, the look on her face, the words we both said... and then ther",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "remembering",
+        4,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.03125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still replaying that fight with my sister, but now I see it's not just about being stuck; I want to move forward and reconnect with her. What am I really seeking underneath this? Is it validation?",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        16,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        13,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        8,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.546875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been noticing lately that I get stuck on thoughts about the impermanence of everything, including my own life. It's natural to wonder what it all means and whether our daily routines are truly fu",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.94140625
+      ]
+    ],
+    "sentiment_avg": 3.609375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck in this never-ending cycle of pointless tasks, wondering what's even the point of accomplishing anything when death is just waiting for me around every corner. What's the difference between ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "questioning",
+        8,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.34375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck in a cycle of negative thinking, wondering if I'll ever find purpose. But at least today's been productive so far \u2013 I just finished a few tasks for work and took a short walk during my lunch",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.078125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to terms with the impermanence of life, but that doesn't mean I'm paralyzed by it. Instead, I focus on the moments and relationships that bring me joy, like the laughter we shared at my niec",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "reframing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "accepting",
+        2,
+        0.9765625
+      ],
+      [
+        "emotion_valuing",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 2.265625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point of anything? It's all just a meaningless, fleeting moment before we're gone. Why am I even bothering to do anything when it'll all just be erased from existence anyway?",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "questioning",
+        15,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "understanding",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.94140625
+      ]
+    ],
+    "sentiment_avg": 3.0,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've stayed alive because I found a job that gives me purpose, because my loved ones have been supportive, because I've learned to prioritize self-care, because I've discovered hobbies that bring me j",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        0.80859375
+      ]
+    ],
+    "sentiment_avg": 1.328125,
+    "sentiment_layers": [
+      4
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that it's normal to feel drained when faced with the prospect of making changes, as it can be overwhelming. However, I've learned that taking small steps towards progress doesn't hav",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.765625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's even the point? Nothing ever changes anyway... I'm just stuck in this rut, no matter how hard I try or pretend to. Why bother putting any effort into making things better when it'll all just be",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "questioning",
+        9,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        7,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": -1.9296875,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

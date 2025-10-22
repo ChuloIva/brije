@@ -1,0 +1,297 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that my mind is feeling a bit scattered today. That's okay; it happens when I've got multiple tasks competing for my attention. Instead of getting overwhelmed, I'll take a deep breath and pr",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.85546875
+      ]
+    ],
+    "sentiment_avg": 2.734375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's happening to my brain? How am I supposed to think straight when every thought feels like a separate thread in my head, each one screaming for attention at the same time?",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        10,
+        1.0
+      ],
+      [
+        "creating",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.3125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing my mind feels cluttered, but I can tackle one thing at a time. Okay, let me focus on that project report due tomorrow... Top priority: Finish abstract by end of day. Major steps: Research",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        11,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.921875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling overwhelmed by my current situation, but I recognize that it's not a permanent state. It's essential for me to acknowledge these emotions and prioritize self-care, rather than letting them",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here is a possible response:\n\nI'm stuck in this rut, no way out... If I just take care of myself, get rid of all this pain and anxiety, maybe people will finally understand how much they've been negle",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.3515625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck in this rut, but I realize that's not a fixed truth. On a scale of 1-10, my goal to be understood and validated is important to me, 8. However, achieving it right now feels impossible, 3. \n\n",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        7,
+        1.0
+      ],
+      [
+        "connecting",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        0.8984375
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.7734375,
+    "sentiment_layers": [
+      5
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind doing that thing where it's hard to tell what's just me thinking versus the actual world outside. It's like my thoughts are trying to merge with reality, but I know that's not how",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        16,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        4,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.7265625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my thoughts feel like they're bleeding into everything around me - is this a tree or just a blob of confusion in my brain? The words on that sign are warping and morphing into some kind of weird ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "zooming_in",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.265625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck in a loop again... thinking about this won't solve anything. Thinking about this more will not solve it. I can choose a different channel.",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.4296875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that I've been feeling stuck lately, and it's normal to hit a wall. Recognizing my emotions doesn't mean I'm giving up; it means I need to recharge and refocus. Instead of letting hopelessne",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 3.078125,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

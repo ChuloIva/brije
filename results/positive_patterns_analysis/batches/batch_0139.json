@@ -1,0 +1,352 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on this never-ending loop of... what's even the point? Every moment is just a slow march towards oblivion, and the thought of being nothing more than a fleeting blip in the grand scheme of t",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "questioning",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.328125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still stuck on this feeling, but I caught myself thinking that way again today during my daily reflection. Instead of dwelling, I wrote down three moments that felt meaningful: helping a friend wi",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.609375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to realize that my past struggles have played a significant role in shaping who I am today, but I'm trying not to let them define me. By acknowledging the pain and sadness, I'm allowing myse",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "accepting",
+        3,
+        0.99609375
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.890625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm still trying to make sense of why I am who I am because of all those struggles. It's like my whole identity is tied up in the pain and sadness, it feels like that's just who I've become. Can't sha",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        16,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.4140625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to make sense of my past, but I've started a timeline and it's interesting \u2013 I see that those struggles were just part of a larger story. I've marked 'Beginning,' 'Middle,' and 'End' and fi",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "analyzing",
+        9,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        7,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.234375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been thinking about taking some time for myself this weekend, maybe going on a solo hike or trying out that new yoga studio. I'm not sure what the outcome will be, but I want to explore the possi",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.265625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I've been replaying scenarios in my head, thinking about how to do it without leaving a mess for anyone else. Maybe if I time it right, no one will even notice until the police find me, and that way e",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.99609375
+      ],
+      [
+        "applying",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": -2.625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've been replaying scenarios in my head, thinking about how to take a short walk without worrying about others noticing. Maybe if I pace myself, I can focus on the sensation of my feet touching the g",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "situation_modification",
+        5,
+        1.0
+      ],
+      [
+        "creating",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.46875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed that my mind keeps wandering back to the idea of stepping away from this overwhelming pain. It's like my brain is trying to remind me that it's okay to acknowledge and process difficult e",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        3,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.921875
+      ]
+    ],
+    "sentiment_avg": 2.734375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm so tired of feeling trapped in this darkness, wondering when it'll finally be over. Why does everyone else get to move on and find joy, while all I can think about is how to escape the pain? It's ",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.390625,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

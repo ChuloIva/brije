@@ -1,0 +1,357 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I see myself holding my Hope Kit, surrounded by reminders of why I've stayed alive so far \u2013 the good memories, the people who care about me, and the things that make life worth living. It's like I'm l",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        3,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 1.1796875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I can feel my mind getting overwhelmed when too many things compete for my attention, but instead of panicking, I take a step back, acknowledge the chaos, and remind myself that it's normal to have mu",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        7,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.9375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trying to hold onto one thought at a time, but it's like juggling too many balls and they're all slipping away \u2013 I need to prioritize, but which one? How am I supposed to focus on anything when ev",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        0.55078125
+      ]
+    ],
+    "sentiment_avg": 2.1875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm trying to hold onto one thought at a time, but it's like juggling too many balls and they're all slipping away \u2013 I need to prioritize, but which one? How am I supposed to focus on anything when e",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        3,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ],
+      [
+        "abstracting",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        2,
+        0.984375
+      ],
+      [
+        "convergent_thinking",
+        1,
+        0.9453125
+      ]
+    ],
+    "sentiment_avg": -1.25,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that I'm not feeling my most energized today, but I know it's normal to have off days. Instead of beating myself up over it, I'll take a few deep breaths and acknowledge the fatigue. I can s",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "accepting",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why bother getting out of bed today? It's not like anything matters anyway. What's the point in showering or brushing my teeth when everything feels pointless and exhausting?",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        10,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "self_questioning",
+        7,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "reconsidering",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.953125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling stuck, but I need to focus on what's real right now. Okay, 5 things I can see: my alarm clock, the wall, the window frame, the lampshade, and the bookshelf... That helps me ground myself. ",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        10,
+        1.0
+      ],
+      [
+        "concretizing",
+        8,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.3984375,
+    "sentiment_layers": [
+      5
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that I made a mistake, and it's okay to acknowledge my limitations. Instead of beating myself up over it, I'll take this opportunity to reflect on what went wrong and identify areas for impr",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "accepting",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        0.875
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 2.515625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why do others even bother with me? They must see how pathetic I am - constantly making mistakes, never good enough.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        11,
+        1.0
+      ],
+      [
+        "self_questioning",
+        11,
+        1.0
+      ],
+      [
+        "questioning",
+        8,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.8125
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.6484375
+      ]
+    ],
+    "sentiment_avg": -2.875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "What specific steps can I take to improve my performance? How can I learn from my mistakes?",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "applying",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.94921875
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.80078125
+      ]
+    ],
+    "sentiment_avg": 1.734375,
+    "sentiment_layers": [
+      8
+    ]
+  }
+]

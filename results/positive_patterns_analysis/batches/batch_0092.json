@@ -1,0 +1,367 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling to find meaning in my daily routine. Today I am dealing with anxiety over an upcoming event, but I've learned to prioritize self-care and reach out for support when need",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.78515625
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.671875
+      ]
+    ],
+    "sentiment_avg": 3.28125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that I do tend to lean on others for emotional support when things get tough. It's not always easy for me to accept help, but I've learned it's okay to rely on others sometimes. I'll try to ",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "accepting",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.953125
+      ]
+    ],
+    "sentiment_avg": 2.21875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm such a burden to everyone around me; no one wants to deal with my constant need for reassurance and emotional support. Why do I always have to dump all this on others? It's selfish, stupid, and we",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        12,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.97265625
+      ],
+      [
+        "convergent_thinking",
+        1,
+        0.65625
+      ]
+    ],
+    "sentiment_avg": -1.9765625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not a burden; I'm trying to connect with others to find some sense of security and belonging. If people are overwhelmed, it's okay, we can find alternative ways to meet my needs. Maybe I can explo",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "reframing",
+        8,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        0.99609375
+      ],
+      [
+        "questioning",
+        1,
+        0.62890625
+      ]
+    ],
+    "sentiment_avg": 1.6171875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to acknowledge that my mind is wandering right now. I can feel myself becoming slightly disconnected from the world around me, but instead of getting caught up in it, I'm choosing ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        4,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 2.796875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I even standing here? Am I really holding a coffee or just imagining I am? It feels like my brain is completely detached from the world around me - like I'm stuck in some sort of perpetual",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "self_questioning",
+        8,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        2,
+        0.99609375
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -1.9453125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm standing here, holding a coffee. I can feel the warmth of it in my hand. My feet are firmly on the ground, and I'm saying out loud: 'My name is [name]. Today is [day/date]. I am in [location].' I'",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "concretizing",
+        10,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        6,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.03125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm still trying to process the situation with Sarah - I got stuck in traffic, she wasn't there when I arrived, and that text message left me feeling uncertain. It's okay that I'm feeling frustrated a",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.03125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, okay, so I was supposed to meet Sarah at 2 PM, but then traffic got really bad and I got stuck on the highway for an hour, and when I finally arrived, she wasn't even there, just a text saying sh",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "noticing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.99609375
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.93359375
+      ]
+    ],
+    "sentiment_avg": -2.484375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"Ugh, okay, so I was supposed to meet Sarah at 2 PM... thinking about this more will not solve it. I can choose a different channel.\" \n\n\"I'm feeling really frustrated and worried right now...\"",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_responding",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        0.99609375
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -1.1171875,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

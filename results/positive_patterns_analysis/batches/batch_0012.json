@@ -1,0 +1,292 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that my mind feels like it's getting cluttered with too many tasks and thoughts, which can be overwhelming. I take a deep breath and acknowledge that it's normal to feel this way when I h",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        14,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.515625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, okay, so I'm trying to think about what I need to do today and my brain is like a bunch of notes scribbled on different sticky notes all over the place \u2013 none of it makes sense because there's to",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": 1.8203125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to organize my tasks and I notice that I had a decent morning, got some stuff done, and now I'm feeling 7 out of 10. Just took a break and did some stretching exercises, engaged with it. Ma",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.79296875
+      ]
+    ],
+    "sentiment_avg": 2.46875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging this existential awareness creeping into my mind again \u2013 the fleeting nature of life, the impermanence of everything. It's natural to wonder about the purpose and significance of it ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "reframing",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.6328125
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.55078125
+      ]
+    ],
+    "sentiment_avg": 2.1875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck in this loop of wondering what's the point... Why do anything if everything is just going to fade away like sand between my fingers? And don't even get me started on the thought that all my ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "questioning",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.52734375
+      ]
+    ],
+    "sentiment_avg": -3.375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing my mind racing with all these tasks, but I'm going to take a step back and prioritize one small thing \u2013 just 10 minutes' worth of work. That's it, that's achievable, and that's exactly wh",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.1875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to understand that my past experiences have shaped me into the resilient person I am today. Rather than dwelling on what could've been, I'm choosing to acknowledge those struggles as valuabl",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "reframing",
+        6,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.89453125
+      ]
+    ],
+    "sentiment_avg": 2.0,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why did I have to go through that again? It's like my past is all anyone will ever see me for \u2013 broken relationships, lost opportunities, and failed promises.",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": -3.703125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've come to realize that my past experiences, though painful, don't define me. I'm not stuck \u2013 I can work towards new goals that align with what truly matters to me. Right now, achieving financial se",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.453125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that things might not change overnight, but I'm not giving up. It's natural to feel overwhelmed when faced with a tough situation. Instead of letting it consume me, I'll take a step ",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "response_modulation",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.609375,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

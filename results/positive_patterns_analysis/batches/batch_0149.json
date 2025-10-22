@@ -1,0 +1,392 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I started mapping my recent suicidal thinking and it's interesting, I never realized how quickly things escalated. Two hours before those thoughts crept in, I got a call from an old friend who I hadn'",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "concretizing",
+        4,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        0.875
+      ]
+    ],
+    "sentiment_avg": 2.015625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I notice my shoulders are tensing up as I feel the anxiety building. It's like a familiar signal that I need to take a step back and re-center myself. I'm aware of this physical response, but instead",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        11,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.9921875
+      ],
+      [
+        "response_modulation",
+        1,
+        0.62109375
+      ]
+    ],
+    "sentiment_avg": 2.09375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here is a possible internal monologue that captures this cognitive pattern:\n\n\"I'm trying not to tense up my shoulders again \u2013 I feel like they're always knotted up when I'm getting anxious. Why does m",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        7,
+        1.0
+      ],
+      [
+        "response_modulation",
+        5,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        0.83203125
+      ]
+    ],
+    "sentiment_avg": -2.21875,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying not to tense up my shoulders again \u2013 I feel like they're always knotted up when I'm getting anxious. Why does my heart feel like it's racing and my palms are sweating? Wait, am I trying to ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "concretizing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.921875
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.70703125
+      ]
+    ],
+    "sentiment_avg": 2.453125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been thinking about mortality lately, and it's a natural part of life to acknowledge the impermanence of everything. While it can be unsettling, I'm choosing not to let it consume me. Instead, I'",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        0.97265625
+      ],
+      [
+        "perspective_taking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.453125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I even bothering with anything? It's all just going to end in nothingness anyway. Every moment I waste on this meaningless existence is just a countdown to the inevitable darkness that awa",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        5,
+        1.0
+      ],
+      [
+        "questioning",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.875,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I don't have to waste my time on anything that's not aligned with my values. I'm taking a step back, reevaluating what's truly important to me, and exploring unconventional paths that can lead me clos",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        0.84765625
+      ]
+    ],
+    "sentiment_avg": 2.421875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to acknowledge the complexities of my past \u2013 it's a mix of highs and lows, like anyone else's. I've grown from those experiences, but I don't need to define myself solely by them. ",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "accepting",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        3,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.953125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my past is just one big mess of mistakes and poor choices \u2013 if this is who I am, then what does that say about me as a person? How could someone so broken and flawed be worthy of love or respect?",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        14,
+        1.0
+      ],
+      [
+        "self_questioning",
+        10,
+        1.0
+      ],
+      [
+        "questioning",
+        8,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.984375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I don't need to ruminate on my past right now; I'll take a few deep breaths and acknowledge these feelings. My thinking's not clear at all, just 2 out of 10. Maybe I've been staring at this screen for",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        12,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        8,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.0,
+    "sentiment_layers": [
+      8
+    ]
+  }
+]

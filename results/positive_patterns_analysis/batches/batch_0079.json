@@ -1,0 +1,357 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck in this never-ending cycle of anxiety, feeling like every door is slamming shut behind me. There's no escape from the constant noise in my head or the weight of these responsibilities crushi",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        10,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        5,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.703125
+      ]
+    ],
+    "sentiment_avg": -2.046875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not stuck; I'm just stuck in my own thinking. Right now, I choose to take control by standing up and doing something simple like getting a glass of water. I predict that taking these small steps w",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "situation_selection",
+        4,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.4453125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing a subtle tension in my shoulders as I sit here. It's like my body is giving me a gentle reminder to pause and reassess my priorities. Instead of getting caught up in the story, I'll take ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.57421875
+      ]
+    ],
+    "sentiment_avg": 2.875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm acutely aware of this flutter in my chest, like a small bird trapped in a cage. Why is it so hard to shake? Is it anxiety or stress? It's as if I'm observing myself from outside, dissecting every ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        8,
+        1.0
+      ],
+      [
+        "analyzing",
+        5,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.15625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still feeling that flutter in my chest, but I'm more aware of my breath now. It's like I'm holding onto a tiny lifeline amidst the chaos. What's one small thing I can do today to honor who I want ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.8984375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I notice my mind keeps drifting back to the idea of taking control over my existence, even though I know it's not a solution. It's almost like my brain is trying to remind me that I have the power to ",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        14,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": 2.0625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why does my brain always go back to this? Can't I just think about anything else for once? The thought of not existing anymore is just so... tempting.",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        0.94921875
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.9140625
+      ]
+    ],
+    "sentiment_avg": -1.5859375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not even sure why I'm fixated on that thought again, but okay... What am I really seeking underneath wanting it gone? Ah, freedom from emotional pain. Okay, three unconventional ways to get that: ",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        9,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.265625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that I'm torn between what others think is right and my own gut feeling. That internal conflict is a signal to take a step back, breathe, and re-evaluate. Instead of getting caught up in ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        9,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        3,
+        0.98828125
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.7578125
+      ]
+    ],
+    "sentiment_avg": 2.890625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why am I even considering doing what everyone else thinks is right? It doesn't feel true to who I am, but at the same time, I don't want to disappoint them. What's wrong with me that I can't just go a",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "questioning",
+        16,
+        1.0
+      ],
+      [
+        "self_questioning",
+        15,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        5,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.7890625,
+    "sentiment_layers": [
+      6
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm taking control of my life by getting up and doing something. Right now, I'm standing up and walking to the kitchen. Maybe it's crazy, but I want to test if even a small action can shift my mood at",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "situation_selection",
+        14,
+        1.0
+      ],
+      [
+        "concretizing",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        0.98046875
+      ],
+      [
+        "applying",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 1.6875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that my mind is racing with worries about the looming deadline. It's natural to feel overwhelmed when multiple stressors converge, like this critical text message and the pressure of meeting",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 1.5234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trapped in a never-ending cycle of dread; every second feels like an eternity, with no reprieve from this crushing weight. Why does everything seem to compound the chaos, making it impossible to b",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.83984375
+      ],
+      [
+        "self_questioning",
+        1,
+        0.8125
+      ]
+    ],
+    "sentiment_avg": -1.921875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've mapped out the last two hours, and I see that I started feeling anxious about an upcoming deadline, which led to intrusive thoughts of failure. Then, I received a critical text from someone, whic",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.8359375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my body responding to the situation - I can feel a subtle tightening in my shoulders, like they're tensing up in anticipation. That's okay; it means I'm taking this seriously and care abo",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        15,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        4,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.609375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my chest is tight again - like a weight is pressing down on me. Why does it have to be so hard to breathe? And why do I feel this knot in my stomach, like it's twisting itself into knots?",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.5,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not feeling that same heaviness in my chest anymore, it's like the weight has lifted a bit. I did find something meaningful today though - helping Sarah with her project at work. It made me think ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        10,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        0.58984375
+      ]
+    ],
+    "sentiment_avg": 1.3828125,
+    "sentiment_layers": [
+      4
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that my plate is full right now, but I know it's temporary. Instead of getting stuck on the 'no escape' feeling, I'll take a few deep breaths and assess what I can realistically tack",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        0.59375
+      ]
+    ],
+    "sentiment_avg": 2.75,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm drowning in responsibilities and expectations; there's no way out of this sea of obligations. Every door feels like it's slamming shut on me, leaving me trapped with no escape from the weight of i",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        3,
+        0.9765625
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.984375,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm feeling overwhelmed by responsibilities and expectations, but I know I need to pause and assess my thinking right now. My clarity level is currently at 4 out of 10. Hmm, it seems my brain needs a",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        8,
+        1.0
+      ],
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        0.73046875
+      ]
+    ],
+    "sentiment_avg": 1.7109375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

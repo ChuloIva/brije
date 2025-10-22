@@ -132,7 +132,9 @@ def predict_last_token_only(
 
     # Clear cognitive activations from GPU memory
     del cognitive_activations
-    torch.cuda.empty_cache() if torch.cuda.is_available() else None
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+        torch.cuda.synchronize()  # Ensure all operations complete
 
     # === SENTIMENT PROBES ===
     sentiment_predictions = []
@@ -170,7 +172,9 @@ def predict_last_token_only(
 
         # Clear sentiment activations from GPU memory
         del sentiment_activations
-        torch.cuda.empty_cache() if torch.cuda.is_available() else None
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            torch.cuda.synchronize()  # Ensure all operations complete
 
     # === AGGREGATE BY ACTION ===
     all_predictions = cognitive_predictions + sentiment_predictions
@@ -250,6 +254,9 @@ def analyze_pattern(engine: StreamingProbeInferenceEngine,
     # Sentiment aggregation
     sentiment_avg = np.mean([p.max_confidence for p in sent_preds]) if sent_preds else 0.0
     sentiment_layers = [p.best_layer for p in sent_preds if p.is_active]
+
+    # Clean up predictions to free memory
+    del cog_preds, sent_preds
 
     return PatternAnalysis(
         pattern_type=pattern_type,
@@ -820,10 +827,13 @@ def main():
                 if idx < 5 or idx % 50 == 0:
                     print(f"         ✓ Top action: {analysis.top_actions[0][0] if analysis.top_actions else 'none'}")
 
-                # Clear GPU cache every memory_cleanup_interval patterns
-                if total_analyzed % memory_cleanup_interval == 0:
-                    if torch.cuda.is_available():
-                        torch.cuda.empty_cache()
+                # CRITICAL: Clear cache after EACH example to prevent OOMs
+                # The model.trace() calls create computational graphs that accumulate
+                import gc
+                gc.collect()
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+                    torch.cuda.synchronize()
 
                 # Save batch when it reaches batch_size
                 if len(batch_analyses) >= batch_size:
@@ -845,8 +855,11 @@ def main():
     print(f"\n✓ Analyzed {total_analyzed} patterns in {batch_num} batches")
 
     # Final memory cleanup
+    import gc
+    gc.collect()
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
+        torch.cuda.synchronize()
 
     # Load all batch results for aggregation
     print("\n📊 Loading all batches for aggregation...")

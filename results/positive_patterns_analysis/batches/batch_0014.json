@@ -1,0 +1,317 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I see now that my self-criticism was triggered by a series of unfortunate events, rather than my inherent worth as a person.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotional_reappraisal",
+        13,
+        1.0
+      ],
+      [
+        "understanding",
+        13,
+        1.0
+      ],
+      [
+        "distinguishing",
+        5,
+        1.0
+      ],
+      [
+        "reframing",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -0.765625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that my mind is feeling cluttered today, probably due to the multiple deadlines and tasks piling up. Instead of getting frustrated or stuck, I'll take a few deep breaths and acknowledg",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "accepting",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.8046875
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.703125
+      ]
+    ],
+    "sentiment_avg": 2.9375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why is my brain doing this? One thought gets interrupted by another before I can even process it... Can't focus on anything for more than two seconds without something else popping up.",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.953125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm taking control of my thoughts by breaking down this overwhelming task into smaller, manageable steps. I've written 'Finish report' at the top of a page and turned it into three major steps: resear",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "analyzing",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that my mind tends to wander back to the idea of an end, especially when I'm feeling overwhelmed or struggling with uncertainty. That's okay; it doesn't mean I'm stuck on anything or that I'",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.609375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why is my brain always stuck on this? Even as I'm laughing with friends at a concert, a part of me is whispering, \"And then it'll all be over. No more pain, no more anxiety, no more uncertainty.\"",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.8359375
+      ]
+    ],
+    "sentiment_avg": 2.28125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm not stuck on anything; my brain's just processing a lot lately. When I think about the concert, I remember feeling lost in the crowd and overwhelmed by all the noise. I started thinking 'this par",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        5,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -0.66796875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I recognize that I made a mistake with the presentation, but instead of beating myself up over it, I'm taking a step back to learn from it. I'll use this experience as an opportunity to improve and gr",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.4296875,
+    "sentiment_layers": [
+      4
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm such an idiot, why did I have to mess up that presentation again? It's like I'm not even capable of doing anything right.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        15,
+        1.0
+      ],
+      [
+        "questioning",
+        10,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.94140625
+      ]
+    ],
+    "sentiment_avg": -2.515625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still processing what happened with that presentation, but I did have a moment today where I helped a colleague troubleshoot an issue and they thanked me for it. That small act of kindness felt me",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "remembering",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        0.99609375
+      ],
+      [
+        "evaluating",
+        1,
+        0.875
+      ]
+    ],
+    "sentiment_avg": 1.640625,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

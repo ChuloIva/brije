@@ -1,0 +1,327 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why is everything so exhausting? Can't I just sleep for the next hour instead of trying to get anything done?",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "questioning",
+        13,
+        1.0
+      ],
+      [
+        "self_questioning",
+        12,
+        1.0
+      ],
+      [
+        "evaluating",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.140625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling overwhelmed, but I can still think about something that brought me joy today. Maybe it was that quick walk during my lunch break and the chance to clear my head. It reminded me of how impo",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.265625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I'm not sure what's next or how things will turn out, but I know that for now, I can take a deep breath, acknowledge this frustration, and remind myself that I've been through tough spots before. I'l",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "response_modulation",
+        4,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        0.58984375
+      ]
+    ],
+    "sentiment_avg": 2.265625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's even the point of trying anymore? Nothing ever changes, and I'm just exhausting myself for no reason.",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "questioning",
+        14,
+        1.0
+      ],
+      [
+        "evaluating",
+        11,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6640625,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm just feeling stuck, but I see my laptop screen, the chair in front of me, the plant on the table, the TV remote, and the wall calendar. I can touch the armrests, the keyboard, the mouse, and the f",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "noticing",
+        6,
+        1.0
+      ],
+      [
+        "concretizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": -0.953125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind stuck on that mistake again, but I'm trying to reframe it as a learning experience. Instead of beating myself up over it, I'll take some time to reflect on what went wrong and how",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.6875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying that stupid mistake in my head, wondering how I could've been so careless. Why did I have to make such a rookie error? What's wrong with me?\n\nOr\n\nUgh, why do I always have to think ab",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.93359375
+      ]
+    ],
+    "sentiment_avg": -2.609375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm stuck on that mistake again, but I know I can learn from it and grow. It's not defining me as a person.\n\nI'm tired of dwelling on today's mistakes, I need to focus on what went right. Like when I",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.93359375
+      ]
+    ],
+    "sentiment_avg": 1.5859375,
+    "sentiment_layers": [
+      5
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've learned to recognize when my mind starts to blur the lines between reality and fantasy. When this happens, I take a step back, breathe deeply, and acknowledge that it's okay if my thoughts feel j",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 3.125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep questioning what's real and what's just a dream; my brain feels like a jigsaw puzzle with missing pieces, making it impossible to piece together what actually happened. Is this really happening",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        0.85546875
+      ]
+    ],
+    "sentiment_avg": -2.46875,
+    "sentiment_layers": [
+      6
+    ]
+  }
+]

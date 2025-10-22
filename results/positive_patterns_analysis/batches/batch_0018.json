@@ -1,0 +1,362 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling overwhelmed again, just like I did yesterday. It's okay that my thoughts are jumbled \u2013 it happens when I've got too much on my plate. Instead of beating myself up over it, I'll take a few ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.8515625
+      ]
+    ],
+    "sentiment_avg": 2.21875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my brain is a jumble of wires \u2013 every thought feels like a tangled mess in my head. Why do I need to remember all this crap, anyway? Can't it just sort itself out for once?!",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "questioning",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.0625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck in that same old loop again... wait, I need to breathe: inhale for 4 counts, exhale for 6... thinking about this more won't help, I can switch channels. Okay, let me quickly text my friend.",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "situation_selection",
+        5,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.828125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I sit here, trying to get into my creative flow for this project, I notice that my mind keeps drifting back to the idea of mortality. It's like my brain is acknowledging the reality of life and dea",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        14,
+        1.0
+      ],
+      [
+        "emotion_management",
+        12,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.671875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, I'm trying to focus on this task at work, but my brain just keeps going back to that one phrase - \"it's better if I'm not here\". Why can't I shake it off? Every time I try to think about anything",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        4,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.28125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I set my alarm for 10am, and as I checked in with myself, I realized my mood was a 4. That's not great, but it's not terrible either. I just finished doing some stretching exercises to loosen up after",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        4,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.28125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've caught myself dwelling on that mistake again, and it's okay to acknowledge my frustration. However, I'm choosing to reframe this experience by focusing on the lessons learned and how I can improv",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.84765625
+      ]
+    ],
+    "sentiment_avg": 2.28125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why did I have to make that stupid mistake? Can't I just be perfect for once? My brain is stuck on every little thing I do wrong, replaying all the things I could've done differently.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        8,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "zooming_in",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": -2.703125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still thinking about that mistake, but I'm trying to focus on all the good things that happened today instead of beating myself up over it. Today was a 7 out of 10 in terms of overall life meaning",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        5,
+        1.0
+      ],
+      [
+        "reframing",
+        5,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        3,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.4375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm grounded in my own presence, even amidst the complexity of conversations. I choose to focus on the genuine emotions and intentions that flow between people \u2013 it's okay if our perspectives differ, ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        9,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.9921875
+      ],
+      [
+        "zooming_out",
+        1,
+        0.96875
+      ],
+      [
+        "accepting",
+        1,
+        0.625
+      ]
+    ],
+    "sentiment_avg": 2.375,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

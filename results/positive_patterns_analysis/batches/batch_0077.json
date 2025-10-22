@@ -1,0 +1,322 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck on replaying a conversation that didn't go as planned, but I realize it's not worth my mental energy. Instead, I'll focus on what matters \u2013 supporting a loved one and maintaining our connect",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 1.8984375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing an interesting dynamic within myself right now. On one hand, I feel a strong sense of responsibility to honor my commitments and maintain relationships that are important to me. At the sa",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "zooming_out",
+        5,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.484375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I always struggling to meet everyone's expectations? It feels like no matter what I do, I'll never be good enough for my parents. Meanwhile, deep down, I know I should follow my own dreams",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        8,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.140625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm struggling again, but right now I need to focus on my physical sensations. My feet feel solid on the ground, and I can say out loud that my name is [my name] and today is [day/date]. This is real.",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "concretizing",
+        6,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        4,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind is stuck on that one mistake again. Rather than beating myself up over it, I'll take a few deep breaths and acknowledge the effort I put into trying something new. It's not about ",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "response_modulation",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        0.83984375
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.6171875
+      ]
+    ],
+    "sentiment_avg": 2.796875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Oh no, what was I thinking when I did that? And why didn't I just say something instead of doing nothing? Ugh, I'm such a failure.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        10,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        3,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        0.91796875
+      ]
+    ],
+    "sentiment_avg": -2.0625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm struggling to see a way forward, but I need to focus on one thing today. Maybe I can call my friend who appreciates me and make them laugh. That's a small act of kindness that brings some purpose ",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "situation_selection",
+        9,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.28125,
+    "sentiment_layers": [
+      5
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm still replaying yesterday's conversation with Sarah because I want to make sure I understand her perspective better. I know it might be unnecessary, but taking the time to reflect on our interacti",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.046875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, what's going on is that I'm still stuck replaying yesterday's conversation with Sarah in my head and now I'm trying to remember every single detail, like the way she laughed at this one joke or h",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "zooming_in",
+        4,
+        1.0
+      ],
+      [
+        "remembering",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck replaying yesterday's conversation with Sarah because I've been telling myself that resolving this issue will bring me closer to my goal of having meaningful connections with people. But wha",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        11,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.984375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

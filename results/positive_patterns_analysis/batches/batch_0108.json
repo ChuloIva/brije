@@ -1,0 +1,427 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm still grappling with the uncertainty of my current situation, but I've come to realize that feeling stuck is a natural part of growth. Rather than getting overwhelmed by the 'no escape' narrative,",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.515625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, how am I supposed to get out of this? No matter what I do, I'm trapped.",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        8,
+        1.0
+      ],
+      [
+        "questioning",
+        6,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.1875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was stuck in a rut, feeling hopeless about my job situation. Today I'm still dealing with uncertainty and frustration about what to do next. These connect because I've learned that eve",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "connecting",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.7578125
+      ],
+      [
+        "emotion_facilitation",
+        1,
+        0.6171875
+      ]
+    ],
+    "sentiment_avg": 1.3125,
+    "sentiment_layers": [
+      4
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing some internal tension between my desire for fairness and my frustration with the current situation. It seems like these feelings might be rooted in a perceived injustice, but I also recog",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        13,
+        1.0
+      ],
+      [
+        "zooming_out",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.640625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I feeling this way? Is it really justified to be so upset over this? Maybe I'm just being too sensitive again and need to toughen up.",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        13,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        6,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        0.8828125
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.109375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not sure why I'm feeling so anxious about this, but I think it's because my goal of financial security feels threatened right now. I've been rating its importance a 9 out of 10, but maybe that's t",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        13,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "analyzing",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.88671875
+      ]
+    ],
+    "sentiment_avg": 3.109375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I know I'm struggling right now, but that doesn't mean my life isn't worth fighting for. When I feel overwhelmed, it's essential to acknowledge those emotions and take a step back to reassess my situa",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 1.7265625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I don't see a way out of this darkness anymore - every problem feels insurmountable, and I'm so exhausted from trying. It's like the universe is against me, and what's the point when everything goes w",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "evaluating",
+        9,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.75
+      ]
+    ],
+    "sentiment_avg": -2.09375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've survived every crisis before this moment, and I can again. This feeling has a beginning, middle, and end. My heart is still beating, and that's proof that I have what it takes to get through this",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.703125
+      ]
+    ],
+    "sentiment_avg": -1.140625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "Here's a healthy representation of the Overwhelmed Narrative Processing cognitive pattern:\n\n\"I'm still thinking about that argument with my friend, but I'm trying to reframe it as an opportunity to im",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "abstracting",
+        5,
+        1.0
+      ],
+      [
+        "applying",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "response_modulation",
+        4,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        3,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        0.99609375
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -0.953125,
+    "sentiment_layers": [
+      6
+    ]
+  }
+]

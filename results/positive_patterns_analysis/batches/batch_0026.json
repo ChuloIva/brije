@@ -1,0 +1,377 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm struggling to find purpose, but I made a conscious effort to seek out moments today that felt meaningful. That quiet walk in nature this morning, even just taking time to breathe and appreciate th",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "situation_selection",
+        5,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.390625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling overwhelmed by my responsibilities, but I recognize that it's normal to have too much on my plate sometimes. Instead of getting stuck in the 'trapped' mindset, I acknowledge the emotions a",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        0.99609375
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.046875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm drowning in responsibilities; there's no way to escape this sea of obligations. Every task feels like a crushing weight, suffocating me, and I'm trapped with no lifeline. If only I could just take",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -1.5625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm overwhelmed by life's responsibilities, but I can take a single step to prioritize my well-being today.\n\nI remember helping someone recently, and that gave me a sense of purpose \u2013 even if it was j",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": 1.859375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that my mind feels a bit jumbled right now, but I trust myself to prioritize what's most important. Let me take a moment to breathe and separate these thoughts into manageable chunks",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.640625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my brain is a jumble of wires \u2013 every thought feels like a tangled mess in my head. Why do I need to remember all this crap, anyway? Can't it just sort itself out for once?!",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "questioning",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.0625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm taking out my journal and drawing a line across the page, creating separate sections for 'Beginning,' 'Middle,' and 'End.' I'll start by writing down just the facts of what happened \u2013 okay, that'",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "analyzing",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        4,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        4,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        0.953125
+      ]
+    ],
+    "sentiment_avg": 2.1875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been thinking about preparing some essentials, like my medication and phone, just in case I need to take a break from the situation. It's not about avoiding reality, but more about taking care of",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        0.99609375
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 2.609375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here's a possible internal monologue:\n\n\"I've been considering just packing a small bag with essentials, like my medication and phone, so if things get too overwhelming, I know what to grab in a rush. ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        9,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "analyzing",
+        4,
+        1.0
+      ],
+      [
+        "reconsidering",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.94140625
+      ]
+    ],
+    "sentiment_avg": -2.171875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've been considering just packing a small bag with essentials, like my medication and phone, so if things get too overwhelming, I know what to grab in a rush. It feels empowering, not ridiculous, kno",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        0.73828125
+      ]
+    ],
+    "sentiment_avg": 1.8125,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

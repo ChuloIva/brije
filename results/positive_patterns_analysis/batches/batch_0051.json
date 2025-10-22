@@ -1,0 +1,292 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I've been reflecting on my life story, noticing how certain experiences have shaped me into the person I am today. By acknowledging these moments, I'm gaining insight into what makes me resilient and ",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "applying",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.765625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on replaying all those hard moments in my life, trying to make sense of why they happened and what it says about who I am as a person. My mind's obsession with past struggles is like a const",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        0.90234375
+      ]
+    ],
+    "sentiment_avg": -1.984375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I started writing down the moments leading up to my suicidal thinking, and it's surprising how quickly I noticed patterns emerging. The drumbeat of past struggles isn't as loud now that I've seen thes",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "analyzing",
+        6,
+        1.0
+      ],
+      [
+        "abstracting",
+        5,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        5,
+        1.0
+      ],
+      [
+        "noticing",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.859375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm still feeling overwhelmed by the sheer volume of tasks and concerns, but I've learned to acknowledge that it's normal. Instead of getting stuck on a single worry, I'm taking small steps to priorit",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.46875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "My brain feels like a broken record player, skipping tracks and getting stuck on the same worried loops. How am I supposed to untangle all this mess? The thought of even trying makes me exhausted, lik",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "reconsidering",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": -1.9765625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still aware of my brain's chatter, but I've started to notice moments that bring me peace and purpose. Like today, when I helped a friend with her task without thinking twice \u2013 it felt like a smal",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.765625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that I have mixed feelings about this situation. One part of me is concerned with the potential consequences, while another part is urging me to take a risk and trust my instincts. Instead o",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        16,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        0.828125
+      ]
+    ],
+    "sentiment_avg": 2.84375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do I still feel this way? One part of me knows it's ridiculous to be worried about what others think, but another part is convinced that if I just blend in, everything will be okay.",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        0.8203125
+      ]
+    ],
+    "sentiment_avg": -1.796875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'll get through this; I've already survived so much. Right now, my heart is beating, reminding me that I'm still here. Reading these reasons why I've stayed alive keeps me grounded.",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.9609375
+      ]
+    ],
+    "sentiment_avg": 2.265625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I know I made a mistake, and it's okay to acknowledge that. Instead of beating myself up over it, though, I'm going to focus on what I can learn from this experience and how I can improve moving forwa",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "accepting",
+        3,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.84375
+      ]
+    ],
+    "sentiment_avg": 2.125,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

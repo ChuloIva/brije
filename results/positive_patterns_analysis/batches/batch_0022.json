@@ -1,0 +1,367 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my stomach is churning again, that knot in my gut means I'm stressed. Why can't I just relax? It's like my body is constantly betraying me with these awful sensations.",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I need to focus on one task at a time, so I'm writing down my main goal: finish project proposal. It's too much to handle all of it right now, but breaking it into steps might help me relax. Okay, ste",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        9,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        8,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.7109375
+      ]
+    ],
+    "sentiment_avg": 3.265625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind jumping between tasks again. It's like my brain is trying to process everything at once, which can be frustrating. I've learned that when this happens, it means I might be feeling",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        0.921875
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.046875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trying to focus on that report due today, but suddenly I'm stuck on what I forgot to pick up from the grocery store and now my brain's a jumble of useless errands and work tasks. Why am I even thi",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        0.6875
+      ]
+    ],
+    "sentiment_avg": 3.34375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling to prioritize tasks and feeling overwhelmed, today I'm still trying to get my work done but my mind keeps wandering back to that grocery list and errands, these connect ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.0625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that life can be tough right now, and it's normal to feel lost. But instead of getting stuck on the 'what's the point' spiral, I'm choosing to focus on what I can control \u2013 taking ca",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.28125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point of going on? If everyone else around me is so miserable, what makes me think my life would be any different? It's not like anyone really cares or notices the difference I'd make if I'",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "questioning",
+        9,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm feeling overwhelmed by the uncertainty of life. I just need to focus on taking care of myself right now and doing something that brings me joy, like going for a short walk outside.\"\n\n\"I'm struggl",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        3,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        1,
+        0.67578125
+      ]
+    ],
+    "sentiment_avg": -0.93359375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that I made a mistake earlier, and it's frustrating for me. However, instead of beating myself up over it, I want to acknowledge that everyone has setbacks and learn from the experience. I'l",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "response_modulation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "accepting",
+        2,
+        0.98046875
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.9921875
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.90234375
+      ]
+    ],
+    "sentiment_avg": 1.390625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why did I have to mess up again? Why can't I just be perfect for once? I'm such a disappointment to my family and friends - they must think I'm completely useless.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        10,
+        1.0
+      ],
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.96484375
+      ]
+    ],
+    "sentiment_avg": -2.5,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

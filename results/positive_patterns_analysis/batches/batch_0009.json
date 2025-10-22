@@ -1,0 +1,402 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed my mind occasionally drifting back to thoughts of mortality, but I'm learning to acknowledge those moments as a natural part of life. Instead of getting caught up in the fear, I take a de",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.7265625
+      ]
+    ],
+    "sentiment_avg": 2.46875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm constantly aware of how easily life could slip away... It feels like a constant hum in the background, always there, waiting to pounce. Even when I try to focus on something else, these dark thoug",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.7109375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not constantly aware of life slipping away, but rather I'm focused on moving towards my goal. Even when dark thoughts try to seep in, I visualize multiple paths forward and remember that every obs",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        2,
+        0.984375
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": 1.7109375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been reflecting on my past struggles with anxiety and how it's shaped me into the person I am today. While those experiences were incredibly difficult, they've also given me a deep sense of empat",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.59375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do people even want to talk to me? I'm just this broken person who's been through so much. If they really knew what had happened in my life, they'd run away from me too...",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.60546875
+      ]
+    ],
+    "sentiment_avg": -4.1875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've been struggling with feelings of isolation for a month now, ever since I got back from my family reunion where we had that huge fight. Today, I'm dealing with these emotions and just feeling so d",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "situation_selection",
+        10,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.93359375
+      ],
+      [
+        "applying",
+        1,
+        0.7578125
+      ]
+    ],
+    "sentiment_avg": 1.015625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that my brain feels drained today, like I've hit a mental wall. It's frustrating because I know I can usually tackle simple tasks without much effort, but right now, even small decisio",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        9,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.640625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, getting out of bed seems like climbing a mountain right now, as if my brain has turned into lead weights. Every thought feels like a Herculean effort to conjure up, and even the simplest tasks ma",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "response_modulation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.828125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not getting out of bed because I feel exhausted, as if my brain has turned into lead weights. Every thought feels like a Herculean effort to conjure up, and even the simplest tasks make me feel st",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        13,
+        1.0
+      ],
+      [
+        "situation_selection",
+        10,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.88671875
+      ]
+    ],
+    "sentiment_avg": 1.8828125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I can see how I got caught up in my own anxiety and let my nerves get the better of me during that presentation. It's okay to make mistakes, even if they feel huge at the moment \u2013 it doesn't define wh",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.98046875
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.94921875
+      ]
+    ],
+    "sentiment_avg": 2.15625,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

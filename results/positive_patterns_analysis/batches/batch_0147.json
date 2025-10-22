@@ -1,0 +1,297 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I've been reflecting on my struggles, acknowledging the weight I'm carrying, but instead of getting stuck, I'm actively exploring ways to reframe those moments as opportunities for growth. What's anot",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.61328125
+      ]
+    ],
+    "sentiment_avg": 2.703125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I've been replaying all the worst moments in my life, wondering how much more pain I can take before it's too late. What's another day or two when everything feels like an insurmountable burden? Maybe",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.65625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've been replaying all the worst moments in my life, wondering what specific step I can take to shift this narrative instead of just spinning around it. What's another day or two when everything feel",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.734375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I sit here, taking a deep breath, I'm reminded that my experiences have shaped me into the person I am today. Those struggles were real, and they've given me a depth of empathy and understanding th",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        11,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.28125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "My past struggles have defined me so deeply, it's like they've become a part of my DNA. If I hadn't been through those difficult times, would anyone even recognize me? How could anyone possibly put up",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        12,
+        1.0
+      ],
+      [
+        "questioning",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm grounded in my physical presence right now. My feet are firmly on the floor, and I can feel the pressure of my palms together. This moment is real, not just a distant memory. I am [my name], in th",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "concretizing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.484375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my energy levels dropping rapidly today, which is not uncommon when I've had a chaotic morning. It's like my mental tank is emptying faster than usual, and it's okay to acknowledge that. ",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        0.94140625
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.203125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why is everything so exhausting? Can't I just sleep for the next hour instead of trying to get anything done?",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "questioning",
+        13,
+        1.0
+      ],
+      [
+        "self_questioning",
+        12,
+        1.0
+      ],
+      [
+        "evaluating",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.140625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I remember starting my day feeling fine, then getting stuck on that one task and panicking a bit as the clock ticked away... I was really frustrated by around 10 am, though it wasn't till 11:30 when I",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.9921875
+      ],
+      [
+        "remembering",
+        1,
+        0.88671875
+      ]
+    ],
+    "sentiment_avg": 2.265625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've caught myself dwelling on that mistake again. It's natural to reflect on what went wrong, but I know I can't change it now. Instead of ruminating, I'll take a moment to acknowledge my frustration",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "accepting",
+        3,
+        0.99609375
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.68359375
+      ]
+    ],
+    "sentiment_avg": 2.5625,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

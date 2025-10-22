@@ -1,0 +1,336 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I acknowledge that my mind occasionally drifts to the idea of not existing, but I've learned to recognize these thoughts as a signal that I need to recharge and prioritize self-care. Instead of gettin",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.203125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep thinking about how nice it would be to just disappear, like a weight lifted off my shoulders. Why do these thoughts consume me? Can't my brain focus on anything else for five minutes?",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "self_questioning",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": -2.28125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I need to stop ruminating on disappearing and focus on tackling my work project instead. I'll start by writing down the main goal at the top of a page, then break it into major steps, smaller actions.",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "situation_modification",
+        9,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        8,
+        1.0
+      ],
+      [
+        "concretizing",
+        4,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.640625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that my mind tends to wander into the abyss of existential questions, but I've learned to recognize when it's happening. Instead of getting stuck, I take a deep breath and remind myself that",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        16,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.8125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck in this never-ending loop of contemplating mortality... Why bother with anything when everything is just going to end anyway? It's like, what's the point of even trying to find meaning when ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "questioning",
+        6,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.96875
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.76953125
+      ]
+    ],
+    "sentiment_avg": -2.78125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing my mind slipping into old patterns, but I've got a few anchors to hold onto. Okay, let's revisit those reasons why I've stayed alive so far... I wrote down five specific ones in my Hope K",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "situation_selection",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.9921875
+      ],
+      [
+        "remembering",
+        1,
+        0.91796875
+      ]
+    ],
+    "sentiment_avg": -1.984375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that old familiar narrative of rejection and failure creeping back up again. It's like I've got a map to those places, and my mind loves to revisit them. But today, I choose to acknowledg",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        6,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ],
+      [
+        "reframing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.65234375
+      ]
+    ],
+    "sentiment_avg": 1.765625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my story is still one of rejection and failure. Every time someone doesn't respond to me or doesn't care, it's like they're writing the next chapter in this awful narrative - \"I'm not good enough",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [],
+    "sentiment_avg": -2.078125,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm back in that loop again... thinking about the same old patterns. Wait, what was I just thinking about? Ah, my story of rejection and failure. Okay, time to break the cycle. *breathe* Thinking abou",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        4,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.359375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to acknowledge that I'm feeling overwhelmed by the sheer volume of tasks and emotions right now. It's okay to admit it \u2013 my mind is racing with fragmented thoughts, but that doesn'",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_responding",
+        8,
+        1.0
+      ],
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.265625,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "As I take a moment to check in with my body, I notice some subtle tension in my left shoulder. Ah, okay, that's just my brain telling me it's time for a quick stretch or maybe some deep breathing exer",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_receiving",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.28125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why is my left shoulder so tight again? It's like a band squeezing around my muscle. Every time I take a deep breath, it feels like the tension is spreading to my neck and chest too \u2013 am I even h",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        12,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        5,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.98046875
+      ],
+      [
+        "evaluating",
+        1,
+        0.59765625
+      ]
+    ],
+    "sentiment_avg": -2.0625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling a bit disconnected right now, but I can ground myself by holding an ice cube in my hand for 30 seconds. Okay, I've got it... Ah, I can feel the cold temperature, and suddenly my shoulder t",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "concretizing",
+        14,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.71875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been reflecting on my experiences, and I realize that the people who have come into my life have taught me so much about resilience and the importance of boundaries. While those relationships did",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.53125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do people even want to talk to me? I'm just this broken person who's been through so much. If they really knew what had happened in my life, they'd run away from me too...",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.60546875
+      ]
+    ],
+    "sentiment_avg": -4.1875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I see that the last 2 hours were marked by feelings of isolation, as I spent too much time alone and didn't reach out to anyone. Those thoughts about people not wanting to talk to me started because I",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.1484375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that I'm feeling mentally fatigued today, which makes it harder to get started on tasks. Instead of beating myself up over it, I'll take a moment to prioritize self-care and recogniz",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.96875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, getting out of bed seems like climbing a mountain right now, as if my brain has turned into lead weights. Every thought feels like a Herculean effort to conjure up, and even the simplest tasks ma",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "response_modulation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.828125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I used to think getting out of bed felt like climbing a mountain, but now I see it as a temporary obstacle. My goal to start the day on track might not be achievable right now due to my current energy",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "reframing",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.81640625
+      ]
+    ],
+    "sentiment_avg": 2.28125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind wandering back to the idea of mortality again, which is normal when I'm feeling overwhelmed. Instead of getting stuck there, I'll take a few deep breaths and remind myself that I'",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": 2.28125,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

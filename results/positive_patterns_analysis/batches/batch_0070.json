@@ -1,0 +1,337 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Here is a possible response:\n\nI'm stuck in this rut, no way out... If I just take care of myself, get rid of all this pain and anxiety, maybe people will finally understand how much they've been negle",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.3515625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck in a tough spot, but I can take care of myself right now. Even if things are rough, my physical sensations are real \u2013 I feel the pressure of my feet on the floor and the weight of my palms t",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 0.73828125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been noticing that when I don't prioritize self-care and take breaks, I feel overwhelmed and drained. It's okay to acknowledge those feelings and adjust my approach instead of beating myself up o",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.21875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, what's even the point? Nothing ever changes anyway, so why bother trying? The more I think about it, the more exhausted I feel.",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "questioning",
+        6,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.5625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've been tracking my mood and activities, and I'm starting to see a pattern. When I take a short walk during my lunch break, my mood increases by 2 points. I never noticed that before. I'm not giving",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        11,
+        1.0
+      ],
+      [
+        "noticing",
+        7,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.21875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind is racing with multiple concerns again. That's okay; it means I care deeply about all these aspects of my life. To regroup, I'll take a minute to acknowledge the overwhelm and the",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        4,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.93359375
+      ]
+    ],
+    "sentiment_avg": 3.0625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do all these problems have to come at once? Like, which one even is a priority right now? Can't they just pick one and leave the others alone? *breathes deeply* Okay, focus. Which thing is mo",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "evaluating",
+        8,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        0.97265625
+      ]
+    ],
+    "sentiment_avg": -2.015625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm feeling really overwhelmed and stuck. Okay, let's take a step back. What's my current thinking clarity level? Hmm... I'd rate it a 3 out of 10 right now. That makes sense, given everything that's",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        9,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        0.90234375
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.81640625
+      ]
+    ],
+    "sentiment_avg": 2.875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that I sometimes struggle with conflicting desires - wanting to prioritize my own needs while also considering the expectations of others. It's normal for me to feel uncertain, but instead o",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        6,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        2,
+        0.89453125
+      ]
+    ],
+    "sentiment_avg": 3.90625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm torn between following my heart and doing what's expected of me; why do I always feel guilty for wanting to prioritize myself, when I know others will be disappointed? Can't I just have one moment",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "questioning",
+        12,
+        1.0
+      ],
+      [
+        "self_questioning",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.9140625
+      ]
+    ],
+    "sentiment_avg": -1.484375,
+    "sentiment_layers": [
+      6
+    ]
+  }
+]

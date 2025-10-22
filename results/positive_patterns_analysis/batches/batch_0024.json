@@ -1,0 +1,387 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my heart rate increasing as I approach the deadline for this project. That physical sensation tells me it's time to take a few deep breaths and prioritize the next steps. I appreciate how",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.6875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my stomach is churning again, that knot in my gut means I'm stressed. Why can't I just relax? It's like my body is constantly betraying me with these awful sensations.",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling anxious again, my stomach's churning. But I'm not going to let it define me. What do I really want right now? Is it just a calm stomach or something deeper? Hmm... maybe I could try progre",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        10,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.62109375
+      ]
+    ],
+    "sentiment_avg": 1.78125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm trying to focus on the project briefing, but I catch myself wandering back to that recurring thought. It's like a familiar hum in the background \u2013 it's not consuming me entirely, but it's still th",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.15625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trying to focus on work, but why bother? What's the point of any of this anyway? The thought of just ending it all is always lurking, waiting to pounce back in and ruin everything.",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "self_questioning",
+        5,
+        1.0
+      ],
+      [
+        "questioning",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "reconsidering",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6953125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to focus on work, but what if I take a different approach? Maybe I can repurpose some of my skills for a side project that aligns with my values and interests. The thought of ending it all ",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        16,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 1.65625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm really struggling to focus right now \u2013 it's like my thoughts are jumbled up with external stimuli. That's okay, though; I've learned that it means I need some space to recharge and prioritize self",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 4.03125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Is this really happening? I feel like I'm stuck in a dream or something \u2013 every conversation feels like an echo chamber, and I'm just going through the motions. What's real, anyway? Is that person act",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "questioning",
+        4,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.84375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "Wait, I need to take a step back and assess my thinking. Right now, it's not clear at all \u2013 I'd give it a 3 out of 10. That makes sense, considering how overwhelmed I feel. Okay, what does my brain ne",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        14,
+        1.0
+      ],
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        6,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 1.4453125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that I feel stuck right now, and it's okay to not have all the answers. Recognizing my emotions helps me take a step back and assess the situation more clearly. While it might seem l",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.9921875
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.82421875
+      ],
+      [
+        "accepting",
+        1,
+        0.66796875
+      ]
+    ],
+    "sentiment_avg": 3.0,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

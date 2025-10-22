@@ -1,0 +1,317 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck on the highway for an hour, missing Sarah, and feeling like everything went wrong. But I matter to someone - my friend Mike still talks about that funny joke we shared at work last week, and",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "situation_selection",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.40625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I take a few deep breaths, I notice the subtle tingling sensation in my fingertips \u2013 it's a familiar sign that I'm getting anxious about an upcoming deadline. Recognizing this bodily cue, I conscio",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        5,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.84375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on the tightness in my chest \u2013 why is it so hard to breathe all of a sudden? Is this anxiety? Panic? How am I not even aware of this until now? Why did my hands start shaking when I was thin",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        0.99609375
+      ],
+      [
+        "cognition_awareness",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": -4.8125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm focusing on my surroundings to calm down \u2013 I see the white ceiling tiles, the clock on the wall, the plants in the corner, the chair legs, and the floor lamp. I can touch the armrests of this chai",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        12,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "concretizing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.9375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that my mind is feeling a bit scattered today, probably because I've got too many tasks competing for my attention. Instead of beating myself up over it, I'll take a few deep breaths and ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.77734375
+      ]
+    ],
+    "sentiment_avg": 3.203125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why can't I just focus? One minute I'm worrying about this stupid meeting at work, and then suddenly I'm replaying that argument with my sister from years ago. Can't even make sense of it \u2013 my br",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.8203125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "Right now, I'm struggling with feeling pointless because there are so many things bothering me at once, but that makes sense because I've been overwhelmed lately and need to find a way to prioritize m",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.921875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "Here's a potential healthy thought pattern:\n\n\"As I reflect on my past, I'm recognizing that those experiences have shaped me into the person I am today. While it's true that some chapters of my life s",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        9,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "connecting",
+        3,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.984375
+      ]
+    ],
+    "sentiment_avg": 0.94921875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my life is just one big messy chapter after another. Every bad thing that's happened to me has become a defining moment in the story of who I am - it's like these struggles have become the founda",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        16,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        0.734375
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.25,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing myself getting caught up in thinking 'why' my life is messy... Okay, what's really behind that? Am I trying to solve something or just spinning? Hmm... it looks like I'm stuck on blaming ",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        2,
+        0.9921875
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.203125,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

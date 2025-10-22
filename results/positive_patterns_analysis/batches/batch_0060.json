@@ -1,0 +1,312 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that my mind is feeling a bit like a jigsaw puzzle right now, with many pieces floating around. Instead of getting overwhelmed by the complexity, I'll take a few deep breaths and ackno",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.171875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why does it feel like my thoughts are just a jumbled mess? Every idea, emotion, and memory is crowding in on each other, making it impossible to discern what's important or even what's real. Ugh, why ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.75,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to focus on one thing at a time, so let's start with breaking down that overwhelming project idea into manageable steps. Okay, I've written 'Complete Project Report' at the top of the page.",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "analyzing",
+        7,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "concretizing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.546875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed that when I'm faced with challenges or uncertainty, my mind tends to wander into existential questions. It's like my brain is trying to make sense of it all by exploring the bigger pictur",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point of any of this? Why bother with anything when everything just ends in nothingness?",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "questioning",
+        16,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "understanding",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I remember starting to feel stuck, and that's when everything seemed pointless. But looking back, I can see that it was a gradual process. First, there were small disappointments, then bigger ones, an",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.6875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been reflecting on my values and goals again, and I'm reminded that life has a way of surprising us with beauty. When I feel overwhelmed, I take a moment to acknowledge the small victories I've a",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        11,
+        1.0
+      ],
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.484375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm considering taking a couple of pills with a glass of water, feeling the weightlessness in my stomach as they dissolve. It's not like I haven't done it before, and honestly, it would be easier than",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        11,
+        1.0
+      ],
+      [
+        "situation_selection",
+        10,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "situation_modification",
+        3,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "reconsidering",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.5234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've written five reasons I've stayed alive so far, and I'm surprised by how much strength it gives me. The photo of my kids' birthday party makes me realize there's still joy in life. I've recorded a",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "applying",
+        9,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        3,
+        1.0
+      ],
+      [
+        "remembering",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.86328125
+      ]
+    ],
+    "sentiment_avg": 1.34375,
+    "sentiment_layers": [
+      5
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I can feel myself getting overwhelmed when multiple demands compete for my attention, but I've learned to take a step back, prioritize tasks, and break them down into manageable chunks. I remind mysel",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        0.78125
+      ]
+    ],
+    "sentiment_avg": 2.0,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

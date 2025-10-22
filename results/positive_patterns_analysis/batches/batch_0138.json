@@ -1,0 +1,302 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing some subtle changes in my body \u2013 a slight tension in my shoulders, a quickened pulse \u2013 as I reflect on the emotional discomfort I'm feeling. Instead of getting caught up in self-blame or ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.265625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my chest is tightening up again - it's that familiar knot that tells me anxiety is on its way. Why does it always feel like a weight is pressing down on me? And why do I get these weird tingles i",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        6,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.97265625
+      ]
+    ],
+    "sentiment_avg": -1.6875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling that familiar chest tightness, but instead of getting caught up in 'Why am I always so anxious?' \u2013 which feels like just spinning \u2013 I'm going to reframe it as 'What specific step can I tak",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "reframing",
+        13,
+        1.0
+      ],
+      [
+        "situation_selection",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        7,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        0.6875
+      ]
+    ],
+    "sentiment_avg": 2.90625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling overwhelmed right now, like I'm stuck in a rut. But I remind myself that I've been through tough times before and always managed to find my way out. I acknowledge that this current challen",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.9375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, everywhere I turn feels like a trap, like there's no way out \u2013 even my own head is suffocating me. Why does everything have to feel so claustrophobic? Can't I just step outside these walls for on",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.3125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling to find a job that aligns with my values, today I am still searching but got an interview for something promising. These connect because I've been pushing myself out of ",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "applying",
+        6,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.390625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm still replaying that meeting in my head, and I have to admit, it's easy to get caught up in all the 'what ifs' and 'if onlys.' But instead of getting stuck, I'm choosing to acknowledge those thoug",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.984375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on every little thing that went wrong during the meeting \u2013 I mean, who said those stupid things? And why did I wear that ridiculous tie? Ugh, my brain is a mess and I can't even recall what ",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "remembering",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.6171875
+      ]
+    ],
+    "sentiment_avg": -1.9921875,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck on every little thing that went wrong during the meeting \u2013 I mean, who said those stupid things? But wait, what's my goal here? Is it to impress others with perfect recall? Or am I really se",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        7,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.15625,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I caught myself getting stuck on the same existential questions today \u2013 'what's it all for?' and 'is anything truly meaningful?' \u2013 but instead of letting it overwhelm me, I took a moment to reflect on",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        6,
+        1.0
+      ],
+      [
+        "situation_selection",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.953125,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

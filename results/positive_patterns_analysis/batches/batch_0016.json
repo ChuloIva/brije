@@ -1,0 +1,337 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my chest is tight again - like a weight is pressing down on me. Why does it have to be so hard to breathe? And why do I feel this knot in my stomach, like it's twisting itself into knots?",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.5,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I write down my latest moment of feeling overwhelmed, and it starts with that stressful meeting at work. I feel a knot in my stomach as I think about it. It's hard to breathe because I'm replaying al",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "concretizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -0.7578125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "Here's a healthy thought pattern:\n\n\"I'm feeling overwhelmed right now, but I know it's temporary. When this happens, I usually take a few deep breaths and remind myself that I've successfully navigate",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "response_modulation",
+        3,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.6953125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trapped in a never-ending cycle of dread; every second feels like an eternity, with no reprieve from this crushing weight. Why does everything seem to compound the chaos, making it impossible to b",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.83984375
+      ],
+      [
+        "self_questioning",
+        1,
+        0.8125
+      ]
+    ],
+    "sentiment_avg": -1.921875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling overwhelmed, but I've just taken control of one aspect by writing down my main goal: 'Stop procrastination and start working on the report'. Breaking it down into steps like 'research for ",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "concretizing",
+        16,
+        1.0
+      ],
+      [
+        "analyzing",
+        9,
+        1.0
+      ],
+      [
+        "applying",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        0.9765625
+      ],
+      [
+        "situation_modification",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 1.6796875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that I feel overwhelmed by my responsibilities right now, but I know it's temporary. When I start to feel trapped, I take a step back and assess what's within my control \u2013 like takin",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.60546875
+      ]
+    ],
+    "sentiment_avg": 2.734375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm drowning in responsibilities and expectations; there's no way out of this sea of obligations. Every door feels like it's slamming shut on me, leaving me trapped with no escape from the weight of i",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        3,
+        0.9765625
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.984375,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still overwhelmed by responsibilities, but I notice my mood tends to drop when I feel trapped; it's like being stuck in quicksand. Today, 10am alarm: Mood 5. I spent an hour scrolling through soci",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        12,
+        1.0
+      ],
+      [
+        "situation_selection",
+        9,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.9765625
+      ],
+      [
+        "situation_modification",
+        1,
+        0.86328125
+      ]
+    ],
+    "sentiment_avg": 2.46875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to reflect on the day so far \u2013 I did forget my umbrella, but it's not a catastrophe, and I'm grateful for the reminder to double-check tomorrow. It's also good that I'm not getting",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.77734375
+      ]
+    ],
+    "sentiment_avg": 2.828125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I can't even remember what I was saying anymore because there's just so much to consider \u2013 like, did I lock the door this morning? Was it really 5 minutes late for that meeting or more? And why am I e",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "self_questioning",
+        4,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": -2.15625,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

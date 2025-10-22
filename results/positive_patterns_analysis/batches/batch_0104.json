@@ -1,0 +1,392 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling to set boundaries with my partner, today I am still dealing with feelings of guilt and resentment. These connect because I realize now that I was trying to please them a",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "updating_beliefs",
+        9,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "reconsidering",
+        2,
+        0.984375
+      ],
+      [
+        "situation_modification",
+        1,
+        0.98828125
+      ],
+      [
+        "reframing",
+        1,
+        0.9375
+      ]
+    ],
+    "sentiment_avg": 3.21875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that life can get tough, and right now I feel stuck. However, instead of getting lost in the overwhelm, I'm taking a step back to reassess my priorities and remind myself that I've n",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        0.99609375
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.99609375
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.9921875
+      ],
+      [
+        "accepting",
+        1,
+        0.96484375
+      ]
+    ],
+    "sentiment_avg": 2.359375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I don't see a way out of this darkness anymore - every problem feels insurmountable, and I'm so exhausted from trying. It's like the universe is against me, and what's the point when everything goes w",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "evaluating",
+        9,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.75
+      ]
+    ],
+    "sentiment_avg": -2.09375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still feeling overwhelmed, but I've got my feet firmly on the ground and can repeat out loud that I exist \u2013 my name is [name], today is [date], and I'm in [location]. The pressure of my palms toge",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "concretizing",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        7,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.63671875
+      ]
+    ],
+    "sentiment_avg": 1.6796875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that change can feel overwhelming at times, but I know that's normal. Right now, I'm not expecting to tackle everything at once; instead, I'll take small steps forward and focus on o",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        0.50390625
+      ]
+    ],
+    "sentiment_avg": 2.6875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why even bother? It's all just a pointless effort anyway. Every small step feels like climbing an endless mountain - why exhaust myself trying?",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "questioning",
+        15,
+        1.0
+      ],
+      [
+        "evaluating",
+        8,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": -1.875,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm choosing to focus on one task at a time, breaking it down into smaller steps. Today, I'll start by writing the main goal at the top of a page and then identify 3-5 major steps. I can take control ",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        0.71875
+      ]
+    ],
+    "sentiment_avg": 3.578125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that I'm feeling a bit drained today, like my mental energy is lagging behind. It's not uncommon for me to feel overwhelmed when faced with too many tasks at once, but instead of getting ",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.984375
+      ]
+    ],
+    "sentiment_avg": 2.8125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trying to make a to-do list, but my brain is mush. It's like there's a weight on every single thought, making it impossible to lift one off the ground, let alone multiple tasks. Why do I always ge",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_receiving",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.98046875
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.97265625
+      ]
+    ],
+    "sentiment_avg": -2.96875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling to prioritize my tasks due to constant distractions. Today I am dealing with feelings of overwhelm, trying to make sense of my task list but getting nowhere. These conne",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "abstracting",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        0.99609375
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.875
+      ]
+    ],
+    "sentiment_avg": 2.375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

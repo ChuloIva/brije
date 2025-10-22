@@ -1,0 +1,372 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do I always go back to this? The thought of just ceasing to exist, not having to deal with the pain and fear anymore, it's like my mind is constantly rehearsing the script for my own funeral.",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        3,
+        0.98828125
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.70703125
+      ]
+    ],
+    "sentiment_avg": -1.8046875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not stuck on just one way to achieve security; I can find alternative paths like building meaningful relationships or finding a sense of purpose in my daily life, which would be more fulfilling th",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        14,
+        1.0
+      ],
+      [
+        "abstracting",
+        8,
+        1.0
+      ],
+      [
+        "reframing",
+        8,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        5,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.359375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I've come to realize that my past experiences have contributed to who I am today, but they don't dictate my entire identity. It's okay to acknowledge the struggles and emotions without letting them c",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "reframing",
+        4,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.140625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "My past is who I am \u2013 all those painful memories, struggles, and failures are etched into my identity. Without them, what would I even be? A blank slate with no substance or purpose.\n\nHow could anyone",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        16,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        0.94921875
+      ]
+    ],
+    "sentiment_avg": -3.421875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm stuck in that same old loop again \u2013 my mind racing with negative self-talk and useless ruminations. Wait, what was I just thinking about? Ah, the familiar pain of past struggles... Ugh, why do I ",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        10,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        8,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "abstracting",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        0.91015625
+      ]
+    ],
+    "sentiment_avg": 2.203125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that familiar feeling of overwhelm creeping up again \u2013 it's like I'm stuck in this loop where every problem feels too big to tackle. But instead of getting paralyzed, I'll take a step bac",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.9453125
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.93359375
+      ]
+    ],
+    "sentiment_avg": 2.171875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why even try? It's all just a waste of energy anyway... Every problem feels like this never-ending mountain to climb, and the thought of putting one foot in front of the other is exhausting me.",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "evaluating",
+        8,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "questioning",
+        3,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.8203125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck in that familiar cycle again, thinking about all these problems like they're insurmountable mountains. But wait, I need to breathe... Okay, focus on my breath and say it out loud: 'Thinking ",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        5,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.2734375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that my mind is pulling me in two different directions again. I can feel the tension between my desire to stand up for what I believe in and the fear of not being accepted by others. It's",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        10,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.0,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why am I torn between being honest with myself and conforming to what everyone else thinks is right? It's like my head is screaming at me to choose one, but which one do I pick when neither feels quit",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        10,
+        1.0
+      ],
+      [
+        "questioning",
+        8,
+        1.0
+      ],
+      [
+        "self_questioning",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ],
+      [
+        "distinguishing",
+        1,
+        0.98828125
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": -2.609375,
+    "sentiment_layers": [
+      6
+    ]
+  }
+]

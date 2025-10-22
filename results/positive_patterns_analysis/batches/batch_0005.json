@@ -1,0 +1,412 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm grounded in my feet right now, feeling the floor beneath me. I am [my name], and today is [day/date]. I am here, in [location]. This sensation of pressure in my palms feels real, a reminder that I",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "concretizing",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        8,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.9375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been thinking about ways to reorganize my priorities to better align with what brings me joy and fulfillment. I'm not letting financial stress dictate my decisions, but instead, I'm exploring alt",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "applying",
+        3,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.9765625
+      ]
+    ],
+    "sentiment_avg": 4.25,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm not being selfish; I just want to end this constant pain and suffering. It's exhausting trying to find reasons to go on, and honestly, what's the point of keeping going when it feels like no one c",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        9,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "evaluating",
+        8,
+        1.0
+      ],
+      [
+        "questioning",
+        7,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "reconsidering",
+        2,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        0.56640625
+      ]
+    ],
+    "sentiment_avg": -1.953125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm not being selfish; I just want to find a way to cope with this pain and suffering. What's important to me right now is having a sense of purpose, and currently, my goal of making a living seems i",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.3203125,
+    "sentiment_layers": [
+      5
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I'm feeling drained just thinking about my to-do list, but I know it's normal to experience moments of exhaustion. It's like my mental 'battery' is running low, and I need to recharge before tackling",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "response_modulation",
+        8,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.9921875
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.98828125
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.921875
+      ]
+    ],
+    "sentiment_avg": 2.921875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, just the thought of checking my email is draining me already. It's like trying to lift a heavy weight that's been sitting on my chest for hours - every tiny movement feels impossible. How am I su",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.40625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not sure why I'm so worked up about checking my email. It's just a routine part of my day. Maybe it's because I feel overwhelmed by other tasks right now and emails seem like another burden. Let m",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "analyzing",
+        3,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "abstracting",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.015625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm not stuck, I've navigated tough spots before. Remembering those times helps me recognize that every door isn't a brick wall \u2013 it's just an opportunity to reassess and adapt. Right now, I feel over",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.90234375
+      ]
+    ],
+    "sentiment_avg": 2.5625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trapped in this rut, there's no way out, every door feels like a brick wall slamming shut behind me. What if I'm stuck here forever? The thought of trying to escape makes my chest tighten with anx",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.5625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not trapped, I've stayed alive for [insert reason 1], [insert reason 2], [insert reason 3], [insert reason 4], and [insert reason 5]. That's five doors that didn't slam shut behind me.",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        0.9921875
+      ],
+      [
+        "reconsidering",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.99609375
+      ],
+      [
+        "questioning",
+        1,
+        0.82421875
+      ]
+    ],
+    "sentiment_avg": -4.25,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

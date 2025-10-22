@@ -1,0 +1,342 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I've been noticing lately that my worries about the meaninglessness of life have crept back in. It's like a familiar hum in the background, reminding me to appreciate what I do have and not take anyth",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.89453125
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.75390625
+      ]
+    ],
+    "sentiment_avg": 2.890625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point of even trying? Everything I do is just a drop in an endless ocean, and no matter how hard I try, it'll all eventually come to nothing. It's like, what's the use of holding onto hope ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "questioning",
+        4,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.25,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not sure what happened, but I think it started with feeling overwhelmed by work stress and then getting into a fight with my partner. That's when I started thinking 'I'll never be good enough' and",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.40625,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've caught myself slipping into that existential vortex again \u2013 the familiar feeling of being a tiny speck in an infinite expanse. While it's natural to acknowledge the impermanence of life, I know I",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.9609375
+      ]
+    ],
+    "sentiment_avg": 3.03125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on this never-ending loop of... what's even the point? Every moment is just a slow march towards oblivion, and the thought of being nothing more than a fleeting blip in the grand scheme of t",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "questioning",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.328125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm taking a step back from that overwhelming feeling, focusing on my heartbeat \u2013 it's still here. Those cards in my Hope Kit remind me I've faced tough times before and come out stronger. The photo o",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "situation_selection",
+        8,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.265625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to realize that my past struggles have had a profound impact on who I am today. While it's natural to still feel the emotional scars, I'm actively working to reframe those experiences as opp",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.15625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm still trying to make sense of why I am who I am because of all those struggles. It's like my whole identity is tied up in the pain and sadness, it feels like that's just who I've become. Can't sha",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        16,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.4140625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing my mood swings have become more predictable since starting to track, it's like I can anticipate the dips and peaks. The struggles are still there, but maybe they're not defining me as muc",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        7,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 5.3125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed that my mind tends to wander back to the idea of mortality, and I'm acknowledging that it's okay. It doesn't mean I'm not finding ways to cope or that I'm giving up; it just means I'm rec",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.515625,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

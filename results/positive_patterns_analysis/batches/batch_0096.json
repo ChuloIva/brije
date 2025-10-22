@@ -1,0 +1,322 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that I've been feeling overwhelmed lately, and it's natural to wonder if others might be better off without me. But instead of getting caught up in hypothetical scenarios, I'm choosi",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.53125
+      ]
+    ],
+    "sentiment_avg": 2.203125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trying to make sense of why I'd be a burden to others if they didn't have me around. If I'm gone, maybe my family and friends can finally find some peace from all the drama and stress I bring into",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        10,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "questioning",
+        6,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 1.640625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm realizing that my main goal is to have meaningful relationships, but I'm not seeing any obvious ways to achieve that. Hmm, what if I focus on nurturing online connections instead of relying solel",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        15,
+        1.0
+      ],
+      [
+        "creating",
+        8,
+        1.0
+      ],
+      [
+        "abstracting",
+        7,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        0.98828125
+      ],
+      [
+        "self_questioning",
+        1,
+        0.93359375
+      ]
+    ],
+    "sentiment_avg": 2.046875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that my mind is feeling overwhelmed with multiple tasks and concerns right now. I can understand why it's happening \u2013 I've taken on too much this week, and my self-care has suffered.",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.484375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why can't I just focus? One minute I'm worrying about this stupid meeting at work, and then suddenly I'm replaying that argument with my sister from years ago. Can't even make sense of it \u2013 my br",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.8203125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not sure why my brain feels so scattered right now. Okay, let me take a deep breath and assess: my thinking clarity is at 4 out of 10. Hmm... I think I need to take a short break from this meeting",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.95703125
+      ]
+    ],
+    "sentiment_avg": 2.796875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I'm feeling drained today, like my mental energy tank is empty. It's not uncommon for me to hit a plateau after intense periods of self-care or personal projects. I've learned that acknowledging this",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 1.75,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why is getting out of bed so impossible? Each muscle feels like lead, every thought a struggle to form. Is this really how my day has come down to - simply existing without the will to do anything els",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "self_questioning",
+        10,
+        1.0
+      ],
+      [
+        "questioning",
+        3,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.4375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling to find motivation after losing my job. Today, I'm still dealing with anxiety and uncertainty about my future. These connect because I realize that's what led me to be s",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        10,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.69140625
+      ]
+    ],
+    "sentiment_avg": 2.265625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that my anxiety can be overwhelming for others at times. I wish I could've handled the situation better, but I recognize it's a common struggle many people face. Instead of beating myself up",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.265625,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

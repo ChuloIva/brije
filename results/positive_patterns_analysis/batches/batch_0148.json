@@ -1,0 +1,317 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying that stupid mistake in my head, wondering how I could've been so careless. Why did I have to make such a rookie error? What's wrong with me?\n\nOr\n\nUgh, why do I always have to think ab",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.93359375
+      ]
+    ],
+    "sentiment_avg": -2.609375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "What was I just thinking about? Ah, that stupid mistake again... Okay, time to break the cycle. *exhales* Thinking about this more will not solve it. I can choose a different channel.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        0.71875
+      ]
+    ],
+    "sentiment_avg": -2.984375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been noticing how my mind tends to blur the lines between reality and imagination. When I'm stressed or overwhelmed, it's easy for me to get caught up in 'what ifs' and hypothetical scenarios tha",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.7109375
+      ]
+    ],
+    "sentiment_avg": 2.890625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep questioning what's real and what's just a dream; my brain feels like a jigsaw puzzle with missing pieces, making it impossible to piece together what actually happened. Is this really happening",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        0.85546875
+      ]
+    ],
+    "sentiment_avg": -2.46875,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've written down what triggered my recent suicidal thinking: a fight with a family member. I see now that two hours before, I was already feeling anxious and overwhelmed by work stress. That's when I",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "analyzing",
+        4,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.828125
+      ]
+    ],
+    "sentiment_avg": 2.34375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing this tight sensation in my chest, and I'm acknowledging that it's likely a sign of stress. It's okay to feel overwhelmed sometimes, especially when adapting to new circumstances. I'll tak",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.9765625
+      ]
+    ],
+    "sentiment_avg": 3.375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm acutely aware of this tightness in my chest; why does it feel like a weight is pressing down on me? It's as if I can literally feel anxiety wrapping around my diaphragm, making it hard to breathe.",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        9,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        7,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.640625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling with feeling overwhelmed from my job change, today I am dealing with this tightness in my chest and anxiety, these connect because I've been neglecting self-care and pri",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "reconsidering",
+        1,
+        0.83984375
+      ]
+    ],
+    "sentiment_avg": 2.640625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm really feeling trapped right now, like I'm stuck in a cycle that's hard to break. It's understandable why I'd feel that way, considering the recent setbacks and stressors I've been dealing with. H",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.15625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here is a possible response:\n\n\"I'm stuck in this rut and there's no way out, every door I try to open feels like it's locked from the inside. How am I supposed to change anything when everything seems",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        9,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        0.95703125
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.99609375
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.984375
+      ],
+      [
+        "applying",
+        1,
+        0.83984375
+      ]
+    ],
+    "sentiment_avg": -1.5078125,
+    "sentiment_layers": [
+      8
+    ]
+  }
+]

@@ -1,0 +1,372 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why did I even bother trying? Every door seems to slam shut in my face, leaving me with nothing but darkness and despair. There's no escape, no way out \u2013 it's all just one endless trap.",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.5859375
+      ]
+    ],
+    "sentiment_avg": -2.984375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I started drawing my crisis cognitive map, and it's helping me see that I was already feeling stuck and hopeless for hours before those awful thoughts crept in. The more I wrote down what happened, th",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "concretizing",
+        2,
+        0.9375
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.9609375
+      ],
+      [
+        "creating",
+        1,
+        0.7578125
+      ],
+      [
+        "emotion_facilitation",
+        1,
+        0.671875
+      ]
+    ],
+    "sentiment_avg": 2.078125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing I'm struggling to get out of bed today, which is totally normal after a long week. I need to acknowledge that my energy levels are low and prioritize self-care right now. Instead of beati",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "reframing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 5.0,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why bother getting out of bed today? It's not like anything matters anyway. What's the point in showering or brushing my teeth when everything feels pointless and exhausting?",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        10,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "self_questioning",
+        7,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "reconsidering",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.953125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling overwhelmed by the thought of today, but I need to remember that my goal is to take care of myself and move forward. Just because it doesn't feel exciting right now doesn't mean it's point",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "reframing",
+        4,
+        1.0
+      ],
+      [
+        "situation_selection",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        0.99609375
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 2.453125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that I made a mistake, but instead of beating myself up over it, I can learn from the experience. What did I do well, and what can I improve on next time? By focusing on growth rathe",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "reframing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.265625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why did I have to make that stupid mistake? Can't I just be perfect for once? My brain is stuck on every little thing I do wrong, replaying all the things I could've done differently.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        8,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "zooming_in",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": -2.703125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I still feel like I'm stuck on that mistake, but what can I do about it now? It's over. One thing I could do today to align with my values is apologize sincerely to those affected.\n\nToday feels pointl",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        12,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        2,
+        0.94921875
+      ]
+    ],
+    "sentiment_avg": 1.359375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that the vastness of existence can sometimes overwhelm me, but I've learned to acknowledge and accept these existential doubts as a natural part of life. Today, I intentionally stepped away ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.66796875
+      ]
+    ],
+    "sentiment_avg": 2.796875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I even bothering? What's the point of anything anyway? Every thought, every action, just disappears into nothingness.",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "self_questioning",
+        7,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        0.99609375
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.234375,
+    "sentiment_layers": [
+      6
+    ]
+  }
+]

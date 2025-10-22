@@ -1,0 +1,357 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that my energy levels are flagging today, which is totally normal. I've been pushing myself hard lately, and it's catching up with me. Instead of beating myself up over it, though, I'l",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, just the thought of checking my email is draining me already. It's like trying to lift a heavy weight that's been sitting on my chest for hours - every tiny movement feels impossible. How am I su",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.40625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I need to take a deep breath and acknowledge that my mind feels overwhelmed. That's okay; it doesn't define me. I'll quickly jot down all these tasks on paper, and then circle one small thing I can do",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        0.703125
+      ]
+    ],
+    "sentiment_avg": 2.984375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed how often my mind drifts to the idea of death as a coping mechanism when I'm feeling overwhelmed or stuck. It's almost like my brain is trying to simplify things for me, reminding me that",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.890625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, there they go again - those incessant whispers about what would be better if only I were dead. Like a broken record, the thought loops in my head: \"Wouldn't it be easier to just end this?\" My min",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        6,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.765625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I remember the day it started, marked 'Beginning' on my timeline. Facts: I got into an argument with a friend, felt overwhelmed by their criticism. Emotions: anxiety and sadness in blue. Meanings: sel",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        9,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.9296875,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I can see how I could have done things differently, but instead of beating myself up over it, let's focus on what I've learned from the experience. What specific steps can I take to improve next time?",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "response_modulation",
+        7,
+        1.0
+      ],
+      [
+        "reframing",
+        6,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.81640625
+      ]
+    ],
+    "sentiment_avg": 1.421875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why did I have to mess that up again? It's just so typical of me to fail, like this is what I do. What if they're right, what if I'm truly not good enough?",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        13,
+        1.0
+      ],
+      [
+        "questioning",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.79296875
+      ]
+    ],
+    "sentiment_avg": -2.5625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "What specific action can I take today to learn from this mistake? What skills do I need to improve on?",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        4,
+        1.0
+      ],
+      [
+        "applying",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 2.125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing myself questioning my thoughts again, which is okay. It's normal to have doubts when faced with uncertainty or conflicting perspectives. I'll take a moment to acknowledge these feelings a",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_management",
+        14,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        10,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.62109375
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.58203125
+      ]
+    ],
+    "sentiment_avg": 2.9375,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

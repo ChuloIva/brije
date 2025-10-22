@@ -1,0 +1,332 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, I'm just a waste of space. If Sarah had to deal with my constant drama and anxiety, she'd be better off without me. Why did I have to ruin the party again, making everyone uncomfortable?",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        7,
+        1.0
+      ],
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        0.984375
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        0.99609375
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.78125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not a waste of space, I just had a rough hour. The party was okay until I got anxious and left early. Maybe Sarah wouldn't have minded if I'd stuck around to enjoy myself.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.9140625
+      ]
+    ],
+    "sentiment_avg": -2.921875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I try to tune into the present moment, I'm aware that my mind is racing with thoughts and emotions. It's like my perception is layered, and it takes a conscious effort to distinguish what's real fr",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.62890625
+      ]
+    ],
+    "sentiment_avg": 2.65625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm sitting here, trying to pay attention to what's going on around me, but it all feels like a haze. The words people are saying are just blurs of sound, and their faces look like they're underwater ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "cognition_awareness",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.5625,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still sitting here, trying to be present, but even that feels hard because I feel like I'm drowning in my own thoughts. Just writing about what's bothering me is taking some pressure off \u2013 okay, t",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.9609375
+      ]
+    ],
+    "sentiment_avg": 1.734375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed my mind tends to replay the details of challenging situations, trying to make sense of everything that happened. It's almost like my brain is trying to sort through the chaos and find a w",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.359375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on the tiny details of everything that's gone wrong lately - the way my boss talked down to me during that meeting, the sound of my roommate's snoring last night, and the stupid coffee shop ",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "zooming_in",
+        7,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.8515625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I took a piece of paper and drew three columns: 'Trigger,' 'Thoughts,' and 'Physical Sensations.' I wrote down that moment when I felt like I just couldn't handle anything anymore, and it started with",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "concretizing",
+        9,
+        1.0
+      ],
+      [
+        "analyzing",
+        3,
+        0.90234375
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        0.83203125
+      ]
+    ],
+    "sentiment_avg": 2.21875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind wandering to the various conversations I had recently, but instead of getting stuck on each one, I'm acknowledging them as a natural response to stress. Recognizing that it's norm",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.78125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here is a possible internal monologue for someone experiencing Overwhelmed Narrative Processing:\n\n\"I'm replaying every conversation from the past week, reliving all the little details that never seeme",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "analyzing",
+        3,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "zooming_in",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        0.91796875
+      ]
+    ],
+    "sentiment_avg": -2.4375,
+    "sentiment_layers": [
+      8
+    ]
+  }
+]

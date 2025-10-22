@@ -1,0 +1,382 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck on every little detail \u2013 the way the sunset was casting a golden glow, the rough texture of my jeans, and the hum of the air conditioning. I notice the sound of my own breathing, the sensati",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        7,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        4,
+        1.0
+      ],
+      [
+        "noticing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.4453125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that I've taken on too much lately, and it's natural to feel overwhelmed. Right now, every option doesn't seem like a clear escape route, but that doesn't mean there aren't any. I ca",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "accepting",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.5390625
+      ]
+    ],
+    "sentiment_avg": 3.25,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, every door seems to slam shut in my face; there's no way out of this mess. I'm trapped, suffocating under the weight of responsibilities and expectations. What if I just can't keep up with everyt",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.15625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not sure why I feel stuck; every door doesn't have to slam shut. Responsibilities and expectations are overwhelming, but what if they're not absolute? Can I prioritize what's truly important \u2013 a 6",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "creating",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.9140625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm becoming aware of a subtle tightness in my chest; it's interesting, because I've noticed this pattern before. Instead of jumping to conclusions or getting anxious about it, I'll take a deep breath",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "suspending_judgment",
+        10,
+        1.0
+      ],
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.65625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here's an attempt to generate authentic first-person internal thoughts:\n\n\"I'm noticing this weird tightness in my chest again; it always happens when I'm around those people. Why am I getting so anxio",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -1.75,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing physical tension in my chest again; it's familiar, but I'll check-in with myself before jumping to conclusions. My current thinking clarity is a 3 \u2013 not ideal. Maybe my brain just needs a",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        14,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        13,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        3,
+        1.0
+      ],
+      [
+        "noticing",
+        3,
+        1.0
+      ],
+      [
+        "remembering",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 3.265625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that I'm torn between my desire to take risks and pursue my passions, versus the discomfort of potentially disappointing others. This internal debate is a normal part of growth for me,",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        13,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        10,
+        1.0
+      ],
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.78125
+      ]
+    ],
+    "sentiment_avg": 2.6875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here's a possible response:\n\n\"I'm stuck on this feeling that what my parents want me to do isn't aligning with what I truly believe in, and I don't know if I have the courage to go against their wishe",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        8,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.171875,
+    "sentiment_layers": [
+      5
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling with feeling trapped in my parents' expectations. Today I am dealing with frustration and anxiety about making a decision that aligns with my values, but also considers ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        11,
+        1.0
+      ],
+      [
+        "applying",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        2,
+        1.0
+      ],
+      [
+        "reconsidering",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": 2.234375,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

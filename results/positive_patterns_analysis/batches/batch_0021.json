@@ -1,0 +1,302 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I know it's tough to see right now, but I'm not giving up. Instead of letting hopelessness wash over me, I'll take a step back and acknowledge my feelings \u2013 frustration, disappointment, and exhaustion",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 2.03125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, what's even the point? Nothing ever changes anyway, so why bother trying? It's like my brain is stuck on repeat, playing the same old negative tapestry, and it exhausts me just thinking about mak",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "questioning",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6640625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling stuck, but I'll try to focus on what's real right now. Okay, five things I can see: the computer screen in front of me, the bookshelf behind it, the clock on the wall, the picture frame on",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        7,
+        1.0
+      ],
+      [
+        "concretizing",
+        4,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.8125
+      ]
+    ],
+    "sentiment_avg": -2.1875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that I've been feeling stuck in this situation, but instead of panicking, I'm taking a step back to reassess my priorities. I recognize that getting caught up in one approach didn't ",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        6,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 2.859375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why did I even bother trying? Every door seems to slam shut in my face, leaving me with nothing but darkness and despair. There's no escape, no way out \u2013 it's all just one endless trap.",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.5859375
+      ]
+    ],
+    "sentiment_avg": -2.984375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm realizing that I was trying to force doors open without considering my priorities. My goal of financial security might have been too rigid, and I got stuck on one path. It's okay that it didn't wo",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "updating_beliefs",
+        5,
+        1.0
+      ],
+      [
+        "accepting",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        0.9921875
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.9140625
+      ]
+    ],
+    "sentiment_avg": 2.640625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I can see how easily I got caught up in the minutiae of what happened, replaying it all in my head. As I take a step back, I'm reminded that sometimes it's okay not to have every detail figured out \u2013 ",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "zooming_out",
+        4,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.3046875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I can't even remember what I was saying anymore because there's just so much to consider \u2013 like, did I lock the door this morning? Was it really 5 minutes late for that meeting or more? And why am I e",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "self_questioning",
+        4,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": -2.15625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not even sure where to start, but I'll try to break it down into smaller pieces. Okay, let's begin with what actually happened \u2013 I woke up late, rushed out the door without checking if I locked it",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.8515625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I take a moment to breathe and notice the subtle tension in my shoulders, I'm reminded that it's normal for stress to arise. Instead of getting caught up in worries about it, I'll acknowledge this ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        10,
+        1.0
+      ],
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.328125,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

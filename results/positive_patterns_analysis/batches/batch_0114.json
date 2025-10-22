@@ -1,0 +1,317 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I've come to realize that my past experiences, both the triumphs and setbacks, have a profound impact on who I am today. Rather than trying to escape or deny them, I'm choosing to integrate those less",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        9,
+        1.0
+      ],
+      [
+        "accepting",
+        2,
+        1.0
+      ],
+      [
+        "connecting",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.5625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I always stuck on the past? Those struggles were so hard, but they're not who I am anymore. What if people see me as that girl who got dumped or that kid who failed their first business ve",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        8,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        6,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -3.234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not stuck on the past; I'm learning from it. Those struggles were hard, but they're not defining me anymore. What if people see me as a resilient person who overcame challenges and grew stronger b",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "reframing",
+        5,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.9921875
+      ],
+      [
+        "evaluating",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 1.5546875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing I'm having mixed feelings about this situation. It's normal to feel upset, but maybe I'm also being too hard on myself. Rather than letting it simmer, I'll acknowledge these emotions and ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.171875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I feeling this way? Is it really justified to be so upset over this? Maybe I'm just being too sensitive again and need to toughen up.",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        13,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        6,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        0.8828125
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.109375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'll try to focus on my breath for a sec... okay, I'm inhaling for four counts and exhaling for six. Thinking about this more won't solve it; I can choose another channel. Wait, what was I just thinki",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        8,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.59375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that I'm struggling with conflicting thoughts on how to approach this situation. Instead of getting stuck, I'll take a step back, acknowledge the tension between my desire to explain and ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        14,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.79296875
+      ]
+    ],
+    "sentiment_avg": 2.15625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on whether to apologize for what happened or just own up to my mistake \u2013 why do I always overthink this? Every fiber in me wants to explain, justify, and make it seem like an accident, yet a",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        14,
+        1.0
+      ],
+      [
+        "applying",
+        4,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.265625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm recognizing that apologizing and owning up to my mistake is feeling overwhelming, so I'm going to break it down into smaller steps. First, I need to acknowledge what happened and take responsibili",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "analyzing",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "applying",
+        2,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.296875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm really struggling to find the motivation to keep pushing forward right now, but I know that doesn't mean my life isn't worth living. I've been reflecting on all the people and experiences that hav",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.703125,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

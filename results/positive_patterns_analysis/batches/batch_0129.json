@@ -1,0 +1,362 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed my mind occasionally drifting to the idea of taking a break from it all, but I'm aware that's not just about escaping - it's also about acknowledging my emotional exhaustion. I'm making a",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.0,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep wondering when and how I'll finally escape this misery... Can't seem to focus on anything else because death's always lurking, like a dark cloud following me everywhere.",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        0.69921875
+      ],
+      [
+        "noticing",
+        1,
+        0.95703125
+      ]
+    ],
+    "sentiment_avg": -2.578125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've drawn a map with multiple pathways, and I'm surprised by the unconventional options that just emerged. Right now, my main goal is escape from this misery. To be honest, I'm seeking freedom and re",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        12,
+        1.0
+      ],
+      [
+        "creating",
+        5,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.421875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been thinking about my goals and priorities lately, and I realize that I need to re-evaluate some aspects of my life. It's natural to feel overwhelmed when faced with challenges, but I'm working ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        4,
+        0.9921875
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        0.97265625
+      ]
+    ],
+    "sentiment_avg": 2.703125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying the scenarios in my head, going over every detail of how I'd do it - the method, the timing, the aftermath. It's like my brain is on autopilot, running through all the options, weighi",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        7,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.9921875
+      ],
+      [
+        "self_questioning",
+        1,
+        0.75390625
+      ]
+    ],
+    "sentiment_avg": 2.609375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to focus on my daily routine and mood tracking, but my mind keeps drifting back to those scenarios. I need to stay present and not get caught up in all that what-ifs... 10am: Mood right now",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        11,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.15625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling really drained today, like I've hit the wall. It's not uncommon to feel this way after a long stretch of juggling multiple tasks and responsibilities. Instead of beating myself up over it,",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.99609375
+      ],
+      [
+        "evaluating",
+        1,
+        0.82421875
+      ]
+    ],
+    "sentiment_avg": 1.921875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do I even bother getting out of bed? It's all just too much. Every single step feels like climbing a mountain under the weight of a thousand anchors.",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "response_modulation",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "reconsidering",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.796875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm surprised I didn't feel overwhelmed before getting up, and actually, washing that dish was kind of refreshing. Maybe if I take small steps, I can shift my mood like my brain showed me it could.",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "situation_selection",
+        15,
+        1.0
+      ],
+      [
+        "response_modulation",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.9765625
+      ],
+      [
+        "emotion_management",
+        1,
+        0.9140625
+      ]
+    ],
+    "sentiment_avg": 2.0625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing myself replaying that conversation where I made a mistake. It's normal to feel frustrated with myself, but dwelling on it won't change the outcome. Instead, I can take a step back and foc",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.76171875
+      ]
+    ],
+    "sentiment_avg": 1.78125,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

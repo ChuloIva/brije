@@ -1,0 +1,357 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm having trouble letting go of these overwhelming thoughts, but I can focus on taking a single step towards what matters to me.\"\n\n\"Right now, I'm struggling with feelings of hopelessness, and that ",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "reframing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 0.9140625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I know my mind can get caught up in the thought that death is inevitable, but I try not to let it consume me. It's natural to feel overwhelmed by mortality when considering the impermanence of everyth",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.82421875
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.5390625
+      ]
+    ],
+    "sentiment_avg": 2.53125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying the thought that nothing matters because we're all just going to die anyway, like some cruel joke. Every second wasted on pointless things is just another reminder of how futile every",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        11,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        7,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        0.9921875
+      ],
+      [
+        "questioning",
+        1,
+        0.9921875
+      ],
+      [
+        "understanding",
+        1,
+        0.9765625
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.79296875
+      ]
+    ],
+    "sentiment_avg": -3.359375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to see that my mind is stuck on this idea of meaninglessness because I'm replaying a painful moment in my past, where I felt like nothing mattered. That feeling crept up again when I starte",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        10,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.9921875
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": -3.25,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing I'm feeling stuck again, which is normal when faced with a big task. It's okay to feel overwhelmed \u2013 that just means I need to take a step back, prioritize, and focus on one manageable pi",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        0.9765625
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.15625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why even bother? It's all just a pointless effort anyway. Every small step feels like climbing an endless mountain - why exhaust myself trying?",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "questioning",
+        15,
+        1.0
+      ],
+      [
+        "evaluating",
+        8,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": -1.875,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling really overwhelmed and stuck right now, but I know exactly what to do. I'll just take five minutes to write down all these tasks swirling in my head. Ah, okay, that's done. Now I can actua",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "concretizing",
+        1,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.6796875
+      ]
+    ],
+    "sentiment_avg": 1.8515625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm trying to prioritize my tasks today, but I can sense my mental energy levels are depleted. It's normal to feel this way after a long week, and I need to acknowledge it instead of beating myself up",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        9,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.296875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trying to make a to-do list, but my brain is mush. It's like there's a weight on every single thought, making it impossible to lift one off the ground, let alone multiple tasks. Why do I always ge",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_receiving",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.98046875
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.97265625
+      ]
+    ],
+    "sentiment_avg": -2.96875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to make a to-do list, but my brain feels clouded. I did find one moment today that stood out \u2013 helping my friend move into their new apartment. Connecting it to my value of kindness and com",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        12,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        8,
+        1.0
+      ],
+      [
+        "remembering",
+        5,
+        1.0
+      ],
+      [
+        "connecting",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.296875,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

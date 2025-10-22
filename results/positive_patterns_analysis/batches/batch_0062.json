@@ -1,0 +1,402 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "\"What's real and what's not? Everything feels like a dream, even this moment... Am I actually sitting on this couch or just imagining it because that's where I remember being before everything started",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.4140625,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that my mind is feeling a bit fatigued today, which can make it tough to get started on tasks. I acknowledge that taking care of myself and prioritizing self-care would help me recharg",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.515625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do simple things have to be so incredibly draining? Even just considering getting out of bed or making breakfast feels like running a marathon in my head. Every thought is like a brick on top",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.78515625
+      ]
+    ],
+    "sentiment_avg": -1.71875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm going to start by breaking down this morning routine into manageable pieces. Okay, let's say my goal is to just get out of bed and make some tea. That feels doable. First, I need to commit to gett",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "concretizing",
+        10,
+        1.0
+      ],
+      [
+        "analyzing",
+        5,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.9765625
+      ]
+    ],
+    "sentiment_avg": 3.28125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm not perfect, and I do make mistakes. However, instead of dwelling on them, I try to reframe my errors as opportunities for growth and learning. This helps me stay focused on progress rather than p",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "reframing",
+        8,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.15625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm such a failure, constantly making mistakes and disappointing others. Why did I have to mess up again? What's wrong with me that I can't even get it right once?",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        12,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        0.99609375
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm not a failure, I've just faced setbacks. Mistakes are an opportunity for growth, and I can learn from them. What's wrong with me is that I'm too hard on myself, but I can work on self-compassion.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        3,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.6953125
+      ]
+    ],
+    "sentiment_avg": 1.171875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "Here's an attempt at generating a healthy thought pattern that represents disorganized thought and derealization:\n\n\"I'm still getting used to the new rhythm of my life, and some days feel like I'm obs",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "response_modulation",
+        8,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "abstracting",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.8984375
+      ],
+      [
+        "creating",
+        1,
+        0.81640625
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.5859375
+      ]
+    ],
+    "sentiment_avg": 2.234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's real anymore? Can I even trust my own feelings? Everything feels so distant and foggy, like I'm watching a movie of myself, but I'm not really there.",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still trying to find my footing, but I did notice a small moment today that gave me a sense of purpose. Helping my friend with her task felt connected to my value of being a supportive companion. ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        4,
+        0.98828125
+      ],
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.515625,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

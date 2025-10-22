@@ -1,0 +1,352 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "I'm such a failure, constantly making mistakes and disappointing others. Why did I have to mess up again? What's wrong with me that I can't even get it right once?",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        12,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        0.99609375
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I wrote down what happened 2 hours before I started feeling suicidal, and it was actually a series of minor setbacks that led me to feel overwhelmed. I didn't make any huge mistakes, but maybe my frus",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        0.9921875
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.82421875
+      ]
+    ],
+    "sentiment_avg": -1.875,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that my mind can get jumbled when I'm feeling overwhelmed, but right now, I need to focus on the present moment. Taking a few deep breaths and noticing my surroundings helps me anchor myself",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        15,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.9296875
+      ]
+    ],
+    "sentiment_avg": 2.90625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's real and what's not? Everything feels like a dream, even this moment... Am I actually sitting on this couch or just imagining it because that's where I remember being before everything started ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "self_questioning",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.140625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I need to figure out what's real and what's not, but right now I have a task that feels impossible: organizing my life after everything fell apart. Okay, let me break it down... top goal: 'Stabilize d",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "concretizing",
+        12,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        8,
+        1.0
+      ],
+      [
+        "analyzing",
+        4,
+        1.0
+      ],
+      [
+        "creating",
+        4,
+        1.0
+      ],
+      [
+        "applying",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 2.953125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my emotions feel a bit disconnected from reality again. It's like I'm observing myself from outside, but that's okay \u2013 it means I've got some emotional distance to reflect on things objec",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        0.94921875
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        0.875
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.9609375
+      ]
+    ],
+    "sentiment_avg": 2.21875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's real anymore? Can I even trust my own feelings? Everything feels so distant and foggy, like I'm watching a movie of myself, but I'm not really there.",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck in a cycle again, feeling like I'm watching myself from outside. Okay, time to break free... Thinking about this more won't solve anything, so I'll choose a different channel. Breathe: inhal",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        9,
+        1.0
+      ],
+      [
+        "situation_selection",
+        9,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.1015625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm still replaying the events in my mind \u2013 the warmth of the sunset, the soft rustle of leaves under my feet, and the gentle hum of conversation. I acknowledge the discomfort of that pause before she",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "reframing",
+        4,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": 1.9609375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on every little detail \u2013 the way the sun was setting behind the building, the awkward pause before she spoke up, and how my hands were shaking so badly I thought they'd fall off. But what's ",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        0.9609375
+      ],
+      [
+        "analyzing",
+        1,
+        0.75390625
+      ]
+    ],
+    "sentiment_avg": -2.25,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

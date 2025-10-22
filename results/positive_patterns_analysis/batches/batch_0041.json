@@ -1,0 +1,332 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'll take a deep breath and check my thinking clarity \u2013 it's currently a 4. I need to prioritize self-care, so I'm going to step away from this task for 5 minutes and grab some water. Ah, refreshing! ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        12,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        0.96484375
+      ]
+    ],
+    "sentiment_avg": 2.8125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I caught myself getting lost in some existential thoughts again, wondering what the point of it all is. But instead of letting that spiral into despair, I took a deep breath and reminded myself that t",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.984375
+      ]
+    ],
+    "sentiment_avg": 3.015625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying all those morbid statistics about mortality rates, wondering how anyone can truly believe in an afterlife when our existence is so fleeting. It's like the universe is just taunting me",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.7734375
+      ]
+    ],
+    "sentiment_avg": -3.578125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm surprised I didn't immediately feel anxious about getting up and doing something; actually, I feel a bit more energized now that I've stood up and gotten a glass of water. Washing this one dish is",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotional_reappraisal",
+        5,
+        1.0
+      ],
+      [
+        "concretizing",
+        4,
+        1.0
+      ],
+      [
+        "situation_selection",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.40625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that feeling trapped can be overwhelming, but I need to acknowledge the fact that there are still ways out of this situation. Instead of getting stuck on 'no escape' thoughts, I want t",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.609375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, no matter how hard I try to come up with a plan, my mind just circles back to this same old feeling - like there's no way out of this mess. Every solution I think of feels like it'll only lead me",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.80078125
+      ]
+    ],
+    "sentiment_avg": -1.7265625,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm craving freedom and control, but underneath that's a deeper desire for peace of mind. That's what I really want right now. Three unconventional ways to get that could be taking a break from all re",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "abstracting",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.9609375
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.8125
+      ]
+    ],
+    "sentiment_avg": 2.078125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm sensing my mental load getting too heavy, and it's natural to feel overwhelmed when I'm dealing with multiple stressors. Instead of panicking, I'll take a deep breath and acknowledge that this is ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        14,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        7,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        6,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.296875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Oh no, my brain is a jumbled mess... How did I let myself get this far? What was I even trying to do before everything started rushing around in my head like a tornado, making it impossible to focus o",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.203125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling overwhelmed by my brain's chaos, but I know there must be a way out. What do I truly want right now? I think it's to regain control over my emotions and thoughts. Underneath that desire, I",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        16,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        0.9921875
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.5078125,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

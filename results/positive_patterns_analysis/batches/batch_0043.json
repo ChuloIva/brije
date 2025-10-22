@@ -1,0 +1,377 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, what's even the point of trying? The thought of tomorrow just exhausts me. I'm already so drained from yesterday's struggles and today's disappointments, there's no way I can muster up any energy",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.87890625
+      ]
+    ],
+    "sentiment_avg": -1.6796875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling drained and exhausted, but I need to focus on what's real right now. Okay, 5 things I can see: the lamp, the clock, the chair, the bookshelf, my own hands. That's better. Now, 4 things I c",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        7,
+        1.0
+      ],
+      [
+        "concretizing",
+        7,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        0.7265625
+      ]
+    ],
+    "sentiment_avg": 1.515625,
+    "sentiment_layers": [
+      5
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that I'm having trouble getting motivated lately. It's like my mental energy reserves are depleted, making it tough to muster the enthusiasm for daily tasks. Instead of beating myself up ",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.359375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do I even bother trying? It's all just so pointless anyway... Nothing seems worth the effort right now.",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "questioning",
+        14,
+        1.0
+      ],
+      [
+        "evaluating",
+        9,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6328125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still struggling with feeling everything is pointless, but I remember someone whose life was slightly better because I existed once. Just thinking of that makes me feel a little more grounded. Rig",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "situation_selection",
+        9,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "response_modulation",
+        3,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        0.98046875
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        0.765625
+      ]
+    ],
+    "sentiment_avg": -2.140625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed I'm struggling to find meaning or purpose lately, and it's okay to feel stuck sometimes. As I reflect on my goals and priorities, I realize I might need to reassess what drives me forward",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_management",
+        5,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.734375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm getting so tired of feeling stuck in this rut, like my life is just going nowhere. It's not like anyone else would even notice if I was gone; they'd probably just assume I was having a bad week or",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "questioning",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.1875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I started feeling stuck about six months ago, and it's been a gradual realization that I'm not moving forward like I want to. When I look at my timeline, I see all these small steps I've taken, but th",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        8,
+        1.0
+      ],
+      [
+        "abstracting",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.40625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that my mind is playing tricks on me right now - everything feels a bit fuzzy, like I'm observing the world through a veil. But I know this sensation can be overwhelming if I let it consume ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        4,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.90625
+      ]
+    ],
+    "sentiment_avg": 1.5390625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm not even sure what's real and what's just my own twisted thoughts - nothing feels grounded anymore. Every sound, every face, every object looks like it's been filtered through some kind of distort",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        0.9921875
+      ],
+      [
+        "cognition_awareness",
+        1,
+        0.94140625
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.9140625
+      ]
+    ],
+    "sentiment_avg": -3.234375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

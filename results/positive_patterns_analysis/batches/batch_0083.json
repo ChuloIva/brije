@@ -1,0 +1,342 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing my mind racing again, but I'll try to anchor myself... Okay, five things I can see: the clock on the wall, the chair in front of me, the window with the trees outside, the coffee mug on t",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 0.98046875,
+    "sentiment_layers": [
+      3
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I noticed myself replaying that situation where I didn't speak up. At first, my mind started racing with all the things I could've done differently, and it's normal to feel frustrated when we miss an ",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.97265625
+      ]
+    ],
+    "sentiment_avg": 1.90625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Oh no, what was I thinking when I did that? And why didn't I just say something instead of doing nothing? Ugh, I'm such a failure.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        10,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        3,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        0.91796875
+      ]
+    ],
+    "sentiment_avg": -2.0625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I started thinking about that situation and I drew a line with three sections: Beginning, Middle, End. Okay, so what actually happened was... I got nervous and didn't speak up. That's all. Just those ",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "concretizing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        4,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        0.95703125
+      ]
+    ],
+    "sentiment_avg": -4.09375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "Here's a healthy thought pattern:\n\n\"I've noticed I feel trapped when faced with too many responsibilities piling up, but instead of catastrophizing that there's no escape, I remind myself that I've na",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        3,
+        1.0
+      ],
+      [
+        "reframing",
+        3,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": -1.9921875,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck in this never-ending cycle of anxiety, feeling like every door is slamming shut behind me. There's no escape from the constant noise in my head or the weight of these responsibilities crushi",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        10,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        5,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.703125
+      ]
+    ],
+    "sentiment_avg": -2.046875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I started mapping my recent moment of intense suicidal thinking and realized that the trigger was a conversation with my partner, which led to feelings of isolation and rejection. I see now that I cat",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "concretizing",
+        4,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.828125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I find myself replaying yesterday's conversation with Sarah, but instead of getting stuck in the details, I take a moment to acknowledge my brain's tendency to revisit it. Right now, I notice the sens",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.921875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, what's going on is that I'm still stuck replaying yesterday's conversation with Sarah in my head and now I'm trying to remember every single detail, like the way she laughed at this one joke or h",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "zooming_in",
+        4,
+        1.0
+      ],
+      [
+        "remembering",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still stuck replaying yesterday's conversation with Sarah, but right now I see five things in front of me: my laptop screen, the clock on the wall, the chair across from me, the vase with flowers.",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "concretizing",
+        16,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        16,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.765625
+      ]
+    ],
+    "sentiment_avg": 1.1015625,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

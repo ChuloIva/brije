@@ -1,0 +1,312 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on all these tiny details - like how the rain dripped down my shirt that one morning or what Sarah said to me during lunch - and I just can't seem to let them go, like my brain is trying to ",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "remembering",
+        6,
+        1.0
+      ],
+      [
+        "zooming_in",
+        4,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.640625,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still focusing on those tiny details, but now I'm trying to ground myself in reality... Okay, let me do that 5-4-3-2-1 thing... I can see the tree branches swaying outside my window, the clock tic",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        8,
+        1.0
+      ],
+      [
+        "concretizing",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.95703125
+      ]
+    ],
+    "sentiment_avg": -2.609375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm still thinking about that argument with Emily... I'm not sure what to make of it, but I'm trying to acknowledge the tension between my feelings and thoughts. It's okay to hold onto both \u2013 I don't ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        0.90625
+      ]
+    ],
+    "sentiment_avg": 2.40625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying that argument in my head, wondering how could I have said something so hurtful when a part of me truly believes it wasn't intentional. Ugh, why do I always fall back on old patterns? ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        15,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        5,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "remembering",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": -3.203125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "Ugh, I'm stuck in that argument again... Okay, focus on my breathing and hands... Thinking about this more won't solve it... Hmm, maybe I should text Emily instead...",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.453125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been grappling with the impermanence of life and the uncertainty of our existence, but I've come to realize that it's okay not to have all the answers. By acknowledging the fragility of human lif",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.9609375
+      ]
+    ],
+    "sentiment_avg": 2.96875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point of any of this? It's all just a meaningless exercise in futility. We're all just specks of dust in an infinite void, and our existence is nothing more than a fleeting moment of incons",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "questioning",
+        10,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        3,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "understanding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.109375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling to find purpose in my work, today I'm dealing with a breakthrough idea that excites me. These connect because I realized what I've been missing all along and it's giving",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        7,
+        1.0
+      ],
+      [
+        "connecting",
+        2,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.21875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to realize that my life story is not just about the struggles I've faced, but also about how those experiences have shaped me. While I wouldn't wish any of that pain on anyone, I'm grateful ",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        6,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        6,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.796875
+      ]
+    ],
+    "sentiment_avg": 1.984375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my life is just one big messy chapter after another. Every bad thing that's happened to me has become a defining moment in the story of who I am - it's like these struggles have become the founda",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        16,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        0.734375
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.25,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "clusters": {
+    "0": [
+      "abstracting",
+      "connecting",
+      "creating",
+      "emotion_facilitation",
+      "emotion_receiving",
+      "emotion_understanding",
+      "noticing",
+      "response_modulation",
+      "situation_modification",
+      "suspending_judgment",
+      "updating_beliefs"
+    ],
+    "5": [
+      "accepting",
+      "analyzing",
+      "attentional_deployment",
+      "emotion_characterizing",
+      "metacognitive_monitoring",
+      "metacognitive_regulation",
+      "pattern_recognition",
+      "reframing",
+      "situation_selection"
+    ],
+    "1": [
+      "analogical_thinking",
+      "convergent_thinking",
+      "counterfactual_reasoning",
+      "divergent_thinking",
+      "emotion_valuing",
+      "emotional_reappraisal",
+      "hypothesis_generation",
+      "questioning",
+      "remembering",
+      "self_questioning"
+    ],
+    "3": [
+      "applying",
+      "distinguishing",
+      "emotion_perception",
+      "emotion_responding",
+      "evaluating",
+      "meta_awareness",
+      "understanding",
+      "zooming_out"
+    ],
+    "2": [
+      "cognition_awareness",
+      "perspective_taking",
+      "reconsidering",
+      "zooming_in"
+    ],
+    "4": [
+      "concretizing",
+      "emotion_management",
+      "emotion_organizing"
+    ]
+  },
+  "silhouette_score": 0.34149525268680675
+}

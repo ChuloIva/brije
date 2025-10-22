@@ -1,0 +1,342 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Is this really happening? I feel like I'm stuck in a dream or something \u2013 every conversation feels like an echo chamber, and I'm just going through the motions. What's real, anyway? Is that person act",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "questioning",
+        4,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.84375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still here, alive and awake, with a heartbeat that's proof of my resilience. Remembering those five reasons I've stayed alive so far helps me focus on what's real \u2013 like the genuine gladness I fel",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "remembering",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.921875
+      ]
+    ],
+    "sentiment_avg": 1.3984375,
+    "sentiment_layers": [
+      5
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing myself slipping into that old self-critical groove again - the one where I replay all my mistakes and perceived shortcomings. Time to acknowledge it, take a deep breath, and consciously s",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        14,
+        1.0
+      ],
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "situation_selection",
+        4,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 2.3125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why did I have to mess up again? Why can't I just be perfect for once? I'm such a disappointment to my family and friends - they must think I'm completely useless.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        10,
+        1.0
+      ],
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.96484375
+      ]
+    ],
+    "sentiment_avg": -2.5,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"Ugh, why did I have to mess up again? Wait, what was I just thinking about? Ah, same old loop... Okay, time for a circuit breaker! *breathe in 4 counts, out 6* Thinking about this more will not solve",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        7,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        0.91796875
+      ]
+    ],
+    "sentiment_avg": 0.95703125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I noticed myself drifting to thoughts of the future during our hike today. It's not uncommon for my mind to explore 'what-if' scenarios, especially when I'm feeling more relaxed and reflective. Rather",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        6,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.6875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why is my brain always stuck on this? Even as I'm laughing with friends at a concert, a part of me is whispering, \"And then it'll all be over. No more pain, no more anxiety, no more uncertainty.\"",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.8359375
+      ]
+    ],
+    "sentiment_avg": 2.28125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm surprised to see that even in those moments of laughter, my mind still wanders, but now I've started tracking my moods and activities. 10am: Mood right now is 6, just got back from a walk; Engaged",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "noticing",
+        3,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        0.953125
+      ]
+    ],
+    "sentiment_avg": 1.328125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that I've taken on too much lately, and it's normal to feel overwhelmed. Instead of panicking, I'll take a few deep breaths and prioritize the most critical tasks for now \u2013 I can't c",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        0.63671875
+      ]
+    ],
+    "sentiment_avg": 2.640625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm drowning in responsibilities; there's no way to escape this sea of obligations. Every task feels like a crushing weight, suffocating me, and I'm trapped with no lifeline. If only I could just take",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -1.5625,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

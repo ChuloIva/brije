@@ -1,0 +1,377 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on every little thing that went wrong during the meeting \u2013 I mean, who said those stupid things? And why did I wear that ridiculous tie? Ugh, my brain is a mess and I can't even recall what ",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "remembering",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.6171875
+      ]
+    ],
+    "sentiment_avg": -1.9921875,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm trying not to get caught up in all the meeting's mishaps, but instead I'm focusing on those index cards with reasons why I've stayed alive... remembering that time at the beach with friends, feel",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        5,
+        1.0
+      ],
+      [
+        "remembering",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.67578125
+      ]
+    ],
+    "sentiment_avg": 2.421875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I'm recognizing that I've been stuck in this rut for a while now, and it's okay to feel overwhelmed. Losing my job was tough, and the struggle to find a new one has taken a toll on me. I've also felt",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        9,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.90234375
+      ],
+      [
+        "applying",
+        1,
+        0.59375
+      ]
+    ],
+    "sentiment_avg": 1.3984375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm just so tired of feeling trapped in this miserable existence. Death feels like the only way to escape the constant anxiety and hopelessness that's suffocating me \u2013 it's like, what's the point of c",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        11,
+        1.0
+      ],
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "reconsidering",
+        3,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.703125
+      ]
+    ],
+    "sentiment_avg": -2.234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm remembering the series of events that led me to feel trapped \u2013 the beginning was when I lost my job, then came the struggles with finding a new one, middle was when I felt like I couldn't connect ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "remembering",
+        7,
+        1.0
+      ],
+      [
+        "abstracting",
+        4,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        3,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 3.28125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed I tend to replay my mistakes in my head, which can be frustrating. However, instead of getting stuck on them, I try to acknowledge the situation and recognize that everyone makes errors. ",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": 2.46875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here are 2-3 sentences of realistic internal monologue that capture this cognitive pattern:\n\n\"My stupid mistakes, they're all I can think about. Why did I have to mess up again? If only I hadn't said/",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        15,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "zooming_in",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        0.9765625
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.96875
+      ],
+      [
+        "emotion_valuing",
+        1,
+        0.53515625
+      ]
+    ],
+    "sentiment_avg": -5.0625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I can see now that my mistakes are just one part of the whole story. I started by saying 'hello' at the meeting, then things escalated quickly... I was worried about making a good impression and didn'",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotional_reappraisal",
+        9,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed that my mind has been playing some tricks on me lately - the sensation of being disconnected from my body is still there, but I'm more aware of it now. That awareness helps me stay ground",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.8046875
+      ]
+    ],
+    "sentiment_avg": 2.640625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, everything feels so... distant. Like my body's a puppet and someone else is controlling it from inside. How am I supposed to focus on the task at hand when nothing makes sense, even the sensation",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "cognition_awareness",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.046875,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that I don't have to choose between pleasing others and pursuing my own happiness. Instead, I can find a way to integrate both by being honest with myself about what truly matters to m",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        0.89453125
+      ]
+    ],
+    "sentiment_avg": 2.96875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I always struggling to meet everyone's expectations? It feels like no matter what I do, I'll never be good enough for my parents. Meanwhile, deep down, I know I should follow my own dreams",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        8,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.140625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not struggling to meet everyone's expectations, I'm trying to honor my own potential by following my passion for music. It feels like a never-ending maze of self-doubt and fear of disappointment. ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "reframing",
+        4,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.5234375
+      ]
+    ],
+    "sentiment_avg": 1.1640625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my heart rate increase as I think about that upcoming presentation. Instead of getting caught up in the physical sensation, I'm taking a deep breath and acknowledging it's normal to feel ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.90625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm acutely aware of this flutter in my chest, like a small bird trapped in a cage. Why is it so hard to shake? Is it anxiety or stress? It's as if I'm observing myself from outside, dissecting every ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        8,
+        1.0
+      ],
+      [
+        "analyzing",
+        5,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.15625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm acutely aware of my heart racing, but instead of getting caught up in the sensation, I'm focusing on my goal: finding a solution to this anxiety. I've drawn five different paths leading me toward",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        0.99609375
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_facilitation",
+        1,
+        0.65625
+      ]
+    ],
+    "sentiment_avg": -0.9375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to realize that my history of struggle has taught me invaluable lessons about resilience, empathy, and the importance of setting boundaries. While those experiences were undoubtedly painful,",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        8,
+        1.0
+      ],
+      [
+        "reframing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.765625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm convinced that my history of abandonment is what made me learn to rely on myself, even when others failed me. It's like, no one else was going to come through for me, so I had to figure it out \u2013 a",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "questioning",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        3,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.515625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm starting to see that my history of abandonment wasn't just about learning self-reliance, but also about understanding what I truly want and need from others. What if those experiences were meant t",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "reframing",
+        16,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        10,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "connecting",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.4296875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that my mind is indeed racing with multiple tasks and concerns today. Rather than getting swept away by the chaos, I'm taking a moment to recognize that each thought or worry has its",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.671875,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

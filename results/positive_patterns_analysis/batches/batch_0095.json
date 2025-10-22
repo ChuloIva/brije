@@ -1,0 +1,357 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm standing here, and I can see five things: the carpet, the lamp, the bookshelf, the window, and my own feet. The texture of the carpet beneath me feels real, like the roughness of the lamp's shade",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "cognition_awareness",
+        4,
+        1.0
+      ],
+      [
+        "concretizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -4.21875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind drifting back to those darker thoughts again. It's like a familiar, yet unwelcome guest that keeps popping up uninvited. I recognize this pattern, and it's okay \u2013 it doesn't mean ",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.578125
+      ]
+    ],
+    "sentiment_avg": -1.65625,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why can't I just focus on anything else? Every other thought, every memory, even my own name - all getting jumbled and replaced with what seems like an endless stream of \"what's the point\" and \"h",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.4375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm struggling to stay focused right now, my thinking clarity is at 3/10. I think my brain just needs a short break and some fresh air. Taking a quick 5-minute walk outside should help me clear my hea",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.984375
+      ]
+    ],
+    "sentiment_avg": 5.15625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that my mental energy levels are fluctuating today \u2013 it's normal to experience moments of fatigue. Instead of letting exhaustion dictate my choices, I'll take a few deep breaths and ",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.75,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why is everything so exhausting? I just need to choose what to eat for lunch, but my brain feels like a heavy lead weight \u2013 moving even the smallest thought forward takes an impossible amount of ",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "cognition_awareness",
+        2,
+        0.99609375
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.4296875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying not to get stuck in that familiar heaviness, so I'm focusing on my heartbeat \u2013 it's still going strong. This feeling will pass, and I've survived every tough moment before.",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.0625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I sit here, trying to make sense of my current situation, I acknowledge the feelings of frustration and hopelessness that arise. It's okay to feel stuck, but I'm not going to let it define me. Inst",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.90625
+      ]
+    ],
+    "sentiment_avg": 2.015625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point? Recovery seems like a myth created to torture me. Nothing ever changes; why should this time be any different?",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "questioning",
+        14,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.03125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm looking at the clock, the lamp, the chair, my hands, and the book on the table. I can feel the softness of my couch under me, the roughness of the rug beneath my feet, and the weight of my phone i",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.54296875
+      ]
+    ],
+    "sentiment_avg": 1.4453125,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "I'm such an idiot, why did I have to mess up that presentation again? It's like I'm not even capable of doing anything right.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        15,
+        1.0
+      ],
+      [
+        "questioning",
+        10,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.94140625
+      ]
+    ],
+    "sentiment_avg": -2.515625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I started getting anxious about the presentation hours before it began, and my heart was racing. I felt like everyone was watching me. When I got on stage, I forgot to check if the projector was worki",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_responding",
+        8,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        2,
+        0.9921875
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.9140625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind wandering to the possibilities of how I could take a break from this overwhelming situation, like taking some time off or seeking help. It's interesting to see how quickly my brai",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        14,
+        1.0
+      ],
+      [
+        "creating",
+        7,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.71875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here is a possible internal monologue:\n\n\"I keep replaying all the ways I could do it in my head - the pills, the razor, the rope. It's like my brain is trying to convince me that each one would be eas",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        6,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        3,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.859375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm gripping my feet into the floor, saying out loud 'I am present, I am here, today is [day/date]'... and now, I feel a solid connection to the ground. That pressure in my palms is real, it's not jus",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "concretizing",
+        10,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -0.89453125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing I'm questioning my initial reaction to this situation. That's okay, it means I'm taking the time to consider multiple perspectives. Instead of getting stuck on whether I was 'right' or 'w",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        9,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        8,
+        1.0
+      ],
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        0.6015625
+      ]
+    ],
+    "sentiment_avg": 2.953125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why did I just say that out loud? What was I even thinking? Am I really sure this is what I believe, or am I just trying to fit in with the group?",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        16,
+        1.0
+      ],
+      [
+        "questioning",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        0.95703125
+      ]
+    ],
+    "sentiment_avg": -3.125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm surprised I said that out loud; it doesn't define my self-worth. I was trying to fit in, but now I'm curious if people actually agree with me. Maybe I can learn something from others' perspectives",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotional_reappraisal",
+        12,
+        1.0
+      ],
+      [
+        "reframing",
+        10,
+        1.0
+      ],
+      [
+        "accepting",
+        7,
+        1.0
+      ],
+      [
+        "reconsidering",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        0.50390625
+      ]
+    ],
+    "sentiment_avg": 1.7734375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that my perception of reality feels a bit fuzzy today. It's like I'm observing life through a lens, but not fully engaged with the emotions or sensations. That can be both freeing and dis",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        0.9765625
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.296875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's going on with me? Everything feels like a movie, and I'm just a spectator watching my life unfold. Even talking to you right now, it's like someone else is speaking through me, not really being",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "meta_awareness",
+        11,
+        1.0
+      ],
+      [
+        "zooming_out",
+        9,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        5,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        0.9765625
+      ],
+      [
+        "understanding",
+        1,
+        0.8359375
+      ]
+    ],
+    "sentiment_avg": -1.828125,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

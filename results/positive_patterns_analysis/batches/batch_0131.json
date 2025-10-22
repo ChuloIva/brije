@@ -1,0 +1,287 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I've been noticing my stomach's been acting up, and I think it might be related to stress about work deadlines. Instead of focusing on the anxiety, I'm going to tackle one task at a time. Right now, I",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "analyzing",
+        10,
+        1.0
+      ],
+      [
+        "concretizing",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.859375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to tune into my surroundings, really paying attention to the sights, sounds, and sensations. I notice the soft glow of the lamp on the table, the gentle hum of the air conditioner,",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.75390625
+      ]
+    ],
+    "sentiment_avg": 4.71875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's real and what's not? Am I even sure my own thoughts are mine or just echoes from the TV playing in the background? Every word, every phrase feels like it could be someone else's, some external ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "self_questioning",
+        5,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm looking around, really focusing on my surroundings... I see five things: the lamp, the vase, the bookshelf, the TV remote, and the window with sunlight. Okay, that's real. And I can feel four text",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_perception",
+        5,
+        1.0
+      ],
+      [
+        "concretizing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.234375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging the impermanence of life, just as I acknowledge the fleeting nature of every moment. Right now, though, I'm choosing to focus on the present sensation of my feet touching the ground ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "reframing",
+        4,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.171875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying every miserable moment of my life in my head, wondering what's the point of it all. Every second spent breathing is just a countdown to inevitable nothingness, and why bother trying w",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        0.984375
+      ],
+      [
+        "questioning",
+        1,
+        0.875
+      ],
+      [
+        "self_questioning",
+        1,
+        0.8359375
+      ]
+    ],
+    "sentiment_avg": -2.5,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I can feel my feet pressing into the floor, it's a real sensation. Today is [day/date] and I am in [location]. My palms are pressed together, I'm holding that pressure. This moment feels solid, even i",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "concretizing",
+        9,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been noticing how my mind tends to wander into the bigger picture of existence, wondering what it all means. But instead of getting caught up in feelings of emptiness or hopelessness, I'm making ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.84375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm consumed by the fact that nothing matters, not even my own existence. Every decision, every achievement, is just a fleeting moment of insignificance in an endless void. Why bother trying to find m",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        10,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "questioning",
+        3,
+        1.0
+      ],
+      [
+        "understanding",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.5625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm surprised by how my mood shifts based on my daily activities. At 10am, I was anxious about not making progress on a project, but after taking a short walk outside and doing some stretching exercis",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_facilitation",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.40625,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm surprised by how much my inner debate about seeking help has shifted over time. What's interesting is that I used to believe I had to be self-sufficient, but now I recognize that acknowledging my ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        0.9921875
+      ],
+      [
+        "response_modulation",
+        1,
+        0.52734375
+      ]
+    ],
+    "sentiment_avg": 2.234375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I even questioning this? Can't I just admit that I need some space to process all of this and not feel so guilty about it? Why do I always have to be strong for everyone else, even when it",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        14,
+        1.0
+      ],
+      [
+        "questioning",
+        8,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        0.734375
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.5,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm taking a step back and acknowledging that I don't have to be strong for everyone else, even if it means taking some time for myself. Maybe going for a walk will actually help me clear my head and",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.70703125
+      ]
+    ],
+    "sentiment_avg": 0.9375,
+    "sentiment_layers": [
+      5
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been noticing lately that I've been grappling with the reality of my own mortality, which can be unsettling. While it's natural to feel overwhelmed by the impermanence of life, I'm trying not to ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.6171875
+      ]
+    ],
+    "sentiment_avg": 2.5625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck in this never-ending loop of contemplating mortality... Why bother with anything when everything is just going to end anyway? It's like, what's the point of even trying to find meaning when ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "questioning",
+        6,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.96875
+      ],
+      [
+        "analogical_thinking",
+        1,
+        0.76953125
+      ]
+    ],
+    "sentiment_avg": -2.78125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling with feeling overwhelmed by my job and personal relationships. Today I am dealing with a growing sense of anxiety about not knowing what's next. These connect because I'",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        9,
+        1.0
+      ],
+      [
+        "applying",
+        7,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        3,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.9921875
+      ],
+      [
+        "connecting",
+        1,
+        0.94921875
+      ]
+    ],
+    "sentiment_avg": 1.8125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that my plate is full right now, but I know I've managed to juggle multiple responsibilities before. I'm taking a deep breath, and instead of panicking about the overwhelming list, I",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        0.52734375
+      ]
+    ],
+    "sentiment_avg": 2.484375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, I'm drowning in this sea of responsibilities and there's no lifeline to grab onto \u2013 it feels like every moment is accounted for, leaving zero room to breathe. How am I supposed to keep going when",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.625,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm anchored in this moment, focusing on the concrete details around me. I see five things: my computer screen, the clock on the wall, the coffee cup, the plants outside, and the bookshelf. My fingers",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        15,
+        1.0
+      ],
+      [
+        "concretizing",
+        12,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.109375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I'm taking a moment to acknowledge that my mind is feeling overwhelmed today \u2013 it's like trying to organize multiple puzzle pieces at once, but I know I can handle this. Right now, I need to prioriti",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -0.921875,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

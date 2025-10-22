@@ -1,0 +1,347 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "\"I'm taking a step back to understand the complexity of my emotions and thoughts about this situation. I know it's normal for me to feel both ways, so I'll start by acknowledging those contradictory f",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        12,
+        1.0
+      ],
+      [
+        "analyzing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        5,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.58203125
+      ]
+    ],
+    "sentiment_avg": 2.734375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why am I even bothering with this? I know I should just let go, but what if they're right? Ugh, my gut is screaming one thing, but logically it doesn't make sense...",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        12,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "questioning",
+        5,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.09375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to make sense of it all by mapping out what happened, starting with just the facts... Okay, so that's where I was, then they said this and that happened... Ah, emotions are swirling around ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "analyzing",
+        16,
+        1.0
+      ],
+      [
+        "zooming_out",
+        6,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.6640625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I tune into my physical sensations, I notice the subtle tension in my shoulders and the gentle rise of my chest. This awareness allows me to acknowledge that I'm feeling a bit overwhelmed, likely d",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.953125
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.7109375
+      ]
+    ],
+    "sentiment_avg": 2.203125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on the tightness in my chest \u2013 why is it so hard to breathe all of a sudden? Is this anxiety? Panic? How am I not even aware of this until now? Why did my hands start shaking when I was thin",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        0.99609375
+      ],
+      [
+        "cognition_awareness",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": -4.8125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm focusing on my heartbeat, feeling it slow down as I remind myself that this heaviness has a beginning, middle, and end. I've survived every crisis before this moment, including this one. The part ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.97265625
+      ],
+      [
+        "response_modulation",
+        1,
+        0.9453125
+      ]
+    ],
+    "sentiment_avg": 1.9296875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that this situation feels overwhelming, like I'm stuck in a loop. But instead of getting caught up in the 'no escape' narrative, I'm taking small steps to manage my anxiety and prioritize se",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 3.5625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "It's like my brain is trapped in this never-ending maze - every door I try to open just leads me back to where I started. There's no escape from all these problems, no way out of this endless cycle of",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        7,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.328125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "It's like my brain is stuck in a cycle, but I'm trying to find ways out by tracking my mood and activities. Today, I set those alarms and actually did some drawing during that 10am alarm reminder - it",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        9,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.359375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I find myself getting caught up in the minutiae of my situation again - remembering every conversation, every meeting, every missed call. But instead of letting it spiral out of control, I take a deep",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        14,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.203125,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

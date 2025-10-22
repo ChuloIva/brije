@@ -1,0 +1,342 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing this familiar inner debate, where my values and social expectations are at odds. Instead of getting caught up in the tension, I'm taking a step back to acknowledge it. I remind myself ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.40625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why do I always feel torn between what I think is right and what everyone else expects from me? It's like my conscience is screaming at me to make a different choice, while my social self is pleading ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        9,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        6,
+        1.0
+      ],
+      [
+        "applying",
+        3,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "distinguishing",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.84375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling torn between what I think is right and what everyone else expects from me, but for now, let's focus on the present moment. Okay, 5 things I can see: my keyboard, monitor, chair, bookshelf,",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        6,
+        1.0
+      ],
+      [
+        "concretizing",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.484375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking time to reflect on my priorities and what I want to achieve, recognizing that it's okay to ask for help when needed. I'm acknowledging the challenges ahead, but instead of dwelling on negat",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        0.9140625
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": 2.84375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying all the ways it would be easier without me \u2013 my family wouldn't have to deal with my drama, and they'd get some peace. Plus, it's not like I'm contributing anything meaningful anyway.",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        6,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.484375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm focusing on taking control of my life by prioritizing one task \u2013 setting clear goals and making progress. Right now, I need to identify what's really bothering me most and break it down into manag",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "analyzing",
+        9,
+        1.0
+      ],
+      [
+        "applying",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.171875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I'm noticing that I've been replaying some of my recent conversations in my head, wondering if there's anything I could have done differently. Instead of beating myself up over it, though, I'm trying",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.96484375
+      ],
+      [
+        "creating",
+        1,
+        0.9453125
+      ]
+    ],
+    "sentiment_avg": 2.125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm such a terrible friend, always causing problems for others with my careless words or actions, and they're just stuck dealing with the fallout because of me. Why do I even bother trying when I'll j",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "applying",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.484375,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling really disconnected right now, like I'm just floating above my life and everything feels fake. But as I press my feet into the floor, I remember that I am [my name], today is [day/date], a",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "concretizing",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        8,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.2421875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling a bit drained today, but I know it's normal to have ups and downs. Instead of getting caught up in the overwhelm, I'm taking a step back to acknowledge my emotions and re-center myself. I ",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.71875,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

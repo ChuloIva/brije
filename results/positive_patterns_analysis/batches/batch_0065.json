@@ -1,0 +1,332 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck between pleasing others and following my own desires; I feel guilty for wanting to prioritize myself, knowing it'll disappoint those around me... Wait, what's that sensation on my skin? Ah, ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "concretizing",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.578125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that I'm feeling stuck, and it's normal to lose momentum sometimes. Instead of beating myself up over it, I'm choosing to acknowledge my exhaustion and take a step back to recharge. I'",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.90625
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.80078125
+      ]
+    ],
+    "sentiment_avg": 3.28125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, what's even the point? Nothing ever changes anyway, so why bother trying? The more I think about it, the more exhausted I feel.",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "questioning",
+        6,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.5625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling frustrated with my current situation, but looking at my goals, I realize that some of them might not be as achievable right now. Maybe I can adjust my approach and prioritize what's truly ",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.515625
+      ]
+    ],
+    "sentiment_avg": 1.8984375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I'm becoming more aware of my physical sensations as I sit here, noticing the subtle tension in my shoulders. It's as if my body is trying to tell me something about my emotional state. Recognizing t",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        5,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        3,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.515625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here's an attempt to generate authentic first-person internal thoughts:\n\n\"I'm noticing this weird tightness in my chest again; it always happens when I'm around those people. Why am I getting so anxio",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -1.75,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I started noticing a tightness in my chest when I was scrolling through social media, seeing all my friends' happy posts and feeling left out... Trigger: Social media. Thoughts: Maybe everyone else h",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 2.5625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling the familiar tug of overwhelm as my to-do list starts to grow. But instead of getting swept away by the sheer volume, I'm taking a deep breath and acknowledging that it's normal for life t",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.6640625
+      ]
+    ],
+    "sentiment_avg": 3.21875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm drowning in a sea of tiny worries \u2013 bills to pay, emails to respond to, appointments to keep track of... Each one a tiny weight that's piling up on my brain until it feels like it's going to crush",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_perception",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        5,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.15625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've taken control of one overwhelming task by writing 'Pay Rent' at the top of the page. Now, I'm breaking it down into three major steps: verify account balance, transfer funds, and confirm payment ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "concretizing",
+        16,
+        1.0
+      ],
+      [
+        "analyzing",
+        10,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.59375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm back in that mental hamster wheel again... Thinking about this more won't solve anything. I can choose a different channel. Breathe: inhale, 1-2-3-4, exhale, 1-2-3-6...",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "response_modulation",
+        6,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": -1.078125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed that lately, I've been having trouble distinguishing my inner thoughts from the world around me. It's like I'm constantly questioning what's real and what's just my own imagination runnin",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.890625
+      ]
+    ],
+    "sentiment_avg": 2.6875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm not even sure what's real and what's just my own twisted thoughts - nothing feels grounded anymore. Every sound, every face, every object looks like it's been filtered through some kind of distort",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        0.9921875
+      ],
+      [
+        "cognition_awareness",
+        1,
+        0.94140625
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.9140625
+      ]
+    ],
+    "sentiment_avg": -3.234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm starting to see patterns in my thinking, and I can pinpoint exactly what triggered these intense suicidal thoughts. It makes me realize that it wasn't reality that was distorted, but my own perspe",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.171875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I can feel my mind starting to spin with all the recent events, but instead of getting caught up in the chaos, I'll take a deep breath and acknowledge that it's okay not to have all the answers right ",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.96875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trying to make sense of this week's events, but my brain keeps jumping from one chaotic scene to another \u2013 like when John interrupted me at work again, and then I got stuck in that traffic jam on ",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.34375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm choosing not to let my brain dictate my actions right now. I'll get up, grab a glass of water, and take one step \u2013 just washing this single dish. Who knows, maybe it'll help me clear my head.",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "situation_selection",
+        13,
+        1.0
+      ],
+      [
+        "suspending_judgment",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        0.99609375
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        0.98828125
+      ],
+      [
+        "questioning",
+        1,
+        0.74609375
+      ]
+    ],
+    "sentiment_avg": 1.1171875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware of my stomach doing that familiar flutter when I think about the upcoming deadline \u2013 a classic sign for me that I'm feeling overwhelmed. But I've been working on recognizing this sensation a",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.6953125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my stomach is clenched up tight again \u2013 that familiar knot of anxiety. Why does it always feel like a lead weight? And my skin is crawling, the hairs on my arms standing up in a way that makes me",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        7,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        4,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.7578125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing my stomach feels tense again, that familiar knot of anxiety. But I've been tracking my daily moments today and I realized it's not just about avoiding discomfort \u2013 I've made progress on a",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.9921875
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.56640625
+      ]
+    ],
+    "sentiment_avg": 2.5,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "When I feel overwhelmed with too many thoughts and tasks, it's like my brain is a busy construction site \u2013 all the pieces are there, but they need some organization to make sense. Right now, I recogni",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        6,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 3.28125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my brain is a messy room \u2013 one thought jumps to another without warning, no filter or coherence. It's like trying to untangle a thousand threads at once, impossible to focus on anything. How am I",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.5390625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm starting to see my brain as a messy room because I'm not organizing my tasks effectively. Okay, let's try to break down one overwhelming task into smaller steps. Right now, the top priority is fin",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "concretizing",
+        12,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        6,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.265625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been thinking about ways to cope with this challenging situation, and I realize that taking some time off or reaching out for support might be more effective than what initially comes to mind. I'",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        13,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.5,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm consumed by the thought of taking some pills, maybe a combination with cutting my wrists... I've been researching online and talking to friends who have done it, so I know it's not that uncommon. ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.50390625
+      ]
+    ],
+    "sentiment_avg": 1.9921875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not consumed by the thought of taking some pills, maybe a combination with cutting my wrists... I've been researching online and talking to friends who have done it, so I know it's not that uncomm",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.99609375
+      ],
+      [
+        "evaluating",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 2.734375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that some days feel like I'm stuck in quicksand, but I've been here before and can recall small victories. Right now, it's hard to see a clear path forward, but I know I've taken tin",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.203125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why did I even bother trying? There's no way out of this mess, no escape from all the problems piling up. Every door I try to open just leads to more chaos and uncertainty.",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "evaluating",
+        8,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.8828125
+      ]
+    ],
+    "sentiment_avg": -1.7734375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm surprised by how small that step was, but it actually gave me a tiny boost of energy and motivation. I predicted feeling stuck and hopeless after getting out of bed, but instead, I feel more focus",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_facilitation",
+        7,
+        1.0
+      ],
+      [
+        "response_modulation",
+        7,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        0.99609375
+      ],
+      [
+        "situation_selection",
+        1,
+        0.73046875
+      ]
+    ],
+    "sentiment_avg": 2.3125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that getting out of bed feels more challenging than usual today. I think it's likely because I didn't get enough sleep and my mind is still racing from last night's work stress. It's okay",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_responding",
+        8,
+        1.0
+      ],
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.6875,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

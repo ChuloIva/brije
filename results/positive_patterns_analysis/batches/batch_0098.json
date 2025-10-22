@@ -1,0 +1,301 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm not stuck replaying every conversation from the past week anymore; I've decided to take a 10-minute walk instead. I predict it will help me clear my mind and reduce these anxious thoughts. If I c",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "concretizing",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.0234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware of my shoulders tensing up as I think about this challenging situation. That's a natural response, actually \u2013 it makes sense that my body would react to stress like this. Instead of getting ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 2.71875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm hyper-aware of my tension in my shoulders \u2013 the tightness is almost suffocating. What does this mean? Is it a physical manifestation of anxiety or just a rational response to this situation? Ugh, ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "self_questioning",
+        10,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": -1.484375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing my tension in my shoulders \u2013 the tightness is present, but I don't need to ruminate on it. What's clear right now is that I'm feeling overwhelmed and stuck. That's okay, I can work with t",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        6,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.03125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to realize that my story isn't defined by any one rejection or failure. Instead, I'm learning to integrate those experiences as a part of my growth narrative \u2013 not the whole story. By acknow",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        6,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.140625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my story is still one of rejection and failure. Every time someone doesn't respond to me or doesn't care, it's like they're writing the next chapter in this awful narrative - \"I'm not good enough",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [],
+    "sentiment_avg": -2.078125,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not trapped by those awful narratives anymore; my story is about resilience, for now. I've stayed alive despite all that's happened \u2013 I wrote it down: 5 reasons to keep going. The photo of me with",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "remembering",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.2890625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm still working through some tough emotions about my recent setbacks. I know it's okay to have doubts, and honestly, acknowledging them as a normal part of the process is helping me feel more ground",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        6,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 2.640625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What am I even doing? Why do I always doubt myself? I'm just not good enough, that's why these struggles are happening \u2013 if only I were better or more capable.",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.953125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling with self-doubt and uncertainty about my abilities, Today I am still grappling with these feelings but I've also gained a better understanding of what triggers them and ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        4,
+        1.0
+      ],
+      [
+        "applying",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.859375,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

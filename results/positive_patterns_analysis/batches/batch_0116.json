@@ -1,0 +1,297 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm sitting in bed, thinking about getting out of it feels like a heavy weight on my chest. I recall the morning routine I've been doing for years, it's always felt like a struggle to get up and start",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        9,
+        1.0
+      ],
+      [
+        "noticing",
+        3,
+        1.0
+      ],
+      [
+        "reconsidering",
+        3,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.28125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my body's physical sensations as I sit here, feeling a slight tightness in my shoulders and a gentle hum of anxiety. It's interesting to recognize how my emotions and bodily responses are",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_receiving",
+        5,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.84375
+      ]
+    ],
+    "sentiment_avg": 2.171875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why is my heart racing like this? Can't I just calm down for two seconds? It's like my body is screaming at me to pay attention to the way my skin feels all prickly and sweaty.",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "response_modulation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.03125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm surprised by how quickly my heart rate slows down as I reflect on today's events. Writing about that small moment where I helped a friend, connecting it to my core value of empathy and compassion,",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        13,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        3,
+        1.0
+      ],
+      [
+        "connecting",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.5625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I take a moment to breathe and center myself, I become aware that my thoughts are like wisps of smoke \u2013 fleeting and hard to grasp. I recognize this is just my brain's natural tendency to get tangl",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "accepting",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 2.203125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's real and what's just my crazy brain? Is that a thought or just a passing noise in my head? Everything feels like a haze, like I'm observing myself from outside myself, wondering if any of this ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "distinguishing",
+        1,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.82421875
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.6875
+      ]
+    ],
+    "sentiment_avg": -1.6875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm standing at the edge of my paper, drawing a line across it to separate reality from haze. I start by marking 'Beginning,' 'Middle,' and 'End.' Okay, let's get the facts straight: this is what happ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "analyzing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.671875,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my emotions are running high as I think about that conversation with Sarah. It's possible I might have misinterpreted some of what she said, and maybe I was too quick to react without ful",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        13,
+        1.0
+      ],
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        6,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.765625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm starting to doubt whether my anger is justified or just a reaction; it feels so intense and out of character for me. Why am I getting worked up over this? Is it because I'm not meeting some standa",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        9,
+        1.0
+      ],
+      [
+        "distinguishing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.171875,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I started feeling anxious about my conversation with Sarah around 10 am, and it escalated into full-blown anger by 11:30. I remember thinking she was being dismissive and unhelpful during our talk, wh",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_perception",
+        9,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        8,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I recognize that feeling stuck and hopeless can be overwhelming. Instead of giving up, I'll take a step back and acknowledge the exhaustion. Right now, I don't have the energy to tackle everything at ",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        4,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        0.9375
+      ]
+    ],
+    "sentiment_avg": 2.40625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point of even trying? Nothing ever changes anyway, so why waste my energy on hope. It's not like anything will get better \u2013 what's the use of pretending otherwise?",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        11,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "questioning",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.5625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'll start by trying to make some small progress with one task, like organizing my desk drawer. I'll write down a clear goal: 'Get rid of unnecessary papers and keep essential documents accessible.' T",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "concretizing",
+        14,
+        1.0
+      ],
+      [
+        "analyzing",
+        11,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.140625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing myself getting caught up in some familiar negative self-talk again - replaying all the things I could've done differently with that project. It's like my brain is trying to tell me someth",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        12,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.765625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I just can't believe how stupid I was to mess up that presentation again; I'm such a failure, what's wrong with me? My brain keeps replaying all the things I could've done differently, and it's like I",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.92578125
+      ]
+    ],
+    "sentiment_avg": -1.7734375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling with self-doubt after a disappointing review, today I am dealing with the stress of an upcoming deadline and the fear of not meeting expectations. These connect because ",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        14,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        12,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.046875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I acknowledge that my thoughts can feel scattered at times, like a puzzle with missing pieces. But I've learned to recognize this feeling as a signal to take a step back and reorient myself. By paying",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.09375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my thoughts are a jumbled mess, like trying to untangle a knot that's been wrapped around my brain. Every notion feels distant and disconnected from me \u2013 as if someone else is whispering them in ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "meta_awareness",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.8828125,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I focus on the here and now, grounding myself in reality. I name five things I can see: my laptop screen, the clock on the wall, the books on the shelf, the window with sunlight streaming in, and the",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        16,
+        1.0
+      ],
+      [
+        "concretizing",
+        4,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        0.94140625
+      ]
+    ],
+    "sentiment_avg": 2.125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my heart rate increasing as I think about the upcoming meeting. That's a signal that I might be getting anxious, but it's not necessarily a warning sign. Instead, I'll take a deep breath ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        0.5546875
+      ]
+    ],
+    "sentiment_avg": 2.796875,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

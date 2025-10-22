@@ -1,0 +1,297 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a step back to acknowledge the swirling thoughts and emotions I'm experiencing, recognizing that they're an integral part of my processing. By acknowledging this disorientation, I'm able to",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 3.109375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my thoughts are a jumbled mess, like trying to untangle a knot that's been wrapped around my brain. Every notion feels distant and disconnected from me \u2013 as if someone else is whispering them in ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "meta_awareness",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.8828125,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've started tracking my daily moments, and it's interesting to see that even in the chaos, I found a small sense of purpose in helping a friend with their project \u2013 linking that to my value of empath",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "noticing",
+        3,
+        1.0
+      ],
+      [
+        "remembering",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.03125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been grappling with the meaninglessness of life, wondering if it's all just a fleeting moment before nothingness. But I've started to recognize that my existence is not defined by its impermanenc",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.390625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck in this endless cycle of wondering what's even the point \u2013 every breath, every movement, every decision feels like a futile attempt to defy the crushing certainty that it'll all end in nothi",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.984375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling to find purpose in my work, feeling stuck and unfulfilled. Today I am still searching for a way out, but I've started taking small steps towards trying something new. Th",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "applying",
+        10,
+        1.0
+      ],
+      [
+        "connecting",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": 1.546875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that I didn't meet my expectations for the presentation, but instead of getting stuck on what went wrong, I'm choosing to focus on the steps I'll take next time. Recognizing my stren",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        0.91015625
+      ]
+    ],
+    "sentiment_avg": 1.578125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I just can't believe how stupid I was to mess up that presentation again; I'm such a failure, what's wrong with me? My brain keeps replaying all the things I could've done differently, and it's like I",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.92578125
+      ]
+    ],
+    "sentiment_avg": -1.7734375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to learn from my mistakes, and instead of beating myself up, I'm focusing on what I did well today. Writing down that moment when I helped a colleague with their task felt empowering. It re",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "situation_selection",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        0.99609375
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.09375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to realize that my past struggles have shaped me into the resilient person I am today. While it's true those experiences have had a profound impact, I'm not defined solely by them. Rather, t",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "reframing",
+        9,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        8,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.359375,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

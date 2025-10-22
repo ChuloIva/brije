@@ -1,0 +1,397 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "What's my response when people suggest reasons for optimism? Ugh, they just don't get it. \n\nHere are my realistic internal monologue thoughts:\n\n\"I keep wondering if anyone really understands how suffo",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.66015625
+      ]
+    ],
+    "sentiment_avg": -2.703125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm sitting on my couch, focusing on the five things I can see: the TV remote, the coffee table, the clock on the wall, the bookshelf, and the window with sunlight streaming in. Okay, got that. Now, f",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "concretizing",
+        14,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        4,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.640625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that I might feel hopeless about making progress at times, but I've learned to recognize when my brain is stuck in this cycle. Instead of getting caught up in the 'what's the point?' spiral,",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        8,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.6328125
+      ]
+    ],
+    "sentiment_avg": 1.84375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point? Even if I were to try, what's the likelihood that anything would actually change? It's all just a cycle of disappointment and heartache.",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "questioning",
+        12,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.9453125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling stuck again, but I know I can't let my brain win. I need to test my predictions. If I get up and take a short walk, I predict I'll feel slightly more energized afterwards. I expect it will",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "situation_selection",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        11,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.609375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed my mind wandering to the idea of leaving behind unfinished tasks or unexpressed emotions when I'm stressed or overwhelmed. It's like my brain is trying to remind me that life has its limi",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.640625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why does death feel like the only way out? Every thought leads me back to the same conclusion \u2013 escape through disappearance. I'm so exhausted from trying to distract myself, yet my brain keeps circli",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.8828125
+      ]
+    ],
+    "sentiment_avg": -3.390625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've been mapping my recent suicidal thinking, tracing back to the trigger \u2013 a painful argument with my partner. I see patterns emerging: 'I'm worthless without them,' then 'Life isn't worth living.' ",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "concretizing",
+        6,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.59375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I've been there before, feeling overwhelmed by the weight of uncertainty. When people suggest reasons for optimism, I appreciate their intentions, but I know my own pace and limitations. Instead of g",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.98828125
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.984375
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.87109375
+      ]
+    ],
+    "sentiment_avg": 1.578125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's my response when people suggest reasons for optimism? Ugh, they just don't get it. \n\nHere are my realistic internal monologue thoughts:\n\n\"I keep wondering if anyone really understands how suffo",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.66015625
+      ]
+    ],
+    "sentiment_avg": -2.703125,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

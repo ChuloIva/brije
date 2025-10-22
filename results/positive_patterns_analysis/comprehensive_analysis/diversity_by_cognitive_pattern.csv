@@ -1,0 +1,14 @@
+cognitive_pattern_type,num_samples,unique_actions,total_action_occurrences,entropy,mean_actions_per_sample,most_common_action,most_common_count
+Over-elaborative recounting,118,41,465,4.89491725848703,3.940677966101695,emotion_management,48
+Autobiographical integration,120,41,520,4.894078853523142,4.333333333333333,reframing,47
+Instrumental suicidal reasoning,120,40,577,4.853768047959773,4.808333333333334,emotion_management,47
+Fragmented perceptual reasoning,120,40,474,4.771291611370457,3.95,emotion_management,49
+Entrapment cognition,120,39,546,4.724970604817103,4.55,emotion_responding,55
+Intrusive suicidal fixation,120,41,530,4.718969991212059,4.416666666666667,emotion_management,56
+Internal dialectical processing,120,40,597,4.716033140446384,4.975,emotion_organizing,69
+Existential rumination,118,40,583,4.695883917967424,4.940677966101695,emotion_management,50
+Cognitive depletion pattern,116,41,556,4.678524700720702,4.793103448275862,emotion_responding,61
+Negative self-evaluative loop,120,42,609,4.672580952081372,5.075,emotion_management,56
+Learned helplessness loop,116,39,596,4.646055243669177,5.137931034482759,emotion_responding,53
+Hyper-attuned interoception,120,42,494,4.60160257290749,4.116666666666666,emotion_perception,73
+Cognitive disorganization,120,41,468,4.589349469456725,3.9,emotion_management,62

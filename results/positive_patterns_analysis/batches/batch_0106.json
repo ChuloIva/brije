@@ -1,0 +1,362 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, how do I even put into words this suffocating sense of being on edge all the time? Every thought is like a fragment of chaos, refusing to settle or make sense \u2013 it's like trying to grasp sand bet",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.94921875
+      ],
+      [
+        "evaluating",
+        1,
+        0.72265625
+      ]
+    ],
+    "sentiment_avg": -2.890625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm holding my Hope Kit, feeling the weight of it in my hands. I wrote down five reasons why I've stayed alive so far \u2013 small things like a good conversation with a friend or a beautiful sunset. And I",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "remembering",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.953125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling really drained today, and the thought of tackling my to-do list feels overwhelming. However, I've been here before, and I know that getting started is key to regaining some momentum. I'll ",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.5625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What even is the point of getting out of bed today? It's not like anything matters anyway... Ugh, just looking at my to-do list makes me want to crawl back under the covers and forget about everything",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        9,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.3984375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not really feeling like getting out of bed, but I'll get up and start my day. Last night, I wrote down that moment when I helped a friend with their move. It reminded me of my value to prioritize ",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "situation_selection",
+        8,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        6,
+        1.0
+      ],
+      [
+        "remembering",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.80859375
+      ]
+    ],
+    "sentiment_avg": -1.21875,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm not perfect, and I made a mistake. That's okay - it's an opportunity to learn and grow from it. Instead of beating myself up over it, I'll focus on what I can improve for next time. By acknowledgi",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        14,
+        1.0
+      ],
+      [
+        "accepting",
+        8,
+        1.0
+      ],
+      [
+        "reframing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.796875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why did I have to make that mistake? It's always something with me... if only I could've done better.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        16,
+        1.0
+      ],
+      [
+        "self_questioning",
+        15,
+        1.0
+      ],
+      [
+        "questioning",
+        9,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        0.921875
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.88671875
+      ]
+    ],
+    "sentiment_avg": -2.4375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I don't feel like I've failed completely. It was just a mistake, and I can learn from it.\n\nEverything feels overwhelming right now, but I still matter because there's someone out there who's glad I ex",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotional_reappraisal",
+        12,
+        1.0
+      ],
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        3,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        0.92578125
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 1.8828125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that my mind can wander and get lost in thoughts, but I remind myself to focus on my physical sensations \u2013 the sensation of my feet on the ground, the sounds around me, or even the subtle",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        11,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.359375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's even real? Is this just my imagination or is this actually happening? Sometimes I get so lost in my own thoughts, and then suddenly I'm like, wait, am I still in this room? Or did it all just f",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "self_questioning",
+        8,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        0.97265625
+      ]
+    ],
+    "sentiment_avg": -3.46875,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

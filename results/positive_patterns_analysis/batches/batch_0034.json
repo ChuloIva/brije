@@ -1,0 +1,367 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Here's a possible internal monologue:\n\n\"I've been considering just packing a small bag with essentials, like my medication and phone, so if things get too overwhelming, I know what to grab in a rush. ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        9,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "analyzing",
+        4,
+        1.0
+      ],
+      [
+        "reconsidering",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.94140625
+      ]
+    ],
+    "sentiment_avg": -2.171875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm holding onto the memory of a friend who appreciated my help with their move last week. Just thinking about that person makes me feel more grounded and reminded of why I matter in small but signifi",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "remembering",
+        6,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.25,
+    "sentiment_layers": [
+      4
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've caught myself dwelling on the vastness of existence and our tiny place within it, but I know that's just my mind's way of trying to make sense of the unknown. Instead of getting lost in those tho",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "situation_modification",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.87890625
+      ]
+    ],
+    "sentiment_avg": 3.375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point of anything? What am I even doing with my life when every decision is just a futile attempt to distract myself from the crushing certainty of our own mortality? It's all just a meanin",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "questioning",
+        12,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.734375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I used to think my existence was meaningless, but what if I'm not looking at it from the right angle? Maybe there's a way to find purpose in this chaos. What do I truly want most right now? It's not a",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        16,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "creating",
+        7,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.0625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that my thoughts are getting jumbled again, and I need to take a moment to re-center myself. It's normal for my mind to get overwhelmed sometimes, but I know how to gently nudge it b",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        11,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.8359375
+      ]
+    ],
+    "sentiment_avg": 2.28125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm lost in a haze, unable to pinpoint what's real and what's just my twisted mind. Thoughts are swirling, uncoiling like snakes, making it impossible to grasp anything solid; nothing feels concrete a",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "meta_awareness",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.78125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm taking a step back from my thoughts and I can see that they're just swirling around, like clouds in the sky. I don't have to believe every thought that pops up; I choose what's real. My mind is pl",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.7578125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm struggling to reconcile my desire for authenticity with the pressure to fit in, but instead of getting stuck on which one's 'right,' I'm taking a step back to acknowledge both perspectives. By ack",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        12,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.5703125
+      ]
+    ],
+    "sentiment_avg": 4.28125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why am I torn between being honest with myself and conforming to what everyone else thinks is right? It's like my head is screaming at me to choose one, but which one do I pick when neither feels quit",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        10,
+        1.0
+      ],
+      [
+        "questioning",
+        8,
+        1.0
+      ],
+      [
+        "self_questioning",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ],
+      [
+        "distinguishing",
+        1,
+        0.98828125
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": -2.609375,
+    "sentiment_layers": [
+      6
+    ]
+  }
+]

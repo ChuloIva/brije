@@ -1,0 +1,377 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to remember exactly what led me to start researching self-harm online... it started a few weeks ago, after my mom's birthday party got awkward. I felt really down and alone afterward. Then ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "creating",
+        4,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "remembering",
+        3,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.75,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I'm noticing myself getting caught up in the details \u2013 the way the sun was setting behind the building, the awkward pause before she spoke up, and how my hands were shaking. I can see how this is hap",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "response_modulation",
+        4,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "applying",
+        2,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        2,
+        0.96484375
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "abstracting",
+        1,
+        0.99609375
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.8359375
+      ]
+    ],
+    "sentiment_avg": 2.96875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on every little detail \u2013 the way the sun was setting behind the building, the awkward pause before she spoke up, and how my hands were shaking so badly I thought they'd fall off. But what's ",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        0.9609375
+      ],
+      [
+        "analyzing",
+        1,
+        0.75390625
+      ]
+    ],
+    "sentiment_avg": -2.25,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm stuck on every little detail \u2013 the way the sun was setting behind the building, the awkward pause before she spoke up, and how my hands were shaking so badly I thought they'd fall off. But what's",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "response_modulation",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        5,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.296875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that this situation feels overwhelming, and it's normal to feel trapped. I'm recognizing the patterns of negative thinking creeping back in - the 'no escape' narrative. Instead of ge",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        11,
+        1.0
+      ],
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.75,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why did I even bother trying? There's no way out of this mess, no escape from all the problems piling up. Every door I try to open just leads to more chaos and uncertainty.",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "evaluating",
+        8,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.8828125
+      ]
+    ],
+    "sentiment_avg": -1.7734375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck in that mental loop again. What was I even thinking about? Okay, let's break free from this hamster wheel. *Breathe* Thinking about this more will not solve it. I can choose a different chan",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        7,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.83984375
+      ]
+    ],
+    "sentiment_avg": -2.046875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that my mind is wandering again, which can be frustrating at times. However, I've come to realize that these distractions often serve as a reminder to take breaks and prioritize self-care",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        7,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.484375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my thoughts are like a messy room - they just won't stay focused. One minute I'm trying to think about this task, the next I'm wondering what that weird noise is outside and then suddenly I'm rep",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        7,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.390625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm surprised by how much more focused my mind feels tonight, despite all the distractions I faced today. That weird noise outside actually led me to a meaningful conversation with a neighbor about co",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        9,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        7,
+        1.0
+      ],
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        0.74609375
+      ]
+    ],
+    "sentiment_avg": 1.40625,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

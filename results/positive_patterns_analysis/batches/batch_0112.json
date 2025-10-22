@@ -1,0 +1,362 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying that argument with my friend in my head, but it's all jumbled up - was it because of what I said or did they really not listen? And then there's the thing with work, how come my manag",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "remembering",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.94140625
+      ]
+    ],
+    "sentiment_avg": -2.859375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "Thinking about this more will not solve it. I can choose a different channel. Okay, I'm taking a deep breath in... out... in... out... Now, let me just text Sarah real quick and get that out of my hea",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "response_modulation",
+        7,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": 1.0,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to reflect on today's events, acknowledging the mix of emotions I experienced. That awkward encounter with Sarah at the coffee shop still resonates, but instead of dwelling on it, ",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        14,
+        1.0
+      ],
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.59375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why do I always remember every little thing that happened? It's like my brain is a tape recorder playing back all these insignificant moments and I'm stuck reliving them. Ugh, the coffee shop scene st",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "remembering",
+        9,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.328125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm surprised by how many moments today felt meaningful, like when I helped my neighbor carry groceries. It reminded me of my value on community and compassion. Today's sense of life meaning: 8/10.",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        9,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        6,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "remembering",
+        4,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        0.95703125
+      ],
+      [
+        "evaluating",
+        1,
+        0.9765625
+      ],
+      [
+        "emotion_management",
+        1,
+        0.76171875
+      ]
+    ],
+    "sentiment_avg": 3.234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind starting to wander again, taking me on a wild ride of 'what's real' and what's not. Ah, familiar territory! Time to acknowledge the thought and gently steer myself back to the pre",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        14,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        12,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        7,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 2.109375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's even real? Is this just my imagination or is this actually happening? Sometimes I get so lost in my own thoughts, and then suddenly I'm like, wait, am I still in this room? Or did it all just f",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "self_questioning",
+        8,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        0.97265625
+      ]
+    ],
+    "sentiment_avg": -3.46875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm caught in that hamster wheel again, spinning around in circles, getting nowhere. Okay, time to breathe... four counts in, six counts out. Thinking about this more will not solve it. I can choose a",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.99609375
+      ],
+      [
+        "response_modulation",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -1.921875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I sit here, I'm noticing my body's physical responses to the conversation unfolding. My heart rate has increased slightly, but it's not racing or pounding uncontrollably; it's more of a gentle hum,",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.71875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I feel like my heart is racing again, pounding in my chest, as if I'm trapped in a never-ending loop of anxiety. Why is my breath so shallow? It's like I'm sucking air in through my nostrils and not e",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        7,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.59765625
+      ]
+    ],
+    "sentiment_avg": -1.7109375,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

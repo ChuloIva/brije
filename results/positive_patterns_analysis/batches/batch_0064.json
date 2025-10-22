@@ -1,0 +1,402 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "What's the point of any of this? Why bother with anything when everything just ends in nothingness?",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "questioning",
+        16,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "understanding",
+        3,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've been feeling stuck on my thesis, but I'm going to start by writing down one major goal: 'Finish my research paper'. Okay, that feels overwhelming, so let me break it down into steps. First, I nee",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "concretizing",
+        11,
+        1.0
+      ],
+      [
+        "analyzing",
+        7,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.34375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that this situation feels like it's getting away from me, but I can take a deep breath and remind myself that I've navigated tough spots before. Right now, my feet are firmly planted",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        7,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": 3.078125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, every door seems to slam shut in my face; there's no way out of this mess. I'm trapped, suffocating under the weight of responsibilities and expectations. What if I just can't keep up with everyt",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.15625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling overwhelmed, but I can focus on my feet touching the ground right now. My name is [name], today is [date], and I am in [location]. This moment feels real because of the pressure on my palm",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "concretizing",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.453125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "\"I've been noticing that whenever I'm faced with the choice between following my heart or playing it safe, I get this sense of discomfort. It's like there's a tug-of-war going on inside me between the",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        9,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        7,
+        1.0
+      ],
+      [
+        "applying",
+        4,
+        1.0
+      ],
+      [
+        "response_modulation",
+        3,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        0.9921875
+      ],
+      [
+        "creating",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 1.0546875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here's a possible response:\n\n\"I'm stuck on this feeling that what my parents want me to do isn't aligning with what I truly believe in, and I don't know if I have the courage to go against their wishe",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        8,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.171875,
+    "sentiment_layers": [
+      5
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm starting to notice a pattern where I feel most alive and connected to my values when I take risks and prioritize self-expression over stability. Last night, I wrote down moments like that in my da",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        5,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": 3.25,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging this internal debate between honoring my commitments and respecting my own needs. I can feel the tension building, but instead of getting caught up in guilt or shame, I'm taking a st",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm torn between following my heart and doing what's expected of me; why do I always feel guilty for wanting to prioritize myself, when I know others will be disappointed? Can't I just have one moment",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "questioning",
+        12,
+        1.0
+      ],
+      [
+        "self_questioning",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.9140625
+      ]
+    ],
+    "sentiment_avg": -1.484375,
+    "sentiment_layers": [
+      6
+    ]
+  }
+]

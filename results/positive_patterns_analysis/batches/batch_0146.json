@@ -1,0 +1,372 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm struggling to see a way forward right now, but that doesn't mean I have to freeze. One tiny thing I can do today is make myself a cup of tea and take 5 minutes to breathe. That's it \u2013 not saving t",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        3,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.51953125
+      ]
+    ],
+    "sentiment_avg": 3.125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I reflect on my life journey, I'm struck by the realization that those challenging experiences - like my parents' fight on my birthday or getting rejected from college - have indeed shaped me into ",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "reframing",
+        6,
+        1.0
+      ],
+      [
+        "distinguishing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.8203125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm realizing now that all those painful memories, like my parents' fight on my birthday or getting rejected from that college, they're not just random events - they've shaped me into this person. It'",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        0.67578125
+      ]
+    ],
+    "sentiment_avg": -1.5703125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm anchored in my body, feeling the pressure of my palms together. I am real. This moment is real. The painful memories are still there, but they're not defining me right now. My life hasn't been le",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.5390625
+      ]
+    ],
+    "sentiment_avg": -1.7890625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I know I've faced tough times before, and it's natural to feel drained. Right now, my energy levels are low, but that doesn't mean I give up or lose hope entirely. Instead, I acknowledge the fatigue, ",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 2.578125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's even the point of trying anymore? Nothing ever changes, and I'm just exhausting myself for no reason.",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "questioning",
+        14,
+        1.0
+      ],
+      [
+        "evaluating",
+        11,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6640625,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I am still here, beating with a heart that has gotten through every difficult moment before this one.",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "reframing",
+        6,
+        1.0
+      ],
+      [
+        "remembering",
+        6,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        5,
+        1.0
+      ],
+      [
+        "response_modulation",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "noticing",
+        2,
+        0.99609375
+      ],
+      [
+        "emotion_understanding",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -4.1875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind keeps drifting back to the idea of mortality, but I'm not letting it consume me. Today, I'm choosing to focus on the present moment and what's in front of me. It's okay that these",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        0.94140625
+      ],
+      [
+        "accepting",
+        1,
+        0.69921875
+      ]
+    ],
+    "sentiment_avg": 3.453125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I just can't shake off this feeling that nothing matters anymore... Why am I even bothering with anything, what's the point?",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "questioning",
+        12,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        8,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.65625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm standing here, feet firmly on the ground. Today is [day/date]. I am in [location]. My palms are squeezing tight, and it feels real. This moment is actually happening. I can feel my body under me, ",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "concretizing",
+        8,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        4,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.671875,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

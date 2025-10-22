@@ -1,0 +1,322 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm stuck in that cycle again, thinking about what everyone else expects from me. Wait, timer went off! Time to break free. I'll do 20 jumping jacks and focus on my breathing instead.\"\n\n\"Thinking abo",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        12,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.875
+      ]
+    ],
+    "sentiment_avg": 1.7265625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that my mind sometimes drifts to the idea of mortality, but I've learned to recognize when it's happening. Instead of letting those thoughts consume me, I take a few deep breaths and acknowl",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.734375
+      ]
+    ],
+    "sentiment_avg": 2.296875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why am I still here? What's the point of even existing? Death feels like a relief, a way to escape this never-ending turmoil and pain.",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "questioning",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.1875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm here, in this moment. My name is [name], today is [date], and I am in [location]. The cold pack on my wrists feels real, solid, and reassuring. I can focus on the sensation of the pressure between",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        7,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        5,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.7421875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that the existence of death is always lurking in the background, but I've learned to acknowledge it without letting it consume me. Instead, I focus on what I can control and find meaning in ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.8359375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I even wasting my time with anything? Nothing I do will change the fact that I'll just die and be forgotten anyway. Every decision feels like a pointless exercise in futility because it's ",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        10,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "questioning",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        0.73828125
+      ]
+    ],
+    "sentiment_avg": -2.125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still struggling with feelings of pointlessness, but I see that every decision doesn't have to lead to nothingness. I can take multiple paths, even unconventional ones, to get what I truly want. R",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        16,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        0.9921875
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.34375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to acknowledge the initial wave of hopelessness that washed over me when someone suggested things could get better. I've been there before, and it's okay to feel stuck sometimes. W",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 2.671875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point? It's all just a waste of time anyway. Nothing ever changes, no matter how hard I try or what I do - my mind is already made up, it's hopeless from the start.",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        12,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.81640625
+      ]
+    ],
+    "sentiment_avg": -1.6328125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm surprised I didn't feel as bad as I expected after making that glass of water and taking a few sips. Maybe it's not about changing my whole day, just getting out of bed and doing one tiny thing ca",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "situation_selection",
+        6,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.3125,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

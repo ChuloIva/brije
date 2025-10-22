@@ -1,0 +1,362 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, okay, so let's start from the beginning - I remember walking into that meeting feeling really anxious because Sarah was going to be there and I hadn't talked to her since our fight... Wait, what ",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.453125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm holding my chest, feeling my heartbeat. This heaviness has a beginning, middle, and end. I've survived every crisis before this moment. The part of me that wants to live is still here, even if it'",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_receiving",
+        6,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.9765625
+      ]
+    ],
+    "sentiment_avg": -1.1171875,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I reflect on my past experiences, including relationships that didn't work out as expected, I'm reminded that each chapter has shaped me into the person I am today. While it's natural to feel a ran",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        6,
+        1.0
+      ],
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on how every significant relationship in my life has ended in pain or rejection \u2013 like, seriously, what's wrong with me? Can't I just be worthy of love and acceptance for once? It feels like",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        10,
+        1.0
+      ],
+      [
+        "questioning",
+        6,
+        1.0
+      ],
+      [
+        "abstracting",
+        1,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6640625,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm starting to see that my life isn't defined by just one type of relationship ending badly. There was a beginning, middle, and end to each one. I wrote down what actually happened \u2013 like, Sarah chea",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        13,
+        1.0
+      ],
+      [
+        "distinguishing",
+        2,
+        1.0
+      ],
+      [
+        "noticing",
+        2,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        0.95703125
+      ],
+      [
+        "questioning",
+        1,
+        0.76171875
+      ]
+    ],
+    "sentiment_avg": -1.8125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I feel stuck right now, like I'm repeating the same patterns. But instead of getting overwhelmed by hopelessness, I acknowledge that it's a normal phase and remind myself to take small steps towards s",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        16,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        8,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.9140625
+      ],
+      [
+        "response_modulation",
+        1,
+        0.9140625
+      ]
+    ],
+    "sentiment_avg": 2.03125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What a never-ending cycle of despair. Every moment feels like an eternity, weighing me down with the certainty that nothing will ever change. How am I supposed to muster the energy to face another day",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.578125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck in an endless cycle of frustration, but I know my thinking's clouded right now because it feels like trying to hold water in my hands. My clarity's at a 2, so I need to take a pause and prio",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        10,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": 2.3125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm reflecting on our conversation that didn't go exactly as planned. While it's natural to process the emotions and thoughts that arose, I know I need to avoid getting stuck in 'what if' scenarios. I",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.8671875
+      ]
+    ],
+    "sentiment_avg": 2.078125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What occurs when you try to make sense of complex situations in your life?\n\n\"I keep replaying every single conversation, wondering what I could've done differently, and why they responded that way; it",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.75
+      ]
+    ],
+    "sentiment_avg": -2.859375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

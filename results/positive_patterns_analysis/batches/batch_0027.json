@@ -1,0 +1,302 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that my mind tends to wander back to the thought of not being here, but I've learned to acknowledge it and redirect my focus. Right now, I'm trying to prioritize my tasks for today, so I'll ",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        13,
+        1.0
+      ],
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.9296875
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.84765625
+      ]
+    ],
+    "sentiment_avg": 2.515625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, I'm trying to focus on this task at work, but my brain just keeps going back to that one phrase - \"it's better if I'm not here\". Why can't I shake it off? Every time I try to think about anything",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        4,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.28125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm trying to refocus on my work task, but I keep noticing my mind drifting back to that phrase. Instead of getting frustrated, I'll challenge myself to tackle one overwhelming thing right now. Okay,",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        10,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        7,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        6,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        0.96484375
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.5
+      ]
+    ],
+    "sentiment_avg": 5.0,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind has wandered to that forgotten grocery list again. I'm not surprised, given the amount of tasks on my plate today. Instead of getting frustrated with myself for being distracted, ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        0.9921875
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.98828125
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.9609375
+      ]
+    ],
+    "sentiment_avg": 2.546875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trying to focus on that report due today, but suddenly I'm stuck on what I forgot to pick up from the grocery store and now my brain's a jumble of useless errands and work tasks. Why am I even thi",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        0.6875
+      ]
+    ],
+    "sentiment_avg": 3.34375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to focus on that report due today, but suddenly I'm stuck on what I forgot to pick up from the grocery store and now my brain's a jumble of useless errands and work tasks... Thinking about ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "meta_awareness",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 3.390625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to reflect on what happened yesterday, and I notice my mind is still processing the various details \u2013 from that frustrating traffic jam to the coworker's awkward small talk. Instea",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "abstracting",
+        7,
+        1.0
+      ],
+      [
+        "emotion_management",
+        6,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.6875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trying to explain what happened yesterday, but my brain is just flooding with every single detail \u2013 like the stupid traffic jam on the way there, and the weird conversation I had with that coworke",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "zooming_in",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.359375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I started drawing my crisis cognitive map, and it's helping me see that yesterday's traffic jam wasn't the problem \u2013 it was just a trigger. I'm noticing now that those tiny details I was stressing abo",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        0.921875
+      ]
+    ],
+    "sentiment_avg": 2.515625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed that when I have quiet moments, my mind tends to touch on the idea of mortality. It's not necessarily a constant obsession, but it does come up. I think this might be an attempt by my bra",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.87109375
+      ]
+    ],
+    "sentiment_avg": -2.25,
+    "sentiment_layers": [
+      8
+    ]
+  }
+]

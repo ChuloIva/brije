@@ -1,0 +1,302 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed my mind has been drifting back to the idea of mortality lately, which can be unsettling. It's like my brain is checking in with me, reminding me that life is precious and fleeting. While ",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.46875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why am I still here? What's the point of even existing? Death feels like a relief, a way to escape this never-ending turmoil and pain.",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "questioning",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.1875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was stuck in self-doubt, feeling useless and lost. Today, I'm still struggling to find my purpose, but I've learned that it's okay not to have all the answers yet. These connect becaus",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "connecting",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.91015625
+      ]
+    ],
+    "sentiment_avg": 1.5234375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking time to tune into my physical sensations today, recognizing that my body often provides valuable insights. I've been noticing some subtle tension in my shoulders when I'm feeling stressed o",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        3,
+        0.88671875
+      ]
+    ],
+    "sentiment_avg": 3.0625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on that flutter in my chest again, wondering if it means I'm anxious or just stressed. Every twitch of my eyebrow is like a blinking red flag, signaling some underlying turmoil waiting to er",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        10,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "distinguishing",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.984375
+      ]
+    ],
+    "sentiment_avg": -2.828125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm focusing on tracking my moods and activities, not jumping to conclusions about every physical sensation. I just set four reminders today to rate my mood and log what I've been doing. This will hel",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        0.5859375
+      ]
+    ],
+    "sentiment_avg": 3.875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to breathe and center myself. Right now, I can acknowledge that my thoughts are swirling, but I also recognize the concrete sensations beneath me \u2013 the chair's texture, the sound o",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        14,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.890625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my thoughts feel like they're bleeding into everything around me - is this a tree or just a blob of confusion in my brain? The words on that sign are warping and morphing into some kind of weird ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "zooming_in",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.265625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm grounding myself in reality; I can feel my feet pressing into the floor. My name is [name], today is [date], and I am in [location]. This physical sensation is real, and it's anchoring me to the p",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "concretizing",
+        5,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.9453125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking time to reflect on recent conversations with her, acknowledging the emotions that come up. It's natural for my mind to wander through possible 'what ifs' and 'should haves', but I recognize",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        2,
+        0.99609375
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.65625,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

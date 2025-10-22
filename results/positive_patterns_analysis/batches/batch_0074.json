@@ -1,0 +1,397 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was feeling overwhelmed by all my responsibilities, today I am still struggling with managing everything on top of dealing with this unexpected setback. These connect because I realize",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        8,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.8125
+      ]
+    ],
+    "sentiment_avg": 1.7890625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm not surprised I'm feeling drained today; I know I've been pushing myself hard lately. It's okay to take a step back, recharge, and prioritize my well-being for now. Instead of beating myself up ov",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "reframing",
+        7,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.9921875
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.74609375
+      ],
+      [
+        "accepting",
+        1,
+        0.546875
+      ]
+    ],
+    "sentiment_avg": 2.921875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do I even bother getting out of bed? It's like my brain is a heavy weight on my shoulders, making every simple decision feel like climbing a mountain. Can't I just sleep for the rest of etern",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was struggling to wake up in the morning, feeling overwhelmed by my to-do list. Today I am still dealing with anxiety about meeting a deadline, but I've learned that breaking it down i",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "analyzing",
+        3,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        3,
+        0.98046875
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        1.0
+      ],
+      [
+        "distinguishing",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.99609375
+      ],
+      [
+        "applying",
+        1,
+        0.80859375
+      ]
+    ],
+    "sentiment_avg": 2.15625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling really overwhelmed right now, but I know it's normal to feel that way when multiple issues demand attention. Instead of getting stuck in the chaos, I'm taking a moment to acknowledge my em",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        12,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.8125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why do all these problems have to come at once? Like, which one even is a priority right now? Can't they just pick one and leave the others alone? *breathes deeply* Okay, focus. Which thing is mo",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "evaluating",
+        8,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        0.97265625
+      ]
+    ],
+    "sentiment_avg": -2.015625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I am having a hard time right now, but I'm not my overwhelming emotions; I'm still here to take care of myself. Okay, let's focus on something real for a second \u2013 like my feet touching the ground.",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.765625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I understand why I might feel stuck or frustrated when faced with challenges. It's normal to have moments of doubt, but I've learned that it's essential to acknowledge those feelings and take a step b",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        15,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.95703125
+      ]
+    ],
+    "sentiment_avg": 2.6875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point? It's all just a waste of time anyway. Nothing ever changes, no matter how hard I try or what I do - my mind is already made up, it's hopeless from the start.",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        12,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.81640625
+      ]
+    ],
+    "sentiment_avg": -1.6328125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm grounded in my body now, I can feel the pressure on my palms and the sensation of my feet on the floor. My name is [my name], today is [day/date], and I am in [location]. This moment feels real ag",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        9,
+        1.0
+      ],
+      [
+        "concretizing",
+        7,
+        1.0
+      ],
+      [
+        "zooming_out",
+        6,
+        1.0
+      ],
+      [
+        "remembering",
+        4,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.9453125,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

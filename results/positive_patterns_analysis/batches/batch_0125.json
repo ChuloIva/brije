@@ -1,0 +1,362 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not sure why I'm getting so worked up about my brain feeling chaotic \u2013 it's like a stormy weather forecast, but that doesn't mean I'll get stuck in it. I need to focus on what truly matters; let m",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "analyzing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        0.9921875
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        0.88671875
+      ]
+    ],
+    "sentiment_avg": 2.28125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "Here's a healthy thought pattern:\n\n\"I've been noticing lately that my thoughts can feel really fuzzy, like they're coming from multiple places at once. It's like I'm having an internal debate with mys",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.8359375
+      ]
+    ],
+    "sentiment_avg": 1.2734375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's real and what's not? Am I even sure my own thoughts are mine or just echoes from the TV playing in the background? Every word, every phrase feels like it could be someone else's, some external ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "self_questioning",
+        5,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.6875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've started tracking those little moments that bring me joy, like watching my child learn to ride a bike today. It made me think about resilience and the importance of supporting others in their grow",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        7,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.4375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing I'm feeling a bit more sluggish than usual today, and it's making it harder to get started on basic tasks like showering. That's okay; I know this is normal sometimes when my energy level",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.34375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm just so exhausted, like my brain has already maxed out for the day, and yet here I am trying to make myself take a shower. Why is it so hard to get started? Maybe if I just put on some music or...",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "self_questioning",
+        6,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        0.9921875
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.53125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling drained, but I know I need to take care of myself. Okay, so my goal is to get ready for the day... I want to visualize some ways that could work. Hmm, let me draw a picture of that goal in",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        13,
+        1.0
+      ],
+      [
+        "creating",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        0.98046875
+      ],
+      [
+        "situation_selection",
+        1,
+        0.6796875
+      ]
+    ],
+    "sentiment_avg": 2.09375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind going through the motions again, mentally rehearsing different scenarios for when I might need to make a change. It's like my brain is anticipating potential challenges and prepar",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "applying",
+        4,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        0.9296875
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.171875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying the scenarios in my head, going over every detail of how I'd do it - the method, the timing, the aftermath. It's like my brain is on autopilot, running through all the options, weighi",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        7,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.9921875
+      ],
+      [
+        "self_questioning",
+        1,
+        0.75390625
+      ]
+    ],
+    "sentiment_avg": 2.609375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I keep noticing my brain going on autopilot again, replaying scenarios and weighing options. I'm reminded to take stock of my thinking right now \u2013 it's a 4. Hmm, I think my brain might be getting tire",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        16,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        8,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        0.99609375
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        1,
+        0.8984375
+      ]
+    ],
+    "sentiment_avg": 2.453125,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

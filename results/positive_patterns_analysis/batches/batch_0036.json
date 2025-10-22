@@ -1,0 +1,342 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "Here is a revised thought pattern that represents the same cognitive style in a healthy, psychologically well-adjusted individual:\n\n\"When I feel overwhelmed by all these thoughts and emotions, I remin",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        7,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        0.95703125
+      ],
+      [
+        "abstracting",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.8046875,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trying to put into words all this chaos in my head, but it's like grasping at a thousand slippery fish \u2013 everything's connected and I can't untangle it. Why does it feel like I'm drowning in a sea",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.984375
+      ],
+      [
+        "self_questioning",
+        1,
+        0.96875
+      ],
+      [
+        "evaluating",
+        1,
+        0.765625
+      ]
+    ],
+    "sentiment_avg": -1.5,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've started drawing a line across the paper, separating my chaos into distinct sections. Beginning. Middle. End. Okay, let's just focus on the facts \u2013 what actually happened. I remember feeling anxio",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "analyzing",
+        8,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        7,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "concretizing",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.609375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that the vastness of existence can be daunting, but I've learned to acknowledge these existential doubts without letting them consume me. Instead, I focus on the small, yet significant, posi",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.4375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's the point of anything? What am I even doing with my life when every decision is just a futile attempt to distract myself from the crushing certainty of our own mortality? It's all just a meanin",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "questioning",
+        12,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -3.734375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling overwhelmed by the weight of existence, but I remember that someone's life is slightly better because I exist. Just thinking about that person helps me feel a sense of purpose today. One t",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.3515625,
+    "sentiment_layers": [
+      5
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to realize that my past struggles have not defined me; instead, they've given me a unique perspective and resilience. I'm no longer trapped by the idea that those experiences are solely resp",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "reframing",
+        6,
+        1.0
+      ],
+      [
+        "accepting",
+        5,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.6328125
+      ]
+    ],
+    "sentiment_avg": 1.609375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm constantly replaying every difficult moment in my past, trying to make sense of how they've shaped me into who I am today. It's like my self-worth is tied to those struggles, and if I didn't go th",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        12,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.140625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've been stuck on the idea that I'm defined by my past struggles, but now I'm focusing on what I can control today. To break free from this cycle, I need to tackle one overwhelming task \u2013 let's say i",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "situation_modification",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.359375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that my current workload is challenging, and I feel a sense of pressure to keep up. However, I've learned to recognize when I need to take a step back and reassess my priorities. Right now, ",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.98828125
+      ],
+      [
+        "evaluating",
+        1,
+        0.96484375
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.78515625
+      ]
+    ],
+    "sentiment_avg": 2.828125,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

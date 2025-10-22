@@ -1,0 +1,307 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my brain is a never-ending jumble of \"what ifs\" and \"should haves\"... I'm stuck reliving every single conversation with her, replaying the worst parts over and over like some twisted movie on rep",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        12,
+        1.0
+      ],
+      [
+        "zooming_in",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.859375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not stuck in a cycle of regret; I'm processing past conversations to learn and grow. What's truly important to me right now is moving forward, not dwelling on what could've been. Why did I say tha",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_understanding",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        3,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.03125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that my mind is feeling a bit scattered today. That's okay, it happens when I've got too many things on my plate. Instead of getting frustrated, I'll take a few deep breaths and acknow",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.890625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What's happening to my brain? How am I supposed to think straight when every thought feels like a separate thread in my head, each one screaming for attention at the same time?",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        10,
+        1.0
+      ],
+      [
+        "creating",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.3125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing my thinking feels really cloudy right now, a 3 or 4 at best. Maybe I should take a short break and get some fresh air to clear my head. Okay, that's settled then \u2013 time for a quick reboot",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        2,
+        0.99609375
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.6640625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been replaying that awkward conversation from last night in my head, but I'm taking a step back to acknowledge the discomfort it's causing me. It's okay that I didn't quite hit the mark; I can le",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        0.98046875
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        0.71875
+      ]
+    ],
+    "sentiment_avg": 2.703125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying that awkward conversation from last night in my head, beating myself up over every word, tone, and inflection. What if they thought I was ridiculous? What if I hurt their feelings? Wh",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        6,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "zooming_in",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I keep replaying that awkward conversation from last night in my head, but I've been reminded that my heart keeps beating even through tough moments. What if they thought I was ridiculous? It's okay t",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotional_reappraisal",
+        7,
+        1.0
+      ],
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.8515625
+      ]
+    ],
+    "sentiment_avg": -2.1875,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I acknowledge that I'm facing some tough challenges right now, but I'm not letting them define me. It's okay to feel overwhelmed when life gets heavy, and I'm taking a step back to prioritize my tasks",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.59375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why did this have to happen? I feel like I'm drowning in a sea of responsibilities, and no matter how hard I try, I just can't escape the weight of it all.",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_responding",
+        5,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        3,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.734375,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

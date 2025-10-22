@@ -1,0 +1,337 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck on replaying past struggles because my mind's obsessed with making sense of why they happened, but I realize that dwelling on them isn't helping me move forward. Right now, I choose to focus",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "situation_selection",
+        10,
+        1.0
+      ],
+      [
+        "situation_modification",
+        4,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.3359375,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that my mind is feeling overwhelmed by the sheer number of tasks and concerns I'm juggling. It's okay to acknowledge this feeling, rather than trying to push it away or get lost in anx",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        0.953125
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.0,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "My brain feels like a broken record player, skipping tracks and getting stuck on the same worried loops. How am I supposed to untangle all this mess? The thought of even trying makes me exhausted, lik",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        2,
+        1.0
+      ],
+      [
+        "reconsidering",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": -1.9765625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "My fingers are tracing the intricate patterns on my phone case, and I'm focusing on the soft texture of the plastic. The hum of the air conditioning is a constant in the background, reminding me that ",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        13,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.53125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've noticed my mind tends to revisit the idea of death from time to time, especially during periods of stress or uncertainty. Rather than letting it overwhelm me, I'm working on acknowledging these t",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        8,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        0.75
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.53125
+      ]
+    ],
+    "sentiment_avg": 2.515625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "It's like my brain is constantly on rewind, replaying all the ways I could end this. Every conversation, every thought, every memory seems to lead me back to the same dark place \u2013 how to escape. Ugh, ",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.94140625
+      ]
+    ],
+    "sentiment_avg": -2.046875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm taking a step back to try and untangle my thoughts, starting with what actually happened. The beginning was marked by that one conversation where... (just facts). Then came the middle, filled with",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "analyzing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        3,
+        0.9921875
+      ],
+      [
+        "cognition_awareness",
+        1,
+        1.0
+      ],
+      [
+        "meta_awareness",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.984375
+      ],
+      [
+        "applying",
+        1,
+        0.87109375
+      ]
+    ],
+    "sentiment_avg": -1.640625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that the weight of hopelessness can be overwhelming at times. Instead of getting stuck in the feeling, I acknowledge it as a normal ebb and flow in life. Right now, it's okay to take a",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": 3.09375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why bother trying? Every attempt feels like an uphill battle against a crushing weight of impossibility. What's even the point when everything just seems to end in futility, anyway?",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "questioning",
+        13,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.99609375
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": -1.90625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've stayed alive so far because I've got people who care about me, I've accomplished things that make me proud, I've learned from mistakes, and I've found small joys in everyday moments. Seeing a pho",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.3046875,
+    "sentiment_layers": [
+      5
+    ]
+  }
+]

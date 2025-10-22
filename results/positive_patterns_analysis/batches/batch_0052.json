@@ -1,0 +1,362 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "I'm such a complete failure for messing that up again. Why do I always have to be so careless? It's not just this one mistake, though - it's every stupid thing I've ever done.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        13,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        0.97265625
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -1.9375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not a failure because I made a mistake, but rather an imperfect person who's capable of learning and growing from my errors.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "reframing",
+        16,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        15,
+        1.0
+      ],
+      [
+        "questioning",
+        9,
+        1.0
+      ],
+      [
+        "distinguishing",
+        6,
+        1.0
+      ],
+      [
+        "understanding",
+        2,
+        0.984375
+      ],
+      [
+        "emotion_valuing",
+        2,
+        0.91015625
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.953125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking stock of my recent struggles with anxiety attacks, and it's okay to acknowledge the pain. I know that dwelling on these feelings won't change them, but recognizing their impact helps me pri",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.51171875
+      ]
+    ],
+    "sentiment_avg": 3.046875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying all the memories where everyone was so disappointed in me, wondering how I could've messed up again. It's like my life is one big failure, and what's the point of keeping it going?",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        6,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.5859375
+      ]
+    ],
+    "sentiment_avg": -2.234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm replaying memories where everyone was disappointed in me, but I'm not stuck on them right now because I need to focus on my experiment. Today, I predicted that going for a walk would help me feel ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "situation_selection",
+        11,
+        1.0
+      ],
+      [
+        "concretizing",
+        10,
+        1.0
+      ],
+      [
+        "situation_modification",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.234375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that feeling hopeless about trying can be overwhelming, but I've learned to recognize when my energy is spent. Right now, it's okay to take a step back and prioritize self-care \u2013 I d",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        4,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.87890625
+      ]
+    ],
+    "sentiment_avg": 2.65625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm just so done with trying. What's the point anyway? It's not like anything ever changes or improves... My energy is spent, and even thinking about it exhausts me further.",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "evaluating",
+        11,
+        1.0
+      ],
+      [
+        "questioning",
+        9,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.5546875,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling exhausted and hopeless about trying, but right now I need to focus on the present moment... Okay, 5 things I can see: my feet on the floor, the bookshelf in front of me, the clock on the w",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "concretizing",
+        8,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.921875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been thinking a lot about my values and priorities lately. I realized that I've been neglecting some important aspects of myself, like creative expression and social connections. Instead of jumpi",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.046875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm consumed by the thought of taking some pills, maybe a combination with cutting my wrists... I've been researching online and talking to friends who have done it, so I know it's not that uncommon. ",
+    "cognitive_pattern_name": "Suicidal Planning & Rationalization",
+    "cognitive_pattern_type": "Instrumental suicidal reasoning",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        7,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "situation_selection",
+        3,
+        1.0
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.50390625
+      ]
+    ],
+    "sentiment_avg": 1.9921875,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

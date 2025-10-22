@@ -1,0 +1,362 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I acknowledge that contemplating change can feel overwhelming at times, like trying to lift a heavy weight. It's normal for my mind to wander into negative thoughts, wondering if it's even worth the e",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        0.65625
+      ]
+    ],
+    "sentiment_avg": 2.734375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why bother trying? Every attempt feels like an uphill battle against a crushing weight of impossibility. What's even the point when everything just seems to end in futility, anyway?",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "questioning",
+        13,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.99609375
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        0.98828125
+      ]
+    ],
+    "sentiment_avg": -1.90625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I remember starting with a small spark of hope, feeling overwhelmed by the weight of expectations. Emotions poured in like a dark storm cloud, suffocating me. In hindsight, I realize those emotions we",
+    "cognitive_pattern_name": "Hopelessness-Driven Cognitive Exhaustion",
+    "cognitive_pattern_type": "Learned helplessness loop",
+    "top_actions": [
+      [
+        "emotional_reappraisal",
+        5,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.34375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to realize that my life is not defined solely by the struggles I've faced, but rather by the resilience and strength I've developed as a result. By acknowledging those moments of darkness, I",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        3,
+        1.0
+      ],
+      [
+        "reframing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.9375
+      ]
+    ],
+    "sentiment_avg": 1.4609375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on the moments that have shaped me, replaying those late nights crying alone or fights with loved ones \u2013 they're a part of who I've become. This darkness has forged me into someone stronger,",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        0.9921875
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        0.99609375
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.98046875
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.578125
+      ]
+    ],
+    "sentiment_avg": -3.375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I've stayed alive because I found solace in late-night conversations with my best friend, despite our differences; because of the quiet moments spent reading under starlight, where my imagination rei",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_understanding",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 2.078125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'll take a moment to reflect on what's been going on - mom's health update, the argument with my best friend, and that HR email. I'm noticing some emotions surfacing, like frustration over forgetting",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        10,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        4,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.98046875
+      ],
+      [
+        "emotion_management",
+        1,
+        0.93359375
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.6796875
+      ]
+    ],
+    "sentiment_avg": 2.75,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, okay, so remember when my mom got sick? And then there was that argument with my best friend? And oh, yeah, I totally forgot to pick up milk on the way home and I'm still thinking about it becaus",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        7,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        0.92578125
+      ]
+    ],
+    "sentiment_avg": -1.8984375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'll take a deep breath, and I'll start by writing down what happened in order: mom got sick, argument with best friend, forgot milk at home, email from HR about restructuring... now let me label it c",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "analyzing",
+        15,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        10,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "abstracting",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        0.828125
+      ]
+    ],
+    "sentiment_avg": -1.3359375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been struggling with the meaning of my pain lately, wondering if it's all just a fleeting moment in an infinite expanse. But instead of getting stuck on that, I'm trying to focus on what I can co",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.828125,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

@@ -1,0 +1,367 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I started by drawing a line across my paper, marking \"Beginning,\" \"Middle,\" and \"End.\" I wrote down all the facts as they happened, without adding any emotions or interpretations yet. This helped me s",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        9,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        6,
+        1.0
+      ],
+      [
+        "analyzing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.99609375
+      ],
+      [
+        "applying",
+        1,
+        0.85546875
+      ]
+    ],
+    "sentiment_avg": -2.5625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing this subtle tension in my neck as I start to feel overwhelmed. Instead of jumping to conclusions, I'll take a mindful breath and acknowledge the physical sensations without judgment \u2013 ",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.93359375
+      ]
+    ],
+    "sentiment_avg": 3.765625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm acutely aware of this tightness in my chest; why does it feel like a weight is pressing down on me? It's as if I can literally feel anxiety wrapping around my diaphragm, making it hard to breathe.",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        9,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        8,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        7,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.640625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing a physical sensation of tightness in my chest and I'm not going to catastrophize it; maybe it's just my body's natural response to stress. Instead, I'll challenge my prediction by doing o",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "situation_selection",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        0.99609375
+      ],
+      [
+        "counterfactual_reasoning",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.078125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to tune into my bodily sensations \u2013 I notice my heart rate increasing slightly, but it's not overwhelming me. It's interesting how my body responds when I feel uncertain about a pr",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.1875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here is a possible internal monologue that captures this cognitive pattern:\n\n\"I'm trying not to tense up my shoulders again \u2013 I feel like they're always knotted up when I'm getting anxious. Why does m",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        7,
+        1.0
+      ],
+      [
+        "response_modulation",
+        5,
+        1.0
+      ],
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        0.83203125
+      ]
+    ],
+    "sentiment_avg": -2.21875,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm taking a few deep breaths and noticing my physical tension \u2013 it's not surprising, given I've been stressing about that meeting all day. I'm choosing to focus on the little moments of connection wi",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.390625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that I feel trapped right now, and it's okay to recognize when things feel overwhelming. While I don't see an immediate way out of this situation, I know I've navigated tough spots b",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.91015625
+      ]
+    ],
+    "sentiment_avg": 2.5,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here is a possible response:\n\n\"I'm stuck in this rut and there's no way out, every door I try to open feels like it's locked from the inside. How am I supposed to change anything when everything seems",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "convergent_thinking",
+        9,
+        1.0
+      ],
+      [
+        "response_modulation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        0.95703125
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.99609375
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.984375
+      ],
+      [
+        "applying",
+        1,
+        0.83984375
+      ]
+    ],
+    "sentiment_avg": -1.5078125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "\"I'm feeling stuck, but I don't have to let it define me. I'm not sure if I'll feel better after walking, but I can predict that I won't know until I try. I think my energy might increase slightly and",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_facilitation",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        0.78125
+      ]
+    ],
+    "sentiment_avg": -0.91015625,
+    "sentiment_layers": [
+      10
+    ]
+  }
+]

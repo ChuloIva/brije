@@ -1,0 +1,312 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm holding ice cubes in my hand; it's cold, real, and not a dream. My feet are firmly on the floor, I am [my name], today is [day/date] and I am in [location]. This moment feels more solid now.",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "concretizing",
+        15,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        5,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.4609375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been thinking about my recent conversation with John and how it's still on my mind. I can see how dwelling on the disagreement might be a way to avoid dealing with some underlying concerns, but I",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        0.91796875
+      ]
+    ],
+    "sentiment_avg": 3.03125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why do I always remember every little thing that happened? It's like my brain is a tape recorder playing back all these insignificant moments and I'm stuck reliving them. Ugh, the coffee shop scene st",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "remembering",
+        9,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.328125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I started by writing down my recent suicidal thinking, then mapped what happened two hours before it started. I realized that getting rejected from a job opportunity triggered those feelings of inadeq",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.4609375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing that I have mixed feelings about sharing my idea at the meeting. Part of me is excited to contribute, but another part is worried about being rejected or criticized. This tension is a sig",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        16,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        5,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.4375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on whether to apologize for what happened or just own up to my mistake \u2013 why do I always overthink this? Every fiber in me wants to explain, justify, and make it seem like an accident, yet a",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        14,
+        1.0
+      ],
+      [
+        "applying",
+        4,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.265625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've been mapping my crisis and it's clear that I was already feeling overwhelmed by work stress when Sarah cancelled our plans. Those feelings of rejection triggered a stream of self-criticism: 'I'm ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_facilitation",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        3,
+        0.98046875
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        0.9140625
+      ]
+    ],
+    "sentiment_avg": 2.765625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to tune into my physical sensations and emotions. Ah, I notice my pulse is a bit faster than usual, probably due to the excitement of this new project. That's okay; I can handle th",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        5,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        0.98828125
+      ],
+      [
+        "response_modulation",
+        1,
+        0.9765625
+      ]
+    ],
+    "sentiment_avg": 1.734375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I feel like my heart is racing again, pounding in my chest, as if I'm trapped in a never-ending loop of anxiety. Why is my breath so shallow? It's like I'm sucking air in through my nostrils and not e",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        7,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "self_questioning",
+        1,
+        0.59765625
+      ]
+    ],
+    "sentiment_avg": -1.7109375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'll just take a few deep breaths and check in with my thinking clarity right now. Hmm, I'd rate it a 3 out of 10. Yeah, it's definitely fuzzy. Guess my brain needs a quick break from this task to cle",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        16,
+        1.0
+      ],
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.0,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

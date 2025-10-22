@@ -1,0 +1,367 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I notice my mind drifting to thoughts of mortality again. It's not uncommon for me to revisit these feelings, especially when I'm feeling overwhelmed or disconnected from others. Instead of getting ca",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        9,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.34375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, here we go again... Why am I still stuck on this thought? It's like my brain is a broken record player stuck on repeat.",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "self_questioning",
+        6,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.09375,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm holding an ice cube in my hand, feeling the chill spread through my fingers. My feet are firmly on the ground, and I can say out loud: 'My name is [my name]. Today is [today's date]. I am in [this",
+    "cognitive_pattern_name": "Persistent Suicidal Ideation Focus",
+    "cognitive_pattern_type": "Intrusive suicidal fixation",
+    "top_actions": [
+      [
+        "concretizing",
+        11,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.15625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "Here's a possible response:\n\n\"I've come to realize that my past struggles have shaped me into the resilient, compassionate person I am today. While those difficult experiences were tough at the time, ",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "connecting",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -1.84375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here's a possible response:\n\n\"I'm just this person who's been broken apart by everything that's happened to me. All those times when I felt lost and alone, they're the defining moments of my life now ",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "analyzing",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        0.99609375
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.75
+      ],
+      [
+        "understanding",
+        1,
+        0.625
+      ]
+    ],
+    "sentiment_avg": -1.0390625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've been surprised by how much my mood has changed since I started tracking it with these alarms. Today, for instance, at 2pm I was feeling pretty low (3/10), but then I decided to take a short walk ",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "situation_selection",
+        7,
+        1.0
+      ],
+      [
+        "situation_modification",
+        4,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        3,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        1.0
+      ],
+      [
+        "noticing",
+        1,
+        0.7109375
+      ]
+    ],
+    "sentiment_avg": 2.234375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been reflecting on my past experiences, and I'm realizing that those struggles have actually shaped me into the person I am today. While I wouldn't wish some of those moments back, I can acknowle",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.3125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my past is just one big mess of mistakes and poor choices \u2013 if this is who I am, then what does that say about me as a person? How could someone so broken and flawed be worthy of love or respect?",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        14,
+        1.0
+      ],
+      [
+        "self_questioning",
+        10,
+        1.0
+      ],
+      [
+        "questioning",
+        8,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.984375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to focus on one thing at a time, so I'll start by writing down my top goal right now. Okay, let's break it down into major steps and smaller actions... actually, that feels overwhelming sti",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        10,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        1,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ],
+      [
+        "situation_modification",
+        1,
+        0.82421875
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.5
+      ]
+    ],
+    "sentiment_avg": 1.96875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been thinking about mortality a lot lately, and it's natural to feel overwhelmed by the vastness of time and the impermanence of everything. But I'm trying not to get stuck in that abyss; instead",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.84375
+      ]
+    ],
+    "sentiment_avg": 2.78125,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

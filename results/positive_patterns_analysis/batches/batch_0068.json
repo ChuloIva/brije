@@ -1,0 +1,312 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm stuck on the moments that have shaped me, replaying those late nights crying alone or fights with loved ones \u2013 they're a part of who I've become. This darkness has forged me into someone stronger,",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.671875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been replaying that conversation with her in my head, but I'm trying to recognize it as just one piece of the puzzle. It's not defining me or controlling my thoughts. Instead, I'm choosing to ack",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        9,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my brain is a never-ending jumble of \"what ifs\" and \"should haves\"... I'm stuck reliving every single conversation with her, replaying the worst parts over and over like some twisted movie on rep",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        12,
+        1.0
+      ],
+      [
+        "zooming_in",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.859375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I wrote down that awful conversation with her. Now I see it was just one trigger, not my whole brain. I'm not stuck in a movie; those 'what ifs' are just thoughts, not truths. Why did I say that? Beca",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotional_reappraisal",
+        11,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.75,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to process the events of the past few days. It's clear that I've got some thoughts jumbled up, but instead of letting them overwhelm me, I'm going to acknowledge each one and then ",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        10,
+        1.0
+      ],
+      [
+        "emotion_management",
+        8,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 3.34375,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, okay, so remember when my mom got sick? And then there was that argument with my best friend? And oh, yeah, I totally forgot to pick up milk on the way home and I'm still thinking about it becaus",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        7,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        0.92578125
+      ]
+    ],
+    "sentiment_avg": -1.8984375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "Mood right now: 5... okay, I guess. Just got back from my walk and did some stretching exercises while I waited for my phone to charge. Engaged with that. Mood up a bit.",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "response_modulation",
+        7,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        5,
+        1.0
+      ],
+      [
+        "situation_selection",
+        4,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        2,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -2.296875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I reflect on that awkward conversation from last night, I'm reminded to practice kindness towards myself. I acknowledge the discomfort it caused me and recognize the effort I put into trying to con",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        11,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        10,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        2,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        0.97265625
+      ]
+    ],
+    "sentiment_avg": 1.9765625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I keep replaying that awkward conversation from last night in my head, beating myself up over every word, tone, and inflection. What if they thought I was ridiculous? What if I hurt their feelings? Wh",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "counterfactual_reasoning",
+        6,
+        1.0
+      ],
+      [
+        "self_questioning",
+        3,
+        1.0
+      ],
+      [
+        "zooming_in",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still replaying that awkward conversation from last night in my head, but right now, I'm focusing on the sensation of ice cubes in my hand. The coldness is grounding me, and I can feel the tension",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "concretizing",
+        6,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.9140625,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

@@ -1,0 +1,357 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Why do I feel guilty for prioritizing my own needs when everyone around me is telling me to put others first? It's like my values are at war with each other - I'm a good person, right? But then why am",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "questioning",
+        10,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        6,
+        1.0
+      ],
+      [
+        "self_questioning",
+        5,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        3,
+        1.0
+      ],
+      [
+        "applying",
+        1,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.87890625
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.6015625
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.59765625
+      ]
+    ],
+    "sentiment_avg": -2.296875,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not torn between being a good person and fulfilling my own needs, I'm just acknowledging that I have different responsibilities to attend to right now. Maybe it's okay to take care of myself too.",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "reframing",
+        11,
+        1.0
+      ],
+      [
+        "distinguishing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.89453125
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.58203125
+      ]
+    ],
+    "sentiment_avg": 2.625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm recognizing that I've been pushing myself too hard lately, which is normal after a long period of intense focus. Today, I'm feeling the cumulative effect of neglecting my own needs and priorities.",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        5,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        0.8828125
+      ]
+    ],
+    "sentiment_avg": 3.03125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, just getting out of bed feels like climbing a mountain. Why do even tiny things need so much effort right now? Every ounce of energy is reserved for just existing, there's none left to care about",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        7,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        2,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.9765625
+      ]
+    ],
+    "sentiment_avg": 1.9140625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "One month ago I was stuck in a rut feeling unmotivated, Today I am dealing with an overwhelming sense of exhaustion and frustration from trying to get everything done. These connect because both times",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        9,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": 1.8828125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I sit here in my quiet space, surrounded by the simple comforts of home, I'm reminded that even amidst uncertainty and impermanence, there's beauty in the fleeting moments we're given. It's okay to",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "reframing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 4.03125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trapped in this never-ending cycle of death, decay, and meaninglessness. What's the point of even trying when everything we do is just a fleeting moment before we're nothing? It's all just pointle",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        10,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        4,
+        1.0
+      ],
+      [
+        "evaluating",
+        4,
+        1.0
+      ],
+      [
+        "questioning",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        3,
+        1.0
+      ],
+      [
+        "understanding",
+        3,
+        0.96875
+      ]
+    ],
+    "sentiment_avg": -3.0,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm standing in my living room, surrounded by familiar objects that bring me comfort. I see the couch, the lamp, the vase on the coffee table, the bookshelf, and the window with sunlight streaming in.",
+    "cognitive_pattern_name": "Existential Overload & Worthlessness",
+    "cognitive_pattern_type": "Existential rumination",
+    "top_actions": [
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        2,
+        1.0
+      ],
+      [
+        "noticing",
+        2,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.640625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've come to recognize that my mind often revisits past struggles as a reminder of how far I've grown and the strength I've developed as a result. While it's natural to reflect on these experiences, I",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "accepting",
+        1,
+        0.875
+      ]
+    ],
+    "sentiment_avg": 1.9453125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on replaying all those hard moments in my life, trying to make sense of why they happened and what it says about who I am as a person. My mind's obsession with past struggles is like a const",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        0.90234375
+      ]
+    ],
+    "sentiment_avg": -1.984375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

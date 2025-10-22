@@ -1,0 +1,347 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm feeling really overwhelmed by all these responsibilities right now. It's okay to acknowledge that \u2013 it doesn't mean I'm failing or incapable. Instead, I'll take a deep breath and prioritize one ma",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        13,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        3,
+        0.9921875
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        0.90625
+      ]
+    ],
+    "sentiment_avg": 1.859375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, I'm drowning in this sea of responsibilities and there's no lifeline to grab onto \u2013 it feels like every moment is accounted for, leaving zero room to breathe. How am I supposed to keep going when",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        6,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        4,
+        1.0
+      ],
+      [
+        "zooming_out",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.625,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm feeling overwhelmed by all these responsibilities, like there's no escape from them. But wait, am I trying to solve something or just spinning? Ah, I see \u2013 I'm asking 'Why' again, expecting a magi",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        7,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        5,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        2,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        0.7890625
+      ]
+    ],
+    "sentiment_avg": 1.7421875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing some internal tension between my desire to learn from this experience and the frustration that's creeping up. I'm acknowledging that it's normal to feel stuck sometimes, but I also don't ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "metacognitive_regulation",
+        9,
+        1.0
+      ],
+      [
+        "emotion_management",
+        6,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        1,
+        0.94921875
+      ]
+    ],
+    "sentiment_avg": 2.421875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "What am I even doing? Why do I always doubt myself? I'm just not good enough, that's why these struggles are happening \u2013 if only I were better or more capable.",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "self_questioning",
+        4,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.953125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm starting to question my abilities again, but I need to pause and assess my goals. Let's rate the importance of these doubts \u2013 maybe it's a 6 out of 10. Okay, now let's be realistic about achieving",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        16,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        10,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        3,
+        1.0
+      ],
+      [
+        "analyzing",
+        1,
+        0.87109375
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        0.75
+      ]
+    ],
+    "sentiment_avg": 2.515625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm still processing all that's been going on, and my mind is trying to make sense of it. I can see how each event might be connected, but instead of getting caught up in the details, I'll take a step",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "zooming_out",
+        11,
+        1.0
+      ],
+      [
+        "emotion_management",
+        7,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.6796875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here is a possible internal monologue for someone experiencing Overwhelmed Narrative Processing:\n\n\"I'm replaying every conversation from the past week, reliving all the little details that never seeme",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "analyzing",
+        3,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        2,
+        1.0
+      ],
+      [
+        "zooming_in",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "remembering",
+        1,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        1,
+        0.91796875
+      ]
+    ],
+    "sentiment_avg": -2.4375,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm replaying every conversation from the past week... wait, what was I just thinking about? Ugh, my brain's trying to make sense of nothing again. Thinking about this more will not solve it. I can ch",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        2,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.7578125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I realize that I got overwhelmed at the party because I didn't prioritize my own needs beforehand. I'm aware of how my anxiety can affect those around me, and I regret not taking steps to manage it be",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "reframing",
+        4,
+        1.0
+      ],
+      [
+        "evaluating",
+        3,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.21875,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

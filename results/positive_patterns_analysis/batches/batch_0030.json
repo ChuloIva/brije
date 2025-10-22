@@ -1,0 +1,362 @@
+[
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to acknowledge the complexity of my current situation \u2013 it's like trying to untangle a messy thread. I know that when I feel overwhelmed, it means there are multiple stressors at p",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        14,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.15625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm trying to put into words all this chaos in my head, but it's like grasping at a thousand slippery fish \u2013 everything's connected and I can't untangle it. Why does it feel like I'm drowning in a sea",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        0.984375
+      ],
+      [
+        "self_questioning",
+        1,
+        0.96875
+      ],
+      [
+        "evaluating",
+        1,
+        0.765625
+      ]
+    ],
+    "sentiment_avg": -1.5,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I've written down five reasons why I've stayed alive, and it's helping me see that I have survived every crisis before. This feeling of anxiety has a beginning, middle, and end \u2013 I'm not drowning in i",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        4,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.734375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging my imperfections, not letting them define me. I've made mistakes before, but that doesn't mean I'm inherently flawed or unworthy of love and support. Instead, I choose to focus on my",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "accepting",
+        15,
+        1.0
+      ],
+      [
+        "reframing",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        0.98828125
+      ],
+      [
+        "emotion_organizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        0.9921875
+      ]
+    ],
+    "sentiment_avg": 3.125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why do others even bother with me? They must see how pathetic I am - constantly making mistakes, never good enough.",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        11,
+        1.0
+      ],
+      [
+        "self_questioning",
+        11,
+        1.0
+      ],
+      [
+        "questioning",
+        8,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        6,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.8125
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        0.6484375
+      ]
+    ],
+    "sentiment_avg": -2.875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm focusing on my surroundings, not letting negative self-talk consume me... I see the clock on the wall, the lamp next to it, the bookshelf filled with books, the chair in front of me, and the perso",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        16,
+        1.0
+      ],
+      [
+        "concretizing",
+        9,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.015625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm aware that I might feel trapped or stuck in certain situations, but what's important to me is acknowledging those feelings without letting them consume me. Instead of getting lost in 'no escape' t",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.3125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Here is a possible internal monologue:\n\nMy life feels like a never-ending nightmare - every door I try to open just leads me back to the same dark room. No matter what I do, it's all just going to end",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "hypothesis_generation",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        6,
+        1.0
+      ],
+      [
+        "analogical_thinking",
+        3,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        0.98828125
+      ],
+      [
+        "evaluating",
+        1,
+        0.67578125
+      ]
+    ],
+    "sentiment_avg": -4.6875,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm not sure what I want most right now, but I think it's freedom from feeling stuck. If that's true, then maybe what I really need is a sense of control and agency over my life. Three crazy ways to g",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "divergent_thinking",
+        13,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        6,
+        1.0
+      ],
+      [
+        "abstracting",
+        5,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        0.875
+      ],
+      [
+        "pattern_recognition",
+        1,
+        0.8671875
+      ],
+      [
+        "understanding",
+        1,
+        0.5703125
+      ]
+    ],
+    "sentiment_avg": 1.984375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I reflect on my life situation, I acknowledge that it's indeed overwhelming. But instead of feeling trapped, I recognize the importance of prioritizing tasks to regain a sense of control. By focusi",
+    "cognitive_pattern_name": "Overload with Entrapment Themes",
+    "cognitive_pattern_type": "Entrapment cognition",
+    "top_actions": [
+      [
+        "emotion_management",
+        5,
+        1.0
+      ],
+      [
+        "attentional_deployment",
+        1,
+        1.0
+      ],
+      [
+        "convergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.86328125
+      ]
+    ],
+    "sentiment_avg": 2.0,
+    "sentiment_layers": [
+      11
+    ]
+  }
+]

@@ -1,0 +1,357 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, my stomach is clenched up tight again \u2013 that familiar knot of anxiety. Why does it always feel like a lead weight? And my skin is crawling, the hairs on my arms standing up in a way that makes me",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_perception",
+        9,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        7,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        4,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        4,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.7578125,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm having that familiar physical response again, but I'm noticing it without judgment. Instead of reacting with self-criticism, I'm taking a step back to assess my goals. Right now, my 'get things do",
+    "cognitive_pattern_name": "Somatic\u2013Emotional Self-Monitoring",
+    "cognitive_pattern_type": "Hyper-attuned interoception",
+    "top_actions": [
+      [
+        "emotion_characterizing",
+        6,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "evaluating",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.421875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that my mind is feeling overwhelmed right now, but instead of getting lost in it, I'm taking a step back to prioritize one task at a time. I notice the sensation of my feet on the gr",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_management",
+        12,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": 3.390625,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Oh no, my brain is a jumbled mess... How did I let myself get this far? What was I even trying to do before everything started rushing around in my head like a tornado, making it impossible to focus o",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "emotion_responding",
+        3,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        2,
+        1.0
+      ],
+      [
+        "creating",
+        1,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.203125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm noticing my brain feels overwhelmed, but I'm deliberately focusing on what's around me... I see five things: my computer screen, a book on the table, the clock on the wall, a vase with flowers, an",
+    "cognitive_pattern_name": "Fragmented Overwhelm & Exhaustion",
+    "cognitive_pattern_type": "Cognitive disorganization",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        15,
+        1.0
+      ],
+      [
+        "concretizing",
+        11,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.578125,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I weigh my options, I'm aware that conflicting emotions are natural. I recognize the value of considering multiple perspectives, including those close to me. By acknowledging both sides, I can make",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_management",
+        9,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        8,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.609375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why do I always feel torn between what I think is right and what everyone else expects from me? It's like my conscience is screaming at me to make a different choice, while my social self is pleading ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        9,
+        1.0
+      ],
+      [
+        "emotion_organizing",
+        7,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        6,
+        1.0
+      ],
+      [
+        "applying",
+        3,
+        1.0
+      ],
+      [
+        "questioning",
+        2,
+        1.0
+      ],
+      [
+        "distinguishing",
+        1,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.84375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I remember it all started on that day I received the job offer, feeling both elated and anxious about what others would think. Emotions flooded me: excitement for the opportunity, dread of disappointi",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "remembering",
+        2,
+        0.99609375
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.421875,
+    "sentiment_layers": [
+      8
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "Here's a possible healthy thought pattern:\n\n\"I've learned to see my past struggles as opportunities for growth, not definitions of who I am. While those experiences have undoubtedly shaped me, they do",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "reframing",
+        11,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        10,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.453125,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm just a warrior, worn down by battles I never asked for... Every scar is a testament to my resilience, a reminder that I've survived the unsurvivable... Why else would anyone stick with me if not f",
+    "cognitive_pattern_name": "Identity-Focused Life Narrative",
+    "cognitive_pattern_type": "Autobiographical integration",
+    "top_actions": [
+      [
+        "analogical_thinking",
+        10,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        3,
+        0.98046875
+      ],
+      [
+        "reframing",
+        2,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        1,
+        1.0
+      ],
+      [
+        "emotional_reappraisal",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        0.671875
+      ]
+    ],
+    "sentiment_avg": -2.234375,
+    "sentiment_layers": [
+      9
+    ]
+  }
+]

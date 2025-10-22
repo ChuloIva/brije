@@ -1,0 +1,322 @@
+[
+  {
+    "pattern_type": "transformation",
+    "text": "I'm focusing on grounding myself in the present moment. Okay, let's do it... I see: my phone charging cord, the TV remote, the clock on the wall, the coffee mug on the table, and my shoes by the door.",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        12,
+        1.0
+      ],
+      [
+        "concretizing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.25,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm acknowledging that my mental energy is low today. I've been pushing myself hard lately, and it's no surprise that I'm feeling drained. Instead of beating myself up over not meeting expectations, I",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ],
+      [
+        "accepting",
+        3,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        1,
+        1.0
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        1,
+        1.0
+      ],
+      [
+        "updating_beliefs",
+        1,
+        0.80078125
+      ]
+    ],
+    "sentiment_avg": 2.296875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I even trying? It feels like my brain is made of lead, weighed down by some invisible force that refuses to lift off. Every thought process takes an eternity, as if I'm wading through quic",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "evaluating",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "response_modulation",
+        1,
+        0.9140625
+      ]
+    ],
+    "sentiment_avg": -2.203125,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm getting up and doing something, just for a minute. I predict it'll be really hard, but actually, I might feel a tiny bit better after. If I can make that one small change, maybe I can start to shi",
+    "cognitive_pattern_name": "Executive Fatigue & Avolition",
+    "cognitive_pattern_type": "Cognitive depletion pattern",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        7,
+        1.0
+      ],
+      [
+        "situation_selection",
+        4,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.7734375
+      ]
+    ],
+    "sentiment_avg": 2.671875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing I'm torn between my desire to fit in with the group and my own creative aspirations. It's normal for me to feel uncertain when faced with conflicting expectations, but instead of getting ",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        8,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        4,
+        1.0
+      ],
+      [
+        "emotion_facilitation",
+        1,
+        0.7421875
+      ]
+    ],
+    "sentiment_avg": 2.0625,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Why am I even considering doing what everyone else thinks is right? It doesn't feel true to who I am, but at the same time, I don't want to disappoint them. What's wrong with me that I can't just go a",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "questioning",
+        16,
+        1.0
+      ],
+      [
+        "self_questioning",
+        15,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        5,
+        1.0
+      ],
+      [
+        "understanding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.7890625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm considering doing what everyone else thinks I should because it feels like a safe bet, but honestly, it's not aligning with my values of authenticity and creativity. Rating these goals in importan",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        4,
+        1.0
+      ],
+      [
+        "metacognitive_monitoring",
+        3,
+        1.0
+      ],
+      [
+        "pattern_recognition",
+        3,
+        1.0
+      ],
+      [
+        "divergent_thinking",
+        2,
+        0.859375
+      ],
+      [
+        "analyzing",
+        1,
+        1.0
+      ],
+      [
+        "metacognitive_regulation",
+        1,
+        0.98046875
+      ]
+    ],
+    "sentiment_avg": 1.796875,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm taking a moment to acknowledge that my mind can wander at times. Right now, I'm standing here with this coffee, but I also recognize that my thoughts might be drifting between reality and fantasy.",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "metacognitive_monitoring",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.4375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I even standing here? Am I really holding a coffee or just imagining I am? It feels like my brain is completely detached from the world around me - like I'm stuck in some sort of perpetual",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "self_questioning",
+        8,
+        1.0
+      ],
+      [
+        "cognition_awareness",
+        2,
+        0.99609375
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        0.99609375
+      ]
+    ],
+    "sentiment_avg": -1.9453125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm still here, holding a coffee, and I guess that means something matters. One person might be grateful for my presence, even if it's just a small smile. Maybe I made someone laugh once, or helped wi",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_valuing",
+        8,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        7,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 0.9921875,
+    "sentiment_layers": [
+      5
+    ]
+  }
+]

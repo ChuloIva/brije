@@ -1,0 +1,297 @@
+[
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, I'm just a waste of space. If Sarah had to deal with my constant drama and anxiety, she'd be better off without me. Why did I have to ruin the party again, making everyone uncomfortable?",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "self_questioning",
+        7,
+        1.0
+      ],
+      [
+        "evaluating",
+        6,
+        1.0
+      ],
+      [
+        "hypothesis_generation",
+        5,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        0.984375
+      ],
+      [
+        "counterfactual_reasoning",
+        2,
+        0.99609375
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ],
+      [
+        "questioning",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.78125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I remember getting invited to Sarah's party, and I was really excited at the beginning of the evening. As things started going wrong with my anxiety, I began to feel overwhelmed in the middle, unsure ",
+    "cognitive_pattern_name": "Self-Critical Rumination",
+    "cognitive_pattern_type": "Negative self-evaluative loop",
+    "top_actions": [
+      [
+        "emotion_perception",
+        3,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.5625,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "As I sit here trying to tune into what's happening around me, I'm acknowledging that my perception might get blurry if I let it. But instead of getting overwhelmed, I'm choosing to focus on the presen",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "emotion_management",
+        10,
+        1.0
+      ],
+      [
+        "zooming_out",
+        10,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 3.171875,
+    "sentiment_layers": [
+      11
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm sitting here, trying to pay attention to what's going on around me, but it all feels like a haze. The words people are saying are just blurs of sound, and their faces look like they're underwater ",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "cognition_awareness",
+        5,
+        1.0
+      ],
+      [
+        "self_questioning",
+        2,
+        1.0
+      ],
+      [
+        "emotion_perception",
+        1,
+        1.0
+      ],
+      [
+        "zooming_out",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -2.5625,
+    "sentiment_layers": [
+      7
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to focus on what's happening around me, but I'm not letting distractions define my reality. Instead of getting lost in a haze, I'm visualizing multiple paths forward \u2013 even unconventional o",
+    "cognitive_pattern_name": "Disorganized Thought & Derealization",
+    "cognitive_pattern_type": "Fragmented perceptual reasoning",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        3,
+        1.0
+      ],
+      [
+        "emotion_management",
+        2,
+        1.0
+      ],
+      [
+        "situation_selection",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.359375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I'm noticing my mind wants to revisit the small moments from yesterday \u2013 the way I accidentally left my favorite book at home, or the argument with a loved one. It's like my brain is trying to find pa",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "emotion_management",
+        7,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 2.453125,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "I'm stuck on the tiny details of everything that's gone wrong lately - the way my boss talked down to me during that meeting, the sound of my roommate's snoring last night, and the stupid coffee shop ",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "zooming_in",
+        7,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.8515625,
+    "sentiment_layers": [
+      6
+    ]
+  },
+  {
+    "pattern_type": "transformation",
+    "text": "I'm trying to focus on the tiny details, but my brain keeps swiveling back to the photo of that sunset I took last summer \u2013 it's like a beacon of clarity in the chaos. Remembering those moments when I",
+    "cognitive_pattern_name": "Overwhelmed Narrative Processing",
+    "cognitive_pattern_type": "Over-elaborative recounting",
+    "top_actions": [
+      [
+        "attentional_deployment",
+        6,
+        1.0
+      ],
+      [
+        "remembering",
+        5,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        0.9296875
+      ]
+    ],
+    "sentiment_avg": 2.984375,
+    "sentiment_layers": [
+      9
+    ]
+  },
+  {
+    "pattern_type": "positive",
+    "text": "I've been grappling with this internal debate about whether I'm being too sensitive or not allowing myself enough time to heal after the recent conflict. It's interesting that I keep coming back to th",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "emotion_organizing",
+        13,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        11,
+        1.0
+      ],
+      [
+        "emotion_understanding",
+        2,
+        1.0
+      ],
+      [
+        "emotion_management",
+        1,
+        1.0
+      ],
+      [
+        "emotion_receiving",
+        1,
+        1.0
+      ],
+      [
+        "reframing",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": 1.8359375,
+    "sentiment_layers": [
+      10
+    ]
+  },
+  {
+    "pattern_type": "negative",
+    "text": "Ugh, why am I even questioning this? Can't I just admit that I need some space to process all of this and not feel so guilty about it? Why do I always have to be strong for everyone else, even when it",
+    "cognitive_pattern_name": "Conflict-Focused Self-Reflection",
+    "cognitive_pattern_type": "Internal dialectical processing",
+    "top_actions": [
+      [
+        "self_questioning",
+        14,
+        1.0
+      ],
+      [
+        "questioning",
+        8,
+        1.0
+      ],
+      [
+        "emotion_valuing",
+        3,
+        1.0
+      ],
+      [
+        "evaluating",
+        2,
+        1.0
+      ],
+      [
+        "emotion_characterizing",
+        2,
+        0.734375
+      ],
+      [
+        "emotion_responding",
+        1,
+        1.0
+      ]
+    ],
+    "sentiment_avg": -1.5,
+    "sentiment_layers": [
+      6
+    ]
+  }
+]
